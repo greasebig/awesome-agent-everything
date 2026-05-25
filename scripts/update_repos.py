@@ -19,6 +19,10 @@ HEADERS = {
 if GH_TOKEN:
     HEADERS["Authorization"] = f"token {GH_TOKEN}"
 
+# Proxy setup (for local dev behind GFW; CI doesn't need this)
+PROXY_URL = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or os.environ.get("HTTP_PROXY") or os.environ.get("http_proxy") or ""
+PROXIES = {"https": PROXY_URL, "http": PROXY_URL} if PROXY_URL else None
+
 REPOS_FILE = "data/repos.yml"
 README_FILE = "README.md"
 
@@ -87,6 +91,7 @@ def load_existing_repos():
 
 def search_github_repos(query, max_pages=3):
     """Search GitHub for repositories matching the query."""
+    import time
     results = []
     for page in range(1, max_pages + 1):
         url = "https://api.github.com/search/repositories"
@@ -97,35 +102,45 @@ def search_github_repos(query, max_pages=3):
             "per_page": 30,
             "page": page,
         }
-        try:
-            resp = requests.get(url, headers=HEADERS, params=params, timeout=30)
-            if resp.status_code == 200:
-                data = resp.json()
-                items = data.get("items", [])
-                if not items:
-                    break
-                for item in items:
-                    results.append({
-                        "repo": f"{item['owner']['login']}/{item['name']}",
-                        "stars": item["stargazers_count"],
-                        "description": item.get("description", "") or "",
-                        "language": item.get("language", "") or "",
-                        "topics": item.get("topics", []),
-                        "updated_at": item.get("updated_at", ""),
-                    })
-                if len(data.get("items", [])) < 30:
-                    break
-            elif resp.status_code == 403:
-                print(f"  ⚠️ Rate limited. Waiting...")
-                import time
-                time.sleep(60)
-                continue
-            else:
-                print(f"  ⚠️ API error: {resp.status_code}")
-                break
-        except Exception as e:
-            print(f"  ⚠️ Request failed: {e}")
-            break
+        # Retry up to 3 times on connection errors
+        for attempt in range(3):
+            try:
+                resp = requests.get(url, headers=HEADERS, params=params, proxies=PROXIES, timeout=30)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    items = data.get("items", [])
+                    if not items:
+                        return results
+                    for item in items:
+                        results.append({
+                            "repo": f"{item['owner']['login']}/{item['name']}",
+                            "stars": item["stargazers_count"],
+                            "description": item.get("description", "") or "",
+                            "language": item.get("language", "") or "",
+                            "topics": item.get("topics", []),
+                            "updated_at": item.get("updated_at", ""),
+                        })
+                    if len(items) < 30:
+                        return results
+                    break  # success, move to next page
+                elif resp.status_code == 403:
+                    print(f"  ⚠️ Rate limited. Waiting 90s...")
+                    time.sleep(90)
+                    continue  # retry same page
+                else:
+                    print(f"  ⚠️ API error: {resp.status_code}")
+                    return results  # return what we have
+            except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+                print(f"  ⚠️ Connection error (attempt {attempt+1}/3): {e}")
+                if attempt < 2:
+                    time.sleep(15)
+                    continue
+                return results  # return what we have so far
+            except Exception as e:
+                print(f"  ⚠️ Unexpected error: {e}")
+                return results
+        # Small delay between pages to avoid rate limiting
+        time.sleep(2)
     return results
 
 
@@ -205,6 +220,7 @@ def update_repos_yml(existing_repos, new_repos):
             "category": category,
             "tags": tags if tags else ["auto-discovered"],
             "stars": repo_info.get("stars", 0),
+            "description": repo_info.get("description", ""),
         }
         
         data["repos"].append(entry)
@@ -305,25 +321,37 @@ def generate_readme(existing_repos):
 
 def fetch_repo_details(repo_name):
     """Fetch star count and description for a single repo."""
+    import time
     url = f"https://api.github.com/repos/{repo_name}"
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        if resp.status_code == 200:
-            data = resp.json()
-            return {
-                "stars": data.get("stargazers_count", 0),
-                "description": data.get("description", "") or "",
-                "topics": data.get("topics", []),
-            }
-    except Exception as e:
-        print(f"  ⚠️ Failed to fetch {repo_name}: {e}")
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=HEADERS, proxies=PROXIES, timeout=15)
+            if resp.status_code == 200:
+                data = resp.json()
+                return {
+                    "stars": data.get("stargazers_count", 0),
+                    "description": data.get("description", "") or "",
+                    "topics": data.get("topics", []),
+                }
+            elif resp.status_code == 403:
+                print(f"  ⚠️ Rate limited fetching {repo_name}. Waiting 90s...")
+                time.sleep(90)
+                continue
+            else:
+                return None
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            if attempt < 2:
+                time.sleep(10)
+                continue
+            print(f"  ⚠️ Failed to fetch {repo_name} after 3 attempts: {e}")
     return None
 
 
 def update_existing_stars(existing_repos):
     """Update star counts for existing repos."""
+    import time
     updated = 0
-    for repo_name, info in existing_repos.items():
+    for i, (repo_name, info) in enumerate(existing_repos.items()):
         details = fetch_repo_details(repo_name)
         if details:
             old_stars = info.get("stars", 0)
@@ -335,6 +363,9 @@ def update_existing_stars(existing_repos):
                     info["description"] = details["description"]
                 updated += 1
                 print(f"  📈 {repo_name}: {old_stars} → {new_stars} ⭐")
+        # Rate limit: pause between requests
+        if i < len(existing_repos) - 1 and i % 8 == 7:
+            time.sleep(60)
     return updated
 
 
@@ -346,21 +377,29 @@ def main():
     existing = load_existing_repos()
     print(f"📋 Loaded {len(existing)} existing repos")
     
-    # Update star counts for existing repos
-    print("\n📈 Updating star counts...")
-    stars_updated = update_existing_stars(existing)
-    print(f"  Updated {stars_updated} star counts")
+    # Update star counts for existing repos (skip if no GH_TOKEN to avoid rate limits)
+    stars_updated = 0
+    if GH_TOKEN:
+        print("\n📈 Updating star counts...")
+        stars_updated = update_existing_stars(existing)
+        print(f"  Updated {stars_updated} star counts")
+    else:
+        print("\n⏩ Skipping star count updates (no GH_TOKEN set)")
     
     # Search for new repos
     print("\n🔎 Searching for new awesome-agent repos...")
     all_new = {}
-    for query in SEARCH_QUERIES:
+    import time
+    for i, query in enumerate(SEARCH_QUERIES):
         print(f"  Searching: '{query}'")
         results = search_github_repos(query, max_pages=2)
         for r in results:
             if r["repo"] not in existing and r["repo"] not in all_new:
                 all_new[r["repo"]] = r
         print(f"    Found {len(results)} results, {len(all_new)} unique new so far")
+        # Rate limit: pause between queries (unauthenticated = 10 req/min)
+        if i < len(SEARCH_QUERIES) - 1:
+            time.sleep(8)
     
     # Filter for genuine awesome-agent repos
     filtered = []

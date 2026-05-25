@@ -1,215 +1,3511 @@
-# Data file for awesome-agent-everything
-# Each entry: repo owner/name, category, and optional tags
-# The CI workflow reads this file to generate README.md
-
 repos:
-  # 🌟 Agent Frameworks & Platforms
-  - repo: e2b-dev/awesome-ai-agents
-    category: frameworks
-    tags: [autonomous-agents, open-source, closed-source]
-
-  - repo: kyrolabs/awesome-agents
-    category: frameworks
-    tags: [agent-list, curated]
-
-  - repo: jim-schwoebel/awesome_ai_agents
-    category: frameworks
-    tags: [comprehensive, tutorials, tools]
-
-  - repo: kaushikb11/awesome-llm-agents
-    category: frameworks
-    tags: [llm-agents, frameworks]
-
-  - repo: AgentSpaceAI/Awesome-Agent-Framework
-    category: frameworks
-    tags: [multi-framework, crewai, langchain, autogen]
-
-  - repo: caramaschiHG/awesome-ai-agents-2026
-    category: frameworks
-    tags: [2026, monthly-updated, 340-plus]
-
-  - repo: korchasa/awesome-ai-agents
-    category: frameworks
-    tags: [auto-compiled, config-driven]
-
-  # 🧠 Agent Research & Papers
-  - repo: luo-junyu/Awesome-Agent-Papers
-    category: papers
-    tags: [research, papers, construction, collaboration, evaluation]
-
-  - repo: hyp1231/awesome-llm-powered-agent
-    category: papers
-    tags: [llm-powered, research]
-
-  - repo: hijkzzz/Awesome-LLM-Strawberry
-    category: papers
-    tags: [reasoning, o1, strawberry]
-
-  # ⚡ Agent Skills & Prompts
-  - repo: VoltAgent/awesome-agent-skills
-    category: skills
-    tags: [skills, claude-code, codex, gemini-cli, cursor]
-
-  - repo: sickn33/antigravity-awesome-skills
-    category: skills
-    tags: [skills, 1400-plus, claude-code, cursor, codex]
-
-  - repo: heilcheng/awesome-agent-skills
-    category: skills
-    tags: [skills, tutorials, directories, 23k-skills]
-
-  - repo: libukai/awesome-agent-skills
-    category: skills
-    tags: [skills, chinese, quickstart, toolkit]
-
-  - repo: Prat011/awesome-llm-skills
-    category: skills
-    tags: [skills, llm, cross-platform]
-
-  - repo: xixu-me/awesome-persona-distill-skills
-    category: skills
-    tags: [skills, persona, methodology]
-
-  - repo: dontriskit/awesome-ai-system-prompts
-    category: skills
-    tags: [system-prompts, chatgpt, claude, perplexity]
-
-  - repo: hesreallyhim/awesome-claude-code
-    category: skills
-    tags: [claude-code, hooks, slash-commands, orchestrators]
-
-  - repo: github/awesome-copilot
-    category: skills
-    tags: [copilot, instructions, agents, configs]
-
-  # 🔧 Agent Tools & Infrastructure
-  - repo: Shubhamsaboo/awesome-llm-apps
-    category: tools
-    tags: [apps, rag, runnable]
-
-  - repo: Arindam200/awesome-ai-apps
-    category: tools
-    tags: [apps, rag, workflows]
-
-  - repo: MemoriLabs/Memori
-    category: tools
-    tags: [memory, infrastructure, llm-agnostic]
-
-  - repo: nibzard/awesome-agentic-patterns
-    category: tools
-    tags: [patterns, agentic, design]
-
-  # 🌐 MCP
-  - repo: punkpeye/awesome-mcp-servers
-    category: mcp
-    tags: [mcp, servers, tools, databases]
-
-  # 🏗️ Agent Harness & Engineering
-  - repo: walkinglabs/awesome-harness-engineering
-    category: harness
-    tags: [harness, context-engineering, eval, observability]
-
-  - repo: WangRongsheng/awesome-LLM-resources
-    category: harness
-    tags: [llm, resources, chinese, comprehensive]
-
-  # 💻 Coding Agents & Dev Tools
-  - repo: sorrycc/awesome-code-agents
-    category: coding
-    tags: [code-agents, development]
-
-  - repo: deepseek-ai/awesome-deepseek-agent
-    category: coding
-    tags: [deepseek, integration, coding-assistants]
-
-  - repo: hao-ji-xing/awesome-cursor
-    category: coding
-    tags: [cursor, ide, extensions]
-
-  - repo: awesome-opencode/awesome-opencode
-    category: coding
-    tags: [opencode, plugins, themes, agents]
-
-  - repo: vijaythecoder/awesome-claude-agents
-    category: coding
-    tags: [claude, sub-agent, dev-team]
-
-  # 🔒 Agent Safety & Security
-  - repo: ucsb-mlsec/Awesome-Agent-Security
-    category: safety
-    tags: [security, research, safety]
-
-  - repo: fr0gger/Awesome-GPT-Agents
-    category: safety
-    tags: [cybersecurity, gpt-agents]
-
-  # 🎯 Domain-Specific Agents
-  - repo: enescingoz/awesome-n8n-templates
-    category: domain
-    tags: [n8n, automation, templates, workflows]
-
-  # 📱 Agent UI & Interaction
-  - repo: VoltAgent/awesome-design-md
-    category: ui
-    tags: [design-md, ui-generation, coding-agents]
-
-  # 🗂️ Meta-Indexes & Aggregators
-  - repo: yuxiaopeng/Github-Ranking-AI
-    category: meta
-    tags: [ranking, ai, daily-updated]
-
-# Search keywords used by CI for auto-discovery
+- repo: e2b-dev/awesome-ai-agents
+  category: frameworks
+  tags:
+  - autonomous-agents
+  - open-source
+  - closed-source
+- repo: kyrolabs/awesome-agents
+  category: frameworks
+  tags:
+  - agent-list
+  - curated
+- repo: jim-schwoebel/awesome_ai_agents
+  category: frameworks
+  tags:
+  - comprehensive
+  - tutorials
+  - tools
+- repo: kaushikb11/awesome-llm-agents
+  category: frameworks
+  tags:
+  - llm-agents
+  - frameworks
+- repo: AgentSpaceAI/Awesome-Agent-Framework
+  category: frameworks
+  tags:
+  - multi-framework
+  - crewai
+  - langchain
+  - autogen
+- repo: caramaschiHG/awesome-ai-agents-2026
+  category: frameworks
+  tags:
+  - 2026
+  - monthly-updated
+  - 340-plus
+- repo: korchasa/awesome-ai-agents
+  category: frameworks
+  tags:
+  - auto-compiled
+  - config-driven
+- repo: luo-junyu/Awesome-Agent-Papers
+  category: papers
+  tags:
+  - research
+  - papers
+  - construction
+  - collaboration
+  - evaluation
+- repo: hyp1231/awesome-llm-powered-agent
+  category: papers
+  tags:
+  - llm-powered
+  - research
+- repo: hijkzzz/Awesome-LLM-Strawberry
+  category: papers
+  tags:
+  - reasoning
+  - o1
+  - strawberry
+- repo: VoltAgent/awesome-agent-skills
+  category: skills
+  tags:
+  - skills
+  - claude-code
+  - codex
+  - gemini-cli
+  - cursor
+- repo: sickn33/antigravity-awesome-skills
+  category: skills
+  tags:
+  - skills
+  - 1400-plus
+  - claude-code
+  - cursor
+  - codex
+- repo: heilcheng/awesome-agent-skills
+  category: skills
+  tags:
+  - skills
+  - tutorials
+  - directories
+  - 23k-skills
+- repo: libukai/awesome-agent-skills
+  category: skills
+  tags:
+  - skills
+  - chinese
+  - quickstart
+  - toolkit
+- repo: Prat011/awesome-llm-skills
+  category: skills
+  tags:
+  - skills
+  - llm
+  - cross-platform
+- repo: xixu-me/awesome-persona-distill-skills
+  category: skills
+  tags:
+  - skills
+  - persona
+  - methodology
+- repo: dontriskit/awesome-ai-system-prompts
+  category: skills
+  tags:
+  - system-prompts
+  - chatgpt
+  - claude
+  - perplexity
+- repo: hesreallyhim/awesome-claude-code
+  category: skills
+  tags:
+  - claude-code
+  - hooks
+  - slash-commands
+  - orchestrators
+- repo: github/awesome-copilot
+  category: skills
+  tags:
+  - copilot
+  - instructions
+  - agents
+  - configs
+- repo: Shubhamsaboo/awesome-llm-apps
+  category: tools
+  tags:
+  - apps
+  - rag
+  - runnable
+- repo: Arindam200/awesome-ai-apps
+  category: tools
+  tags:
+  - apps
+  - rag
+  - workflows
+- repo: MemoriLabs/Memori
+  category: tools
+  tags:
+  - memory
+  - infrastructure
+  - llm-agnostic
+- repo: nibzard/awesome-agentic-patterns
+  category: tools
+  tags:
+  - patterns
+  - agentic
+  - design
+- repo: punkpeye/awesome-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  - servers
+  - tools
+  - databases
+- repo: walkinglabs/awesome-harness-engineering
+  category: harness
+  tags:
+  - harness
+  - context-engineering
+  - eval
+  - observability
+- repo: WangRongsheng/awesome-LLM-resources
+  category: harness
+  tags:
+  - llm
+  - resources
+  - chinese
+  - comprehensive
+- repo: sorrycc/awesome-code-agents
+  category: coding
+  tags:
+  - code-agents
+  - development
+- repo: deepseek-ai/awesome-deepseek-agent
+  category: coding
+  tags:
+  - deepseek
+  - integration
+  - coding-assistants
+- repo: hao-ji-xing/awesome-cursor
+  category: coding
+  tags:
+  - cursor
+  - ide
+  - extensions
+- repo: awesome-opencode/awesome-opencode
+  category: coding
+  tags:
+  - opencode
+  - plugins
+  - themes
+  - agents
+- repo: vijaythecoder/awesome-claude-agents
+  category: coding
+  tags:
+  - claude
+  - sub-agent
+  - dev-team
+- repo: ucsb-mlsec/Awesome-Agent-Security
+  category: safety
+  tags:
+  - security
+  - research
+  - safety
+- repo: fr0gger/Awesome-GPT-Agents
+  category: safety
+  tags:
+  - cybersecurity
+  - gpt-agents
+- repo: enescingoz/awesome-n8n-templates
+  category: domain
+  tags:
+  - n8n
+  - automation
+  - templates
+  - workflows
+- repo: VoltAgent/awesome-design-md
+  category: ui
+  tags:
+  - design-md
+  - ui-generation
+  - coding-agents
+- repo: yuxiaopeng/Github-Ranking-AI
+  category: meta
+  tags:
+  - ranking
+  - ai
+  - daily-updated
+- repo: liyupi/free-programming-resources
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 3522
+- repo: mergisi/awesome-openclaw-agents
+  category: tools
+  tags:
+  - mcp
+  - multi-agent
+  stars: 3449
+- repo: 0xNyk/awesome-hermes-agent
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 3404
+- repo: Meirtz/Awesome-Context-Engineering
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 3153
+- repo: google-labs-code/jules-awesome-list
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 3048
+- repo: taishi-i/awesome-ChatGPT-repositories
+  category: skills
+  tags:
+  - skills
+  stars: 3040
+- repo: cirosantilli/china-dictatorship
+  category: frameworks
+  tags:
+  - chinese
+  - coding
+  - frameworks
+  - security
+  stars: 3011
+- repo: RKiding/Awesome-finance-skills
+  category: skills
+  tags:
+  - skills
+  stars: 2340
+- repo: agentuniverse-ai/agentUniverse
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 2255
+- repo: EvoAgentX/Awesome-Self-Evolving-Agents
+  category: papers
+  tags:
+  - multi-agent
+  stars: 2176
+- repo: FoundationAgents/awesome-foundation-agents
+  category: papers
+  tags:
+  - research
+  stars: 2165
+- repo: Xnhyacinth/Awesome-LLM-Long-Context-Modeling
+  category: papers
+  tags:
+  - research
+  stars: 2099
+- repo: alvinreal/awesome-autoresearch
+  category: papers
+  tags:
+  - research
+  stars: 2043
+- repo: gege-circle/.github
+  category: frameworks
+  tags:
+  - chinese
+  - coding
+  - frameworks
+  - security
+  stars: 1892
+- repo: rohitg00/awesome-claude-code-toolkit
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 1816
+- repo: vonzosten/awesome-LangGraph
+  category: tools
+  tags:
+  - multi-agent
+  stars: 1815
+- repo: zchoi/Awesome-Embodied-Robotics-and-Agent
+  category: papers
+  tags:
+  - research
+  stars: 1796
+- repo: xhyumiracle/Awesome-AgenticLLM-RL-Papers
+  category: papers
+  tags:
+  - research
+  stars: 1779
+- repo: WenyuChiou/awesome-agentic-ai-zh
+  category: multi-agent
+  tags:
+  - chinese
+  - mcp
+  - multi-agent
+  - skills
+  stars: 1720
+- repo: ComposioHQ/awesome-claude-plugins
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 1694
+- repo: XiaomingX/indie-hacker-tools-plus
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1690
+- repo: trycua/acu
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 1670
+- repo: kyegomez/awesome-multi-agent-papers
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 1495
+- repo: steel-dev/awesome-web-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 1443
+- repo: thinkwee/AgentsMeetRL
+  category: tools
+  tags:
+  - coding
+  stars: 1425
+- repo: slavakurilyak/awesome-ai-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1387
+- repo: weitianxin/Awesome-Agentic-Reasoning
+  category: papers
+  tags:
+  - research
+  stars: 1249
+- repo: brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 1219
+- repo: ysymyth/awesome-language-agents
+  category: papers
+  tags:
+  - research
+  stars: 1217
+- repo: showlab/Awesome-GUI-Agent
+  category: papers
+  tags:
+  - research
+  stars: 1191
+- repo: e2b-dev/awesome-ai-sdks
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 1178
+- repo: Jenqyang/Awesome-AI-Agents
+  category: tools
+  tags:
+  - multi-agent
+  stars: 1134
+- repo: ai-boost/awesome-harness-engineering
+  category: tools
+  tags:
+  - harness
+  - mcp
+  stars: 1104
+- repo: lobehub/lobe-chat-agents
+  category: meta
+  tags:
+  - auto-discovered
+  stars: 1101
+- repo: mahseema/awesome-ai-tools
+  category: tools
+  tags:
+  - coding
+  stars: 5309
+- repo: filipecalegario/awesome-vibe-coding
+  category: coding
+  tags:
+  - coding
+  stars: 4530
+- repo: AlexAnys/awesome-openclaw-usecases-zh
+  category: tools
+  tags:
+  - chinese
+  stars: 4244
+- repo: EgoAlpha/prompt-in-context-learning
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 2236
+- repo: AgenticHealthAI/Awesome-AI-Agents-for-Healthcare
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 999
+- repo: SamurAIGPT/awesome-openclaw
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 917
+- repo: VoltAgent/awesome-ai-agent-papers
+  category: papers
+  tags:
+  - research
+  stars: 876
+- repo: yaklang/hack-skills
+  category: skills
+  tags:
+  - skills
+  stars: 789
+- repo: rohitg00/awesome-ai-apps
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 777
+- repo: kzhrknt/awesome-design-md-jp
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 696
+- repo: loppety/Awesome-Vibecoding-Guide
+  category: tools
+  tags:
+  - coding
+  stars: 645
+- repo: best-of-ai/best-of-ai
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 607
+- repo: skillmatic-ai/awesome-agent-skills
+  category: skills
+  tags:
+  - skills
+  stars: 571
+- repo: JackyST0/awesome-agent-skills
+  category: skills
+  tags:
+  - skills
+  stars: 528
+- repo: crewAIInc/awesome-crewai
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 495
+- repo: machinae/awesome-claws
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 441
+- repo: TeleAI-UAGI/Awesome-Agent-Memory
+  category: papers
+  tags:
+  - research
+  stars: 430
+- repo: aarora4/Awesome-Prediction-Market-Tools
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 429
+- repo: Alchemyst-ai/awesome-saas
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 415
+- repo: pierpaolo28/Awesome-FDE-Roadmap
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 378
+- repo: SAILResearch/awesome-foundation-model-leaderboards
+  category: papers
+  tags:
+  - research
+  stars: 355
+- repo: leoncuhk/awesome-quant-ai
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 345
+- repo: alternbits/awesome-ai-newsletters
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 340
+- repo: haoruilee/awesome-agent-native-services
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 338
+- repo: Sri-Krishna-V/awesome-adk-agents
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 305
+- repo: ScarletPan/awesome-autonomous-gpt
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 283
+- repo: mahimairaja/voiceai
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 274
+- repo: e2b-dev/awesome-devins
+  category: coding
+  tags:
+  - coding
+  stars: 247
+- repo: cogine-ai/awesome-openclaw-zh
+  category: tools
+  tags:
+  - chinese
+  - skills
+  stars: 234
+- repo: xpaysh/awesome-x402
+  category: frameworks
+  tags:
+  - mcp
+  stars: 220
+- repo: HU-UH/awesome-design-md
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 209
+- repo: NeuZhou/awesome-ai-anatomy
+  category: coding
+  tags:
+  - coding
+  - frameworks
+  - mcp
+  - security
+  stars: 195
+- repo: skyming/awesome-ai-agent
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 192
+- repo: littleben/awesomeAgentskills
+  category: skills
+  tags:
+  - skills
+  stars: 177
+- repo: acvnace/awesome-vibe-coding-resources
+  category: coding
+  tags:
+  - coding
+  stars: 175
+- repo: toolsdk-ai/toolsdk-mcp-registry
+  category: frameworks
+  tags:
+  - mcp
+  stars: 173
+- repo: vectara/awesome-agent-failures
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 170
+- repo: Calix-L/awesome-latex-skills
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 169
+- repo: DirectorySurf/awesome-ai-agents-directories
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 144
+- repo: irahardianto/awesome-agv
+  category: coding
+  tags:
+  - coding
+  - frameworks
+  stars: 144
+- repo: alternbits/awesome-ai-agents
+  category: tools
+  tags:
+  - frameworks
+  stars: 135
+- repo: filipecalegario/awesome-generative-ai
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 3450
+- repo: ValueByte-AI/Awesome-LLM-in-Social-Science
+  category: papers
+  tags:
+  - research
+  stars: 622
+- repo: qianlima-lab/awesome-lifelong-llm-agent
+  category: papers
+  tags:
+  - research
+  stars: 302
+- repo: LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy
+  category: reasoning
+  tags:
+  - research
+  stars: 296
+- repo: yxf203/Awesome-Efficient-Agents
+  category: papers
+  tags:
+  - research
+  stars: 252
+- repo: YoungDubbyDu/Awesome-LLM-Agent-Optimization-Papers
+  category: papers
+  tags:
+  - research
+  stars: 232
+- repo: shure-dev/Awesome-LLM-Papers-Comprehensive-Topics
+  category: papers
+  tags:
+  - research
+  stars: 225
+- repo: microxxx/awesome-langchain-zh
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 139
+- repo: artnitolog/awesome-agent-learning
+  category: coding
+  tags:
+  - auto-discovered
+  stars: 130
+- repo: YuanchenBei/Awesome-Graphs-Meet-Agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 129
+- repo: EvoMap/awesome-agent-evolution
+  category: tools
+  tags:
+  - frameworks
+  - mcp
+  - multi-agent
+  - skills
+  stars: 127
+- repo: AmanPriyanshu/Awesome-AI-For-Security
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 126
+- repo: mengysun/DataParasite
+  category: tools
+  tags:
+  - multi-agent
+  stars: 102
+- repo: junhua/awesome-llm-agents
+  category: papers
+  tags:
+  - research
+  stars: 84
+- repo: zjlrock777/Awesome-LLM-Agents-Scientific-Discovery
+  category: papers
+  tags:
+  - research
+  stars: 75
+- repo: Shiy-Li/Awesome-Graph-augmented-LLM-Agent
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 73
+- repo: usail-hkust/Awesome-Urban-LLM-Agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 71
+- repo: azminewasi/Awesome-LLMs-ICLR-24
+  category: papers
+  tags:
+  - frameworks
+  - research
+  - security
+  stars: 70
+- repo: vstorm-co/awesome-pydantic-ai
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 69
+- repo: pengshuang/Awesome-Agent-Projects
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 58
+- repo: moonlarry/awesome-llm-paper-wiki
+  category: papers
+  tags:
+  - research
+  stars: 56
+- repo: IBM/awesome-agentic-workflow-optimization
+  category: papers
+  tags:
+  - research
+  stars: 54
+- repo: wearetyomsmnv/Awesome-LLM-agent-Security
+  category: safety
+  tags:
+  - security
+  stars: 52
+- repo: Cognitive-Stack/awesome-one-hit-vibe-code
+  category: skills
+  tags:
+  - coding
+  stars: 34
+- repo: yczhou001/Awesome-Medical-LLM-Agent
+  category: domain
+  tags:
+  - multi-agent
+  stars: 30
+- repo: vince-lam/awesome-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 26
+- repo: lizhe2004/awesome-llm-agent
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 24
+- repo: bupt-ai-club/awesomeProject
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 23
+- repo: arjan/awesome-agent-sandboxes
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 23
+- repo: IcyFeather233/Awesome-LLM-Agent-Trajectory-Analysis
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 22
+- repo: REAL-Lab-NU/Awesome-OpenClaw-Papers
+  category: papers
+  tags:
+  - research
+  - security
+  - skills
+  stars: 15
+- repo: zjwu0522/Awesome-LLM-Agent
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 13
+- repo: charlieviettq/awesome-agent-skill
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 12
+- repo: dyronrh/awesome-agentops-landscape
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 12
+- repo: qhy991/Awesome-LLM-Kernel-Agent
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 10
+- repo: vivy-yi/awesome-agent-orchestration
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - multi-agent
+  stars: 10
+- repo: xlabs-club/awesome-x-ops
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 8
+- repo: dmarx/awesome-llm-utilities
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 8
+- repo: minruixu/Awesome-LLM-Agent-Cyberattacks
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 8
+- repo: dataanswer/awesome-agent-benchmarks
+  category: evaluation
+  tags:
+  - auto-discovered
+  stars: 7
+- repo: wyattowalsh/awesome-deep-research
+  category: papers
+  tags:
+  - research
+  stars: 7
+- repo: agi-os/Agent.js
+  category: multi-agent
+  tags:
+  - frameworks
+  stars: 7
+- repo: DataArcTech/Awesome-Agent-Skill-Papers
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 6
+- repo: agentcasa/awesome-llm-agent
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 5
+- repo: xaddwell/Awesome-LLM-Agent-Memory-Safety
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 5
+- repo: tfatykhov/awesome-agent-memory
+  category: papers
+  tags:
+  - research
+  stars: 5
+- repo: freddyaboulton/awesome-gradio-agents
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 5
+- repo: yh-yao/awesome-rl-ai-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 5
+- repo: scnu-kevinkong/awesome-formal-llm-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 4
+- repo: arvindcr4/awesome_agents_papers
+  category: papers
+  tags:
+  - research
+  stars: 3
+- repo: jaehongpark-agent/awesome-claws
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 3
+- repo: axxafo/awesome-agent-benchmarks
+  category: evaluation
+  tags:
+  - auto-discovered
+  stars: 3
+- repo: mikehubers/Awesome-AI-For-Security
+  category: tools
+  tags:
+  - security
+  stars: 3
+- repo: V01dMur10c/awesome-agent-rl-environments
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 3
+- repo: CHEN1594/Awesome-LLM-Agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 2
+- repo: yagobski/awesome-llm-agent-privacy
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  - research
+  - security
+  stars: 2
+- repo: wmmthu/awesome-llm-agent-skills-papers
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 2
+- repo: lafmdp/Awesome-Papers-Autonomous-Agent
+  category: papers
+  tags:
+  - research
+  stars: 745
+- repo: kagnlp/Awesome-Agentic-Security
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 44
+- repo: jbesomi/awesome-autonomous-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 40
+- repo: The-Swarm-Corporation/Awesome-Swarms-List
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 19
+- repo: AI-Hub-Admin/AutoAgent
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 12
+- repo: taiyangc/awesome-web3-ai-agents
+  category: tools
+  tags:
+  - frameworks
+  stars: 11
+- repo: LijunRio/Awesome-Agents-for-Medicine
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 10
+- repo: QAInsights/awesome-ai-tools
+  category: frameworks
+  tags:
+  - coding
+  stars: 9
+- repo: irfanfadhullah/Awesome-Agentic-Workflow
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 8
+- repo: Samarth0211/awesome-claude-skills-2026
+  category: skills
+  tags:
+  - skills
+  stars: 7
+- repo: plastic-labs/Awesome-Identic-Agents
+  category: coding
+  tags:
+  - auto-discovered
+  stars: 5
+- repo: GML-FMGroup/awesome_autonomous_agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 2
+- repo: tysoncung/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 2
+- repo: AmmarFahmy/awesome-chainlit-apps
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 2
+- repo: shaoxiang/awesome-openclaw
+  category: mcp
+  tags:
+  - mcp
+  stars: 2
+- repo: xufei547/awesome-ai-assistants
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: backblaze-labs/awesome-agent-infrastructure
+  category: tools
+  tags:
+  - frameworks
+  - mcp
+  - skills
+  stars: 1
+- repo: justindobbs/awesome-certified-agents
+  category: tools
+  tags:
+  - multi-agent
+  stars: 1
+- repo: study8677/Awesome-Self-Evolving-Agents
+  category: tools
+  tags:
+  - multi-agent
+  stars: 1
+- repo: MsOhio/Awesome-Papers-Autonomous-Agent
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: sanskritibokde/Awesome-Agents
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: languagezoneenterprise545/awesome-ai-agent-incidents
+  category: tools
+  tags:
+  - coding
+  - security
+  - skills
+  stars: 0
+- repo: Tubbster-Claw/awesome-agent-substrate
+  category: tools
+  tags:
+  - mcp
+  - multi-agent
+  stars: 0
+- repo: kimtth/awesome-azure-openai-llm
+  category: tools
+  tags:
+  - coding
+  - frameworks
+  - harness
+  - research
+  - skills
+  stars: 401
+- repo: Gloriaameng/Awesome-Agent-Harness
+  category: papers
+  tags:
+  - frameworks
+  - harness
+  - research
+  stars: 235
+- repo: webmaxru/awesome-microsoft-agent-framework
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 148
+- repo: tornikebolokadze1-cyber/awesome-ai-pulse-georgia
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  stars: 118
+- repo: mahonzhan/awesome-agent-harness
+  category: frameworks
+  tags:
+  - frameworks
+  - harness
+  stars: 105
+- repo: Zijian-Ni/awesome-ai-agents-2026
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 87
+- repo: Scottcjn/awesome-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 82
+- repo: ARUNAGIRINATHAN-K/awesome-ai-agents-2026
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  - research
+  stars: 79
+- repo: kodustech/awesome-agent-skills
+  category: skills
+  tags:
+  - coding
+  - frameworks
+  - skills
+  stars: 69
+- repo: ababdotai/awesome-agent-quickstart
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  stars: 61
+- repo: mb-mal/awesome-ai-agents-frameworks
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 52
+- repo: chaosync-org/awesome-ai-agent-testing
+  category: frameworks
+  tags:
+  - frameworks
+  - security
+  stars: 37
+- repo: subinium/awesome-agent-frameworks
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 34
+- repo: yzfly/awesome-voice-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 32
+- repo: axioma-ai-labs/awesome-ai-agent-frameworks
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 31
+- repo: buntys2010/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 25
+- repo: ai-agents-simplified/Awesome-AI-Agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 22
+- repo: groovy-web/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 15
+- repo: sumsun-dev/awesome-web3-claude
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - skills
+  stars: 13
+- repo: G1o22/awesome-ai-agents-2026
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 9
+- repo: edwardtay/awesome-web3-ai
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 4
+- repo: oakeighty5/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 3
+- repo: CrawlScript/awesome-personal-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 3
+- repo: TryKosm/awesome-ai-governance
+  category: frameworks
+  tags:
+  - frameworks
+  - security
+  stars: 3
+- repo: Smithech/awesome-ai-agent
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - multi-agent
+  stars: 3
+- repo: brisyramshere/awesome-agent-frameworks
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 2
+- repo: spfunctions/awesome-cli-agentic-tools
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  stars: 2
+- repo: Vincentwei1021/awesome-ai-agent-frameworks
+  category: frameworks
+  tags:
+  - chinese
+  - frameworks
+  - multi-agent
+  stars: 2
+- repo: bg-l2norm/awesome-ai-agent-papers--
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 2
+- repo: aloth/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - multi-agent
+  - research
+  - security
+  stars: 2
+- repo: wendashi/awesome-Agentic-3D-Modeling
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 2
+- repo: ChinmayMurugkar/awesome-ai-agents-list
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 2
+- repo: Guan-JW/awesome-db-for-ai-systems
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 2
+- repo: Sonicly8968/awesome-chinese-ai-agents
+  category: papers
+  tags:
+  - chinese
+  - frameworks
+  - research
+  stars: 2
+- repo: anjijava16/Awesome_Agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 1
+- repo: turab45/awesome-healthcare-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 1
+- repo: vishwasvijayabaskar-code/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 1
+- repo: JSONFIRST/awesome-ai-intent
+  category: tools
+  tags:
+  - frameworks
+  stars: 1
+- repo: 2182977liu-bit/awesome-ai-agent-learning
+  category: tools
+  tags:
+  - chinese
+  - frameworks
+  stars: 1
+- repo: alleneee/awesome-agent-framework
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: ManjunathHosamani/ai_agent_framework_crash_course
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: Anuar-boop/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: TheAtlasBot/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: Pauldest/awesome-ai-agent
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: CloudAxisAi/awesome-ai-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: pandego/awesome-agentic
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  stars: 0
+- repo: pantheon-auto/awesome-web-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 0
+- repo: onepersonlab/awesome-agents-design
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 0
+- repo: themachinehf/awesome-AI-agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: ComposioHQ/awesome-claude-skills
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 61745
+- repo: VoltAgent/awesome-openclaw-skills
+  category: skills
+  tags:
+  - skills
+  stars: 49290
+- repo: ikaijua/Awesome-AITools
+  category: tools
+  tags:
+  - skills
+  stars: 5963
+- repo: taishi-i/awesome-japanese-nlp-resources
+  category: skills
+  tags:
+  - skills
+  stars: 965
+- repo: bergside/awesome-design-skills
+  category: skills
+  tags:
+  - skills
+  stars: 951
+- repo: new-silvermoon/awesome-android-agent-skills
+  category: skills
+  tags:
+  - skills
+  stars: 821
+- repo: mliu98/awesome-human-distillation
+  category: skills
+  tags:
+  - skills
+  stars: 594
+- repo: Code-and-Sorts/awesome-copilot-agents
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 522
+- repo: InternScience/Awesome-Scientific-Skills
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 392
+- repo: lawve-ai/awesome-legal-skills
+  category: skills
+  tags:
+  - skills
+  stars: 389
+- repo: karanb192/awesome-claude-skills
+  category: skills
+  tags:
+  - skills
+  stars: 348
+- repo: JSONbored/awesome-claude
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 248
+- repo: baibizhe/Awesome-Skills-Paper
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 242
+- repo: XMUDeepLIT/Awesome-Self-Evolving-Agents
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 194
+- repo: futantan/agent-skills.md
+  category: skills
+  tags:
+  - skills
+  stars: 189
+- repo: apify/awesome-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 185
+- repo: LLMQuant/awesome-trading-agents
+  category: papers
+  tags:
+  - mcp
+  - research
+  - skills
+  stars: 163
+- repo: momozi1996/awesome-ai-persona-skills
+  category: skills
+  tags:
+  - multi-agent
+  - skills
+  stars: 163
+- repo: itgoyo/awesome-agent-skills
+  category: skills
+  tags:
+  - skills
+  stars: 109
+- repo: Panmax/awesome-nuwa
+  category: frameworks
+  tags:
+  - frameworks
+  - skills
+  stars: 101
+- repo: finfin/awesome-frontend-skills
+  category: skills
+  tags:
+  - skills
+  stars: 99
+- repo: seb1n/awesome-ai-agent-skills
+  category: skills
+  tags:
+  - skills
+  stars: 91
+- repo: ascend-ai-coding/awesome-ascend-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 83
+- repo: Techopolis/awesome-ios-ai
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 82
+- repo: jaccen/Awesome-Gaussian-Skills
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 74
+- repo: JayLZhou/Awesome-Agent-Skills
+  category: skills
+  tags:
+  - skills
+  stars: 71
+- repo: CommandCodeAI/agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 68
+- repo: scienceaix/agentskills
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 64
+- repo: thienanblog/awesome-ai-agent-skills
+  category: skills
+  tags:
+  - skills
+  stars: 60
+- repo: ChuckSRQ/awesome-hermes-skills
+  category: skills
+  tags:
+  - skills
+  stars: 60
+- repo: anchildress1/awesome-github-copilot
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 60
+- repo: Holddrespell/r16-voltagent-awesome-agent-skills-datascience
+  category: skills
+  tags:
+  - skills
+  stars: 58
+- repo: Gravityaespot/r16-voltagent-awesome-agent-skills-seo
+  category: skills
+  tags:
+  - skills
+  stars: 56
+- repo: timenavigatorrage/r16-voltagent-awesome-agent-skills-security
+  category: skills
+  tags:
+  - security
+  - skills
+  stars: 55
+- repo: mythicnoteshed/r16-voltagent-awesome-agent-skills-devops
+  category: skills
+  tags:
+  - skills
+  stars: 48
+- repo: STRYXTN/awesome-ai-research-writing
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 44
+- repo: BanSailmakerDitch/r16-voltagent-awesome-agent-skills-ecommerce
+  category: skills
+  tags:
+  - skills
+  stars: 44
+- repo: software-ai-life/Awesome-PPT-Design-Skills
+  category: skills
+  tags:
+  - skills
+  stars: 42
+- repo: gmh5225/awesome-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 33
+- repo: codeaashu/awesome-openclaw-Skills
+  category: skills
+  tags:
+  - skills
+  stars: 30
+- repo: ishwarjha/claude-marketing-research-skill
+  category: papers
+  tags:
+  - research
+  - skills
+  stars: 24
+- repo: gimgyeon/loader-openclaw-skills
+  category: skills
+  tags:
+  - skills
+  stars: 24
+- repo: shadowrootdev/awesome-agent-skills-mcp
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 23
+- repo: xu-xiang/awesome-top-skills
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 23
+- repo: shajith003/awesome-claude-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 23
+- repo: ai-boost/awesome-a2a
+  category: tools
+  tags:
+  - mcp
+  stars: 603
+- repo: pab1it0/awesome-a2a
+  category: tools
+  tags:
+  - mcp
+  stars: 173
+- repo: last9/awesome-sre-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 64
+- repo: looptech-ai/understand-quickly
+  category: ui
+  tags:
+  - mcp
+  stars: 29
+- repo: questflowai/awesome-a2a-hub
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 26
+- repo: yigitkonur/awesome-herdr
+  category: skills
+  tags:
+  - skills
+  stars: 18
+- repo: Horatio-Li/awesome-cowork
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 13
+- repo: Salesably/awesome-ai-agents-for-sales
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 11
+- repo: namphuongtran/awesome-ai-coding-agent-tools
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  - mcp
+  stars: 9
+- repo: vermava/awesomelist-ai-security
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  - security
+  stars: 7
+- repo: Awakehsh/awesome-agent-tools
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 6
+- repo: LLMSecurity/awesome-agent-skills-security
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - security
+  - skills
+  stars: 6
+- repo: ZoroSola55/awesome-a2a
+  category: tools
+  tags:
+  - mcp
+  stars: 5
+- repo: AstreoX/awesome-agent-tools
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 3
+- repo: yadavanujkumar/awesome-agentic-ai
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 2
+- repo: Ash310u/awesome-ai-stack
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 2
+- repo: natnew/Awesome-Agentic-AI-Security
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  - security
+  stars: 2
+- repo: MCPHubCloud/awesome-a2a
+  category: tools
+  tags:
+  - mcp
+  stars: 1
+- repo: kenotron-ms/awesome-amplifier
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: NikitaDmitrieff/awesome-openclaw
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: Ancient024/Awesome-Practical-AI
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: artinnok/awesome-ai-assistants
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: jonradoff/awesome-agent-almanac
+  category: tools
+  tags:
+  - mcp
+  stars: 1
+- repo: SNTL84/awesome-ai-sales-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: Git-Deoloper/Awesome-AI-Agents
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 1
+- repo: jusso-dev/awesome-Australian-compliance
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: DeeeFOX/awesome-agent-search
+  category: papers
+  tags:
+  - coding
+  - mcp
+  - research
+  stars: 1
+- repo: AFunLS/awesome-ai-agent-tools
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: strondata/awesome-data
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: chan-yuu/awesome_coding_agent
+  category: tools
+  tags:
+  - coding
+  stars: 0
+- repo: tuliosousapro/awesome-ai
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: agensai/awesome-agensai
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: sudabg/awesome-agent-tools
+  category: tools
+  tags:
+  - mcp
+  stars: 0
+- repo: JasonJarvan/awesome_agent_tools
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: ugonfor/awesome-ai-cybersecurity
+  category: tools
+  tags:
+  - security
+  stars: 0
+- repo: agent-gigmole/awesome-ai-agent-tools
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: Agentic-Tools/awesome-ai-agent-tools
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: Agentic-Tools/awesome-web-agent-tools
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: corgentic-dev/awesome-corgentic
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: wfnuser/Awesome-Alpha-Agents-and-Tools
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: iamlalitpandit/awesome-rudrax
+  category: tools
+  tags:
+  - multi-agent
+  stars: 0
+- repo: spinov001-art/awesome-claude-code-skills
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 0
+- repo: smillunchick/awesome-ai-agents-small-business
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: pyros-projects/awesome-claudes-list
+  category: tools
+  tags:
+  - skills
+  stars: 0
+- repo: ununununium/awesome-data-ai-stack
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: wgabrys88/windows-ai-agent-toolset-v36.7-base-for-fut-ok-but-not-store-turns
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: natnew/awesome-rl-for-agents
+  category: tools
+  tags:
+  - multi-agent
+  - security
+  stars: 0
+- repo: commune-dev/awesome-agent-protocols
+  category: skills
+  tags:
+  - mcp
+  - multi-agent
+  stars: 0
+- repo: git-disl/awesome-LLM-game-agent-papers
+  category: papers
+  tags:
+  - research
+  stars: 890
+- repo: HuggingAGI/AwesomeAgentPapers
+  category: papers
+  tags:
+  - research
+  stars: 221
+- repo: YunjiaXi/Awesome-Search-Agent-Papers
+  category: papers
+  tags:
+  - research
+  stars: 138
+- repo: aristoteleo/awesome-bioagent-papers
+  category: papers
+  tags:
+  - research
+  stars: 102
+- repo: shizhl/Multi-Agent-Papers
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 72
+- repo: Steve2457/Awesome-RL-GUI-Agents
+  category: papers
+  tags:
+  - research
+  stars: 41
+- repo: Eileen19200930/Awesome-Agent-Papers
+  category: papers
+  tags:
+  - research
+  stars: 7
+- repo: gameworld-project/awesome-game-agent-papers
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 3
+- repo: sutaoyu/awesome-ai-security-agents
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 3
+- repo: vchaitanyachowdari/awesome-multi-agent-papers
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 2
+- repo: deway9623/Awesome-OpenClaw-Papers
+  category: papers
+  tags:
+  - research
+  - security
+  - skills
+  stars: 1
+- repo: RezalerRahma/Awesome-Agent-Papers
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: RichardHulu/Awesome-Agent-Papers
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: HxxFaa/awesome-agent-papers
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: CHEN1594/Awesome-Agent-Papers
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: sandhyajeyaraj/awesome_agents_papers
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: BWQ-L/awesome-llm-agents-papers
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 0
+- repo: Brezzadimare/Awesome-LLM-Agent-Papers
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: k-rks/awesome-multi-agent-papers
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 0
+- repo: metame-ai/awesome-agent-plaza
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: didiforgithub/Awesome-FoundationAgents
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: YvMohsin/awesome-llm-powered-agent
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: yzfly/Awesome-MCP-ZH
+  category: mcp
+  tags:
+  - mcp
+  stars: 7141
+- repo: punkpeye/awesome-mcp-clients
+  category: mcp
+  tags:
+  - mcp
+  stars: 6442
+- repo: appcypher/awesome-mcp-servers
+  category: tools
+  tags:
+  - mcp
+  stars: 5565
+- repo: wong2/awesome-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 4108
+- repo: homeassistant-ai/ha-mcp
+  category: mcp
+  tags:
+  - mcp
+  stars: 3101
+- repo: AmoyLab/Unla
+  category: tools
+  tags:
+  - mcp
+  stars: 2120
+- repo: chatmcp/mcpso
+  category: mcp
+  tags:
+  - mcp
+  stars: 2010
+- repo: taielab/awesome-hacking-lists
+  category: tools
+  tags:
+  - mcp
+  stars: 1339
+- repo: jaw9c/awesome-remote-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 1064
+- repo: YuzeHao2023/Awesome-MCP-Servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 1045
+- repo: rohitg00/awesome-devops-mcp-servers
+  category: tools
+  tags:
+  - mcp
+  stars: 991
+- repo: MobinX/awesome-mcp-list
+  category: mcp
+  tags:
+  - mcp
+  stars: 879
+- repo: ccplugins/awesome-claude-code-plugins
+  category: skills
+  tags:
+  - mcp
+  stars: 805
+- repo: TensorBlock/awesome-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 700
+- repo: Puliczek/awesome-mcp-security
+  category: mcp
+  tags:
+  - mcp
+  - security
+  stars: 695
+- repo: milisp/codexia
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 688
+- repo: demcp/awesome-web3-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  - security
+  stars: 608
+- repo: maxbogo/awesome-ai-tools-for-ui
+  category: tools
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 512
+- repo: punkpeye/awesome-mcp-devtools
+  category: frameworks
+  tags:
+  - mcp
+  stars: 458
+- repo: kleneway/awesome-cursor-mpc-server
+  category: tools
+  tags:
+  - mcp
+  stars: 337
+- repo: Anil-matcha/Awesome-Gemini-Omni-API-Prompts
+  category: skills
+  tags:
+  - mcp
+  stars: 314
+- repo: milisp/mcp-linker
+  category: mcp
+  tags:
+  - mcp
+  stars: 311
+- repo: moov-io/awesome-fintech
+  category: tools
+  tags:
+  - mcp
+  stars: 302
+- repo: hanlulong/awesome-ai-for-economists
+  category: papers
+  tags:
+  - mcp
+  - research
+  stars: 298
+- repo: ThibautMelen/agentic-ai-systems
+  category: multi-agent
+  tags:
+  - frameworks
+  - mcp
+  stars: 277
+- repo: PipedreamHQ/awesome-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 273
+- repo: soxoj/awesome-osint-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 242
+- repo: Mizoreww/awesome-claude-code-config
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 231
+- repo: RoggeOhta/awesome-codex-cli
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 217
+- repo: milisp/awesome-claude-dxt
+  category: mcp
+  tags:
+  - mcp
+  stars: 173
+- repo: darjeeling/awesome-mcp-korea
+  category: mcp
+  tags:
+  - mcp
+  stars: 171
+- repo: EthanYolo01/Awesome-OpenClaw
+  category: papers
+  tags:
+  - mcp
+  - research
+  - security
+  - skills
+  stars: 153
+- repo: AlexMili/Awesome-MCP
+  category: mcp
+  tags:
+  - mcp
+  stars: 141
+- repo: SciSharp/Awesome-DotNET-MCP
+  category: mcp
+  tags:
+  - mcp
+  stars: 141
+- repo: badkk/awesome-crypto-mcp-servers
+  category: mcp
+  tags:
+  - mcp
+  stars: 135
+- repo: vincentkoc/awesome-openclaw
+  category: frameworks
+  tags:
+  - mcp
+  - skills
+  stars: 130
+- repo: altengineer/awesome-ai-repositories
+  category: tools
+  tags:
+  - mcp
+  stars: 130
+- repo: e2b-dev/awesome-mcp-gateways
+  category: mcp
+  tags:
+  - mcp
+  stars: 128
+- repo: Picrew/awesome-agent-harness
+  category: tools
+  tags:
+  - harness
+  stars: 636
+- repo: bradAGI/awesome-cli-coding-agents
+  category: frameworks
+  tags:
+  - coding
+  - harness
+  stars: 448
+- repo: AutoJunjie/awesome-agent-harness
+  category: harness
+  tags:
+  - coding
+  - harness
+  - multi-agent
+  stars: 422
+- repo: YennNing/Awesome-Code-as-Agent-Harness-Papers
+  category: papers
+  tags:
+  - harness
+  - research
+  stars: 240
+- repo: kennethlaw325/awesome-llm-knowledge-systems
+  category: skills
+  tags:
+  - harness
+  - mcp
+  - skills
+  stars: 79
+- repo: HKUST-KnowComp/Awesome-Agent-Harness
+  category: harness
+  tags:
+  - harness
+  stars: 74
+- repo: WanLanglin/-awesome-cc-harness
+  category: tools
+  tags:
+  - coding
+  - harness
+  stars: 54
+- repo: RUCAIBox/awesome-agent-harness
+  category: papers
+  tags:
+  - harness
+  - research
+  stars: 42
+- repo: Jiaaqiliu/Awesome-Harness-Engineering
+  category: harness
+  tags:
+  - harness
+  stars: 25
+- repo: chengjl19/awesome-agent-harness-notes
+  category: tools
+  tags:
+  - harness
+  stars: 18
+- repo: lahavi/awesome-deerflow
+  category: papers
+  tags:
+  - harness
+  - research
+  stars: 10
+- repo: wubin28/awesome-harness-engineering
+  category: harness
+  tags:
+  - coding
+  - harness
+  stars: 7
+- repo: Turi-Labs/awesome-harness
+  category: harness
+  tags:
+  - harness
+  stars: 5
+- repo: SaltAdamW/Awesome-Harness-Engineering
+  category: harness
+  tags:
+  - harness
+  - skills
+  stars: 3
+- repo: yenanjing/awesome-harness-engineering
+  category: frameworks
+  tags:
+  - frameworks
+  - harness
+  stars: 3
+- repo: PanosPeng/awesome-agent-harness
+  category: papers
+  tags:
+  - harness
+  - research
+  stars: 2
+- repo: tbrandenburg/awesome-agent-harnesses
+  category: harness
+  tags:
+  - harness
+  stars: 1
+- repo: open-kairox/awesome-agent-harnesses
+  category: harness
+  tags:
+  - harness
+  stars: 1
+- repo: scienceaix/awesome-harness-engineering
+  category: frameworks
+  tags:
+  - frameworks
+  - harness
+  - research
+  stars: 1
+- repo: wjn1996/Awesome-Claw-Harness
+  category: papers
+  tags:
+  - harness
+  - research
+  stars: 1
+- repo: fastbeast2023-netizen/awesome-harness-engineering
+  category: tools
+  tags:
+  - chinese
+  - coding
+  - harness
+  - skills
+  stars: 1
+- repo: Lhy723/awesome-ai-agent-evaluation
+  category: papers
+  tags:
+  - coding
+  - harness
+  - research
+  stars: 1
+- repo: wdzhwsh4067/awesome-coding-agents
+  category: harness
+  tags:
+  - coding
+  - harness
+  stars: 1
+- repo: glowElephant/context-forge
+  category: harness
+  tags:
+  - coding
+  - harness
+  - mcp
+  - skills
+  stars: 1
+- repo: taitrinh205/awesome-agent-harness
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  - harness
+  - multi-agent
+  stars: 0
+- repo: bitrouter/awesome-agent-harness
+  category: harness
+  tags:
+  - harness
+  stars: 0
+- repo: HuiCir/awesome-harness
+  category: harness
+  tags:
+  - harness
+  stars: 0
+- repo: wfnuser/Awesome-Agentic-Harness-Engineering
+  category: frameworks
+  tags:
+  - frameworks
+  - harness
+  - research
+  stars: 0
+- repo: 115th-discomfited211/Awesome-Harness-Engineering
+  category: harness
+  tags:
+  - harness
+  stars: 0
+- repo: zhouyuming/awesome-harness-engineering
+  category: harness
+  tags:
+  - harness
+  stars: 0
+- repo: parvejhosen257/awesome-agentic-engineering
+  category: frameworks
+  tags:
+  - frameworks
+  - harness
+  stars: 0
+- repo: Parvez2017/awesome-agentic-engineering
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  - harness
+  stars: 0
+- repo: JesseQin123/solo_unicorn_toolbox
+  category: skills
+  tags:
+  - harness
+  - skills
+  stars: 0
+- repo: qualisero/awesome-pi-agent
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 994
+- repo: snwfdhmp/awesome-ralph
+  category: coding
+  tags:
+  - coding
+  stars: 889
+- repo: ZeroLu/awesome-gemini-ai
+  category: skills
+  tags:
+  - coding
+  stars: 680
+- repo: EliFuzz/awesome-system-prompts
+  category: skills
+  tags:
+  - coding
+  stars: 198
+- repo: supatest-ai/awesome-claude-code-sub-agents
+  category: tools
+  tags:
+  - coding
+  stars: 163
+- repo: EuniAI/awesome-code-agents
+  category: papers
+  tags:
+  - coding
+  - research
+  stars: 100
+- repo: lfglabs-dev/awesome-amp-code
+  category: coding
+  tags:
+  - coding
+  stars: 74
+- repo: shaftoe/awesome-pi-coding-agent
+  category: coding
+  tags:
+  - coding
+  stars: 28
+- repo: iwillig/awesome-clojure-llm
+  category: coding
+  tags:
+  - coding
+  stars: 19
+- repo: tairov/awesome-agents.md
+  category: tools
+  tags:
+  - coding
+  stars: 18
+- repo: majiayu000/awesome-goal-prompts
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 18
+- repo: cola-runner/awesome-tui-design
+  category: papers
+  tags:
+  - coding
+  - research
+  stars: 16
+- repo: Chat2AnyLLM/awesome-claude-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 14
+- repo: J-nowcow/awesome-korean-agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 13
+- repo: ohong/awesome-coding-ai
+  category: coding
+  tags:
+  - coding
+  stars: 12
+- repo: rentprompts/awesome-agent-md
+  category: skills
+  tags:
+  - coding
+  stars: 12
+- repo: raymyers/awesome-verified-coding-agents
+  category: coding
+  tags:
+  - coding
+  stars: 7
+- repo: kkeril/awesome-claude-code-agents
+  category: skills
+  tags:
+  - coding
+  stars: 5
+- repo: yeaight7/agent-powerups
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 5
+- repo: philipbankier/awesome-agent-skills
+  category: frameworks
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 4
+- repo: iamontheinet/awesome-pipeline-auditor-with-cortex-agents-sdk
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 4
+- repo: gudo7208/awesome-coding-agent-eval
+  category: tools
+  tags:
+  - coding
+  stars: 4
+- repo: pato-gonzalez/design-system-stack
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 4
+- repo: DonkeyKing01/tasteful-ui-skill
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 4
+- repo: brandonhimpfen/awesome-ai-coding-agents
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  stars: 3
+- repo: BadMenFinance/awesome-skill-md
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 3
+- repo: SIRFU3G0/awesome-agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 3
+- repo: ZW471/awesome-agentic-games
+  category: coding
+  tags:
+  - coding
+  stars: 3
+- repo: tayyabexe/skills
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 3
+- repo: ggg123066/rust-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 3
+- repo: zjsxply/awesome-coding-agent-tech
+  category: papers
+  tags:
+  - coding
+  - research
+  stars: 2
+- repo: Ak-cybe/awesome-offensive-security-skills
+  category: skills
+  tags:
+  - coding
+  - security
+  - skills
+  stars: 2
+- repo: chefallan/awesome-context-engine
+  category: tools
+  tags:
+  - coding
+  - security
+  stars: 2
+- repo: 6missedcalls/awesome-agent-skills
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 2
+- repo: martgueritainaccurate875/skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 2
+- repo: zzhou23/awesome-claude-code-playbook
+  category: tools
+  tags:
+  - coding
+  stars: 1
+- repo: Smaiil/awesome-claude-agents
+  category: skills
+  tags:
+  - skills
+  stars: 1
+- repo: kailiu42/awesome-coding-agents
+  category: tools
+  tags:
+  - coding
+  stars: 1
+- repo: obre10off/awesome-claude-code-agents
+  category: coding
+  tags:
+  - coding
+  stars: 1
+- repo: Goncalo009/awesome-design-md
+  category: coding
+  tags:
+  - coding
+  stars: 1
+- repo: geekmuse/awesome-pi-agent
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: bradleybeatz1313/awesome-agents-md
+  category: coding
+  tags:
+  - coding
+  stars: 1
+- repo: Masum-MSNR/awesome-flutter-agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: vbassn/awesome-agent-dev-resources
+  category: coding
+  tags:
+  - coding
+  stars: 1
+- repo: Masum-MSNR/awesome-kotlin-android-agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: Masum-MSNR/awesome-java-android-agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: Masum-MSNR/awesome-react-native-agent-skills
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: Masum-MSNR/awesome-kotlin-multiplatform-agent-skills
+  category: frameworks
+  tags:
+  - coding
+  - skills
+  stars: 1
+- repo: datamllab/awesome-game-ai
+  category: multi-agent
+  tags:
+  - multi-agent
+  stars: 963
+- repo: AIPMAndy/awesome-openclaw-skills-CN
+  category: skills
+  tags:
+  - chinese
+  - coding
+  - skills
+  stars: 115
+- repo: no-fluff/awesome-vibe-coding
+  category: tools
+  tags:
+  - coding
+  - mcp
+  stars: 54
+- repo: ankitmundada/awesome-gemini-cli-subagents
+  category: tools
+  tags:
+  - coding
+  stars: 33
+- repo: tusharjadhav124/awesome-vibe-coding-tools
+  category: tools
+  tags:
+  - coding
+  - mcp
+  stars: 6
+- repo: quome-cloud/awesome-coding-agents
+  category: coding
+  tags:
+  - coding
+  stars: 5
+- repo: kzhou003/awesome-coding-agent-systems
+  category: coding
+  tags:
+  - coding
+  stars: 4
+- repo: Sehab121/awesome-openclaw-skills-CN
+  category: skills
+  tags:
+  - chinese
+  - coding
+  - frameworks
+  - skills
+  stars: 3
+- repo: closedloop-technologies/awesome-coding-agents
+  category: coding
+  tags:
+  - coding
+  stars: 2
+- repo: launchapp-dev/awesome-ai-coding-tools
+  category: tools
+  tags:
+  - coding
+  - mcp
+  stars: 2
+- repo: freeforall06/awesome-claude-code
+  category: tools
+  tags:
+  - coding
+  - frameworks
+  - skills
+  stars: 2
+- repo: ProjectRecon/awesome-ai-agents-security
+  category: safety
+  tags:
+  - security
+  stars: 39
+- repo: webpro255/awesome-ai-agent-attacks
+  category: coding
+  tags:
+  - mcp
+  - research
+  - security
+  stars: 21
+- repo: Xinhao-Deng/awesome-self-evolving-agent-security
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 5
+- repo: pemdes174/cursor-rules
+  category: coding
+  tags:
+  - coding
+  - security
+  stars: 5
+- repo: agentoverlay/awesome-multi-agent-security
+  category: safety
+  tags:
+  - multi-agent
+  - security
+  stars: 4
+- repo: onlooker89757/awesome-agent-security
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 3
+- repo: authora-dev/awesome-agent-security
+  category: coding
+  tags:
+  - mcp
+  - security
+  stars: 1
+- repo: zhangjunmengyang/awesome-ai-agent-security
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 1
+- repo: usevebu3783/awesome-mcp-security
+  category: mcp
+  tags:
+  - mcp
+  - security
+  stars: 1
+- repo: nephritispeepshow717/awesome-agent-security
+  category: coding
+  tags:
+  - multi-agent
+  - security
+  stars: 0
+- repo: jo114ge/awesome-genai-agents-security
+  category: safety
+  tags:
+  - security
+  stars: 0
+- repo: DevGreick/awesome-llm-security
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - security
+  stars: 0
+- repo: rahmanhsim/awesome-skill
+  category: skills
+  tags:
+  - security
+  - skills
+  stars: 0
+- repo: manojrammurthy/awesome-llm-security
+  category: skills
+  tags:
+  - security
+  stars: 0
+- repo: OLDBAI213/awesome-ai-security
+  category: papers
+  tags:
+  - research
+  - security
+  stars: 0
+- repo: xingjunm/Awesome-Large-Model-Safety
+  category: papers
+  tags:
+  - security
+  stars: 266
+- repo: Autonomous-Agent-Team/Awesome-GUI-Agent-Safety
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  - security
+  stars: 18
+- repo: imran-siddique/awesome-ai-governance
+  category: frameworks
+  tags:
+  - frameworks
+  - mcp
+  - security
+  stars: 4
+- repo: ShengYun-Peng/awesome-reasoning-and-agent-safety
+  category: safety
+  tags:
+  - security
+  stars: 3
+- repo: AUTHENSOR/awesome-agent-safety
+  category: frameworks
+  tags:
+  - frameworks
+  - security
+  stars: 0
+- repo: maximehu97/Awesome-GUI-Agent-Safety
+  category: safety
+  tags:
+  - security
+  stars: 0
+- repo: xaddwell/awesome-self-evolving-agent-safety
+  category: safety
+  tags:
+  - security
+  stars: 0
+- repo: jun0wanan/awesome-large-multimodal-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 491
+- repo: junchenzhi/Awesome-LLM-Ensemble
+  category: papers
+  tags:
+  - harness
+  - multi-agent
+  - research
+  stars: 235
+- repo: alvinreal/awesome-openclaw-tips
+  category: tools
+  tags:
+  - multi-agent
+  stars: 201
+- repo: jihoo-kim/awesome-context-engineering
+  category: skills
+  tags:
+  - mcp
+  - multi-agent
+  stars: 107
+- repo: OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 92
+- repo: LHL3341/awesome-claws
+  category: skills
+  tags:
+  - coding
+  - multi-agent
+  - research
+  - skills
+  stars: 73
+- repo: ZeroLu/awesome-openclaw
+  category: skills
+  tags:
+  - multi-agent
+  - skills
+  stars: 71
+- repo: WeiChengTseng/awesome-multi-agent
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 65
+- repo: instadeepai/awesome-marl
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 58
+- repo: nageoffer/awesome-ai-handbook
+  category: tools
+  tags:
+  - multi-agent
+  stars: 51
+- repo: Kkkirito-123/mutil-rag-agent
+  category: frameworks
+  tags:
+  - mcp
+  - multi-agent
+  stars: 49
+- repo: mira-ai-lab/awesome-mas-life
+  category: papers
+  tags:
+  - multi-agent
+  stars: 44
+- repo: AIRicky/Awesome-Reinforcement-Learning
+  category: tools
+  tags:
+  - multi-agent
+  stars: 39
+- repo: GalaxyXieyu/Awesome-Langgraph-Learn
+  category: tools
+  tags:
+  - multi-agent
+  stars: 37
+- repo: richardblythman/awesome-multi-agent-systems
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  - research
+  stars: 32
+- repo: NipunaRanasinghe/awesome-ai-agents
+  category: frameworks
+  tags:
+  - coding
+  - frameworks
+  - multi-agent
+  - research
+  stars: 32
+- repo: sstklen/infinite-gratitude
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  - skills
+  stars: 31
+- repo: Agent-Analytics/awesome-multi-agent-orchestrators
+  category: multi-agent
+  tags:
+  - coding
+  - multi-agent
+  stars: 29
+- repo: Andrewzh112/Awesome-LLM-based-MultiAgents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 27
+- repo: yubohann/Awesome-World-Model-Flow-RL-Multi-Agent-Robotic-Object-Centric
+  category: harness
+  tags:
+  - multi-agent
+  stars: 24
+- repo: oskar-j/awesome-sim-software
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 21
+- repo: EvoMap/awesome-agent-swarm
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 21
+- repo: johnsutor/awesome-multi-agent-optimization
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  stars: 19
+- repo: weleen/awesome-agent
+  category: multi-agent
+  tags:
+  - multi-agent
+  stars: 19
+- repo: AIPMAndy/awesome-openclaw-use-cases-cn
+  category: skills
+  tags:
+  - chinese
+  - multi-agent
+  stars: 17
+- repo: zcweah1981/awesome-hermes-agent-zh
+  category: tools
+  tags:
+  - chinese
+  - mcp
+  - multi-agent
+  - skills
+  stars: 14
+- repo: l-aime/awesome-agents
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  - research
+  stars: 10
+- repo: JerryLife/awesome-agent-prompt
+  category: skills
+  tags:
+  - multi-agent
+  stars: 7
+- repo: Yaozuwu/Awesome-Guardrail-Methods
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  - research
+  - security
+  stars: 7
+- repo: HA2345567/awesome-autonomus-ai-agents
+  category: tools
+  tags:
+  - coding
+  - frameworks
+  - multi-agent
+  stars: 7
+- repo: songw-zju/awesome-multimodal-agentic-reasoning
+  category: reasoning
+  tags:
+  - auto-discovered
+  stars: 6
+- repo: FelipeDaza7/swarm-tools
+  category: tools
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 6
+- repo: dxhou/awesome-llm-powered-multi-agents
+  category: multi-agent
+  tags:
+  - multi-agent
+  stars: 5
+- repo: minfenli/Awesome-Multi-Agent-Path-Finding
+  category: multi-agent
+  tags:
+  - multi-agent
+  stars: 5
+- repo: labclaw/awesome-physical-ai-for-science
+  category: workflow
+  tags:
+  - multi-agent
+  stars: 5
+- repo: agentxagi/awesome-discoveries
+  category: multi-agent
+  tags:
+  - multi-agent
+  stars: 5
+- repo: Dxsssu/Awesome-LLM4SecOps
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  - security
+  stars: 5
+- repo: MyNameIsEdi/open-qa
+  category: frameworks
+  tags:
+  - frameworks
+  - multi-agent
+  stars: 5
+- repo: vigneshbarani24/awesome-sap-ai
+  category: tools
+  tags:
+  - mcp
+  - multi-agent
+  stars: 4
+- repo: tshekerli/awesome-llm-apps
+  category: tools
+  tags:
+  - mcp
+  - multi-agent
+  stars: 4
+- repo: cor3bit/awesome-marl-engineering
+  category: harness
+  tags:
+  - multi-agent
+  stars: 3
+- repo: BEIBEICSY/awesome-agent-evaluator-skill
+  category: skills
+  tags:
+  - frameworks
+  - skills
+  stars: 5
+- repo: pauldebdeep9/awesome-agentic-evaluation
+  category: papers
+  tags:
+  - frameworks
+  - research
+  stars: 1
+- repo: genai-io/awesome-agent-evals
+  category: frameworks
+  tags:
+  - frameworks
+  stars: 0
+- repo: Casslin/awesome-browser-agent-evals
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: karozi/Awesome-Vibecoding-and-Speccoding-Resources
+  category: tools
+  tags:
+  - coding
+  stars: 27
+- repo: MichaelZelbel/awesome-antigravity
+  category: coding
+  tags:
+  - auto-discovered
+  stars: 16
+- repo: superuser-pal/awesome-second-brain
+  category: coding
+  tags:
+  - skills
+  stars: 10
+- repo: WangHrYii/Awesome-Agentic-Workflow
+  category: workflow
+  tags:
+  - auto-discovered
+  stars: 6
+- repo: OneRose328/awesome-agentic-workflows
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 4
+- repo: michaltakac/awesome-crypto-ai-agents
+  category: workflow
+  tags:
+  - auto-discovered
+  stars: 3
+- repo: shamspias/awesome-dify-agents
+  category: workflow
+  tags:
+  - auto-discovered
+  stars: 3
+- repo: florian101010/awesome-agentic-AI-coding-template
+  category: skills
+  tags:
+  - coding
+  - skills
+  stars: 3
+- repo: AgenticEconLab/awesome-agentic-econ-workflows
+  category: papers
+  tags:
+  - research
+  stars: 2
+- repo: Tubby0895/awesome-agents
+  category: papers
+  tags:
+  - multi-agent
+  - research
+  - security
+  stars: 2
+- repo: Ltelitas/awesome-agentic-workflows
+  category: coding
+  tags:
+  - skills
+  stars: 1
+- repo: claireww2025/awesome-n8n-agent-workflows
+  category: mcp
+  tags:
+  - mcp
+  - security
+  stars: 1
+- repo: agentablesh/awesome-agent-cli
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: yejiming/web3-awesome-skills
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 1
+- repo: abhayjnayakk/awesome-design-md
+  category: ui
+  tags:
+  - coding
+  stars: 1
+- repo: ulican/devops-agentic-workflows
+  category: coding
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: sujayjayjay/awesome-agentkit-workflows
+  category: workflow
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: stumpyfr/awesome-agentic-workflow
+  category: workflow
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: xztcwang/Awesome_papers_on_automatic_agentic_workflow
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: dvogeldev/awesome-icm
+  category: coding
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: AgenticEconLab/awesome-agentic-econ-research
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: TianCai19/awesome-html-note-agent
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: texra-ai/awesome-texra-agents
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: farfetchedai/awesome-ai-apps
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: davidishami-d/awesome-ai-apps
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: rudil24/agenticStrategy
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: MorpheusZero/the-awesome-prompt-library
+  category: skills
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: browserman-run/awesome-real-browser-agents
+  category: papers
+  tags:
+  - mcp
+  - research
+  stars: 0
+- repo: SacriTom/novastar-engagement-system
+  category: workflow
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: ai4tune/awesome-openclaw-business-skills
+  category: skills
+  tags:
+  - skills
+  stars: 0
+- repo: kashmirscien3399/skills
+  category: papers
+  tags:
+  - mcp
+  - research
+  - skills
+  stars: 0
+- repo: mayadigi/seeds
+  category: ui
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: Pitchforkanabaptist661/Claude-Code
+  category: mcp
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 0
+- repo: IAAR-Shanghai/Awesome-AI-Memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 910
+- repo: DEEP-PolyU/Awesome-GraphMemory
+  category: papers
+  tags:
+  - research
+  stars: 273
+- repo: yyyujintang/Awesome-Agent-Memory-Papers
+  category: papers
+  tags:
+  - research
+  stars: 187
+- repo: AgentMemoryWorld/Awesome-Agent-Memory
+  category: papers
+  tags:
+  - research
+  stars: 151
+- repo: bigai-nlco/Awesome-AI-Memory
+  category: papers
+  tags:
+  - auto-discovered
+  stars: 32
+- repo: wfnuser/Awesome-Agent-Memory
+  category: frameworks
+  tags:
+  - frameworks
+  - research
+  stars: 16
+- repo: cxxz/awesome-agent-memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 10
+- repo: sologuy/Awesome-OpenClaw-Memory
+  category: skills
+  tags:
+  - mcp
+  - skills
+  stars: 9
+- repo: ZFancy/awesome-agent-memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 8
+- repo: LUCKYZUNI/agent-memory-guide
+  category: tools
+  tags:
+  - skills
+  stars: 3
+- repo: Snseam/awesome-agent-memory
+  category: papers
+  tags:
+  - research
+  stars: 2
+- repo: not-a-skid/Awesome-Agent-Memory
+  category: papers
+  tags:
+  - research
+  stars: 2
+- repo: AlexWang959/Awesome-Agent-Memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: shaoxiang/awesome-agent-memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: xaddwell/Awesome-LLM-Agent-Memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 1
+- repo: unexplained-familyephedraceae871/openclaw-skill
+  category: skills
+  tags:
+  - coding
+  - mcp
+  - skills
+  stars: 1
+- repo: aviskaar/awesome-agentic-memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: hmzainjamil/Awesome-Agent-Memory-main
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: lban2049/docs-awesome-agent-memory
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: jakublech/awesome-repos
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+- repo: WjrRyan/awesome-ai-memory-dashboard
+  category: papers
+  tags:
+  - research
+  stars: 0
+- repo: Aryansingh009/awesome-llm-knowledge-systems
+  category: skills
+  tags:
+  - harness
+  stars: 0
+- repo: ktaelectronics/clawdbot-kakaotalk
+  category: tools
+  tags:
+  - skills
+  stars: 0
+- repo: Eliott0557/openclaw
+  category: tools
+  tags:
+  - skills
+  stars: 0
+- repo: qhjqhj00/awesome-agentic-search
+  category: papers
+  tags:
+  - research
+  stars: 56
+- repo: Quester-one/Awesome-LLM-Planning
+  category: papers
+  tags:
+  - research
+  stars: 55
 search_keywords:
-  - "awesome agent"
-  - "awesome ai-agent"
-  - "awesome llm-agent"
-  - "awesome autonomous-agent"
-  - "awesome agent-framework"
-  - "awesome agent-skills"
-  - "awesome agent-tools"
-  - "awesome agent-papers"
-  - "awesome mcp"
-  - "awesome harness"
-  - "awesome code-agents"
-  - "awesome agentic"
-  - "awesome coding-agent"
-  - "awesome agent-security"
-  - "awesome agent-safety"
-  - "awesome multi-agent"
-  - "awesome agent-eval"
-  - "awesome agent-workflow"
-  - "awesome agent-memory"
-  - "awesome agent-planning"
-
-# Category mapping (keyword → category)
+- awesome agent
+- awesome ai-agent
+- awesome llm-agent
+- awesome autonomous-agent
+- awesome agent-framework
+- awesome agent-skills
+- awesome agent-tools
+- awesome agent-papers
+- awesome mcp
+- awesome harness
+- awesome code-agents
+- awesome agentic
+- awesome coding-agent
+- awesome agent-security
+- awesome agent-safety
+- awesome multi-agent
+- awesome agent-eval
+- awesome agent-workflow
+- awesome agent-memory
+- awesome agent-planning
 category_rules:
-  - keywords: [framework, platform, sdk]
-    category: frameworks
-  - keywords: [paper, research, survey]
-    category: papers
-  - keywords: [skill, prompt, system-prompt]
-    category: skills
-  - keywords: [tool, infrastructure, app]
-    category: tools
-  - keywords: [mcp, model-context-protocol]
-    category: mcp
-  - keywords: [harness, engineering, context-engineering]
-    category: harness
-  - keywords: [coding, code-agent, dev, ide, cursor, copilot]
-    category: coding
-  - keywords: [security, safety, guardrail]
-    category: safety
-  - keywords: [multi-agent, collaboration, swarm]
-    category: multi-agent
-  - keywords: [eval, benchmark, testing]
-    category: evaluation
-  - keywords: [domain, specific, industry, finance, medical]
-    category: domain
-  - keywords: [ui, design, interface, gui, browser]
-    category: ui
-  - keywords: [workflow, automation, orchestration]
-    category: workflow
-  - keywords: [reasoning, planning, strawberry, o1]
-    category: reasoning
-  - keywords: [ranking, aggregator, meta, index]
-    category: meta
+- keywords:
+  - framework
+  - platform
+  - sdk
+  category: frameworks
+- keywords:
+  - paper
+  - research
+  - survey
+  category: papers
+- keywords:
+  - skill
+  - prompt
+  - system-prompt
+  category: skills
+- keywords:
+  - tool
+  - infrastructure
+  - app
+  category: tools
+- keywords:
+  - mcp
+  - model-context-protocol
+  category: mcp
+- keywords:
+  - harness
+  - engineering
+  - context-engineering
+  category: harness
+- keywords:
+  - coding
+  - code-agent
+  - dev
+  - ide
+  - cursor
+  - copilot
+  category: coding
+- keywords:
+  - security
+  - safety
+  - guardrail
+  category: safety
+- keywords:
+  - multi-agent
+  - collaboration
+  - swarm
+  category: multi-agent
+- keywords:
+  - eval
+  - benchmark
+  - testing
+  category: evaluation
+- keywords:
+  - domain
+  - specific
+  - industry
+  - finance
+  - medical
+  category: domain
+- keywords:
+  - ui
+  - design
+  - interface
+  - gui
+  - browser
+  category: ui
+- keywords:
+  - workflow
+  - automation
+  - orchestration
+  category: workflow
+- keywords:
+  - reasoning
+  - planning
+  - strawberry
+  - o1
+  category: reasoning
+- keywords:
+  - ranking
+  - aggregator
+  - meta
+  - index
+  category: meta
