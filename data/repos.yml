@@ -1,0 +1,215 @@
+# Data file for awesome-agent-everything
+# Each entry: repo owner/name, category, and optional tags
+# The CI workflow reads this file to generate README.md
+
+repos:
+  # 🌟 Agent Frameworks & Platforms
+  - repo: e2b-dev/awesome-ai-agents
+    category: frameworks
+    tags: [autonomous-agents, open-source, closed-source]
+
+  - repo: kyrolabs/awesome-agents
+    category: frameworks
+    tags: [agent-list, curated]
+
+  - repo: jim-schwoebel/awesome_ai_agents
+    category: frameworks
+    tags: [comprehensive, tutorials, tools]
+
+  - repo: kaushikb11/awesome-llm-agents
+    category: frameworks
+    tags: [llm-agents, frameworks]
+
+  - repo: AgentSpaceAI/Awesome-Agent-Framework
+    category: frameworks
+    tags: [multi-framework, crewai, langchain, autogen]
+
+  - repo: caramaschiHG/awesome-ai-agents-2026
+    category: frameworks
+    tags: [2026, monthly-updated, 340-plus]
+
+  - repo: korchasa/awesome-ai-agents
+    category: frameworks
+    tags: [auto-compiled, config-driven]
+
+  # 🧠 Agent Research & Papers
+  - repo: luo-junyu/Awesome-Agent-Papers
+    category: papers
+    tags: [research, papers, construction, collaboration, evaluation]
+
+  - repo: hyp1231/awesome-llm-powered-agent
+    category: papers
+    tags: [llm-powered, research]
+
+  - repo: hijkzzz/Awesome-LLM-Strawberry
+    category: papers
+    tags: [reasoning, o1, strawberry]
+
+  # ⚡ Agent Skills & Prompts
+  - repo: VoltAgent/awesome-agent-skills
+    category: skills
+    tags: [skills, claude-code, codex, gemini-cli, cursor]
+
+  - repo: sickn33/antigravity-awesome-skills
+    category: skills
+    tags: [skills, 1400-plus, claude-code, cursor, codex]
+
+  - repo: heilcheng/awesome-agent-skills
+    category: skills
+    tags: [skills, tutorials, directories, 23k-skills]
+
+  - repo: libukai/awesome-agent-skills
+    category: skills
+    tags: [skills, chinese, quickstart, toolkit]
+
+  - repo: Prat011/awesome-llm-skills
+    category: skills
+    tags: [skills, llm, cross-platform]
+
+  - repo: xixu-me/awesome-persona-distill-skills
+    category: skills
+    tags: [skills, persona, methodology]
+
+  - repo: dontriskit/awesome-ai-system-prompts
+    category: skills
+    tags: [system-prompts, chatgpt, claude, perplexity]
+
+  - repo: hesreallyhim/awesome-claude-code
+    category: skills
+    tags: [claude-code, hooks, slash-commands, orchestrators]
+
+  - repo: github/awesome-copilot
+    category: skills
+    tags: [copilot, instructions, agents, configs]
+
+  # 🔧 Agent Tools & Infrastructure
+  - repo: Shubhamsaboo/awesome-llm-apps
+    category: tools
+    tags: [apps, rag, runnable]
+
+  - repo: Arindam200/awesome-ai-apps
+    category: tools
+    tags: [apps, rag, workflows]
+
+  - repo: MemoriLabs/Memori
+    category: tools
+    tags: [memory, infrastructure, llm-agnostic]
+
+  - repo: nibzard/awesome-agentic-patterns
+    category: tools
+    tags: [patterns, agentic, design]
+
+  # 🌐 MCP
+  - repo: punkpeye/awesome-mcp-servers
+    category: mcp
+    tags: [mcp, servers, tools, databases]
+
+  # 🏗️ Agent Harness & Engineering
+  - repo: walkinglabs/awesome-harness-engineering
+    category: harness
+    tags: [harness, context-engineering, eval, observability]
+
+  - repo: WangRongsheng/awesome-LLM-resources
+    category: harness
+    tags: [llm, resources, chinese, comprehensive]
+
+  # 💻 Coding Agents & Dev Tools
+  - repo: sorrycc/awesome-code-agents
+    category: coding
+    tags: [code-agents, development]
+
+  - repo: deepseek-ai/awesome-deepseek-agent
+    category: coding
+    tags: [deepseek, integration, coding-assistants]
+
+  - repo: hao-ji-xing/awesome-cursor
+    category: coding
+    tags: [cursor, ide, extensions]
+
+  - repo: awesome-opencode/awesome-opencode
+    category: coding
+    tags: [opencode, plugins, themes, agents]
+
+  - repo: vijaythecoder/awesome-claude-agents
+    category: coding
+    tags: [claude, sub-agent, dev-team]
+
+  # 🔒 Agent Safety & Security
+  - repo: ucsb-mlsec/Awesome-Agent-Security
+    category: safety
+    tags: [security, research, safety]
+
+  - repo: fr0gger/Awesome-GPT-Agents
+    category: safety
+    tags: [cybersecurity, gpt-agents]
+
+  # 🎯 Domain-Specific Agents
+  - repo: enescingoz/awesome-n8n-templates
+    category: domain
+    tags: [n8n, automation, templates, workflows]
+
+  # 📱 Agent UI & Interaction
+  - repo: VoltAgent/awesome-design-md
+    category: ui
+    tags: [design-md, ui-generation, coding-agents]
+
+  # 🗂️ Meta-Indexes & Aggregators
+  - repo: yuxiaopeng/Github-Ranking-AI
+    category: meta
+    tags: [ranking, ai, daily-updated]
+
+# Search keywords used by CI for auto-discovery
+search_keywords:
+  - "awesome agent"
+  - "awesome ai-agent"
+  - "awesome llm-agent"
+  - "awesome autonomous-agent"
+  - "awesome agent-framework"
+  - "awesome agent-skills"
+  - "awesome agent-tools"
+  - "awesome agent-papers"
+  - "awesome mcp"
+  - "awesome harness"
+  - "awesome code-agents"
+  - "awesome agentic"
+  - "awesome coding-agent"
+  - "awesome agent-security"
+  - "awesome agent-safety"
+  - "awesome multi-agent"
+  - "awesome agent-eval"
+  - "awesome agent-workflow"
+  - "awesome agent-memory"
+  - "awesome agent-planning"
+
+# Category mapping (keyword → category)
+category_rules:
+  - keywords: [framework, platform, sdk]
+    category: frameworks
+  - keywords: [paper, research, survey]
+    category: papers
+  - keywords: [skill, prompt, system-prompt]
+    category: skills
+  - keywords: [tool, infrastructure, app]
+    category: tools
+  - keywords: [mcp, model-context-protocol]
+    category: mcp
+  - keywords: [harness, engineering, context-engineering]
+    category: harness
+  - keywords: [coding, code-agent, dev, ide, cursor, copilot]
+    category: coding
+  - keywords: [security, safety, guardrail]
+    category: safety
+  - keywords: [multi-agent, collaboration, swarm]
+    category: multi-agent
+  - keywords: [eval, benchmark, testing]
+    category: evaluation
+  - keywords: [domain, specific, industry, finance, medical]
+    category: domain
+  - keywords: [ui, design, interface, gui, browser]
+    category: ui
+  - keywords: [workflow, automation, orchestration]
+    category: workflow
+  - keywords: [reasoning, planning, strawberry, o1]
+    category: reasoning
+  - keywords: [ranking, aggregator, meta, index]
+    category: meta
