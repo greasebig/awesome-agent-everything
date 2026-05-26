@@ -1,0 +1,3048 @@
+{
+  "coding": [
+    {
+      "repo": "filipecalegario/awesome-vibe-coding",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 4530
+    },
+    {
+      "repo": "snwfdhmp/awesome-ralph",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 889
+    },
+    {
+      "repo": "e2b-dev/awesome-devins",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 247
+    },
+    {
+      "repo": "NeuZhou/awesome-ai-anatomy",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "frameworks",
+        "mcp",
+        "security"
+      ],
+      "stars": 195
+    },
+    {
+      "repo": "acvnace/awesome-vibe-coding-resources",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 175
+    },
+    {
+      "repo": "irahardianto/awesome-agv",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "frameworks"
+      ],
+      "stars": 144
+    },
+    {
+      "repo": "artnitolog/awesome-agent-learning",
+      "category": "coding",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 130
+    },
+    {
+      "repo": "lfglabs-dev/awesome-amp-code",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 74
+    },
+    {
+      "repo": "shaftoe/awesome-pi-coding-agent",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 28
+    },
+    {
+      "repo": "webpro255/awesome-ai-agent-attacks",
+      "category": "coding",
+      "tags": [
+        "mcp",
+        "research",
+        "security"
+      ],
+      "stars": 21
+    },
+    {
+      "repo": "iwillig/awesome-clojure-llm",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 19
+    },
+    {
+      "repo": "MichaelZelbel/awesome-antigravity",
+      "category": "coding",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 16
+    },
+    {
+      "repo": "ohong/awesome-coding-ai",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 12
+    },
+    {
+      "repo": "superuser-pal/awesome-second-brain",
+      "category": "coding",
+      "tags": [
+        "skills"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "raymyers/awesome-verified-coding-agents",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "plastic-labs/Awesome-Identic-Agents",
+      "category": "coding",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "quome-cloud/awesome-coding-agents",
+      "category": "coding",
+      "tags": [
+        "coding"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "pemdes174/cursor-rules",
+      "category": "coding",
+      "tags": [
+        "coding",
+        "security"
+      ],
+      "stars": 5
+    }
+  ],
+  "domain": [
+    {
+      "repo": "yczhou001/Awesome-Medical-LLM-Agent",
+      "category": "domain",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 30
+    }
+  ],
+  "evaluation": [
+    {
+      "repo": "dataanswer/awesome-agent-benchmarks",
+      "category": "evaluation",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 7
+    }
+  ],
+  "frameworks": [
+    {
+      "repo": "Meirtz/Awesome-Context-Engineering",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "research"
+      ],
+      "stars": 3153
+    },
+    {
+      "repo": "cirosantilli/china-dictatorship",
+      "category": "frameworks",
+      "tags": [
+        "chinese",
+        "coding",
+        "frameworks",
+        "security"
+      ],
+      "stars": 3011
+    },
+    {
+      "repo": "agentuniverse-ai/agentUniverse",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 2255
+    },
+    {
+      "repo": "gege-circle/.github",
+      "category": "frameworks",
+      "tags": [
+        "chinese",
+        "coding",
+        "frameworks",
+        "security"
+      ],
+      "stars": 1892
+    },
+    {
+      "repo": "trycua/acu",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "research"
+      ],
+      "stars": 1670
+    },
+    {
+      "repo": "steel-dev/awesome-web-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 1443
+    },
+    {
+      "repo": "e2b-dev/awesome-ai-sdks",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 1178
+    },
+    {
+      "repo": "rohitg00/awesome-ai-apps",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 777
+    },
+    {
+      "repo": "punkpeye/awesome-mcp-devtools",
+      "category": "frameworks",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 458
+    },
+    {
+      "repo": "bradAGI/awesome-cli-coding-agents",
+      "category": "frameworks",
+      "tags": [
+        "coding",
+        "harness"
+      ],
+      "stars": 448
+    },
+    {
+      "repo": "Alchemyst-ai/awesome-saas",
+      "category": "frameworks",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 415
+    },
+    {
+      "repo": "xpaysh/awesome-x402",
+      "category": "frameworks",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 220
+    },
+    {
+      "repo": "skyming/awesome-ai-agent",
+      "category": "frameworks",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 192
+    },
+    {
+      "repo": "toolsdk-ai/toolsdk-mcp-registry",
+      "category": "frameworks",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 173
+    },
+    {
+      "repo": "webmaxru/awesome-microsoft-agent-framework",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 148
+    },
+    {
+      "repo": "vincentkoc/awesome-openclaw",
+      "category": "frameworks",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 130
+    },
+    {
+      "repo": "tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "mcp"
+      ],
+      "stars": 118
+    },
+    {
+      "repo": "mahonzhan/awesome-agent-harness",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "harness"
+      ],
+      "stars": 105
+    },
+    {
+      "repo": "Panmax/awesome-nuwa",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "skills"
+      ],
+      "stars": 101
+    },
+    {
+      "repo": "Zijian-Ni/awesome-ai-agents-2026",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 87
+    },
+    {
+      "repo": "Scottcjn/awesome-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 82
+    },
+    {
+      "repo": "ARUNAGIRINATHAN-K/awesome-ai-agents-2026",
+      "category": "frameworks",
+      "tags": [
+        "coding",
+        "frameworks",
+        "research"
+      ],
+      "stars": 79
+    },
+    {
+      "repo": "vstorm-co/awesome-pydantic-ai",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 69
+    },
+    {
+      "repo": "ababdotai/awesome-agent-quickstart",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "mcp"
+      ],
+      "stars": 61
+    },
+    {
+      "repo": "mb-mal/awesome-ai-agents-frameworks",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 52
+    },
+    {
+      "repo": "Kkkirito-123/mutil-rag-agent",
+      "category": "frameworks",
+      "tags": [
+        "mcp",
+        "multi-agent"
+      ],
+      "stars": 49
+    },
+    {
+      "repo": "jbesomi/awesome-autonomous-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 40
+    },
+    {
+      "repo": "chaosync-org/awesome-ai-agent-testing",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "security"
+      ],
+      "stars": 37
+    },
+    {
+      "repo": "subinium/awesome-agent-frameworks",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 34
+    },
+    {
+      "repo": "yzfly/awesome-voice-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 32
+    },
+    {
+      "repo": "richardblythman/awesome-multi-agent-systems",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent",
+        "research"
+      ],
+      "stars": 32
+    },
+    {
+      "repo": "NipunaRanasinghe/awesome-ai-agents",
+      "category": "frameworks",
+      "tags": [
+        "coding",
+        "frameworks",
+        "multi-agent",
+        "research"
+      ],
+      "stars": 32
+    },
+    {
+      "repo": "axioma-ai-labs/awesome-ai-agent-frameworks",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 31
+    },
+    {
+      "repo": "buntys2010/awesome-ai-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 25
+    },
+    {
+      "repo": "ai-agents-simplified/Awesome-AI-Agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 22
+    },
+    {
+      "repo": "oskar-j/awesome-sim-software",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 21
+    },
+    {
+      "repo": "EvoMap/awesome-agent-swarm",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 21
+    },
+    {
+      "repo": "The-Swarm-Corporation/Awesome-Swarms-List",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 19
+    },
+    {
+      "repo": "Autonomous-Agent-Team/Awesome-GUI-Agent-Safety",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "research",
+        "security"
+      ],
+      "stars": 18
+    },
+    {
+      "repo": "wfnuser/Awesome-Agent-Memory",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "research"
+      ],
+      "stars": 16
+    },
+    {
+      "repo": "groovy-web/awesome-ai-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 15
+    },
+    {
+      "repo": "sumsun-dev/awesome-web3-claude",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "mcp",
+        "skills"
+      ],
+      "stars": 13
+    },
+    {
+      "repo": "vivy-yi/awesome-agent-orchestration",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "mcp",
+        "multi-agent"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "LijunRio/Awesome-Agents-for-Medicine",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "l-aime/awesome-agents",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent",
+        "research"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "QAInsights/awesome-ai-tools",
+      "category": "frameworks",
+      "tags": [
+        "coding"
+      ],
+      "stars": 9
+    },
+    {
+      "repo": "G1o22/awesome-ai-agents-2026",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 9
+    },
+    {
+      "repo": "namphuongtran/awesome-ai-coding-agent-tools",
+      "category": "frameworks",
+      "tags": [
+        "coding",
+        "frameworks",
+        "mcp"
+      ],
+      "stars": 9
+    },
+    {
+      "repo": "xlabs-club/awesome-x-ops",
+      "category": "frameworks",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 8
+    },
+    {
+      "repo": "dmarx/awesome-llm-utilities",
+      "category": "frameworks",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 8
+    },
+    {
+      "repo": "irfanfadhullah/Awesome-Agentic-Workflow",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 8
+    },
+    {
+      "repo": "vermava/awesomelist-ai-security",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "research",
+        "security"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "Yaozuwu/Awesome-Guardrail-Methods",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent",
+        "research",
+        "security"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "LLMSecurity/awesome-agent-skills-security",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "mcp",
+        "security",
+        "skills"
+      ],
+      "stars": 6
+    },
+    {
+      "repo": "MyNameIsEdi/open-qa",
+      "category": "frameworks",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 5
+    }
+  ],
+  "harness": [
+    {
+      "repo": "AutoJunjie/awesome-agent-harness",
+      "category": "harness",
+      "tags": [
+        "coding",
+        "harness",
+        "multi-agent"
+      ],
+      "stars": 422
+    },
+    {
+      "repo": "HKUST-KnowComp/Awesome-Agent-Harness",
+      "category": "harness",
+      "tags": [
+        "harness"
+      ],
+      "stars": 74
+    },
+    {
+      "repo": "Jiaaqiliu/Awesome-Harness-Engineering",
+      "category": "harness",
+      "tags": [
+        "harness"
+      ],
+      "stars": 25
+    },
+    {
+      "repo": "yubohann/Awesome-World-Model-Flow-RL-Multi-Agent-Robotic-Object-Centric",
+      "category": "harness",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 24
+    },
+    {
+      "repo": "wubin28/awesome-harness-engineering",
+      "category": "harness",
+      "tags": [
+        "coding",
+        "harness"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "Turi-Labs/awesome-harness",
+      "category": "harness",
+      "tags": [
+        "harness"
+      ],
+      "stars": 5
+    }
+  ],
+  "mcp": [
+    {
+      "repo": "yzfly/Awesome-MCP-ZH",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 7141
+    },
+    {
+      "repo": "punkpeye/awesome-mcp-clients",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 6442
+    },
+    {
+      "repo": "wong2/awesome-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 4108
+    },
+    {
+      "repo": "homeassistant-ai/ha-mcp",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 3101
+    },
+    {
+      "repo": "chatmcp/mcpso",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 2010
+    },
+    {
+      "repo": "jaw9c/awesome-remote-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 1064
+    },
+    {
+      "repo": "YuzeHao2023/Awesome-MCP-Servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 1045
+    },
+    {
+      "repo": "MobinX/awesome-mcp-list",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 879
+    },
+    {
+      "repo": "TensorBlock/awesome-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 700
+    },
+    {
+      "repo": "Puliczek/awesome-mcp-security",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "security"
+      ],
+      "stars": 695
+    },
+    {
+      "repo": "demcp/awesome-web3-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "security"
+      ],
+      "stars": 608
+    },
+    {
+      "repo": "milisp/mcp-linker",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 311
+    },
+    {
+      "repo": "PipedreamHQ/awesome-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 273
+    },
+    {
+      "repo": "soxoj/awesome-osint-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 242
+    },
+    {
+      "repo": "milisp/awesome-claude-dxt",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 173
+    },
+    {
+      "repo": "darjeeling/awesome-mcp-korea",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 171
+    },
+    {
+      "repo": "AlexMili/Awesome-MCP",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 141
+    },
+    {
+      "repo": "SciSharp/Awesome-DotNET-MCP",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 141
+    },
+    {
+      "repo": "badkk/awesome-crypto-mcp-servers",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 135
+    },
+    {
+      "repo": "e2b-dev/awesome-mcp-gateways",
+      "category": "mcp",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 128
+    }
+  ],
+  "meta": [
+    {
+      "repo": "lobehub/lobe-chat-agents",
+      "category": "meta",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 1101
+    }
+  ],
+  "multi-agent": [
+    {
+      "repo": "WenyuChiou/awesome-agentic-ai-zh",
+      "category": "multi-agent",
+      "tags": [
+        "chinese",
+        "mcp",
+        "multi-agent",
+        "skills"
+      ],
+      "stars": 1720
+    },
+    {
+      "repo": "datamllab/awesome-game-ai",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 963
+    },
+    {
+      "repo": "ThibautMelen/agentic-ai-systems",
+      "category": "multi-agent",
+      "tags": [
+        "frameworks",
+        "mcp"
+      ],
+      "stars": 277
+    },
+    {
+      "repo": "Agent-Analytics/awesome-multi-agent-orchestrators",
+      "category": "multi-agent",
+      "tags": [
+        "coding",
+        "multi-agent"
+      ],
+      "stars": 29
+    },
+    {
+      "repo": "weleen/awesome-agent",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 19
+    },
+    {
+      "repo": "agi-os/Agent.js",
+      "category": "multi-agent",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "dxhou/awesome-llm-powered-multi-agents",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "minfenli/Awesome-Multi-Agent-Path-Finding",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "agentxagi/awesome-discoveries",
+      "category": "multi-agent",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 5
+    }
+  ],
+  "papers": [
+    {
+      "repo": "0xNyk/awesome-hermes-agent",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 3404
+    },
+    {
+      "repo": "EvoAgentX/Awesome-Self-Evolving-Agents",
+      "category": "papers",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 2176
+    },
+    {
+      "repo": "FoundationAgents/awesome-foundation-agents",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 2165
+    },
+    {
+      "repo": "Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 2099
+    },
+    {
+      "repo": "alvinreal/awesome-autoresearch",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 2043
+    },
+    {
+      "repo": "zchoi/Awesome-Embodied-Robotics-and-Agent",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 1796
+    },
+    {
+      "repo": "xhyumiracle/Awesome-AgenticLLM-RL-Papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 1779
+    },
+    {
+      "repo": "kyegomez/awesome-multi-agent-papers",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research"
+      ],
+      "stars": 1495
+    },
+    {
+      "repo": "weitianxin/Awesome-Agentic-Reasoning",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 1249
+    },
+    {
+      "repo": "brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 1219
+    },
+    {
+      "repo": "ysymyth/awesome-language-agents",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 1217
+    },
+    {
+      "repo": "showlab/Awesome-GUI-Agent",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 1191
+    },
+    {
+      "repo": "git-disl/awesome-LLM-game-agent-papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 890
+    },
+    {
+      "repo": "VoltAgent/awesome-ai-agent-papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 876
+    },
+    {
+      "repo": "lafmdp/Awesome-Papers-Autonomous-Agent",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 745
+    },
+    {
+      "repo": "ValueByte-AI/Awesome-LLM-in-Social-Science",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 622
+    },
+    {
+      "repo": "TeleAI-UAGI/Awesome-Agent-Memory",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 430
+    },
+    {
+      "repo": "InternScience/Awesome-Scientific-Skills",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 392
+    },
+    {
+      "repo": "SAILResearch/awesome-foundation-model-leaderboards",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 355
+    },
+    {
+      "repo": "Sri-Krishna-V/awesome-adk-agents",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research"
+      ],
+      "stars": 305
+    },
+    {
+      "repo": "qianlima-lab/awesome-lifelong-llm-agent",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 302
+    },
+    {
+      "repo": "hanlulong/awesome-ai-for-economists",
+      "category": "papers",
+      "tags": [
+        "mcp",
+        "research"
+      ],
+      "stars": 298
+    },
+    {
+      "repo": "DEEP-PolyU/Awesome-GraphMemory",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 273
+    },
+    {
+      "repo": "xingjunm/Awesome-Large-Model-Safety",
+      "category": "papers",
+      "tags": [
+        "security"
+      ],
+      "stars": 266
+    },
+    {
+      "repo": "yxf203/Awesome-Efficient-Agents",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 252
+    },
+    {
+      "repo": "baibizhe/Awesome-Skills-Paper",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 242
+    },
+    {
+      "repo": "YennNing/Awesome-Code-as-Agent-Harness-Papers",
+      "category": "papers",
+      "tags": [
+        "harness",
+        "research"
+      ],
+      "stars": 240
+    },
+    {
+      "repo": "Gloriaameng/Awesome-Agent-Harness",
+      "category": "papers",
+      "tags": [
+        "frameworks",
+        "harness",
+        "research"
+      ],
+      "stars": 235
+    },
+    {
+      "repo": "junchenzhi/Awesome-LLM-Ensemble",
+      "category": "papers",
+      "tags": [
+        "harness",
+        "multi-agent",
+        "research"
+      ],
+      "stars": 235
+    },
+    {
+      "repo": "YoungDubbyDu/Awesome-LLM-Agent-Optimization-Papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 232
+    },
+    {
+      "repo": "shure-dev/Awesome-LLM-Papers-Comprehensive-Topics",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 225
+    },
+    {
+      "repo": "HuggingAGI/AwesomeAgentPapers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 221
+    },
+    {
+      "repo": "XMUDeepLIT/Awesome-Self-Evolving-Agents",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 194
+    },
+    {
+      "repo": "yyyujintang/Awesome-Agent-Memory-Papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 187
+    },
+    {
+      "repo": "Calix-L/awesome-latex-skills",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 169
+    },
+    {
+      "repo": "LLMQuant/awesome-trading-agents",
+      "category": "papers",
+      "tags": [
+        "mcp",
+        "research",
+        "skills"
+      ],
+      "stars": 163
+    },
+    {
+      "repo": "EthanYolo01/Awesome-OpenClaw",
+      "category": "papers",
+      "tags": [
+        "mcp",
+        "research",
+        "security",
+        "skills"
+      ],
+      "stars": 153
+    },
+    {
+      "repo": "AgentMemoryWorld/Awesome-Agent-Memory",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 151
+    },
+    {
+      "repo": "YunjiaXi/Awesome-Search-Agent-Papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 138
+    },
+    {
+      "repo": "AmanPriyanshu/Awesome-AI-For-Security",
+      "category": "papers",
+      "tags": [
+        "research",
+        "security"
+      ],
+      "stars": 126
+    },
+    {
+      "repo": "aristoteleo/awesome-bioagent-papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 102
+    },
+    {
+      "repo": "EuniAI/awesome-code-agents",
+      "category": "papers",
+      "tags": [
+        "coding",
+        "research"
+      ],
+      "stars": 100
+    },
+    {
+      "repo": "junhua/awesome-llm-agents",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 84
+    },
+    {
+      "repo": "zjlrock777/Awesome-LLM-Agents-Scientific-Discovery",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 75
+    },
+    {
+      "repo": "jaccen/Awesome-Gaussian-Skills",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 74
+    },
+    {
+      "repo": "shizhl/Multi-Agent-Papers",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research"
+      ],
+      "stars": 72
+    },
+    {
+      "repo": "azminewasi/Awesome-LLMs-ICLR-24",
+      "category": "papers",
+      "tags": [
+        "frameworks",
+        "research",
+        "security"
+      ],
+      "stars": 70
+    },
+    {
+      "repo": "WeiChengTseng/awesome-multi-agent",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research"
+      ],
+      "stars": 65
+    },
+    {
+      "repo": "scienceaix/agentskills",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 64
+    },
+    {
+      "repo": "instadeepai/awesome-marl",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research"
+      ],
+      "stars": 58
+    },
+    {
+      "repo": "moonlarry/awesome-llm-paper-wiki",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 56
+    },
+    {
+      "repo": "qhjqhj00/awesome-agentic-search",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 56
+    },
+    {
+      "repo": "Quester-one/Awesome-LLM-Planning",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 55
+    },
+    {
+      "repo": "IBM/awesome-agentic-workflow-optimization",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 54
+    },
+    {
+      "repo": "kagnlp/Awesome-Agentic-Security",
+      "category": "papers",
+      "tags": [
+        "research",
+        "security"
+      ],
+      "stars": 44
+    },
+    {
+      "repo": "STRYXTN/awesome-ai-research-writing",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 44
+    },
+    {
+      "repo": "mira-ai-lab/awesome-mas-life",
+      "category": "papers",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 44
+    },
+    {
+      "repo": "RUCAIBox/awesome-agent-harness",
+      "category": "papers",
+      "tags": [
+        "harness",
+        "research"
+      ],
+      "stars": 42
+    },
+    {
+      "repo": "Steve2457/Awesome-RL-GUI-Agents",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 41
+    },
+    {
+      "repo": "bigai-nlco/Awesome-AI-Memory",
+      "category": "papers",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 32
+    },
+    {
+      "repo": "sstklen/infinite-gratitude",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research",
+        "skills"
+      ],
+      "stars": 31
+    },
+    {
+      "repo": "ishwarjha/claude-marketing-research-skill",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 24
+    },
+    {
+      "repo": "johnsutor/awesome-multi-agent-optimization",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research"
+      ],
+      "stars": 19
+    },
+    {
+      "repo": "cola-runner/awesome-tui-design",
+      "category": "papers",
+      "tags": [
+        "coding",
+        "research"
+      ],
+      "stars": 16
+    },
+    {
+      "repo": "REAL-Lab-NU/Awesome-OpenClaw-Papers",
+      "category": "papers",
+      "tags": [
+        "research",
+        "security",
+        "skills"
+      ],
+      "stars": 15
+    },
+    {
+      "repo": "lahavi/awesome-deerflow",
+      "category": "papers",
+      "tags": [
+        "harness",
+        "research"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "wyattowalsh/awesome-deep-research",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "Eileen19200930/Awesome-Agent-Papers",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "DataArcTech/Awesome-Agent-Skill-Papers",
+      "category": "papers",
+      "tags": [
+        "research",
+        "skills"
+      ],
+      "stars": 6
+    },
+    {
+      "repo": "xaddwell/Awesome-LLM-Agent-Memory-Safety",
+      "category": "papers",
+      "tags": [
+        "research",
+        "security"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "tfatykhov/awesome-agent-memory",
+      "category": "papers",
+      "tags": [
+        "research"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "Xinhao-Deng/awesome-self-evolving-agent-security",
+      "category": "papers",
+      "tags": [
+        "research",
+        "security"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "Dxsssu/Awesome-LLM4SecOps",
+      "category": "papers",
+      "tags": [
+        "multi-agent",
+        "research",
+        "security"
+      ],
+      "stars": 5
+    }
+  ],
+  "reasoning": [
+    {
+      "repo": "LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy",
+      "category": "reasoning",
+      "tags": [
+        "research"
+      ],
+      "stars": 296
+    },
+    {
+      "repo": "songw-zju/awesome-multimodal-agentic-reasoning",
+      "category": "reasoning",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 6
+    }
+  ],
+  "safety": [
+    {
+      "repo": "wearetyomsmnv/Awesome-LLM-agent-Security",
+      "category": "safety",
+      "tags": [
+        "security"
+      ],
+      "stars": 52
+    },
+    {
+      "repo": "ProjectRecon/awesome-ai-agents-security",
+      "category": "safety",
+      "tags": [
+        "security"
+      ],
+      "stars": 39
+    }
+  ],
+  "skills": [
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 61745
+    },
+    {
+      "repo": "VoltAgent/awesome-openclaw-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 49290
+    },
+    {
+      "repo": "google-labs-code/jules-awesome-list",
+      "category": "skills",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 3048
+    },
+    {
+      "repo": "taishi-i/awesome-ChatGPT-repositories",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 3040
+    },
+    {
+      "repo": "RKiding/Awesome-finance-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 2340
+    },
+    {
+      "repo": "EgoAlpha/prompt-in-context-learning",
+      "category": "skills",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 2236
+    },
+    {
+      "repo": "rohitg00/awesome-claude-code-toolkit",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 1816
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 1694
+    },
+    {
+      "repo": "qualisero/awesome-pi-agent",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 994
+    },
+    {
+      "repo": "taishi-i/awesome-japanese-nlp-resources",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 965
+    },
+    {
+      "repo": "bergside/awesome-design-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 951
+    },
+    {
+      "repo": "SamurAIGPT/awesome-openclaw",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 917
+    },
+    {
+      "repo": "new-silvermoon/awesome-android-agent-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 821
+    },
+    {
+      "repo": "ccplugins/awesome-claude-code-plugins",
+      "category": "skills",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 805
+    },
+    {
+      "repo": "yaklang/hack-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 789
+    },
+    {
+      "repo": "milisp/codexia",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 688
+    },
+    {
+      "repo": "ZeroLu/awesome-gemini-ai",
+      "category": "skills",
+      "tags": [
+        "coding"
+      ],
+      "stars": 680
+    },
+    {
+      "repo": "mliu98/awesome-human-distillation",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 594
+    },
+    {
+      "repo": "skillmatic-ai/awesome-agent-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 571
+    },
+    {
+      "repo": "JackyST0/awesome-agent-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 528
+    },
+    {
+      "repo": "Code-and-Sorts/awesome-copilot-agents",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 522
+    },
+    {
+      "repo": "lawve-ai/awesome-legal-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 389
+    },
+    {
+      "repo": "karanb192/awesome-claude-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 348
+    },
+    {
+      "repo": "Anil-matcha/Awesome-Gemini-Omni-API-Prompts",
+      "category": "skills",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 314
+    },
+    {
+      "repo": "JSONbored/awesome-claude",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 248
+    },
+    {
+      "repo": "Mizoreww/awesome-claude-code-config",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 231
+    },
+    {
+      "repo": "RoggeOhta/awesome-codex-cli",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "mcp",
+        "skills"
+      ],
+      "stars": 217
+    },
+    {
+      "repo": "EliFuzz/awesome-system-prompts",
+      "category": "skills",
+      "tags": [
+        "coding"
+      ],
+      "stars": 198
+    },
+    {
+      "repo": "futantan/agent-skills.md",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 189
+    },
+    {
+      "repo": "apify/awesome-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 185
+    },
+    {
+      "repo": "littleben/awesomeAgentskills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 177
+    },
+    {
+      "repo": "momozi1996/awesome-ai-persona-skills",
+      "category": "skills",
+      "tags": [
+        "multi-agent",
+        "skills"
+      ],
+      "stars": 163
+    },
+    {
+      "repo": "AIPMAndy/awesome-openclaw-skills-CN",
+      "category": "skills",
+      "tags": [
+        "chinese",
+        "coding",
+        "skills"
+      ],
+      "stars": 115
+    },
+    {
+      "repo": "itgoyo/awesome-agent-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 109
+    },
+    {
+      "repo": "jihoo-kim/awesome-context-engineering",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "multi-agent"
+      ],
+      "stars": 107
+    },
+    {
+      "repo": "finfin/awesome-frontend-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 99
+    },
+    {
+      "repo": "seb1n/awesome-ai-agent-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 91
+    },
+    {
+      "repo": "ascend-ai-coding/awesome-ascend-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 83
+    },
+    {
+      "repo": "Techopolis/awesome-ios-ai",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "mcp",
+        "skills"
+      ],
+      "stars": 82
+    },
+    {
+      "repo": "kennethlaw325/awesome-llm-knowledge-systems",
+      "category": "skills",
+      "tags": [
+        "harness",
+        "mcp",
+        "skills"
+      ],
+      "stars": 79
+    },
+    {
+      "repo": "LHL3341/awesome-claws",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "multi-agent",
+        "research",
+        "skills"
+      ],
+      "stars": 73
+    },
+    {
+      "repo": "JayLZhou/Awesome-Agent-Skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 71
+    },
+    {
+      "repo": "ZeroLu/awesome-openclaw",
+      "category": "skills",
+      "tags": [
+        "multi-agent",
+        "skills"
+      ],
+      "stars": 71
+    },
+    {
+      "repo": "kodustech/awesome-agent-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "frameworks",
+        "skills"
+      ],
+      "stars": 69
+    },
+    {
+      "repo": "CommandCodeAI/agent-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 68
+    },
+    {
+      "repo": "thienanblog/awesome-ai-agent-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 60
+    },
+    {
+      "repo": "ChuckSRQ/awesome-hermes-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 60
+    },
+    {
+      "repo": "anchildress1/awesome-github-copilot",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 60
+    },
+    {
+      "repo": "Holddrespell/r16-voltagent-awesome-agent-skills-datascience",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 58
+    },
+    {
+      "repo": "Gravityaespot/r16-voltagent-awesome-agent-skills-seo",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 56
+    },
+    {
+      "repo": "timenavigatorrage/r16-voltagent-awesome-agent-skills-security",
+      "category": "skills",
+      "tags": [
+        "security",
+        "skills"
+      ],
+      "stars": 55
+    },
+    {
+      "repo": "mythicnoteshed/r16-voltagent-awesome-agent-skills-devops",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 48
+    },
+    {
+      "repo": "BanSailmakerDitch/r16-voltagent-awesome-agent-skills-ecommerce",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 44
+    },
+    {
+      "repo": "software-ai-life/Awesome-PPT-Design-Skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 42
+    },
+    {
+      "repo": "Cognitive-Stack/awesome-one-hit-vibe-code",
+      "category": "skills",
+      "tags": [
+        "coding"
+      ],
+      "stars": 34
+    },
+    {
+      "repo": "gmh5225/awesome-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 33
+    },
+    {
+      "repo": "codeaashu/awesome-openclaw-Skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 30
+    },
+    {
+      "repo": "gimgyeon/loader-openclaw-skills",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 24
+    },
+    {
+      "repo": "shadowrootdev/awesome-agent-skills-mcp",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 23
+    },
+    {
+      "repo": "xu-xiang/awesome-top-skills",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 23
+    },
+    {
+      "repo": "shajith003/awesome-claude-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 23
+    },
+    {
+      "repo": "yigitkonur/awesome-herdr",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 18
+    },
+    {
+      "repo": "majiayu000/awesome-goal-prompts",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 18
+    },
+    {
+      "repo": "AIPMAndy/awesome-openclaw-use-cases-cn",
+      "category": "skills",
+      "tags": [
+        "chinese",
+        "multi-agent"
+      ],
+      "stars": 17
+    },
+    {
+      "repo": "Horatio-Li/awesome-cowork",
+      "category": "skills",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 13
+    },
+    {
+      "repo": "J-nowcow/awesome-korean-agent-skills",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "skills"
+      ],
+      "stars": 13
+    },
+    {
+      "repo": "charlieviettq/awesome-agent-skill",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 12
+    },
+    {
+      "repo": "rentprompts/awesome-agent-md",
+      "category": "skills",
+      "tags": [
+        "coding"
+      ],
+      "stars": 12
+    },
+    {
+      "repo": "sologuy/Awesome-OpenClaw-Memory",
+      "category": "skills",
+      "tags": [
+        "mcp",
+        "skills"
+      ],
+      "stars": 9
+    },
+    {
+      "repo": "Samarth0211/awesome-claude-skills-2026",
+      "category": "skills",
+      "tags": [
+        "skills"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "JerryLife/awesome-agent-prompt",
+      "category": "skills",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "Awakehsh/awesome-agent-tools",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "mcp",
+        "skills"
+      ],
+      "stars": 6
+    },
+    {
+      "repo": "kkeril/awesome-claude-code-agents",
+      "category": "skills",
+      "tags": [
+        "coding"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "yeaight7/agent-powerups",
+      "category": "skills",
+      "tags": [
+        "coding",
+        "mcp",
+        "skills"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "BEIBEICSY/awesome-agent-evaluator-skill",
+      "category": "skills",
+      "tags": [
+        "frameworks",
+        "skills"
+      ],
+      "stars": 5
+    }
+  ],
+  "tools": [
+    {
+      "repo": "ikaijua/Awesome-AITools",
+      "category": "tools",
+      "tags": [
+        "skills"
+      ],
+      "stars": 5963
+    },
+    {
+      "repo": "appcypher/awesome-mcp-servers",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 5565
+    },
+    {
+      "repo": "mahseema/awesome-ai-tools",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 5309
+    },
+    {
+      "repo": "AlexAnys/awesome-openclaw-usecases-zh",
+      "category": "tools",
+      "tags": [
+        "chinese"
+      ],
+      "stars": 4244
+    },
+    {
+      "repo": "liyupi/free-programming-resources",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 3522
+    },
+    {
+      "repo": "filipecalegario/awesome-generative-ai",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 3450
+    },
+    {
+      "repo": "mergisi/awesome-openclaw-agents",
+      "category": "tools",
+      "tags": [
+        "mcp",
+        "multi-agent"
+      ],
+      "stars": 3449
+    },
+    {
+      "repo": "AmoyLab/Unla",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 2120
+    },
+    {
+      "repo": "vonzosten/awesome-LangGraph",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 1815
+    },
+    {
+      "repo": "XiaomingX/indie-hacker-tools-plus",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 1690
+    },
+    {
+      "repo": "thinkwee/AgentsMeetRL",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 1425
+    },
+    {
+      "repo": "slavakurilyak/awesome-ai-agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 1387
+    },
+    {
+      "repo": "taielab/awesome-hacking-lists",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 1339
+    },
+    {
+      "repo": "Jenqyang/Awesome-AI-Agents",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 1134
+    },
+    {
+      "repo": "ai-boost/awesome-harness-engineering",
+      "category": "tools",
+      "tags": [
+        "harness",
+        "mcp"
+      ],
+      "stars": 1104
+    },
+    {
+      "repo": "AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 999
+    },
+    {
+      "repo": "rohitg00/awesome-devops-mcp-servers",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 991
+    },
+    {
+      "repo": "IAAR-Shanghai/Awesome-AI-Memory",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 910
+    },
+    {
+      "repo": "loppety/Awesome-Vibecoding-Guide",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 645
+    },
+    {
+      "repo": "Picrew/awesome-agent-harness",
+      "category": "tools",
+      "tags": [
+        "harness"
+      ],
+      "stars": 636
+    },
+    {
+      "repo": "best-of-ai/best-of-ai",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 607
+    },
+    {
+      "repo": "ai-boost/awesome-a2a",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 603
+    },
+    {
+      "repo": "maxbogo/awesome-ai-tools-for-ui",
+      "category": "tools",
+      "tags": [
+        "coding",
+        "mcp",
+        "skills"
+      ],
+      "stars": 512
+    },
+    {
+      "repo": "jun0wanan/awesome-large-multimodal-agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 491
+    },
+    {
+      "repo": "machinae/awesome-claws",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 441
+    },
+    {
+      "repo": "aarora4/Awesome-Prediction-Market-Tools",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 429
+    },
+    {
+      "repo": "kimtth/awesome-azure-openai-llm",
+      "category": "tools",
+      "tags": [
+        "coding",
+        "frameworks",
+        "harness",
+        "research",
+        "skills"
+      ],
+      "stars": 401
+    },
+    {
+      "repo": "pierpaolo28/Awesome-FDE-Roadmap",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 378
+    },
+    {
+      "repo": "leoncuhk/awesome-quant-ai",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 345
+    },
+    {
+      "repo": "alternbits/awesome-ai-newsletters",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 340
+    },
+    {
+      "repo": "kleneway/awesome-cursor-mpc-server",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 337
+    },
+    {
+      "repo": "moov-io/awesome-fintech",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 302
+    },
+    {
+      "repo": "ScarletPan/awesome-autonomous-gpt",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 283
+    },
+    {
+      "repo": "cogine-ai/awesome-openclaw-zh",
+      "category": "tools",
+      "tags": [
+        "chinese",
+        "skills"
+      ],
+      "stars": 234
+    },
+    {
+      "repo": "alvinreal/awesome-openclaw-tips",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 201
+    },
+    {
+      "repo": "pab1it0/awesome-a2a",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 173
+    },
+    {
+      "repo": "vectara/awesome-agent-failures",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 170
+    },
+    {
+      "repo": "supatest-ai/awesome-claude-code-sub-agents",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 163
+    },
+    {
+      "repo": "DirectorySurf/awesome-ai-agents-directories",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 144
+    },
+    {
+      "repo": "alternbits/awesome-ai-agents",
+      "category": "tools",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 135
+    },
+    {
+      "repo": "altengineer/awesome-ai-repositories",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 130
+    },
+    {
+      "repo": "YuanchenBei/Awesome-Graphs-Meet-Agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 129
+    },
+    {
+      "repo": "EvoMap/awesome-agent-evolution",
+      "category": "tools",
+      "tags": [
+        "frameworks",
+        "mcp",
+        "multi-agent",
+        "skills"
+      ],
+      "stars": 127
+    },
+    {
+      "repo": "mengysun/DataParasite",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 102
+    },
+    {
+      "repo": "OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 92
+    },
+    {
+      "repo": "Shiy-Li/Awesome-Graph-augmented-LLM-Agent",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 73
+    },
+    {
+      "repo": "usail-hkust/Awesome-Urban-LLM-Agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 71
+    },
+    {
+      "repo": "last9/awesome-sre-agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 64
+    },
+    {
+      "repo": "WanLanglin/-awesome-cc-harness",
+      "category": "tools",
+      "tags": [
+        "coding",
+        "harness"
+      ],
+      "stars": 54
+    },
+    {
+      "repo": "no-fluff/awesome-vibe-coding",
+      "category": "tools",
+      "tags": [
+        "coding",
+        "mcp"
+      ],
+      "stars": 54
+    },
+    {
+      "repo": "nageoffer/awesome-ai-handbook",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 51
+    },
+    {
+      "repo": "AIRicky/Awesome-Reinforcement-Learning",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 39
+    },
+    {
+      "repo": "GalaxyXieyu/Awesome-Langgraph-Learn",
+      "category": "tools",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 37
+    },
+    {
+      "repo": "ankitmundada/awesome-gemini-cli-subagents",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 33
+    },
+    {
+      "repo": "Andrewzh112/Awesome-LLM-based-MultiAgents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 27
+    },
+    {
+      "repo": "karozi/Awesome-Vibecoding-and-Speccoding-Resources",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 27
+    },
+    {
+      "repo": "vince-lam/awesome-agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 26
+    },
+    {
+      "repo": "questflowai/awesome-a2a-hub",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 26
+    },
+    {
+      "repo": "lizhe2004/awesome-llm-agent",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 24
+    },
+    {
+      "repo": "bupt-ai-club/awesomeProject",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 23
+    },
+    {
+      "repo": "arjan/awesome-agent-sandboxes",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 23
+    },
+    {
+      "repo": "IcyFeather233/Awesome-LLM-Agent-Trajectory-Analysis",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 22
+    },
+    {
+      "repo": "chengjl19/awesome-agent-harness-notes",
+      "category": "tools",
+      "tags": [
+        "harness"
+      ],
+      "stars": 18
+    },
+    {
+      "repo": "tairov/awesome-agents.md",
+      "category": "tools",
+      "tags": [
+        "coding"
+      ],
+      "stars": 18
+    },
+    {
+      "repo": "Chat2AnyLLM/awesome-claude-agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 14
+    },
+    {
+      "repo": "zcweah1981/awesome-hermes-agent-zh",
+      "category": "tools",
+      "tags": [
+        "chinese",
+        "mcp",
+        "multi-agent",
+        "skills"
+      ],
+      "stars": 14
+    },
+    {
+      "repo": "zjwu0522/Awesome-LLM-Agent",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 13
+    },
+    {
+      "repo": "dyronrh/awesome-agentops-landscape",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 12
+    },
+    {
+      "repo": "AI-Hub-Admin/AutoAgent",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 12
+    },
+    {
+      "repo": "taiyangc/awesome-web3-ai-agents",
+      "category": "tools",
+      "tags": [
+        "frameworks"
+      ],
+      "stars": 11
+    },
+    {
+      "repo": "Salesably/awesome-ai-agents-for-sales",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 11
+    },
+    {
+      "repo": "qhy991/Awesome-LLM-Kernel-Agent",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "cxxz/awesome-agent-memory",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 10
+    },
+    {
+      "repo": "ZFancy/awesome-agent-memory",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 8
+    },
+    {
+      "repo": "HA2345567/awesome-autonomus-ai-agents",
+      "category": "tools",
+      "tags": [
+        "coding",
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 7
+    },
+    {
+      "repo": "tusharjadhav124/awesome-vibe-coding-tools",
+      "category": "tools",
+      "tags": [
+        "coding",
+        "mcp"
+      ],
+      "stars": 6
+    },
+    {
+      "repo": "FelipeDaza7/swarm-tools",
+      "category": "tools",
+      "tags": [
+        "frameworks",
+        "multi-agent"
+      ],
+      "stars": 6
+    },
+    {
+      "repo": "agentcasa/awesome-llm-agent",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "yh-yao/awesome-rl-ai-agents",
+      "category": "tools",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 5
+    },
+    {
+      "repo": "ZoroSola55/awesome-a2a",
+      "category": "tools",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 5
+    }
+  ],
+  "ui": [
+    {
+      "repo": "kzhrknt/awesome-design-md-jp",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 696
+    },
+    {
+      "repo": "crewAIInc/awesome-crewai",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 495
+    },
+    {
+      "repo": "haoruilee/awesome-agent-native-services",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 338
+    },
+    {
+      "repo": "mahimairaja/voiceai",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 274
+    },
+    {
+      "repo": "HU-UH/awesome-design-md",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 209
+    },
+    {
+      "repo": "microxxx/awesome-langchain-zh",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 139
+    },
+    {
+      "repo": "pengshuang/Awesome-Agent-Projects",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 58
+    },
+    {
+      "repo": "looptech-ai/understand-quickly",
+      "category": "ui",
+      "tags": [
+        "mcp"
+      ],
+      "stars": 29
+    },
+    {
+      "repo": "minruixu/Awesome-LLM-Agent-Cyberattacks",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 8
+    },
+    {
+      "repo": "freddyaboulton/awesome-gradio-agents",
+      "category": "ui",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 5
+    }
+  ],
+  "workflow": [
+    {
+      "repo": "WangHrYii/Awesome-Agentic-Workflow",
+      "category": "workflow",
+      "tags": [
+        "auto-discovered"
+      ],
+      "stars": 6
+    },
+    {
+      "repo": "labclaw/awesome-physical-ai-for-science",
+      "category": "workflow",
+      "tags": [
+        "multi-agent"
+      ],
+      "stars": 5
+    }
+  ]
+}
