@@ -21,7 +21,6 @@
   --accent-4: #10b981;
   --shadow: 0 4px 24px rgba(15,23,42,0.08);
   --shadow-hover: 0 12px 40px rgba(15,23,42,0.14);
-  --col-w: 300px;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -129,28 +128,21 @@ body {
 }
 .sort-toggle button.active { background: var(--accent); color: #fff; }
 
-/* Board: the multi-column container */
+/* Board: two columns per row, vertical scroll */
 .board-wrap {
   position: relative; z-index: 1;
-  padding: 16px;
-  height: calc(100vh - 56px); /* minus header height */
-  overflow: hidden;
+  padding: 20px 24px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .board {
-  display: flex;
-  gap: 12px;
-  height: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding-bottom: 8px;
-  scroll-snap-type: x proximity;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 /* Column */
 .column {
-  flex: 0 0 var(--col-w);
-  width: var(--col-w);
-  min-width: var(--col-w);
   display: flex;
   flex-direction: column;
   background: rgba(255,255,255,0.30);
@@ -158,8 +150,8 @@ body {
   border: 1px solid var(--border);
   border-radius: 18px;
   overflow: hidden;
-  scroll-snap-align: start;
   transition: box-shadow 0.3s ease;
+  max-height: 600px;
 }
 .column:hover { box-shadow: 0 4px 24px rgba(15,23,42,0.08); }
 
@@ -195,6 +187,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  min-height: 0;
 }
 
 /* Repo card in column */
@@ -294,10 +287,10 @@ body {
 /* Mobile */
 @media (max-width: 768px) {
   .header { padding: 10px 16px; }
-  .header-inner { gap: 8px; }
+  .header-inner { gap: 8px; flex-wrap: wrap; }
   .header h1 { font-size: 18px; }
-  .board-wrap { padding: 8px; height: calc(100vh - 52px); }
-  .column { flex: 0 0 280px; width: 280px; min-width: 280px; }
+  .board-wrap { padding: 8px; }
+  .board { grid-template-columns: 1fr; }
   .search-box { min-width: 140px; }
 }
 </style>
