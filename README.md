@@ -3,6 +3,8 @@
   <img src="https://img.shields.io/github/stars/greasebig/awesome-agent-everything?style=for-the-badge" alt="Stars"/>
   <img src="https://img.shields.io/github/last-commit/greasebig/awesome-agent-everything?style=for-the-badge" alt="Last Commit"/>
   <br/>
+  <a href="https://greasebig.github.io/awesome-agent-everything"><strong>🌐 Website / 在线浏览</strong></a>
+  <br/>
   <em>A curated index of ALL awesome agent-related repositories on GitHub</em><br/>
   <em>聚合 GitHub 上所有 Agent 相关的 Awesome 仓库索引</em>
 </p>
