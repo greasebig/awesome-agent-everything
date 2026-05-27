@@ -293,9 +293,177 @@ body {
   .board { grid-template-columns: 1fr; }
   .search-box { min-width: 140px; }
 }
+
+/* ========== 开屏动画：网络节点脉冲扩散 ========== */
+.agent-splash {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(175deg, #f8f9ff, #f0f2fe 40%, #f5f3ff 70%, #faf9fe);
+  pointer-events: all;
+  overflow: hidden;
+}
+.agent-splash.fade-out {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+  pointer-events: none;
+}
+.agent-splash canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.splash-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.splash-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 5vw, 52px);
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--ink) 30%, #4338ca 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: agentTitleIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.8s forwards;
+}
+.splash-content p {
+  font-size: 16px;
+  color: var(--muted);
+  margin-top: 8px;
+  opacity: 0;
+  animation: agentSubIn 0.5s ease-out 1.3s forwards;
+}
+.splash-ring {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(99,102,241,0.3);
+  border-radius: 50%;
+  opacity: 0;
+  animation: ringPulse 1.2s ease-out forwards;
+}
+.splash-ring:nth-child(1) { width: 80px; height: 80px; animation-delay: 0.3s; }
+.splash-ring:nth-child(2) { width: 160px; height: 160px; animation-delay: 0.5s; }
+.splash-ring:nth-child(3) { width: 260px; height: 260px; animation-delay: 0.7s; }
+@keyframes ringPulse {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.3); }
+  50% { opacity: 0.6; }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes agentTitleIn {
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes agentSubIn {
+  to { opacity: 1; }
+}
 </style>
 </head>
 <body>
+
+<!-- 开屏动画：网络节点脉冲扩散 -->
+<div class="agent-splash" id="agentSplash">
+  <div class="splash-ring"></div>
+  <div class="splash-ring"></div>
+  <div class="splash-ring"></div>
+  <canvas id="splashCanvas"></canvas>
+  <div class="splash-content">
+    <h2>Agent Index</h2>
+    <p>Connecting the AI agent ecosystem</p>
+  </div>
+</div>
+
+<script>
+// Agent splash animation - network pulse
+(function() {
+  const canvas = document.getElementById('splashCanvas');
+  const ctx = canvas.getContext('2d');
+  const splash = document.getElementById('agentSplash');
+
+  let W, H, nodes = [], edges = [], frame = 0;
+
+  function resize() {
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // Generate random nodes
+  const nodeCount = 30;
+  for (let i = 0; i < nodeCount; i++) {
+    nodes.push({
+      x: Math.random() * W,
+      y: Math.random() * H,
+      r: 3 + Math.random() * 4,
+      delay: Math.random() * 40,
+      opacity: 0
+    });
+  }
+
+  // Generate edges between nearby nodes
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      const dx = nodes[i].x - nodes[j].x;
+      const dy = nodes[i].y - nodes[j].y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < 250) {
+        edges.push({ from: i, to: j, delay: Math.random() * 50, opacity: 0 });
+      }
+    }
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    frame++;
+
+    // Draw edges
+    edges.forEach(e => {
+      if (frame > e.delay) e.opacity = Math.min(1, e.opacity + 0.03);
+      const a = nodes[e.from], b = nodes[e.to];
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.strokeStyle = `rgba(99,102,241,${e.opacity * 0.25})`;
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    });
+
+    // Draw nodes
+    nodes.forEach(n => {
+      if (frame > n.delay) n.opacity = Math.min(1, n.opacity + 0.04);
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(99,102,241,${n.opacity * 0.6})`;
+      ctx.fill();
+      // Glow
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.r + 4, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(99,102,241,${n.opacity * 0.12})`;
+      ctx.fill();
+    });
+
+    if (frame < 120) {
+      requestAnimationFrame(draw);
+    }
+  }
+  draw();
+
+  // Fade out
+  setTimeout(() => {
+    splash.classList.add('fade-out');
+    setTimeout(() => splash.remove(), 600);
+  }, 2600);
+})();
+</script>
 
 <!-- Orbs -->
 <div class="orb orb-1"></div>
