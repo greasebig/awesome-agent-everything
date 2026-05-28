@@ -1,674 +1,1348 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Awesome Agent Everything</title>
+
 <meta name="description" content="A curated index of ALL awesome agent-related repositories on GitHub. 聚合 GitHub 上所有 Agent 相关的 Awesome 仓库索引。">
+
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='url(%23g)'/><defs><linearGradient id='g' x1='0' y1='0' x2='64' y2='64'><stop offset='0%25' stop-color='%236366f1'/><stop offset='100%25' stop-color='%23ec4899'/></linearGradient></defs><text x='32' y='44' font-family='system-ui' font-size='32' font-weight='700' fill='white' text-anchor='middle'>A</text></svg>">
+
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
 
+
+
 :root {
+
   --ink: #1a1a2e;
+
   --muted: #5a6075;
+
   --glass: rgba(255,255,255,0.58);
+
   --glass-hover: rgba(255,255,255,0.78);
+
   --border: rgba(18,22,40,0.10);
+
   --accent: #6366f1;
+
   --accent-2: #ec4899;
+
   --accent-3: #f59e0b;
+
   --accent-4: #10b981;
+
   --shadow: 0 4px 24px rgba(15,23,42,0.08);
+
   --shadow-hover: 0 12px 40px rgba(15,23,42,0.14);
+
 }
+
+
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 html { scroll-behavior: smooth; }
 
+
+
 body {
+
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
   color: var(--ink);
+
   line-height: 1.6;
+
   background:
+
     radial-gradient(800px 500px at 15% 0%, rgba(99,102,241,0.13), transparent 50%),
+
     radial-gradient(700px 450px at 85% 10%, rgba(236,72,153,0.10), transparent 50%),
+
     radial-gradient(600px 400px at 50% 80%, rgba(16,185,129,0.08), transparent 50%),
+
     linear-gradient(175deg, #f8f9ff, #f0f2fe 40%, #f5f3ff 70%, #faf9fe);
+
   background-attachment: fixed;
+
   min-height: 100vh;
+
   overflow-x: hidden;
+
 }
+
+
 
 ::-webkit-scrollbar { width: 6px; height: 6px; }
+
 ::-webkit-scrollbar-track { background: transparent; }
+
 ::-webkit-scrollbar-thumb { background: rgba(99,102,241,0.25); border-radius: 3px; }
+
 ::-webkit-scrollbar-thumb:hover { background: rgba(99,102,241,0.4); }
 
+
+
 /* Orbs */
+
 .orb { position: fixed; border-radius: 50%; filter: blur(60px); pointer-events: none; z-index: 0; }
+
 .orb-1 { width: 360px; height: 360px; left: -100px; top: -80px; background: rgba(99,102,241,0.35); animation: drift 12s ease-in-out infinite; }
+
 .orb-2 { width: 280px; height: 280px; right: -60px; top: 200px; background: rgba(236,72,153,0.28); animation: drift 14s ease-in-out infinite 2s; }
+
 .orb-3 { width: 240px; height: 240px; left: 40%; bottom: -80px; background: rgba(16,185,129,0.22); animation: drift 16s ease-in-out infinite 4s; }
+
 .orb-4 { width: 200px; height: 200px; right: 20%; bottom: 100px; background: rgba(245,158,11,0.20); animation: drift 11s ease-in-out infinite 3s; }
 
+
+
 @keyframes drift {
+
   0%, 100% { transform: translate(0,0) scale(1); }
+
   25% { transform: translate(20px,-15px) scale(1.05); }
+
   50% { transform: translate(-10px,10px) scale(0.95); }
+
   75% { transform: translate(15px,5px) scale(1.02); }
+
 }
+
+
 
 /* Particle Canvas */
+
 #particles { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
 
+
+
 /* Header (sticky) */
+
 .header {
+
   position: sticky; top: 0; z-index: 20;
+
   background: rgba(248,249,255,0.75);
+
   backdrop-filter: blur(20px);
+
   border-bottom: 1px solid var(--border);
+
   padding: 12px 24px;
+
 }
+
 .header-inner {
+
   max-width: 100%; margin: 0 auto;
+
   display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+
 }
+
 .header h1 {
+
   font-family: 'Playfair Display', serif;
+
   font-size: 22px; font-weight: 700; white-space: nowrap;
+
   background: linear-gradient(135deg, var(--ink) 30%, #4338ca 70%);
+
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+
 }
+
 .header .badge {
+
   display: inline-flex; align-items: center; gap: 6px;
+
   background: var(--glass); border: 1px solid var(--border);
+
   border-radius: 999px; padding: 4px 12px; font-size: 11px;
+
   font-weight: 500; color: var(--accent); white-space: nowrap;
+
 }
+
 .header .badge .dot {
+
   width: 6px; height: 6px; border-radius: 50%; background: var(--accent-4);
+
   animation: pulse 2s ease-in-out infinite;
+
 }
+
+
 
 /* Search in header */
+
 .search-box {
+
   flex: 1; min-width: 200px; max-width: 400px; position: relative;
+
 }
+
 .search-box svg {
+
   position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+
   width: 16px; height: 16px; color: var(--muted);
+
 }
+
 .search-box input {
+
   width: 100%; padding: 8px 12px 8px 36px;
+
   border-radius: 12px; background: var(--glass);
+
   backdrop-filter: blur(18px); border: 1px solid var(--border);
+
   font-size: 13px; font-family: inherit; color: var(--ink); outline: none;
+
   transition: all 0.3s ease;
+
 }
+
 .search-box input::placeholder { color: var(--muted); }
+
 .search-box input:focus {
+
   background: var(--glass-hover); border-color: rgba(99,102,241,0.3);
+
   box-shadow: 0 0 0 3px rgba(99,102,241,0.1);
+
 }
+
 .search-box .count {
+
   position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+
   font-size: 11px; color: var(--muted); font-weight: 500;
+
 }
+
+
 
 /* Sort toggle */
+
 .sort-toggle {
+
   display: flex; gap: 2px; background: var(--glass);
+
   border-radius: 8px; border: 1px solid var(--border); overflow: hidden;
+
 }
+
 .sort-toggle button {
+
   padding: 5px 10px; font-size: 11px; font-weight: 600;
+
   border: none; background: transparent; color: var(--muted); cursor: pointer;
+
   transition: all 0.2s ease; font-family: inherit;
+
 }
+
 .sort-toggle button.active { background: var(--accent); color: #fff; }
 
+
+
 /* Board: two columns per row, vertical scroll */
+
 .board-wrap {
+
   position: relative; z-index: 1;
+
   padding: 20px 24px 60px;
+
   max-width: 1400px;
+
   margin: 0 auto;
+
 }
+
 .board {
+
   display: grid;
+
   grid-template-columns: 1fr 1fr;
+
   gap: 20px;
+
 }
+
+
 
 /* Column */
+
 .column {
+
   display: flex;
+
   flex-direction: column;
+
   background: rgba(255,255,255,0.30);
+
   backdrop-filter: blur(14px);
+
   border: 1px solid var(--border);
+
   border-radius: 18px;
+
   overflow: hidden;
+
   transition: box-shadow 0.3s ease;
+
   max-height: 600px;
+
 }
+
 .column:hover { box-shadow: 0 4px 24px rgba(15,23,42,0.08); }
 
+
+
 .col-header {
+
   padding: 14px 16px 10px;
+
   border-bottom: 1px solid var(--border);
+
   position: sticky; top: 0; z-index: 2;
+
   background: rgba(255,255,255,0.55);
+
   backdrop-filter: blur(16px);
+
 }
+
 .col-header .col-title {
+
   display: flex; align-items: center; gap: 8px;
+
 }
+
 .col-header .col-icon { font-size: 18px; }
+
 .col-header .col-name {
+
   font-size: 14px; font-weight: 700; color: var(--ink);
+
 }
+
 .col-header .col-name-zh {
+
   font-size: 11px; font-weight: 400; color: var(--muted); margin-left: 4px;
+
 }
+
 .col-header .col-cnt {
+
   font-size: 11px; font-weight: 600;
+
   background: rgba(99,102,241,0.10); color: var(--accent);
+
   padding: 2px 8px; border-radius: 999px; margin-left: auto;
+
 }
+
+
 
 /* Column body (scrollable) */
+
 .col-body {
+
   flex: 1;
+
   overflow-y: auto;
+
   overflow-x: hidden;
+
   padding: 8px;
+
   display: flex;
+
   flex-direction: column;
+
   gap: 6px;
+
   min-height: 0;
+
 }
+
+
 
 /* Repo card in column */
+
 .repo-card {
+
   display: block;
+
   padding: 12px 12px 10px;
+
   border-radius: 12px;
+
   background: var(--glass);
+
   border: 1px solid var(--border);
+
   text-decoration: none; color: inherit;
+
   transition: all 0.25s ease;
+
   position: relative; overflow: hidden;
+
   flex-shrink: 0;
+
 }
+
 .repo-card::before {
+
   content: '';
+
   position: absolute; top: 0; left: 0; right: 0; height: 3px;
+
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
+
   transform: scaleX(0); transition: transform 0.3s ease; transform-origin: left;
+
 }
+
 .repo-card:hover::before { transform: scaleX(1); }
+
 .repo-card:hover {
+
   background: var(--glass-hover);
+
   transform: translateY(-2px);
+
   box-shadow: var(--shadow-hover);
+
 }
+
 .repo-card .top {
+
   display: flex; align-items: center; justify-content: space-between; gap: 6px;
+
 }
+
 .repo-card .name {
+
   font-size: 13px; font-weight: 600; color: var(--ink);
+
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; min-width: 0;
+
 }
+
 .repo-card .name .owner { color: var(--muted); font-weight: 400; }
+
 .repo-card .stars {
+
   display: inline-flex; align-items: center; gap: 3px;
+
   font-size: 12px; font-weight: 600; color: var(--accent-3); flex-shrink: 0;
+
 }
+
 .repo-card .stars svg { width: 12px; height: 12px; fill: var(--accent-3); }
+
 .repo-card .desc {
+
   font-size: 12px; color: var(--muted); line-height: 1.5; margin-top: 4px;
+
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+
 }
+
 .repo-card .tags {
+
   display: flex; gap: 3px; flex-wrap: wrap; margin-top: 6px;
+
 }
+
 .repo-card .tag {
+
   font-size: 9px; font-weight: 600; letter-spacing: 0.2px;
+
   padding: 1px 6px; border-radius: 999px; text-transform: lowercase;
+
 }
+
+
 
 /* Tag colors */
+
 .tag-frameworks { background: rgba(99,102,241,0.10); color: #4f46e5; }
+
 .tag-papers { background: rgba(236,72,153,0.10); color: #db2777; }
+
 .tag-skills { background: rgba(245,158,11,0.12); color: #d97706; }
+
 .tag-tools { background: rgba(16,185,129,0.10); color: #059669; }
+
 .tag-mcp { background: rgba(139,92,246,0.10); color: #7c3aed; }
+
 .tag-harness { background: rgba(6,182,212,0.10); color: #0891b2; }
+
 .tag-coding { background: rgba(59,130,246,0.10); color: #2563eb; }
+
 .tag-safety { background: rgba(239,68,68,0.10); color: #dc2626; }
+
 .tag-multi-agent { background: rgba(168,85,247,0.10); color: #9333ea; }
+
 .tag-evaluation { background: rgba(20,184,166,0.10); color: #0d9488; }
+
 .tag-domain { background: rgba(249,115,22,0.10); color: #c2410c; }
+
 .tag-ui { background: rgba(236,72,153,0.10); color: #db2777; }
+
 .tag-workflow { background: rgba(34,197,94,0.10); color: #16a34a; }
+
 .tag-reasoning { background: rgba(99,102,241,0.10); color: #4f46e5; }
+
 .tag-meta { background: rgba(107,114,128,0.10); color: #4b5563; }
 
+
+
 /* No results */
+
 .no-results {
+
   display: none; text-align: center; padding: 60px 20px;
+
   color: var(--muted); font-size: 15px;
+
 }
+
 .no-results .emoji { font-size: 40px; margin-bottom: 12px; }
 
+
+
 /* Back to top */
+
 .back-top {
+
   position: fixed; bottom: 24px; right: 24px;
+
   width: 40px; height: 40px; border-radius: 12px;
+
   background: var(--glass); backdrop-filter: blur(18px);
+
   border: 1px solid var(--border);
+
   display: flex; align-items: center; justify-content: center;
+
   cursor: pointer; z-index: 10;
+
   opacity: 0; transform: translateY(12px);
+
   transition: all 0.3s ease; box-shadow: var(--shadow);
+
 }
+
 .back-top.visible { opacity: 1; transform: translateY(0); }
+
 .back-top:hover { background: var(--glass-hover); box-shadow: var(--shadow-hover); }
+
 .back-top svg { width: 18px; height: 18px; color: var(--accent); }
 
+
+
 /* Animations */
+
 @keyframes pulse {
+
   0%, 100% { opacity: 1; transform: scale(1); }
+
   50% { opacity: 0.4; transform: scale(0.8); }
+
 }
+
+
 
 /* Mobile */
+
 @media (max-width: 768px) {
+
   .header { padding: 10px 16px; }
+
   .header-inner { gap: 8px; flex-wrap: wrap; }
+
   .header h1 { font-size: 18px; }
+
   .board-wrap { padding: 8px; }
+
   .board { grid-template-columns: 1fr; }
+
   .search-box { min-width: 140px; }
+
 }
+
+
 
 /* ========== 开屏动画：网络节点脉冲扩散 ========== */
+
 .agent-splash {
+
   position: fixed;
+
   top: 0; left: 0;
+
   width: 100%; height: 100%;
+
   z-index: 10000;
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
   background: linear-gradient(175deg, #f8f9ff, #f0f2fe 40%, #f5f3ff 70%, #faf9fe);
+
   pointer-events: all;
+
   overflow: hidden;
+
 }
+
 .agent-splash.fade-out {
+
   opacity: 0;
+
   transition: opacity 0.6s ease-out;
+
   pointer-events: none;
+
 }
+
 .agent-splash canvas {
+
   position: absolute;
+
   inset: 0;
+
   width: 100%;
+
   height: 100%;
+
 }
+
 .splash-content {
+
   position: relative;
+
   z-index: 2;
+
   text-align: center;
+
 }
+
 .splash-content h2 {
+
   font-family: 'Playfair Display', serif;
+
   font-size: clamp(28px, 5vw, 52px);
+
   font-weight: 700;
+
   background: linear-gradient(135deg, var(--ink) 30%, #4338ca 70%);
+
   -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
+
   background-clip: text;
+
   opacity: 0;
+
   transform: scale(0.8);
+
   animation: agentTitleIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.8s forwards;
+
 }
+
 .splash-content p {
+
   font-size: 16px;
+
   color: var(--muted);
+
   margin-top: 8px;
+
   opacity: 0;
+
   animation: agentSubIn 0.5s ease-out 1.3s forwards;
+
 }
+
 .splash-ring {
+
   position: absolute;
+
   top: 50%; left: 50%;
+
   transform: translate(-50%, -50%);
+
   border: 2px solid rgba(99,102,241,0.3);
+
   border-radius: 50%;
+
   opacity: 0;
+
   animation: ringPulse 1.2s ease-out forwards;
+
 }
+
 .splash-ring:nth-child(1) { width: 80px; height: 80px; animation-delay: 0.3s; }
+
 .splash-ring:nth-child(2) { width: 160px; height: 160px; animation-delay: 0.5s; }
+
 .splash-ring:nth-child(3) { width: 260px; height: 260px; animation-delay: 0.7s; }
+
 @keyframes ringPulse {
+
   0% { opacity: 0; transform: translate(-50%, -50%) scale(0.3); }
+
   50% { opacity: 0.6; }
+
   100% { opacity: 0; transform: translate(-50%, -50%) scale(1); }
+
 }
+
 @keyframes agentTitleIn {
+
   to { opacity: 1; transform: scale(1); }
+
 }
+
 @keyframes agentSubIn {
+
   to { opacity: 1; }
+
 }
+
 </style>
+
 </head>
+
 <body>
 
+
+
 <!-- 开屏动画：网络节点脉冲扩散 -->
+
 <div class="agent-splash" id="agentSplash">
+
   <div class="splash-ring"></div>
+
   <div class="splash-ring"></div>
+
   <div class="splash-ring"></div>
+
   <canvas id="splashCanvas"></canvas>
+
   <div class="splash-content">
+
     <h2>Agent Index</h2>
+
     <p>Connecting the AI agent ecosystem</p>
+
   </div>
+
 </div>
 
+
+
 <script>
+
 // Agent splash animation - network pulse
+
 (function() {
+
   const canvas = document.getElementById('splashCanvas');
+
   const ctx = canvas.getContext('2d');
+
   const splash = document.getElementById('agentSplash');
+
+
 
   let W, H, nodes = [], edges = [], frame = 0;
 
+
+
   function resize() {
+
     W = canvas.width = window.innerWidth;
+
     H = canvas.height = window.innerHeight;
+
   }
+
   resize();
+
   window.addEventListener('resize', resize);
 
+
+
   // Generate random nodes
+
   const nodeCount = 30;
+
   for (let i = 0; i < nodeCount; i++) {
+
     nodes.push({
+
       x: Math.random() * W,
+
       y: Math.random() * H,
+
       r: 3 + Math.random() * 4,
+
       delay: Math.random() * 40,
+
       opacity: 0
+
     });
+
   }
+
+
 
   // Generate edges between nearby nodes
+
   for (let i = 0; i < nodes.length; i++) {
+
     for (let j = i + 1; j < nodes.length; j++) {
+
       const dx = nodes[i].x - nodes[j].x;
+
       const dy = nodes[i].y - nodes[j].y;
+
       const dist = Math.sqrt(dx * dx + dy * dy);
+
       if (dist < 250) {
+
         edges.push({ from: i, to: j, delay: Math.random() * 50, opacity: 0 });
+
       }
+
     }
+
   }
+
+
 
   function draw() {
+
     ctx.clearRect(0, 0, W, H);
+
     frame++;
 
+
+
     // Draw edges
+
     edges.forEach(e => {
+
       if (frame > e.delay) e.opacity = Math.min(1, e.opacity + 0.03);
+
       const a = nodes[e.from], b = nodes[e.to];
+
       ctx.beginPath();
+
       ctx.moveTo(a.x, a.y);
+
       ctx.lineTo(b.x, b.y);
+
       ctx.strokeStyle = `rgba(99,102,241,${e.opacity * 0.25})`;
+
       ctx.lineWidth = 1;
+
       ctx.stroke();
+
     });
+
+
 
     // Draw nodes
+
     nodes.forEach(n => {
+
       if (frame > n.delay) n.opacity = Math.min(1, n.opacity + 0.04);
+
       ctx.beginPath();
+
       ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+
       ctx.fillStyle = `rgba(99,102,241,${n.opacity * 0.6})`;
+
       ctx.fill();
+
       // Glow
+
       ctx.beginPath();
+
       ctx.arc(n.x, n.y, n.r + 4, 0, Math.PI * 2);
+
       ctx.fillStyle = `rgba(99,102,241,${n.opacity * 0.12})`;
+
       ctx.fill();
+
     });
 
+
+
     if (frame < 120) {
+
       requestAnimationFrame(draw);
+
     }
+
   }
+
   draw();
 
+
+
   // Fade out
+
   setTimeout(() => {
+
     splash.classList.add('fade-out');
+
     setTimeout(() => splash.remove(), 600);
+
   }, 2600);
+
 })();
+
 </script>
 
+
+
 <!-- Orbs -->
+
 <div class="orb orb-1"></div>
+
 <div class="orb orb-2"></div>
+
 <div class="orb orb-3"></div>
+
 <div class="orb orb-4"></div>
 
+
+
 <!-- Particles -->
+
 <canvas id="particles"></canvas>
 
+
+
 <!-- Sticky Header -->
+
 <header class="header">
+
   <div class="header-inner">
+
     <h1>Awesome Agent Everything</h1>
+
     <div class="badge"><span class="dot"></span>Updated every 3 days</div>
+
     <div class="search-box">
+
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+
       <input type="text" id="searchInput" placeholder="Search repos, tags..." autocomplete="off">
+
       <span class="count" id="resultCount"></span>
+
     </div>
+
     <div class="sort-toggle">
+
       <button class="active" data-sort="stars" onclick="setSort('stars')">⭐ Stars</button>
+
       <button data-sort="name" onclick="setSort('name')">A-Z</button>
+
     </div>
+
     <a href="https://github.com/greasebig/awesome-agent-everything" target="_blank" style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;white-space:nowrap;">
+
       <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+
       GitHub
+
     </a>
+
   </div>
+
 </header>
 
+
+
 <!-- Board -->
+
 <div class="board-wrap">
+
   <div class="board" id="board"></div>
+
   <div class="no-results" id="noResults">
+
     <div class="emoji">🔍</div>
+
     <p>No repos found.</p>
+
   </div>
+
 </div>
+
+
 
 <!-- Back to Top -->
+
 <div class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m18 15-6-6-6 6"/></svg>
+
 </div>
 
+
+
 <script>
+
 const CAT_META = {
+
   frameworks: { icon: '🌟', label: 'Frameworks', labelZh: '框架与平台' },
+
   papers: { icon: '🧠', label: 'Papers', labelZh: '论文与研究' },
+
   skills: { icon: '⚡', label: 'Skills', labelZh: '技能与提示词' },
+
   tools: { icon: '🔧', label: 'Tools', labelZh: '工具与基础设施' },
+
   mcp: { icon: '🌐', label: 'MCP', labelZh: '模型上下文协议' },
+
   harness: { icon: '🏗️', label: 'Harness', labelZh: 'Harness 工程' },
+
   coding: { icon: '💻', label: 'Coding', labelZh: '编程 Agent' },
+
   safety: { icon: '🔒', label: 'Safety', labelZh: '安全' },
+
   'multi-agent': { icon: '🤖', label: 'Multi-Agent', labelZh: '多 Agent 系统' },
+
   evaluation: { icon: '📊', label: 'Evaluation', labelZh: '评估与基准' },
+
   domain: { icon: '🎯', label: 'Domain', labelZh: '领域特定' },
+
   ui: { icon: '📱', label: 'UI', labelZh: '界面与交互' },
+
   workflow: { icon: '🔄', label: 'Workflow', labelZh: '工作流与自动化' },
+
   reasoning: { icon: '📚', label: 'Reasoning', labelZh: '推理与规划' },
+
   meta: { icon: '🗂️', label: 'Meta', labelZh: '元索引与聚合器' },
+
 };
+
+
 
 const CAT_ORDER = ['skills','frameworks','papers','tools','mcp','coding','harness','multi-agent','safety','ui','evaluation','domain','workflow','reasoning','meta'];
 
+
+
 const REPOS = [{"r":"e2b-dev/awesome-ai-agents","c":"frameworks","s":0,"d":"","t":["autonomous-agents","open-source","closed-source"]},{"r":"kyrolabs/awesome-agents","c":"frameworks","s":0,"d":"","t":["agent-list","curated"]},{"r":"jim-schwoebel/awesome_ai_agents","c":"frameworks","s":0,"d":"","t":["comprehensive","tutorials","tools"]},{"r":"kaushikb11/awesome-llm-agents","c":"frameworks","s":0,"d":"","t":["llm-agents","frameworks"]},{"r":"AgentSpaceAI/Awesome-Agent-Framework","c":"frameworks","s":0,"d":"","t":["multi-framework","crewai","langchain","autogen"]},{"r":"caramaschiHG/awesome-ai-agents-2026","c":"frameworks","s":0,"d":"","t":[2026,"monthly-updated","340-plus"]},{"r":"korchasa/awesome-ai-agents","c":"frameworks","s":0,"d":"","t":["auto-compiled","config-driven"]},{"r":"luo-junyu/Awesome-Agent-Papers","c":"papers","s":0,"d":"","t":["research","papers","construction","collaboration","evaluation"]},{"r":"hyp1231/awesome-llm-powered-agent","c":"papers","s":0,"d":"","t":["llm-powered","research"]},{"r":"hijkzzz/Awesome-LLM-Strawberry","c":"papers","s":0,"d":"","t":["reasoning","o1","strawberry"]},{"r":"VoltAgent/awesome-agent-skills","c":"skills","s":0,"d":"","t":["skills","claude-code","codex","gemini-cli","cursor"]},{"r":"sickn33/antigravity-awesome-skills","c":"skills","s":0,"d":"","t":["skills","1400-plus","claude-code","cursor","codex"]},{"r":"heilcheng/awesome-agent-skills","c":"skills","s":0,"d":"","t":["skills","tutorials","directories","23k-skills"]},{"r":"libukai/awesome-agent-skills","c":"skills","s":0,"d":"","t":["skills","chinese","quickstart","toolkit"]},{"r":"Prat011/awesome-llm-skills","c":"skills","s":0,"d":"","t":["skills","llm","cross-platform"]},{"r":"xixu-me/awesome-persona-distill-skills","c":"skills","s":0,"d":"","t":["skills","persona","methodology"]},{"r":"dontriskit/awesome-ai-system-prompts","c":"skills","s":0,"d":"","t":["system-prompts","chatgpt","claude","perplexity"]},{"r":"hesreallyhim/awesome-claude-code","c":"skills","s":0,"d":"","t":["claude-code","hooks","slash-commands","orchestrators"]},{"r":"github/awesome-copilot","c":"skills","s":0,"d":"","t":["copilot","instructions","agents","configs"]},{"r":"Shubhamsaboo/awesome-llm-apps","c":"tools","s":0,"d":"","t":["apps","rag","runnable"]},{"r":"Arindam200/awesome-ai-apps","c":"tools","s":0,"d":"","t":["apps","rag","workflows"]},{"r":"MemoriLabs/Memori","c":"tools","s":0,"d":"","t":["memory","infrastructure","llm-agnostic"]},{"r":"nibzard/awesome-agentic-patterns","c":"tools","s":0,"d":"","t":["patterns","agentic","design"]},{"r":"punkpeye/awesome-mcp-servers","c":"mcp","s":0,"d":"","t":["mcp","servers","tools","databases"]},{"r":"walkinglabs/awesome-harness-engineering","c":"harness","s":0,"d":"","t":["harness","context-engineering","eval","observability"]},{"r":"WangRongsheng/awesome-LLM-resources","c":"harness","s":0,"d":"","t":["llm","resources","chinese","comprehensive"]},{"r":"sorrycc/awesome-code-agents","c":"coding","s":0,"d":"","t":["code-agents","development"]},{"r":"deepseek-ai/awesome-deepseek-agent","c":"coding","s":0,"d":"","t":["deepseek","integration","coding-assistants"]},{"r":"hao-ji-xing/awesome-cursor","c":"coding","s":0,"d":"","t":["cursor","ide","extensions"]},{"r":"awesome-opencode/awesome-opencode","c":"coding","s":0,"d":"","t":["opencode","plugins","themes","agents"]},{"r":"vijaythecoder/awesome-claude-agents","c":"coding","s":0,"d":"","t":["claude","sub-agent","dev-team"]},{"r":"ucsb-mlsec/Awesome-Agent-Security","c":"safety","s":0,"d":"","t":["security","research","safety"]},{"r":"fr0gger/Awesome-GPT-Agents","c":"safety","s":0,"d":"","t":["cybersecurity","gpt-agents"]},{"r":"enescingoz/awesome-n8n-templates","c":"domain","s":0,"d":"","t":["n8n","automation","templates","workflows"]},{"r":"VoltAgent/awesome-design-md","c":"ui","s":0,"d":"","t":["design-md","ui-generation","coding-agents"]},{"r":"yuxiaopeng/Github-Ranking-AI","c":"meta","s":0,"d":"","t":["ranking","ai","daily-updated"]},{"r":"liyupi/free-programming-resources","c":"tools","s":3522,"d":"","t":["auto-discovered"]},{"r":"mergisi/awesome-openclaw-agents","c":"tools","s":3449,"d":"","t":["mcp","multi-agent"]},{"r":"0xNyk/awesome-hermes-agent","c":"papers","s":3404,"d":"","t":["research","skills"]},{"r":"Meirtz/Awesome-Context-Engineering","c":"frameworks","s":3153,"d":"","t":["frameworks","research"]},{"r":"google-labs-code/jules-awesome-list","c":"skills","s":3048,"d":"","t":["auto-discovered"]},{"r":"taishi-i/awesome-ChatGPT-repositories","c":"skills","s":3040,"d":"","t":["skills"]},{"r":"cirosantilli/china-dictatorship","c":"frameworks","s":3011,"d":"","t":["chinese","coding","frameworks","security"]},{"r":"RKiding/Awesome-finance-skills","c":"skills","s":2340,"d":"","t":["skills"]},{"r":"agentuniverse-ai/agentUniverse","c":"frameworks","s":2255,"d":"","t":["frameworks","multi-agent"]},{"r":"EvoAgentX/Awesome-Self-Evolving-Agents","c":"papers","s":2176,"d":"","t":["multi-agent"]},{"r":"FoundationAgents/awesome-foundation-agents","c":"papers","s":2165,"d":"","t":["research"]},{"r":"Xnhyacinth/Awesome-LLM-Long-Context-Modeling","c":"papers","s":2099,"d":"","t":["research"]},{"r":"alvinreal/awesome-autoresearch","c":"papers","s":2043,"d":"","t":["research"]},{"r":"gege-circle/.github","c":"frameworks","s":1892,"d":"","t":["chinese","coding","frameworks","security"]},{"r":"rohitg00/awesome-claude-code-toolkit","c":"skills","s":1816,"d":"","t":["mcp","skills"]},{"r":"vonzosten/awesome-LangGraph","c":"tools","s":1815,"d":"","t":["multi-agent"]},{"r":"zchoi/Awesome-Embodied-Robotics-and-Agent","c":"papers","s":1796,"d":"","t":["research"]},{"r":"xhyumiracle/Awesome-AgenticLLM-RL-Papers","c":"papers","s":1779,"d":"","t":["research"]},{"r":"WenyuChiou/awesome-agentic-ai-zh","c":"multi-agent","s":1720,"d":"","t":["chinese","mcp","multi-agent","skills"]},{"r":"ComposioHQ/awesome-claude-plugins","c":"skills","s":1694,"d":"","t":["mcp","skills"]},{"r":"XiaomingX/indie-hacker-tools-plus","c":"tools","s":1690,"d":"","t":["auto-discovered"]},{"r":"trycua/acu","c":"frameworks","s":1670,"d":"","t":["frameworks","research"]},{"r":"kyegomez/awesome-multi-agent-papers","c":"papers","s":1495,"d":"","t":["multi-agent","research"]},{"r":"steel-dev/awesome-web-agents","c":"frameworks","s":1443,"d":"","t":["frameworks"]},{"r":"thinkwee/AgentsMeetRL","c":"tools","s":1425,"d":"","t":["coding"]},{"r":"slavakurilyak/awesome-ai-agents","c":"tools","s":1387,"d":"","t":["auto-discovered"]},{"r":"weitianxin/Awesome-Agentic-Reasoning","c":"papers","s":1249,"d":"","t":["research"]},{"r":"brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research","c":"papers","s":1219,"d":"","t":["research","skills"]},{"r":"ysymyth/awesome-language-agents","c":"papers","s":1217,"d":"","t":["research"]},{"r":"showlab/Awesome-GUI-Agent","c":"papers","s":1191,"d":"","t":["research"]},{"r":"e2b-dev/awesome-ai-sdks","c":"frameworks","s":1178,"d":"","t":["frameworks"]},{"r":"Jenqyang/Awesome-AI-Agents","c":"tools","s":1134,"d":"","t":["multi-agent"]},{"r":"ai-boost/awesome-harness-engineering","c":"tools","s":1104,"d":"","t":["harness","mcp"]},{"r":"lobehub/lobe-chat-agents","c":"meta","s":1101,"d":"","t":["auto-discovered"]},{"r":"mahseema/awesome-ai-tools","c":"tools","s":5309,"d":"","t":["coding"]},{"r":"filipecalegario/awesome-vibe-coding","c":"coding","s":4530,"d":"","t":["coding"]},{"r":"AlexAnys/awesome-openclaw-usecases-zh","c":"tools","s":4244,"d":"","t":["chinese"]},{"r":"EgoAlpha/prompt-in-context-learning","c":"skills","s":2236,"d":"","t":["auto-discovered"]},{"r":"AgenticHealthAI/Awesome-AI-Agents-for-Healthcare","c":"tools","s":999,"d":"","t":["auto-discovered"]},{"r":"SamurAIGPT/awesome-openclaw","c":"skills","s":917,"d":"","t":["mcp","skills"]},{"r":"VoltAgent/awesome-ai-agent-papers","c":"papers","s":876,"d":"","t":["research"]},{"r":"yaklang/hack-skills","c":"skills","s":789,"d":"","t":["skills"]},{"r":"rohitg00/awesome-ai-apps","c":"frameworks","s":777,"d":"","t":["frameworks"]},{"r":"kzhrknt/awesome-design-md-jp","c":"ui","s":696,"d":"","t":["auto-discovered"]},{"r":"loppety/Awesome-Vibecoding-Guide","c":"tools","s":645,"d":"","t":["coding"]},{"r":"best-of-ai/best-of-ai","c":"tools","s":607,"d":"","t":["auto-discovered"]},{"r":"skillmatic-ai/awesome-agent-skills","c":"skills","s":571,"d":"","t":["skills"]},{"r":"JackyST0/awesome-agent-skills","c":"skills","s":528,"d":"","t":["skills"]},{"r":"crewAIInc/awesome-crewai","c":"ui","s":495,"d":"","t":["auto-discovered"]},{"r":"machinae/awesome-claws","c":"tools","s":441,"d":"","t":["auto-discovered"]},{"r":"TeleAI-UAGI/Awesome-Agent-Memory","c":"papers","s":430,"d":"","t":["research"]},{"r":"aarora4/Awesome-Prediction-Market-Tools","c":"tools","s":429,"d":"","t":["auto-discovered"]},{"r":"Alchemyst-ai/awesome-saas","c":"frameworks","s":415,"d":"","t":["auto-discovered"]},{"r":"pierpaolo28/Awesome-FDE-Roadmap","c":"tools","s":378,"d":"","t":["auto-discovered"]},{"r":"SAILResearch/awesome-foundation-model-leaderboards","c":"papers","s":355,"d":"","t":["research"]},{"r":"leoncuhk/awesome-quant-ai","c":"tools","s":345,"d":"","t":["auto-discovered"]},{"r":"alternbits/awesome-ai-newsletters","c":"tools","s":340,"d":"","t":["auto-discovered"]},{"r":"haoruilee/awesome-agent-native-services","c":"ui","s":338,"d":"","t":["auto-discovered"]},{"r":"Sri-Krishna-V/awesome-adk-agents","c":"papers","s":305,"d":"","t":["multi-agent","research"]},{"r":"ScarletPan/awesome-autonomous-gpt","c":"tools","s":283,"d":"","t":["auto-discovered"]},{"r":"mahimairaja/voiceai","c":"ui","s":274,"d":"","t":["auto-discovered"]},{"r":"e2b-dev/awesome-devins","c":"coding","s":247,"d":"","t":["coding"]},{"r":"cogine-ai/awesome-openclaw-zh","c":"tools","s":234,"d":"","t":["chinese","skills"]},{"r":"xpaysh/awesome-x402","c":"frameworks","s":220,"d":"","t":["mcp"]},{"r":"HU-UH/awesome-design-md","c":"ui","s":209,"d":"","t":["auto-discovered"]},{"r":"NeuZhou/awesome-ai-anatomy","c":"coding","s":195,"d":"","t":["coding","frameworks","mcp","security"]},{"r":"skyming/awesome-ai-agent","c":"frameworks","s":192,"d":"","t":["auto-discovered"]},{"r":"littleben/awesomeAgentskills","c":"skills","s":177,"d":"","t":["skills"]},{"r":"acvnace/awesome-vibe-coding-resources","c":"coding","s":175,"d":"","t":["coding"]},{"r":"toolsdk-ai/toolsdk-mcp-registry","c":"frameworks","s":173,"d":"","t":["mcp"]},{"r":"vectara/awesome-agent-failures","c":"tools","s":170,"d":"","t":["auto-discovered"]},{"r":"Calix-L/awesome-latex-skills","c":"papers","s":169,"d":"","t":["research","skills"]},{"r":"DirectorySurf/awesome-ai-agents-directories","c":"tools","s":144,"d":"","t":["auto-discovered"]},{"r":"irahardianto/awesome-agv","c":"coding","s":144,"d":"","t":["coding","frameworks"]},{"r":"alternbits/awesome-ai-agents","c":"tools","s":135,"d":"","t":["frameworks"]},{"r":"filipecalegario/awesome-generative-ai","c":"tools","s":3450,"d":"","t":["auto-discovered"]},{"r":"ValueByte-AI/Awesome-LLM-in-Social-Science","c":"papers","s":622,"d":"","t":["research"]},{"r":"qianlima-lab/awesome-lifelong-llm-agent","c":"papers","s":302,"d":"","t":["research"]},{"r":"LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy","c":"reasoning","s":296,"d":"","t":["research"]},{"r":"yxf203/Awesome-Efficient-Agents","c":"papers","s":252,"d":"","t":["research"]},{"r":"YoungDubbyDu/Awesome-LLM-Agent-Optimization-Papers","c":"papers","s":232,"d":"","t":["research"]},{"r":"shure-dev/Awesome-LLM-Papers-Comprehensive-Topics","c":"papers","s":225,"d":"","t":["research"]},{"r":"microxxx/awesome-langchain-zh","c":"ui","s":139,"d":"","t":["auto-discovered"]},{"r":"artnitolog/awesome-agent-learning","c":"coding","s":130,"d":"","t":["auto-discovered"]},{"r":"YuanchenBei/Awesome-Graphs-Meet-Agents","c":"tools","s":129,"d":"","t":["auto-discovered"]},{"r":"EvoMap/awesome-agent-evolution","c":"tools","s":127,"d":"","t":["frameworks","mcp","multi-agent","skills"]},{"r":"AmanPriyanshu/Awesome-AI-For-Security","c":"papers","s":126,"d":"","t":["research","security"]},{"r":"mengysun/DataParasite","c":"tools","s":102,"d":"","t":["multi-agent"]},{"r":"junhua/awesome-llm-agents","c":"papers","s":84,"d":"","t":["research"]},{"r":"zjlrock777/Awesome-LLM-Agents-Scientific-Discovery","c":"papers","s":75,"d":"","t":["research"]},{"r":"Shiy-Li/Awesome-Graph-augmented-LLM-Agent","c":"tools","s":73,"d":"","t":["auto-discovered"]},{"r":"usail-hkust/Awesome-Urban-LLM-Agents","c":"tools","s":71,"d":"","t":["auto-discovered"]},{"r":"azminewasi/Awesome-LLMs-ICLR-24","c":"papers","s":70,"d":"","t":["frameworks","research","security"]},{"r":"vstorm-co/awesome-pydantic-ai","c":"frameworks","s":69,"d":"","t":["frameworks"]},{"r":"pengshuang/Awesome-Agent-Projects","c":"ui","s":58,"d":"","t":["auto-discovered"]},{"r":"moonlarry/awesome-llm-paper-wiki","c":"papers","s":56,"d":"","t":["research"]},{"r":"IBM/awesome-agentic-workflow-optimization","c":"papers","s":54,"d":"","t":["research"]},{"r":"wearetyomsmnv/Awesome-LLM-agent-Security","c":"safety","s":52,"d":"","t":["security"]},{"r":"Cognitive-Stack/awesome-one-hit-vibe-code","c":"skills","s":34,"d":"","t":["coding"]},{"r":"yczhou001/Awesome-Medical-LLM-Agent","c":"domain","s":30,"d":"","t":["multi-agent"]},{"r":"vince-lam/awesome-agents","c":"tools","s":26,"d":"","t":["auto-discovered"]},{"r":"lizhe2004/awesome-llm-agent","c":"tools","s":24,"d":"","t":["auto-discovered"]},{"r":"bupt-ai-club/awesomeProject","c":"tools","s":23,"d":"","t":["auto-discovered"]},{"r":"arjan/awesome-agent-sandboxes","c":"tools","s":23,"d":"","t":["auto-discovered"]},{"r":"IcyFeather233/Awesome-LLM-Agent-Trajectory-Analysis","c":"tools","s":22,"d":"","t":["auto-discovered"]},{"r":"REAL-Lab-NU/Awesome-OpenClaw-Papers","c":"papers","s":15,"d":"","t":["research","security","skills"]},{"r":"zjwu0522/Awesome-LLM-Agent","c":"tools","s":13,"d":"","t":["auto-discovered"]},{"r":"charlieviettq/awesome-agent-skill","c":"skills","s":12,"d":"","t":["mcp","skills"]},{"r":"dyronrh/awesome-agentops-landscape","c":"tools","s":12,"d":"","t":["auto-discovered"]},{"r":"qhy991/Awesome-LLM-Kernel-Agent","c":"tools","s":10,"d":"","t":["auto-discovered"]},{"r":"vivy-yi/awesome-agent-orchestration","c":"frameworks","s":10,"d":"","t":["frameworks","mcp","multi-agent"]},{"r":"xlabs-club/awesome-x-ops","c":"frameworks","s":8,"d":"","t":["auto-discovered"]},{"r":"dmarx/awesome-llm-utilities","c":"frameworks","s":8,"d":"","t":["frameworks"]},{"r":"minruixu/Awesome-LLM-Agent-Cyberattacks","c":"ui","s":8,"d":"","t":["auto-discovered"]},{"r":"dataanswer/awesome-agent-benchmarks","c":"evaluation","s":7,"d":"","t":["auto-discovered"]},{"r":"wyattowalsh/awesome-deep-research","c":"papers","s":7,"d":"","t":["research"]},{"r":"agi-os/Agent.js","c":"multi-agent","s":7,"d":"","t":["frameworks"]},{"r":"DataArcTech/Awesome-Agent-Skill-Papers","c":"papers","s":6,"d":"","t":["research","skills"]},{"r":"agentcasa/awesome-llm-agent","c":"tools","s":5,"d":"","t":["auto-discovered"]},{"r":"xaddwell/Awesome-LLM-Agent-Memory-Safety","c":"papers","s":5,"d":"","t":["research","security"]},{"r":"tfatykhov/awesome-agent-memory","c":"papers","s":5,"d":"","t":["research"]},{"r":"freddyaboulton/awesome-gradio-agents","c":"ui","s":5,"d":"","t":["auto-discovered"]},{"r":"yh-yao/awesome-rl-ai-agents","c":"tools","s":5,"d":"","t":["auto-discovered"]},{"r":"scnu-kevinkong/awesome-formal-llm-agents","c":"tools","s":4,"d":"","t":["auto-discovered"]},{"r":"arvindcr4/awesome_agents_papers","c":"papers","s":3,"d":"","t":["research"]},{"r":"jaehongpark-agent/awesome-claws","c":"tools","s":3,"d":"","t":["auto-discovered"]},{"r":"axxafo/awesome-agent-benchmarks","c":"evaluation","s":3,"d":"","t":["auto-discovered"]},{"r":"mikehubers/Awesome-AI-For-Security","c":"tools","s":3,"d":"","t":["security"]},{"r":"V01dMur10c/awesome-agent-rl-environments","c":"tools","s":3,"d":"","t":["auto-discovered"]},{"r":"CHEN1594/Awesome-LLM-Agents","c":"tools","s":2,"d":"","t":["auto-discovered"]},{"r":"yagobski/awesome-llm-agent-privacy","c":"frameworks","s":2,"d":"","t":["frameworks","multi-agent","research","security"]},{"r":"wmmthu/awesome-llm-agent-skills-papers","c":"papers","s":2,"d":"","t":["research","skills"]},{"r":"lafmdp/Awesome-Papers-Autonomous-Agent","c":"papers","s":745,"d":"","t":["research"]},{"r":"kagnlp/Awesome-Agentic-Security","c":"papers","s":44,"d":"","t":["research","security"]},{"r":"jbesomi/awesome-autonomous-agents","c":"frameworks","s":40,"d":"","t":["frameworks"]},{"r":"The-Swarm-Corporation/Awesome-Swarms-List","c":"frameworks","s":19,"d":"","t":["frameworks","multi-agent"]},{"r":"AI-Hub-Admin/AutoAgent","c":"tools","s":12,"d":"","t":["auto-discovered"]},{"r":"taiyangc/awesome-web3-ai-agents","c":"tools","s":11,"d":"","t":["frameworks"]},{"r":"LijunRio/Awesome-Agents-for-Medicine","c":"frameworks","s":10,"d":"","t":["frameworks"]},{"r":"QAInsights/awesome-ai-tools","c":"frameworks","s":9,"d":"","t":["coding"]},{"r":"irfanfadhullah/Awesome-Agentic-Workflow","c":"frameworks","s":8,"d":"","t":["frameworks","multi-agent"]},{"r":"Samarth0211/awesome-claude-skills-2026","c":"skills","s":7,"d":"","t":["skills"]},{"r":"plastic-labs/Awesome-Identic-Agents","c":"coding","s":5,"d":"","t":["auto-discovered"]},{"r":"GML-FMGroup/awesome_autonomous_agents","c":"tools","s":2,"d":"","t":["auto-discovered"]},{"r":"tysoncung/awesome-ai-agents","c":"frameworks","s":2,"d":"","t":["frameworks","multi-agent"]},{"r":"AmmarFahmy/awesome-chainlit-apps","c":"tools","s":2,"d":"","t":["auto-discovered"]},{"r":"shaoxiang/awesome-openclaw","c":"mcp","s":2,"d":"","t":["mcp"]},{"r":"xufei547/awesome-ai-assistants","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"backblaze-labs/awesome-agent-infrastructure","c":"tools","s":1,"d":"","t":["frameworks","mcp","skills"]},{"r":"justindobbs/awesome-certified-agents","c":"tools","s":1,"d":"","t":["multi-agent"]},{"r":"study8677/Awesome-Self-Evolving-Agents","c":"tools","s":1,"d":"","t":["multi-agent"]},{"r":"MsOhio/Awesome-Papers-Autonomous-Agent","c":"papers","s":0,"d":"","t":["research"]},{"r":"sanskritibokde/Awesome-Agents","c":"ui","s":0,"d":"","t":["auto-discovered"]},{"r":"languagezoneenterprise545/awesome-ai-agent-incidents","c":"tools","s":0,"d":"","t":["coding","security","skills"]},{"r":"Tubbster-Claw/awesome-agent-substrate","c":"tools","s":0,"d":"","t":["mcp","multi-agent"]},{"r":"kimtth/awesome-azure-openai-llm","c":"tools","s":401,"d":"","t":["coding","frameworks","harness","research","skills"]},{"r":"Gloriaameng/Awesome-Agent-Harness","c":"papers","s":235,"d":"","t":["frameworks","harness","research"]},{"r":"webmaxru/awesome-microsoft-agent-framework","c":"frameworks","s":148,"d":"","t":["frameworks"]},{"r":"tornikebolokadze1-cyber/awesome-ai-pulse-georgia","c":"frameworks","s":118,"d":"","t":["frameworks","mcp"]},{"r":"mahonzhan/awesome-agent-harness","c":"frameworks","s":105,"d":"","t":["frameworks","harness"]},{"r":"Zijian-Ni/awesome-ai-agents-2026","c":"frameworks","s":87,"d":"","t":["frameworks"]},{"r":"Scottcjn/awesome-agents","c":"frameworks","s":82,"d":"","t":["frameworks","multi-agent"]},{"r":"ARUNAGIRINATHAN-K/awesome-ai-agents-2026","c":"frameworks","s":79,"d":"","t":["coding","frameworks","research"]},{"r":"kodustech/awesome-agent-skills","c":"skills","s":69,"d":"","t":["coding","frameworks","skills"]},{"r":"ababdotai/awesome-agent-quickstart","c":"frameworks","s":61,"d":"","t":["frameworks","mcp"]},{"r":"mb-mal/awesome-ai-agents-frameworks","c":"frameworks","s":52,"d":"","t":["frameworks"]},{"r":"chaosync-org/awesome-ai-agent-testing","c":"frameworks","s":37,"d":"","t":["frameworks","security"]},{"r":"subinium/awesome-agent-frameworks","c":"frameworks","s":34,"d":"","t":["frameworks"]},{"r":"yzfly/awesome-voice-agents","c":"frameworks","s":32,"d":"","t":["frameworks"]},{"r":"axioma-ai-labs/awesome-ai-agent-frameworks","c":"frameworks","s":31,"d":"","t":["frameworks"]},{"r":"buntys2010/awesome-ai-agents","c":"frameworks","s":25,"d":"","t":["frameworks"]},{"r":"ai-agents-simplified/Awesome-AI-Agents","c":"frameworks","s":22,"d":"","t":["frameworks"]},{"r":"groovy-web/awesome-ai-agents","c":"frameworks","s":15,"d":"","t":["frameworks","multi-agent"]},{"r":"sumsun-dev/awesome-web3-claude","c":"frameworks","s":13,"d":"","t":["frameworks","mcp","skills"]},{"r":"G1o22/awesome-ai-agents-2026","c":"frameworks","s":9,"d":"","t":["frameworks"]},{"r":"edwardtay/awesome-web3-ai","c":"frameworks","s":4,"d":"","t":["frameworks"]},{"r":"oakeighty5/awesome-ai-agents","c":"frameworks","s":3,"d":"","t":["frameworks"]},{"r":"CrawlScript/awesome-personal-ai-agents","c":"frameworks","s":3,"d":"","t":["frameworks"]},{"r":"TryKosm/awesome-ai-governance","c":"frameworks","s":3,"d":"","t":["frameworks","security"]},{"r":"Smithech/awesome-ai-agent","c":"frameworks","s":3,"d":"","t":["frameworks","mcp","multi-agent"]},{"r":"brisyramshere/awesome-agent-frameworks","c":"frameworks","s":2,"d":"","t":["frameworks"]},{"r":"spfunctions/awesome-cli-agentic-tools","c":"frameworks","s":2,"d":"","t":["coding","frameworks"]},{"r":"Vincentwei1021/awesome-ai-agent-frameworks","c":"frameworks","s":2,"d":"","t":["chinese","frameworks","multi-agent"]},{"r":"bg-l2norm/awesome-ai-agent-papers--","c":"frameworks","s":2,"d":"","t":["frameworks","research"]},{"r":"aloth/awesome-ai-agents","c":"frameworks","s":2,"d":"","t":["frameworks","mcp","multi-agent","research","security"]},{"r":"wendashi/awesome-Agentic-3D-Modeling","c":"frameworks","s":2,"d":"","t":["frameworks"]},{"r":"ChinmayMurugkar/awesome-ai-agents-list","c":"frameworks","s":2,"d":"","t":["frameworks","multi-agent"]},{"r":"Guan-JW/awesome-db-for-ai-systems","c":"frameworks","s":2,"d":"","t":["frameworks","multi-agent"]},{"r":"Sonicly8968/awesome-chinese-ai-agents","c":"papers","s":2,"d":"","t":["chinese","frameworks","research"]},{"r":"anjijava16/Awesome_Agents","c":"frameworks","s":1,"d":"","t":["frameworks"]},{"r":"turab45/awesome-healthcare-agents","c":"frameworks","s":1,"d":"","t":["frameworks","research"]},{"r":"vishwasvijayabaskar-code/awesome-ai-agents","c":"frameworks","s":1,"d":"","t":["frameworks"]},{"r":"JSONFIRST/awesome-ai-intent","c":"tools","s":1,"d":"","t":["frameworks"]},{"r":"2182977liu-bit/awesome-ai-agent-learning","c":"tools","s":1,"d":"","t":["chinese","frameworks"]},{"r":"alleneee/awesome-agent-framework","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"ManjunathHosamani/ai_agent_framework_crash_course","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"Anuar-boop/awesome-ai-agents","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"TheAtlasBot/awesome-ai-agents","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"Pauldest/awesome-ai-agent","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"CloudAxisAi/awesome-ai-agents","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"pandego/awesome-agentic","c":"frameworks","s":0,"d":"","t":["coding","frameworks"]},{"r":"pantheon-auto/awesome-web-agents","c":"frameworks","s":0,"d":"","t":["frameworks","research"]},{"r":"onepersonlab/awesome-agents-design","c":"frameworks","s":0,"d":"","t":["frameworks","multi-agent"]},{"r":"themachinehf/awesome-AI-agents","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"ComposioHQ/awesome-claude-skills","c":"skills","s":61745,"d":"","t":["mcp","skills"]},{"r":"VoltAgent/awesome-openclaw-skills","c":"skills","s":49290,"d":"","t":["skills"]},{"r":"ikaijua/Awesome-AITools","c":"tools","s":5963,"d":"","t":["skills"]},{"r":"taishi-i/awesome-japanese-nlp-resources","c":"skills","s":965,"d":"","t":["skills"]},{"r":"bergside/awesome-design-skills","c":"skills","s":951,"d":"","t":["skills"]},{"r":"new-silvermoon/awesome-android-agent-skills","c":"skills","s":821,"d":"","t":["skills"]},{"r":"mliu98/awesome-human-distillation","c":"skills","s":594,"d":"","t":["skills"]},{"r":"Code-and-Sorts/awesome-copilot-agents","c":"skills","s":522,"d":"","t":["mcp","skills"]},{"r":"InternScience/Awesome-Scientific-Skills","c":"papers","s":392,"d":"","t":["research","skills"]},{"r":"lawve-ai/awesome-legal-skills","c":"skills","s":389,"d":"","t":["skills"]},{"r":"karanb192/awesome-claude-skills","c":"skills","s":348,"d":"","t":["skills"]},{"r":"JSONbored/awesome-claude","c":"skills","s":248,"d":"","t":["mcp","skills"]},{"r":"baibizhe/Awesome-Skills-Paper","c":"papers","s":242,"d":"","t":["research","skills"]},{"r":"XMUDeepLIT/Awesome-Self-Evolving-Agents","c":"papers","s":194,"d":"","t":["research","skills"]},{"r":"futantan/agent-skills.md","c":"skills","s":189,"d":"","t":["skills"]},{"r":"apify/awesome-skills","c":"skills","s":185,"d":"","t":["coding","skills"]},{"r":"LLMQuant/awesome-trading-agents","c":"papers","s":163,"d":"","t":["mcp","research","skills"]},{"r":"momozi1996/awesome-ai-persona-skills","c":"skills","s":163,"d":"","t":["multi-agent","skills"]},{"r":"itgoyo/awesome-agent-skills","c":"skills","s":109,"d":"","t":["skills"]},{"r":"Panmax/awesome-nuwa","c":"frameworks","s":101,"d":"","t":["frameworks","skills"]},{"r":"finfin/awesome-frontend-skills","c":"skills","s":99,"d":"","t":["skills"]},{"r":"seb1n/awesome-ai-agent-skills","c":"skills","s":91,"d":"","t":["skills"]},{"r":"ascend-ai-coding/awesome-ascend-skills","c":"skills","s":83,"d":"","t":["coding","skills"]},{"r":"Techopolis/awesome-ios-ai","c":"skills","s":82,"d":"","t":["coding","mcp","skills"]},{"r":"jaccen/Awesome-Gaussian-Skills","c":"papers","s":74,"d":"","t":["research","skills"]},{"r":"JayLZhou/Awesome-Agent-Skills","c":"skills","s":71,"d":"","t":["skills"]},{"r":"CommandCodeAI/agent-skills","c":"skills","s":68,"d":"","t":["coding","skills"]},{"r":"scienceaix/agentskills","c":"papers","s":64,"d":"","t":["research","skills"]},{"r":"thienanblog/awesome-ai-agent-skills","c":"skills","s":60,"d":"","t":["skills"]},{"r":"ChuckSRQ/awesome-hermes-skills","c":"skills","s":60,"d":"","t":["skills"]},{"r":"anchildress1/awesome-github-copilot","c":"skills","s":60,"d":"","t":["coding","skills"]},{"r":"Holddrespell/r16-voltagent-awesome-agent-skills-datascience","c":"skills","s":58,"d":"","t":["skills"]},{"r":"Gravityaespot/r16-voltagent-awesome-agent-skills-seo","c":"skills","s":56,"d":"","t":["skills"]},{"r":"timenavigatorrage/r16-voltagent-awesome-agent-skills-security","c":"skills","s":55,"d":"","t":["security","skills"]},{"r":"mythicnoteshed/r16-voltagent-awesome-agent-skills-devops","c":"skills","s":48,"d":"","t":["skills"]},{"r":"STRYXTN/awesome-ai-research-writing","c":"papers","s":44,"d":"","t":["research","skills"]},{"r":"BanSailmakerDitch/r16-voltagent-awesome-agent-skills-ecommerce","c":"skills","s":44,"d":"","t":["skills"]},{"r":"software-ai-life/Awesome-PPT-Design-Skills","c":"skills","s":42,"d":"","t":["skills"]},{"r":"gmh5225/awesome-skills","c":"skills","s":33,"d":"","t":["coding","skills"]},{"r":"codeaashu/awesome-openclaw-Skills","c":"skills","s":30,"d":"","t":["skills"]},{"r":"ishwarjha/claude-marketing-research-skill","c":"papers","s":24,"d":"","t":["research","skills"]},{"r":"gimgyeon/loader-openclaw-skills","c":"skills","s":24,"d":"","t":["skills"]},{"r":"shadowrootdev/awesome-agent-skills-mcp","c":"skills","s":23,"d":"","t":["mcp","skills"]},{"r":"xu-xiang/awesome-top-skills","c":"skills","s":23,"d":"","t":["mcp","skills"]},{"r":"shajith003/awesome-claude-skills","c":"skills","s":23,"d":"","t":["coding","skills"]},{"r":"ai-boost/awesome-a2a","c":"tools","s":603,"d":"","t":["mcp"]},{"r":"pab1it0/awesome-a2a","c":"tools","s":173,"d":"","t":["mcp"]},{"r":"last9/awesome-sre-agents","c":"tools","s":64,"d":"","t":["auto-discovered"]},{"r":"looptech-ai/understand-quickly","c":"ui","s":29,"d":"","t":["mcp"]},{"r":"questflowai/awesome-a2a-hub","c":"tools","s":26,"d":"","t":["auto-discovered"]},{"r":"yigitkonur/awesome-herdr","c":"skills","s":18,"d":"","t":["skills"]},{"r":"Horatio-Li/awesome-cowork","c":"skills","s":13,"d":"","t":["auto-discovered"]},{"r":"Salesably/awesome-ai-agents-for-sales","c":"tools","s":11,"d":"","t":["auto-discovered"]},{"r":"namphuongtran/awesome-ai-coding-agent-tools","c":"frameworks","s":9,"d":"","t":["coding","frameworks","mcp"]},{"r":"vermava/awesomelist-ai-security","c":"frameworks","s":7,"d":"","t":["frameworks","research","security"]},{"r":"Awakehsh/awesome-agent-tools","c":"skills","s":6,"d":"","t":["coding","mcp","skills"]},{"r":"LLMSecurity/awesome-agent-skills-security","c":"frameworks","s":6,"d":"","t":["frameworks","mcp","security","skills"]},{"r":"ZoroSola55/awesome-a2a","c":"tools","s":5,"d":"","t":["mcp"]},{"r":"AstreoX/awesome-agent-tools","c":"tools","s":3,"d":"","t":["auto-discovered"]},{"r":"yadavanujkumar/awesome-agentic-ai","c":"tools","s":2,"d":"","t":["auto-discovered"]},{"r":"Ash310u/awesome-ai-stack","c":"skills","s":2,"d":"","t":["mcp","skills"]},{"r":"natnew/Awesome-Agentic-AI-Security","c":"papers","s":2,"d":"","t":["multi-agent","research","security"]},{"r":"MCPHubCloud/awesome-a2a","c":"tools","s":1,"d":"","t":["mcp"]},{"r":"kenotron-ms/awesome-amplifier","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"NikitaDmitrieff/awesome-openclaw","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"Ancient024/Awesome-Practical-AI","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"artinnok/awesome-ai-assistants","c":"frameworks","s":1,"d":"","t":["auto-discovered"]},{"r":"jonradoff/awesome-agent-almanac","c":"tools","s":1,"d":"","t":["mcp"]},{"r":"SNTL84/awesome-ai-sales-agents","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"Git-Deoloper/Awesome-AI-Agents","c":"frameworks","s":1,"d":"","t":["frameworks"]},{"r":"jusso-dev/awesome-Australian-compliance","c":"skills","s":1,"d":"","t":["coding","skills"]},{"r":"DeeeFOX/awesome-agent-search","c":"papers","s":1,"d":"","t":["coding","mcp","research"]},{"r":"AFunLS/awesome-ai-agent-tools","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"strondata/awesome-data","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"chan-yuu/awesome_coding_agent","c":"tools","s":0,"d":"","t":["coding"]},{"r":"tuliosousapro/awesome-ai","c":"skills","s":0,"d":"","t":["auto-discovered"]},{"r":"agensai/awesome-agensai","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"sudabg/awesome-agent-tools","c":"tools","s":0,"d":"","t":["mcp"]},{"r":"JasonJarvan/awesome_agent_tools","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"ugonfor/awesome-ai-cybersecurity","c":"tools","s":0,"d":"","t":["security"]},{"r":"agent-gigmole/awesome-ai-agent-tools","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"Agentic-Tools/awesome-ai-agent-tools","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"Agentic-Tools/awesome-web-agent-tools","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"corgentic-dev/awesome-corgentic","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"wfnuser/Awesome-Alpha-Agents-and-Tools","c":"papers","s":0,"d":"","t":["research"]},{"r":"iamlalitpandit/awesome-rudrax","c":"tools","s":0,"d":"","t":["multi-agent"]},{"r":"spinov001-art/awesome-claude-code-skills","c":"skills","s":0,"d":"","t":["mcp","skills"]},{"r":"smillunchick/awesome-ai-agents-small-business","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"pyros-projects/awesome-claudes-list","c":"tools","s":0,"d":"","t":["skills"]},{"r":"ununununium/awesome-data-ai-stack","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"wgabrys88/windows-ai-agent-toolset-v36.7-base-for-fut-ok-but-not-store-turns","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"natnew/awesome-rl-for-agents","c":"tools","s":0,"d":"","t":["multi-agent","security"]},{"r":"commune-dev/awesome-agent-protocols","c":"skills","s":0,"d":"","t":["mcp","multi-agent"]},{"r":"git-disl/awesome-LLM-game-agent-papers","c":"papers","s":890,"d":"","t":["research"]},{"r":"HuggingAGI/AwesomeAgentPapers","c":"papers","s":221,"d":"","t":["research"]},{"r":"YunjiaXi/Awesome-Search-Agent-Papers","c":"papers","s":138,"d":"","t":["research"]},{"r":"aristoteleo/awesome-bioagent-papers","c":"papers","s":102,"d":"","t":["research"]},{"r":"shizhl/Multi-Agent-Papers","c":"papers","s":72,"d":"","t":["multi-agent","research"]},{"r":"Steve2457/Awesome-RL-GUI-Agents","c":"papers","s":41,"d":"","t":["research"]},{"r":"Eileen19200930/Awesome-Agent-Papers","c":"papers","s":7,"d":"","t":["research"]},{"r":"gameworld-project/awesome-game-agent-papers","c":"frameworks","s":3,"d":"","t":["frameworks","research"]},{"r":"sutaoyu/awesome-ai-security-agents","c":"papers","s":3,"d":"","t":["research","security"]},{"r":"vchaitanyachowdari/awesome-multi-agent-papers","c":"papers","s":2,"d":"","t":["multi-agent","research"]},{"r":"deway9623/Awesome-OpenClaw-Papers","c":"papers","s":1,"d":"","t":["research","security","skills"]},{"r":"RezalerRahma/Awesome-Agent-Papers","c":"papers","s":0,"d":"","t":["research"]},{"r":"RichardHulu/Awesome-Agent-Papers","c":"papers","s":0,"d":"","t":["research"]},{"r":"HxxFaa/awesome-agent-papers","c":"papers","s":0,"d":"","t":["research"]},{"r":"CHEN1594/Awesome-Agent-Papers","c":"papers","s":0,"d":"","t":["research"]},{"r":"sandhyajeyaraj/awesome_agents_papers","c":"papers","s":0,"d":"","t":["research"]},{"r":"BWQ-L/awesome-llm-agents-papers","c":"papers","s":0,"d":"","t":["multi-agent","research"]},{"r":"Brezzadimare/Awesome-LLM-Agent-Papers","c":"papers","s":0,"d":"","t":["research"]},{"r":"k-rks/awesome-multi-agent-papers","c":"papers","s":0,"d":"","t":["multi-agent","research"]},{"r":"metame-ai/awesome-agent-plaza","c":"papers","s":0,"d":"","t":["research"]},{"r":"didiforgithub/Awesome-FoundationAgents","c":"papers","s":0,"d":"","t":["research"]},{"r":"YvMohsin/awesome-llm-powered-agent","c":"papers","s":0,"d":"","t":["research"]},{"r":"yzfly/Awesome-MCP-ZH","c":"mcp","s":7141,"d":"","t":["mcp"]},{"r":"punkpeye/awesome-mcp-clients","c":"mcp","s":6442,"d":"","t":["mcp"]},{"r":"appcypher/awesome-mcp-servers","c":"tools","s":5565,"d":"","t":["mcp"]},{"r":"wong2/awesome-mcp-servers","c":"mcp","s":4108,"d":"","t":["mcp"]},{"r":"homeassistant-ai/ha-mcp","c":"mcp","s":3101,"d":"","t":["mcp"]},{"r":"AmoyLab/Unla","c":"tools","s":2120,"d":"","t":["mcp"]},{"r":"chatmcp/mcpso","c":"mcp","s":2010,"d":"","t":["mcp"]},{"r":"taielab/awesome-hacking-lists","c":"tools","s":1339,"d":"","t":["mcp"]},{"r":"jaw9c/awesome-remote-mcp-servers","c":"mcp","s":1064,"d":"","t":["mcp"]},{"r":"YuzeHao2023/Awesome-MCP-Servers","c":"mcp","s":1045,"d":"","t":["mcp"]},{"r":"rohitg00/awesome-devops-mcp-servers","c":"tools","s":991,"d":"","t":["mcp"]},{"r":"MobinX/awesome-mcp-list","c":"mcp","s":879,"d":"","t":["mcp"]},{"r":"ccplugins/awesome-claude-code-plugins","c":"skills","s":805,"d":"","t":["mcp"]},{"r":"TensorBlock/awesome-mcp-servers","c":"mcp","s":700,"d":"","t":["mcp"]},{"r":"Puliczek/awesome-mcp-security","c":"mcp","s":695,"d":"","t":["mcp","security"]},{"r":"milisp/codexia","c":"skills","s":688,"d":"","t":["mcp","skills"]},{"r":"demcp/awesome-web3-mcp-servers","c":"mcp","s":608,"d":"","t":["mcp","security"]},{"r":"maxbogo/awesome-ai-tools-for-ui","c":"tools","s":512,"d":"","t":["coding","mcp","skills"]},{"r":"punkpeye/awesome-mcp-devtools","c":"frameworks","s":458,"d":"","t":["mcp"]},{"r":"kleneway/awesome-cursor-mpc-server","c":"tools","s":337,"d":"","t":["mcp"]},{"r":"Anil-matcha/Awesome-Gemini-Omni-API-Prompts","c":"skills","s":314,"d":"","t":["mcp"]},{"r":"milisp/mcp-linker","c":"mcp","s":311,"d":"","t":["mcp"]},{"r":"moov-io/awesome-fintech","c":"tools","s":302,"d":"","t":["mcp"]},{"r":"hanlulong/awesome-ai-for-economists","c":"papers","s":298,"d":"","t":["mcp","research"]},{"r":"ThibautMelen/agentic-ai-systems","c":"multi-agent","s":277,"d":"","t":["frameworks","mcp"]},{"r":"PipedreamHQ/awesome-mcp-servers","c":"mcp","s":273,"d":"","t":["mcp"]},{"r":"soxoj/awesome-osint-mcp-servers","c":"mcp","s":242,"d":"","t":["mcp"]},{"r":"Mizoreww/awesome-claude-code-config","c":"skills","s":231,"d":"","t":["mcp","skills"]},{"r":"RoggeOhta/awesome-codex-cli","c":"skills","s":217,"d":"","t":["coding","mcp","skills"]},{"r":"milisp/awesome-claude-dxt","c":"mcp","s":173,"d":"","t":["mcp"]},{"r":"darjeeling/awesome-mcp-korea","c":"mcp","s":171,"d":"","t":["mcp"]},{"r":"EthanYolo01/Awesome-OpenClaw","c":"papers","s":153,"d":"","t":["mcp","research","security","skills"]},{"r":"AlexMili/Awesome-MCP","c":"mcp","s":141,"d":"","t":["mcp"]},{"r":"SciSharp/Awesome-DotNET-MCP","c":"mcp","s":141,"d":"","t":["mcp"]},{"r":"badkk/awesome-crypto-mcp-servers","c":"mcp","s":135,"d":"","t":["mcp"]},{"r":"vincentkoc/awesome-openclaw","c":"frameworks","s":130,"d":"","t":["mcp","skills"]},{"r":"altengineer/awesome-ai-repositories","c":"tools","s":130,"d":"","t":["mcp"]},{"r":"e2b-dev/awesome-mcp-gateways","c":"mcp","s":128,"d":"","t":["mcp"]},{"r":"Picrew/awesome-agent-harness","c":"tools","s":636,"d":"","t":["harness"]},{"r":"bradAGI/awesome-cli-coding-agents","c":"frameworks","s":448,"d":"","t":["coding","harness"]},{"r":"AutoJunjie/awesome-agent-harness","c":"harness","s":422,"d":"","t":["coding","harness","multi-agent"]},{"r":"YennNing/Awesome-Code-as-Agent-Harness-Papers","c":"papers","s":240,"d":"","t":["harness","research"]},{"r":"kennethlaw325/awesome-llm-knowledge-systems","c":"skills","s":79,"d":"","t":["harness","mcp","skills"]},{"r":"HKUST-KnowComp/Awesome-Agent-Harness","c":"harness","s":74,"d":"","t":["harness"]},{"r":"WanLanglin/-awesome-cc-harness","c":"tools","s":54,"d":"","t":["coding","harness"]},{"r":"RUCAIBox/awesome-agent-harness","c":"papers","s":42,"d":"","t":["harness","research"]},{"r":"Jiaaqiliu/Awesome-Harness-Engineering","c":"harness","s":25,"d":"","t":["harness"]},{"r":"chengjl19/awesome-agent-harness-notes","c":"tools","s":18,"d":"","t":["harness"]},{"r":"lahavi/awesome-deerflow","c":"papers","s":10,"d":"","t":["harness","research"]},{"r":"wubin28/awesome-harness-engineering","c":"harness","s":7,"d":"","t":["coding","harness"]},{"r":"Turi-Labs/awesome-harness","c":"harness","s":5,"d":"","t":["harness"]},{"r":"SaltAdamW/Awesome-Harness-Engineering","c":"harness","s":3,"d":"","t":["harness","skills"]},{"r":"yenanjing/awesome-harness-engineering","c":"frameworks","s":3,"d":"","t":["frameworks","harness"]},{"r":"PanosPeng/awesome-agent-harness","c":"papers","s":2,"d":"","t":["harness","research"]},{"r":"tbrandenburg/awesome-agent-harnesses","c":"harness","s":1,"d":"","t":["harness"]},{"r":"open-kairox/awesome-agent-harnesses","c":"harness","s":1,"d":"","t":["harness"]},{"r":"scienceaix/awesome-harness-engineering","c":"frameworks","s":1,"d":"","t":["frameworks","harness","research"]},{"r":"wjn1996/Awesome-Claw-Harness","c":"papers","s":1,"d":"","t":["harness","research"]},{"r":"fastbeast2023-netizen/awesome-harness-engineering","c":"tools","s":1,"d":"","t":["chinese","coding","harness","skills"]},{"r":"Lhy723/awesome-ai-agent-evaluation","c":"papers","s":1,"d":"","t":["coding","harness","research"]},{"r":"wdzhwsh4067/awesome-coding-agents","c":"harness","s":1,"d":"","t":["coding","harness"]},{"r":"glowElephant/context-forge","c":"harness","s":1,"d":"","t":["coding","harness","mcp","skills"]},{"r":"taitrinh205/awesome-agent-harness","c":"frameworks","s":0,"d":"","t":["coding","frameworks","harness","multi-agent"]},{"r":"bitrouter/awesome-agent-harness","c":"harness","s":0,"d":"","t":["harness"]},{"r":"HuiCir/awesome-harness","c":"harness","s":0,"d":"","t":["harness"]},{"r":"wfnuser/Awesome-Agentic-Harness-Engineering","c":"frameworks","s":0,"d":"","t":["frameworks","harness","research"]},{"r":"115th-discomfited211/Awesome-Harness-Engineering","c":"harness","s":0,"d":"","t":["harness"]},{"r":"zhouyuming/awesome-harness-engineering","c":"harness","s":0,"d":"","t":["harness"]},{"r":"parvejhosen257/awesome-agentic-engineering","c":"frameworks","s":0,"d":"","t":["frameworks","harness"]},{"r":"Parvez2017/awesome-agentic-engineering","c":"frameworks","s":0,"d":"","t":["coding","frameworks","harness"]},{"r":"JesseQin123/solo_unicorn_toolbox","c":"skills","s":0,"d":"","t":["harness","skills"]},{"r":"qualisero/awesome-pi-agent","c":"skills","s":994,"d":"","t":["coding","skills"]},{"r":"snwfdhmp/awesome-ralph","c":"coding","s":889,"d":"","t":["coding"]},{"r":"ZeroLu/awesome-gemini-ai","c":"skills","s":680,"d":"","t":["coding"]},{"r":"EliFuzz/awesome-system-prompts","c":"skills","s":198,"d":"","t":["coding"]},{"r":"supatest-ai/awesome-claude-code-sub-agents","c":"tools","s":163,"d":"","t":["coding"]},{"r":"EuniAI/awesome-code-agents","c":"papers","s":100,"d":"","t":["coding","research"]},{"r":"lfglabs-dev/awesome-amp-code","c":"coding","s":74,"d":"","t":["coding"]},{"r":"shaftoe/awesome-pi-coding-agent","c":"coding","s":28,"d":"","t":["coding"]},{"r":"iwillig/awesome-clojure-llm","c":"coding","s":19,"d":"","t":["coding"]},{"r":"tairov/awesome-agents.md","c":"tools","s":18,"d":"","t":["coding"]},{"r":"majiayu000/awesome-goal-prompts","c":"skills","s":18,"d":"","t":["coding","skills"]},{"r":"cola-runner/awesome-tui-design","c":"papers","s":16,"d":"","t":["coding","research"]},{"r":"Chat2AnyLLM/awesome-claude-agents","c":"tools","s":14,"d":"","t":["auto-discovered"]},{"r":"J-nowcow/awesome-korean-agent-skills","c":"skills","s":13,"d":"","t":["coding","skills"]},{"r":"ohong/awesome-coding-ai","c":"coding","s":12,"d":"","t":["coding"]},{"r":"rentprompts/awesome-agent-md","c":"skills","s":12,"d":"","t":["coding"]},{"r":"raymyers/awesome-verified-coding-agents","c":"coding","s":7,"d":"","t":["coding"]},{"r":"kkeril/awesome-claude-code-agents","c":"skills","s":5,"d":"","t":["coding"]},{"r":"yeaight7/agent-powerups","c":"skills","s":5,"d":"","t":["coding","mcp","skills"]},{"r":"philipbankier/awesome-agent-skills","c":"frameworks","s":4,"d":"","t":["coding","mcp","skills"]},{"r":"iamontheinet/awesome-pipeline-auditor-with-cortex-agents-sdk","c":"frameworks","s":4,"d":"","t":["auto-discovered"]},{"r":"gudo7208/awesome-coding-agent-eval","c":"tools","s":4,"d":"","t":["coding"]},{"r":"pato-gonzalez/design-system-stack","c":"skills","s":4,"d":"","t":["coding","skills"]},{"r":"DonkeyKing01/tasteful-ui-skill","c":"skills","s":4,"d":"","t":["coding","skills"]},{"r":"brandonhimpfen/awesome-ai-coding-agents","c":"frameworks","s":3,"d":"","t":["coding","frameworks"]},{"r":"BadMenFinance/awesome-skill-md","c":"skills","s":3,"d":"","t":["coding","skills"]},{"r":"SIRFU3G0/awesome-agent-skills","c":"skills","s":3,"d":"","t":["coding","skills"]},{"r":"ZW471/awesome-agentic-games","c":"coding","s":3,"d":"","t":["coding"]},{"r":"tayyabexe/skills","c":"skills","s":3,"d":"","t":["coding","mcp","skills"]},{"r":"ggg123066/rust-skills","c":"skills","s":3,"d":"","t":["coding","skills"]},{"r":"zjsxply/awesome-coding-agent-tech","c":"papers","s":2,"d":"","t":["coding","research"]},{"r":"Ak-cybe/awesome-offensive-security-skills","c":"skills","s":2,"d":"","t":["coding","security","skills"]},{"r":"chefallan/awesome-context-engine","c":"tools","s":2,"d":"","t":["coding","security"]},{"r":"6missedcalls/awesome-agent-skills","c":"skills","s":2,"d":"","t":["coding","mcp","skills"]},{"r":"martgueritainaccurate875/skills","c":"skills","s":2,"d":"","t":["coding","skills"]},{"r":"zzhou23/awesome-claude-code-playbook","c":"tools","s":1,"d":"","t":["coding"]},{"r":"Smaiil/awesome-claude-agents","c":"skills","s":1,"d":"","t":["skills"]},{"r":"kailiu42/awesome-coding-agents","c":"tools","s":1,"d":"","t":["coding"]},{"r":"obre10off/awesome-claude-code-agents","c":"coding","s":1,"d":"","t":["coding"]},{"r":"Goncalo009/awesome-design-md","c":"coding","s":1,"d":"","t":["coding"]},{"r":"geekmuse/awesome-pi-agent","c":"skills","s":1,"d":"","t":["coding","skills"]},{"r":"bradleybeatz1313/awesome-agents-md","c":"coding","s":1,"d":"","t":["coding"]},{"r":"Masum-MSNR/awesome-flutter-agent-skills","c":"skills","s":1,"d":"","t":["coding","skills"]},{"r":"vbassn/awesome-agent-dev-resources","c":"coding","s":1,"d":"","t":["coding"]},{"r":"Masum-MSNR/awesome-kotlin-android-agent-skills","c":"skills","s":1,"d":"","t":["coding","skills"]},{"r":"Masum-MSNR/awesome-java-android-agent-skills","c":"skills","s":1,"d":"","t":["coding","skills"]},{"r":"Masum-MSNR/awesome-react-native-agent-skills","c":"skills","s":1,"d":"","t":["coding","skills"]},{"r":"Masum-MSNR/awesome-kotlin-multiplatform-agent-skills","c":"frameworks","s":1,"d":"","t":["coding","skills"]},{"r":"datamllab/awesome-game-ai","c":"multi-agent","s":963,"d":"","t":["multi-agent"]},{"r":"AIPMAndy/awesome-openclaw-skills-CN","c":"skills","s":115,"d":"","t":["chinese","coding","skills"]},{"r":"no-fluff/awesome-vibe-coding","c":"tools","s":54,"d":"","t":["coding","mcp"]},{"r":"ankitmundada/awesome-gemini-cli-subagents","c":"tools","s":33,"d":"","t":["coding"]},{"r":"tusharjadhav124/awesome-vibe-coding-tools","c":"tools","s":6,"d":"","t":["coding","mcp"]},{"r":"quome-cloud/awesome-coding-agents","c":"coding","s":5,"d":"","t":["coding"]},{"r":"kzhou003/awesome-coding-agent-systems","c":"coding","s":4,"d":"","t":["coding"]},{"r":"Sehab121/awesome-openclaw-skills-CN","c":"skills","s":3,"d":"","t":["chinese","coding","frameworks","skills"]},{"r":"closedloop-technologies/awesome-coding-agents","c":"coding","s":2,"d":"","t":["coding"]},{"r":"launchapp-dev/awesome-ai-coding-tools","c":"tools","s":2,"d":"","t":["coding","mcp"]},{"r":"freeforall06/awesome-claude-code","c":"tools","s":2,"d":"","t":["coding","frameworks","skills"]},{"r":"ProjectRecon/awesome-ai-agents-security","c":"safety","s":39,"d":"","t":["security"]},{"r":"webpro255/awesome-ai-agent-attacks","c":"coding","s":21,"d":"","t":["mcp","research","security"]},{"r":"Xinhao-Deng/awesome-self-evolving-agent-security","c":"papers","s":5,"d":"","t":["research","security"]},{"r":"pemdes174/cursor-rules","c":"coding","s":5,"d":"","t":["coding","security"]},{"r":"agentoverlay/awesome-multi-agent-security","c":"safety","s":4,"d":"","t":["multi-agent","security"]},{"r":"onlooker89757/awesome-agent-security","c":"papers","s":3,"d":"","t":["research","security"]},{"r":"authora-dev/awesome-agent-security","c":"coding","s":1,"d":"","t":["mcp","security"]},{"r":"zhangjunmengyang/awesome-ai-agent-security","c":"papers","s":1,"d":"","t":["research","security"]},{"r":"usevebu3783/awesome-mcp-security","c":"mcp","s":1,"d":"","t":["mcp","security"]},{"r":"nephritispeepshow717/awesome-agent-security","c":"coding","s":0,"d":"","t":["multi-agent","security"]},{"r":"jo114ge/awesome-genai-agents-security","c":"safety","s":0,"d":"","t":["security"]},{"r":"DevGreick/awesome-llm-security","c":"frameworks","s":0,"d":"","t":["frameworks","mcp","security"]},{"r":"rahmanhsim/awesome-skill","c":"skills","s":0,"d":"","t":["security","skills"]},{"r":"manojrammurthy/awesome-llm-security","c":"skills","s":0,"d":"","t":["security"]},{"r":"OLDBAI213/awesome-ai-security","c":"papers","s":0,"d":"","t":["research","security"]},{"r":"xingjunm/Awesome-Large-Model-Safety","c":"papers","s":266,"d":"","t":["security"]},{"r":"Autonomous-Agent-Team/Awesome-GUI-Agent-Safety","c":"frameworks","s":18,"d":"","t":["frameworks","research","security"]},{"r":"imran-siddique/awesome-ai-governance","c":"frameworks","s":4,"d":"","t":["frameworks","mcp","security"]},{"r":"ShengYun-Peng/awesome-reasoning-and-agent-safety","c":"safety","s":3,"d":"","t":["security"]},{"r":"AUTHENSOR/awesome-agent-safety","c":"frameworks","s":0,"d":"","t":["frameworks","security"]},{"r":"maximehu97/Awesome-GUI-Agent-Safety","c":"safety","s":0,"d":"","t":["security"]},{"r":"xaddwell/awesome-self-evolving-agent-safety","c":"safety","s":0,"d":"","t":["security"]},{"r":"jun0wanan/awesome-large-multimodal-agents","c":"tools","s":491,"d":"","t":["auto-discovered"]},{"r":"junchenzhi/Awesome-LLM-Ensemble","c":"papers","s":235,"d":"","t":["harness","multi-agent","research"]},{"r":"alvinreal/awesome-openclaw-tips","c":"tools","s":201,"d":"","t":["multi-agent"]},{"r":"jihoo-kim/awesome-context-engineering","c":"skills","s":107,"d":"","t":["mcp","multi-agent"]},{"r":"OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI","c":"tools","s":92,"d":"","t":["auto-discovered"]},{"r":"LHL3341/awesome-claws","c":"skills","s":73,"d":"","t":["coding","multi-agent","research","skills"]},{"r":"ZeroLu/awesome-openclaw","c":"skills","s":71,"d":"","t":["multi-agent","skills"]},{"r":"WeiChengTseng/awesome-multi-agent","c":"papers","s":65,"d":"","t":["multi-agent","research"]},{"r":"instadeepai/awesome-marl","c":"papers","s":58,"d":"","t":["multi-agent","research"]},{"r":"nageoffer/awesome-ai-handbook","c":"tools","s":51,"d":"","t":["multi-agent"]},{"r":"Kkkirito-123/mutil-rag-agent","c":"frameworks","s":49,"d":"","t":["mcp","multi-agent"]},{"r":"mira-ai-lab/awesome-mas-life","c":"papers","s":44,"d":"","t":["multi-agent"]},{"r":"AIRicky/Awesome-Reinforcement-Learning","c":"tools","s":39,"d":"","t":["multi-agent"]},{"r":"GalaxyXieyu/Awesome-Langgraph-Learn","c":"tools","s":37,"d":"","t":["multi-agent"]},{"r":"richardblythman/awesome-multi-agent-systems","c":"frameworks","s":32,"d":"","t":["frameworks","multi-agent","research"]},{"r":"NipunaRanasinghe/awesome-ai-agents","c":"frameworks","s":32,"d":"","t":["coding","frameworks","multi-agent","research"]},{"r":"sstklen/infinite-gratitude","c":"papers","s":31,"d":"","t":["multi-agent","research","skills"]},{"r":"Agent-Analytics/awesome-multi-agent-orchestrators","c":"multi-agent","s":29,"d":"","t":["coding","multi-agent"]},{"r":"Andrewzh112/Awesome-LLM-based-MultiAgents","c":"tools","s":27,"d":"","t":["auto-discovered"]},{"r":"yubohann/Awesome-World-Model-Flow-RL-Multi-Agent-Robotic-Object-Centric","c":"harness","s":24,"d":"","t":["multi-agent"]},{"r":"oskar-j/awesome-sim-software","c":"frameworks","s":21,"d":"","t":["frameworks","multi-agent"]},{"r":"EvoMap/awesome-agent-swarm","c":"frameworks","s":21,"d":"","t":["frameworks","multi-agent"]},{"r":"johnsutor/awesome-multi-agent-optimization","c":"papers","s":19,"d":"","t":["multi-agent","research"]},{"r":"weleen/awesome-agent","c":"multi-agent","s":19,"d":"","t":["multi-agent"]},{"r":"AIPMAndy/awesome-openclaw-use-cases-cn","c":"skills","s":17,"d":"","t":["chinese","multi-agent"]},{"r":"zcweah1981/awesome-hermes-agent-zh","c":"tools","s":14,"d":"","t":["chinese","mcp","multi-agent","skills"]},{"r":"l-aime/awesome-agents","c":"frameworks","s":10,"d":"","t":["frameworks","multi-agent","research"]},{"r":"JerryLife/awesome-agent-prompt","c":"skills","s":7,"d":"","t":["multi-agent"]},{"r":"Yaozuwu/Awesome-Guardrail-Methods","c":"frameworks","s":7,"d":"","t":["frameworks","multi-agent","research","security"]},{"r":"HA2345567/awesome-autonomus-ai-agents","c":"tools","s":7,"d":"","t":["coding","frameworks","multi-agent"]},{"r":"songw-zju/awesome-multimodal-agentic-reasoning","c":"reasoning","s":6,"d":"","t":["auto-discovered"]},{"r":"FelipeDaza7/swarm-tools","c":"tools","s":6,"d":"","t":["frameworks","multi-agent"]},{"r":"dxhou/awesome-llm-powered-multi-agents","c":"multi-agent","s":5,"d":"","t":["multi-agent"]},{"r":"minfenli/Awesome-Multi-Agent-Path-Finding","c":"multi-agent","s":5,"d":"","t":["multi-agent"]},{"r":"labclaw/awesome-physical-ai-for-science","c":"workflow","s":5,"d":"","t":["multi-agent"]},{"r":"agentxagi/awesome-discoveries","c":"multi-agent","s":5,"d":"","t":["multi-agent"]},{"r":"Dxsssu/Awesome-LLM4SecOps","c":"papers","s":5,"d":"","t":["multi-agent","research","security"]},{"r":"MyNameIsEdi/open-qa","c":"frameworks","s":5,"d":"","t":["frameworks","multi-agent"]},{"r":"vigneshbarani24/awesome-sap-ai","c":"tools","s":4,"d":"","t":["mcp","multi-agent"]},{"r":"tshekerli/awesome-llm-apps","c":"tools","s":4,"d":"","t":["mcp","multi-agent"]},{"r":"cor3bit/awesome-marl-engineering","c":"harness","s":3,"d":"","t":["multi-agent"]},{"r":"BEIBEICSY/awesome-agent-evaluator-skill","c":"skills","s":5,"d":"","t":["frameworks","skills"]},{"r":"pauldebdeep9/awesome-agentic-evaluation","c":"papers","s":1,"d":"","t":["frameworks","research"]},{"r":"genai-io/awesome-agent-evals","c":"frameworks","s":0,"d":"","t":["frameworks"]},{"r":"Casslin/awesome-browser-agent-evals","c":"skills","s":0,"d":"","t":["auto-discovered"]},{"r":"karozi/Awesome-Vibecoding-and-Speccoding-Resources","c":"tools","s":27,"d":"","t":["coding"]},{"r":"MichaelZelbel/awesome-antigravity","c":"coding","s":16,"d":"","t":["auto-discovered"]},{"r":"superuser-pal/awesome-second-brain","c":"coding","s":10,"d":"","t":["skills"]},{"r":"WangHrYii/Awesome-Agentic-Workflow","c":"workflow","s":6,"d":"","t":["auto-discovered"]},{"r":"OneRose328/awesome-agentic-workflows","c":"ui","s":4,"d":"","t":["auto-discovered"]},{"r":"michaltakac/awesome-crypto-ai-agents","c":"workflow","s":3,"d":"","t":["auto-discovered"]},{"r":"shamspias/awesome-dify-agents","c":"workflow","s":3,"d":"","t":["auto-discovered"]},{"r":"florian101010/awesome-agentic-AI-coding-template","c":"skills","s":3,"d":"","t":["coding","skills"]},{"r":"AgenticEconLab/awesome-agentic-econ-workflows","c":"papers","s":2,"d":"","t":["research"]},{"r":"Tubby0895/awesome-agents","c":"papers","s":2,"d":"","t":["multi-agent","research","security"]},{"r":"Ltelitas/awesome-agentic-workflows","c":"coding","s":1,"d":"","t":["skills"]},{"r":"claireww2025/awesome-n8n-agent-workflows","c":"mcp","s":1,"d":"","t":["mcp","security"]},{"r":"agentablesh/awesome-agent-cli","c":"frameworks","s":1,"d":"","t":["auto-discovered"]},{"r":"yejiming/web3-awesome-skills","c":"skills","s":1,"d":"","t":["mcp","skills"]},{"r":"abhayjnayakk/awesome-design-md","c":"ui","s":1,"d":"","t":["coding"]},{"r":"ulican/devops-agentic-workflows","c":"coding","s":0,"d":"","t":["auto-discovered"]},{"r":"sujayjayjay/awesome-agentkit-workflows","c":"workflow","s":0,"d":"","t":["auto-discovered"]},{"r":"stumpyfr/awesome-agentic-workflow","c":"workflow","s":0,"d":"","t":["auto-discovered"]},{"r":"xztcwang/Awesome_papers_on_automatic_agentic_workflow","c":"papers","s":0,"d":"","t":["research"]},{"r":"dvogeldev/awesome-icm","c":"coding","s":0,"d":"","t":["auto-discovered"]},{"r":"AgenticEconLab/awesome-agentic-econ-research","c":"papers","s":0,"d":"","t":["research"]},{"r":"TianCai19/awesome-html-note-agent","c":"skills","s":0,"d":"","t":["auto-discovered"]},{"r":"texra-ai/awesome-texra-agents","c":"skills","s":0,"d":"","t":["auto-discovered"]},{"r":"farfetchedai/awesome-ai-apps","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"davidishami-d/awesome-ai-apps","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"rudil24/agenticStrategy","c":"ui","s":0,"d":"","t":["auto-discovered"]},{"r":"MorpheusZero/the-awesome-prompt-library","c":"skills","s":0,"d":"","t":["auto-discovered"]},{"r":"browserman-run/awesome-real-browser-agents","c":"papers","s":0,"d":"","t":["mcp","research"]},{"r":"SacriTom/novastar-engagement-system","c":"workflow","s":0,"d":"","t":["auto-discovered"]},{"r":"ai4tune/awesome-openclaw-business-skills","c":"skills","s":0,"d":"","t":["skills"]},{"r":"kashmirscien3399/skills","c":"papers","s":0,"d":"","t":["mcp","research","skills"]},{"r":"mayadigi/seeds","c":"ui","s":0,"d":"","t":["auto-discovered"]},{"r":"Pitchforkanabaptist661/Claude-Code","c":"mcp","s":0,"d":"","t":["coding","mcp","skills"]},{"r":"IAAR-Shanghai/Awesome-AI-Memory","c":"tools","s":910,"d":"","t":["auto-discovered"]},{"r":"DEEP-PolyU/Awesome-GraphMemory","c":"papers","s":273,"d":"","t":["research"]},{"r":"yyyujintang/Awesome-Agent-Memory-Papers","c":"papers","s":187,"d":"","t":["research"]},{"r":"AgentMemoryWorld/Awesome-Agent-Memory","c":"papers","s":151,"d":"","t":["research"]},{"r":"bigai-nlco/Awesome-AI-Memory","c":"papers","s":32,"d":"","t":["auto-discovered"]},{"r":"wfnuser/Awesome-Agent-Memory","c":"frameworks","s":16,"d":"","t":["frameworks","research"]},{"r":"cxxz/awesome-agent-memory","c":"tools","s":10,"d":"","t":["auto-discovered"]},{"r":"sologuy/Awesome-OpenClaw-Memory","c":"skills","s":9,"d":"","t":["mcp","skills"]},{"r":"ZFancy/awesome-agent-memory","c":"tools","s":8,"d":"","t":["auto-discovered"]},{"r":"LUCKYZUNI/agent-memory-guide","c":"tools","s":3,"d":"","t":["skills"]},{"r":"Snseam/awesome-agent-memory","c":"papers","s":2,"d":"","t":["research"]},{"r":"not-a-skid/Awesome-Agent-Memory","c":"papers","s":2,"d":"","t":["research"]},{"r":"AlexWang959/Awesome-Agent-Memory","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"shaoxiang/awesome-agent-memory","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"xaddwell/Awesome-LLM-Agent-Memory","c":"tools","s":1,"d":"","t":["auto-discovered"]},{"r":"unexplained-familyephedraceae871/openclaw-skill","c":"skills","s":1,"d":"","t":["coding","mcp","skills"]},{"r":"aviskaar/awesome-agentic-memory","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"hmzainjamil/Awesome-Agent-Memory-main","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"lban2049/docs-awesome-agent-memory","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"jakublech/awesome-repos","c":"tools","s":0,"d":"","t":["auto-discovered"]},{"r":"WjrRyan/awesome-ai-memory-dashboard","c":"papers","s":0,"d":"","t":["research"]},{"r":"Aryansingh009/awesome-llm-knowledge-systems","c":"skills","s":0,"d":"","t":["harness"]},{"r":"ktaelectronics/clawdbot-kakaotalk","c":"tools","s":0,"d":"","t":["skills"]},{"r":"Eliott0557/openclaw","c":"tools","s":0,"d":"","t":["skills"]},{"r":"qhjqhj00/awesome-agentic-search","c":"papers","s":56,"d":"","t":["research"]},{"r":"Quester-one/Awesome-LLM-Planning","c":"papers","s":55,"d":"","t":["research"]}];
 
+
+
 let currentSort = 'stars';
+
 let searchQuery = '';
 
+
+
 function formatStars(n) {
+
   if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+
   return n.toString();
+
 }
+
+
 
 function getFilteredByCategory(cat) {
+
   let repos = REPOS.filter(r => r.c === cat);
+
   if (searchQuery) {
+
     const q = searchQuery.toLowerCase();
+
     repos = repos.filter(r =>
+
       r.r.toLowerCase().includes(q) ||
+
       r.d.toLowerCase().includes(q) ||
+
       r.t.some(t => String(t).toLowerCase().includes(q))
+
     );
+
   }
+
   if (currentSort === 'stars') {
+
     repos.sort((a, b) => b.s - a.s);
+
   } else {
+
     repos.sort((a, b) => a.r.localeCompare(b.r));
+
   }
+
   return repos;
+
 }
+
+
 
 function renderBoard() {
+
   const board = document.getElementById('board');
+
   const noResults = document.getElementById('noResults');
+
   let totalVisible = 0;
+
   let html = '';
 
+
+
   const catsToShow = CAT_ORDER.filter(c => CAT_META[c]);
+
   // Also include any categories not in CAT_ORDER
+
   const allCats = new Set(REPOS.map(r => r.c));
+
   allCats.forEach(c => { if (!CAT_ORDER.includes(c) && CAT_META[c]) catsToShow.push(c); });
 
+
+
   catsToShow.forEach(cat => {
+
     const repos = getFilteredByCategory(cat);
+
     totalVisible += repos.length;
+
     const meta = CAT_META[cat] || { icon: '📦', label: cat, labelZh: '' };
 
+
+
     const cardsHtml = repos.length > 0 ? repos.map(r => {
+
       const [owner, name] = r.r.includes('/') ? r.r.split('/') : ['', r.r];
+
       const tagClass = 'tag-' + r.c;
+
       const tagsHtml = r.t.filter(t => t !== r.c && t !== 'auto-discovered').slice(0, 2)
+
         .map(t => `<span class="tag ${tagClass}">${t}</span>`).join('');
 
+
+
       return `<a class="repo-card" href="https://github.com/${r.r}" target="_blank" rel="noopener">
+
         <div class="top">
+
           <span class="name">${owner ? `<span class="owner">${owner}/</span>` : ''}${name}</span>
+
           <span class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>${formatStars(r.s)}</span>
+
         </div>
+
         ${r.d ? `<div class="desc">${r.d}</div>` : ''}
+
         ${tagsHtml ? `<div class="tags">${tagsHtml}</div>` : ''}
+
       </a>`;
+
     }).join('') : '<div style="padding:16px;text-align:center;font-size:12px;color:var(--muted);">No results</div>';
 
+
+
     html += `<div class="column">
+
       <div class="col-header">
+
         <div class="col-title">
+
           <span class="col-icon">${meta.icon}</span>
+
           <span class="col-name">${meta.label}</span>
+
           <span class="col-name-zh">${meta.labelZh}</span>
+
           <span class="col-cnt">${repos.length}</span>
+
         </div>
+
       </div>
+
       <div class="col-body">${cardsHtml}</div>
+
     </div>`;
+
   });
 
+
+
   board.innerHTML = html;
+
   noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+
   document.getElementById('resultCount').textContent = totalVisible > 0 ? totalVisible + '' : '';
+
 }
+
+
 
 function setSort(sort) {
+
   currentSort = sort;
+
   document.querySelectorAll('.sort-toggle button').forEach(b => b.classList.toggle('active', b.dataset.sort === sort));
+
   renderBoard();
+
 }
+
+
 
 const searchInput = document.getElementById('searchInput');
+
 let searchTimer;
+
 searchInput.addEventListener('input', () => {
+
   clearTimeout(searchTimer);
+
   searchTimer = setTimeout(() => {
+
     searchQuery = searchInput.value.trim();
+
     renderBoard();
+
   }, 200);
+
 });
+
+
 
 // Particles
+
 function initParticles() {
+
   const canvas = document.getElementById('particles');
+
   const ctx = canvas.getContext('2d');
+
   let particles = [];
+
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
   function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+
   resize(); window.addEventListener('resize', resize);
+
   for (let i = 0; i < 35; i++) {
+
     particles.push({
+
       x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+
       r: Math.random() * 1.5 + 0.5,
+
       vx: (Math.random() - 0.5) * 0.5, vy: (Math.random() - 0.5) * 0.5,
+
       a: Math.random() * 0.3 + 0.1,
+
     });
+
   }
+
   function draw() {
+
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+
     for (let i = 0; i < particles.length; i++) {
+
       const p = particles[i];
+
       p.x += p.vx; p.y += p.vy;
+
       if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+
       if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+
       ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+
       ctx.fillStyle = `rgba(99,102,241,${p.a})`; ctx.fill();
+
       for (let j = i + 1; j < particles.length; j++) {
+
         const q = particles[j];
+
         const dx = p.x - q.x, dy = p.y - q.y;
+
         const dist = Math.sqrt(dx * dx + dy * dy);
+
         if (dist < 120) {
+
           ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y);
+
           ctx.strokeStyle = `rgba(99,102,241,${0.06 * (1 - dist / 120)})`;
+
           ctx.lineWidth = 0.5; ctx.stroke();
+
         }
+
       }
+
     }
+
     requestAnimationFrame(draw);
+
   }
+
   draw();
+
 }
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
+
   renderBoard();
+
   initParticles();
+
 });
+
 </script>
+
 </body>
+
 </html>
+
