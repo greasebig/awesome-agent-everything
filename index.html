@@ -182,6 +182,34 @@ body {
 
 }
 
+.site-nav {
+
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+
+}
+
+.site-link {
+
+  display: inline-flex; align-items: center; gap: 6px;
+
+  padding: 8px 12px; border-radius: 999px;
+
+  border: 1px solid var(--border); background: var(--glass);
+
+  color: var(--ink); text-decoration: none; font-size: 12px; font-weight: 700;
+
+  box-shadow: var(--shadow); white-space: nowrap;
+
+  transition: all 0.2s ease;
+
+}
+
+.site-link:hover {
+
+  transform: translateY(-2px); background: var(--glass-hover); color: var(--accent);
+
+}
+
 
 
 /* Search in header */
@@ -556,6 +584,26 @@ body {
 
 .back-top svg { width: 18px; height: 18px; color: var(--accent); }
 
+.site-switcher {
+
+  margin: 24px auto 44px; max-width: 760px; padding: 18px;
+
+  border-radius: 24px; border: 1px solid var(--border);
+
+  background: var(--glass); box-shadow: var(--shadow);
+
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px;
+
+}
+
+.site-switcher span {
+
+  width: 100%; text-align: center; color: var(--muted);
+
+  font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+
+}
+
 
 
 /* Animations */
@@ -579,6 +627,8 @@ body {
   .header-inner { gap: 8px; flex-wrap: wrap; }
 
   .header h1 { font-size: 18px; }
+
+  .site-nav { width: 100%; }
 
   .board-wrap { padding: 8px; }
 
@@ -960,6 +1010,16 @@ body {
 
     <div class="badge"><span class="dot"></span>Updated every 3 days</div>
 
+    <nav class="site-nav" aria-label="Site switcher">
+
+      <a class="site-link" href="https://greasebig.github.io" target="_blank">🏠 Homepage</a>
+
+      <a class="site-link" href="https://greasebig.github.io/daily-video-papers/" target="_blank">📚 Papers Hub</a>
+
+      <a class="site-link" href="https://greasebig.github.io/awesome-agent-everything/" target="_blank">🧭 Agent Index</a>
+
+    </nav>
+
     <div class="search-box">
 
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
@@ -1005,6 +1065,18 @@ body {
     <p>No repos found.</p>
 
   </div>
+
+</div>
+
+<div class="site-switcher">
+
+  <span>More from greasebig</span>
+
+  <a class="site-link" href="https://greasebig.github.io" target="_blank">🏠 Homepage</a>
+
+  <a class="site-link" href="https://greasebig.github.io/daily-video-papers/" target="_blank">📚 Papers Hub</a>
+
+  <a class="site-link" href="https://greasebig.github.io/awesome-agent-everything/" target="_blank">🧭 Agent Index</a>
 
 </div>
 
