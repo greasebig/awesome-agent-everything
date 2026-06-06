@@ -144,11 +144,21 @@ def search_github_repos(query, max_pages=3):
     return results
 
 
+# Blacklist of repos that should never be included
+BLOCKLIST = {
+    "cirosantilli/china-dictatorship",
+}
+
+
 def is_awesome_agent_repo(repo_info):
     """Check if a repo is genuinely an awesome-agent related repository."""
     name = repo_info["repo"].lower()
     desc = repo_info["description"].lower()
     topics = [t.lower() for t in repo_info.get("topics", [])]
+    
+    # Check blacklist first
+    if repo_info["repo"] in BLOCKLIST:
+        return False
     
     combined = f"{name} {desc} {' '.join(topics)}"
     
