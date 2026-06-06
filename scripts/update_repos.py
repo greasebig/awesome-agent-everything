@@ -74,7 +74,7 @@ def classify_category(name, description):
     """Classify a repo into a category based on its name and description."""
     text = f"{name} {description}".lower()
     for keywords, category in CATEGORY_RULES:
-        if any(kw in text for kw in keywords):
+        if any(_word_match(kw, text) for kw in keywords):
             return category
     return "tools"  # default
 
@@ -149,9 +149,27 @@ BLOCKLIST = {
     "cirosantilli/china-dictatorship",
 }
 
+# Maximum description length to consider legitimate (chars).
+# Descriptions over 5000 chars are likely keyword-stuffed spam.
+MAX_DESC_LENGTH = 5000
+
+
+def _word_match(keyword, text):
+    """Match keyword as a whole word (case-insensitive) in text.
+    
+    Uses word boundaries so that e.g. 'ai' matches 'AI agent' but not
+    'AiLearning', 'container', or 'maintain'.
+    """
+    pattern = r'\b' + re.escape(keyword) + r'\b'
+    return bool(re.search(pattern, text, re.IGNORECASE))
+
 
 def is_awesome_agent_repo(repo_info):
-    """Check if a repo is genuinely an awesome-agent related repository."""
+    """Check if a repo is genuinely an awesome-agent related repository.
+    
+    Uses whole-word matching to avoid false positives from keyword stuffing
+    (e.g. 'ai' matching 'AiLearning').
+    """
     name = repo_info["repo"].lower()
     desc = repo_info["description"].lower()
     topics = [t.lower() for t in repo_info.get("topics", [])]
@@ -160,20 +178,30 @@ def is_awesome_agent_repo(repo_info):
     if repo_info["repo"] in BLOCKLIST:
         return False
     
+    # Reject overly long descriptions (keyword stuffing)
+    if len(desc) > MAX_DESC_LENGTH:
+        return False
+    
+    # Must have a reasonable number of topics (real awesome lists typically have topics)
+    # but don't require them — just use as a signal
+    
     combined = f"{name} {desc} {' '.join(topics)}"
     
-    # Must have "awesome" in name or description
-    if "awesome" not in combined:
+    # Must have "awesome" as a whole word in name or description
+    if not _word_match("awesome", combined):
         return False
     
-    # Must be related to agents / AI
+    # Must be related to agents / AI (whole-word matching)
     agent_keywords = [
         "agent", "agents", "agentic", "llm", "ai", "mcp",
-        "skill", "harness", "autonomous", "copilot", "codex",
+        "skill", "skills", "harness", "autonomous", "copilot", "codex",
         "claude-code", "cursor", "coding-agent", "code-agent",
     ]
-    if not any(kw in combined for kw in agent_keywords):
+    if not any(_word_match(kw, combined) for kw in agent_keywords):
         return False
+    
+    # Bonus: if repo name itself contains "agent" or "awesome-agent", it's very likely legit
+    # No extra check needed — the above filters are sufficient
     
     return True
 
@@ -199,7 +227,7 @@ def extract_tags(repo_info):
     }
     
     for tag, keywords in tag_keywords.items():
-        if any(kw in combined for kw in keywords):
+        if any(_word_match(kw, combined) for kw in keywords):
             tags.add(tag)
     
     return sorted(tags)
