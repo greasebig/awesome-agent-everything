@@ -8,9 +8,30 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Awesome Agent Everything</title>
+<title>Awesome Agent Everything — The Definitive Meta-Index of AI Agent Repositories</title>
 
-<meta name="description" content="A curated index of ALL awesome agent-related repositories on GitHub. 聚合 GitHub 上所有 Agent 相关的 Awesome 仓库索引。">
+<meta name="description" content="The most comprehensive meta-index of AI Agent repositories on GitHub. 650+ repos across 15 categories: frameworks, papers, skills, tools, MCP, coding, multi-agent, safety, evaluation & more. Auto-updated every 3 days.">
+
+<meta name="keywords" content="AI Agent, LLM Agent, Autonomous Agent, Agent Framework, MCP, Model Context Protocol, Agent Skills, Agent Tools, Multi-Agent, Coding Agent, Agent Safety, Agent Evaluation, Agent Workflow, Context Engineering, A2A, ACP, Agentic AI, awesome-agent, agent-index, awesome-list">
+
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+<link rel="canonical" href="https://greasebig.github.io/awesome-agent-everything/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Awesome Agent Everything — The Definitive Meta-Index of AI Agent Repositories">
+<meta property="og:description" content="650+ AI Agent repos across 15 categories. Frameworks, papers, skills, tools, MCP, coding agents, multi-agent systems, safety, evaluation & more. Auto-updated every 3 days.">
+<meta property="og:url" content="https://greasebig.github.io/awesome-agent-everything/">
+<meta property="og:site_name" content="Awesome Agent Everything">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Awesome Agent Everything — AI Agent Meta-Index">
+<meta name="twitter:description" content="650+ AI Agent repos across 15 categories. Auto-updated every 3 days.">
+<meta name="twitter:creator" content="@greasebig">
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='url(%23g)'/><defs><linearGradient id='g' x1='0' y1='0' x2='64' y2='64'><stop offset='0%25' stop-color='%236366f1'/><stop offset='100%25' stop-color='%23ec4899'/></linearGradient></defs><text x='32' y='44' font-family='system-ui' font-size='32' font-weight='700' fill='white' text-anchor='middle'>A</text></svg>">
 
@@ -364,7 +385,7 @@ body {
 
 .col-header .col-name {
 
-  font-size: 14px; font-weight: 700; color: var(--ink);
+  font-size: 14px; font-weight: 700; color: var(--ink); margin: 0; padding: 0; display: inline;
 
 }
 
@@ -784,6 +805,30 @@ body {
 
 </style>
 
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Awesome Agent Everything",
+  "description": "The most comprehensive meta-index of AI Agent repositories on GitHub. 650+ repos across 15 categories, auto-updated every 3 days.",
+  "url": "https://greasebig.github.io/awesome-agent-everything/",
+  "author": {
+    "@type": "Person",
+    "name": "greasebig",
+    "url": "https://greasebig.github.io"
+  },
+  "inLanguage": ["zh-CN", "en"],
+  "dateModified": "2026-06-07",
+  "keywords": ["AI Agent", "LLM Agent", "Agent Framework", "MCP", "Multi-Agent", "Coding Agent", "awesome-list"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://greasebig.github.io/awesome-agent-everything/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
 </head>
 
 <body>
@@ -1012,19 +1057,19 @@ body {
 
     <nav class="site-nav" aria-label="Site switcher">
 
-      <a class="site-link" href="https://greasebig.github.io" target="_blank">🏠 Homepage</a>
+      <a class="site-link" href="https://greasebig.github.io" target="_blank" rel="noopener">🏠 Homepage</a>
 
-      <a class="site-link" href="https://greasebig.github.io/daily-video-papers/" target="_blank">📚 Papers Hub</a>
+      <a class="site-link" href="https://greasebig.github.io/daily-video-papers/" target="_blank" rel="noopener">📚 Papers Hub</a>
 
-      <a class="site-link" href="https://greasebig.github.io/awesome-agent-everything/" target="_blank">🧭 Agent Index</a>
+      <a class="site-link" href="https://greasebig.github.io/awesome-agent-everything/" target="_blank" rel="noopener">🧭 Agent Index</a>
 
     </nav>
 
-    <div class="search-box">
+    <div class="search-box" role="search">
 
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
 
-      <input type="text" id="searchInput" placeholder="Search repos, tags..." autocomplete="off">
+      <input type="text" id="searchInput" placeholder="Search repos, tags..." autocomplete="off" aria-label="Search repositories and tags">
 
       <span class="count" id="resultCount"></span>
 
@@ -1053,7 +1098,7 @@ body {
 
 
 <!-- Board -->
-
+<main>
 <div class="board-wrap">
 
   <div class="board" id="board"></div>
@@ -1067,18 +1112,21 @@ body {
   </div>
 
 </div>
+</main>
 
+<footer>
 <div class="site-switcher">
 
   <span>More from greasebig</span>
 
-  <a class="site-link" href="https://greasebig.github.io" target="_blank">🏠 Homepage</a>
+  <a class="site-link" href="https://greasebig.github.io" target="_blank" rel="noopener">🏠 Homepage</a>
 
-  <a class="site-link" href="https://greasebig.github.io/daily-video-papers/" target="_blank">📚 Papers Hub</a>
+  <a class="site-link" href="https://greasebig.github.io/daily-video-papers/" target="_blank" rel="noopener">📚 Papers Hub</a>
 
-  <a class="site-link" href="https://greasebig.github.io/awesome-agent-everything/" target="_blank">🧭 Agent Index</a>
+  <a class="site-link" href="https://greasebig.github.io/awesome-agent-everything/" target="_blank" rel="noopener">🧭 Agent Index</a>
 
 </div>
+</footer>
 
 
 
@@ -1254,7 +1302,7 @@ function renderBoard() {
 
 
 
-    html += `<div class="column">
+    html += `<div class="column" role="region" aria-label="${meta.labelZh}">
 
       <div class="col-header">
 
@@ -1262,7 +1310,7 @@ function renderBoard() {
 
           <span class="col-icon">${meta.icon}</span>
 
-          <span class="col-name">${meta.label}</span>
+          <h2 class="col-name">${meta.label}</h2>
 
           <span class="col-name-zh">${meta.labelZh}</span>
 
@@ -1405,6 +1453,17 @@ function initParticles() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+
+  // Support ?q= search parameter for Schema.org SearchAction
+  const urlParams = new URLSearchParams(window.location.search);
+  const q = urlParams.get('q');
+  if (q) {
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.value = q;
+      searchQuery = q.toLowerCase();
+    }
+  }
 
   renderBoard();
 
