@@ -41,7 +41,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet README.md data/repos.yml; then
+          if git diff --quiet README.md data/ index.html; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -52,7 +52,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md data/repos.yml
+          git add README.md data/ index.html
           DATE=$(date -u +"%Y-%m-%d")
           git commit -m "auto-update: ${DATE} — discovered new awesome-agent repos"
           git push

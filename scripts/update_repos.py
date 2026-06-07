@@ -2,11 +2,13 @@
 """
 Auto-discovery script for awesome-agent-everything.
 Searches GitHub for new awesome-agent repositories and updates data/repos.yml & README.md.
+Also generates data/repos.json, data/repos.min.json, and updates index.html.
 """
 
 import os
 import re
 import sys
+import json
 import yaml
 import requests
 from datetime import datetime, timezone
@@ -25,6 +27,7 @@ PROXIES = {"https": PROXY_URL, "http": PROXY_URL} if PROXY_URL else None
 
 REPOS_FILE = "data/repos.yml"
 README_FILE = "README.md"
+INDEX_FILE = "index.html"
 
 # Search keywords for discovering new repos
 SEARCH_QUERIES = [
@@ -68,6 +71,33 @@ CATEGORY_RULES = [
     (["reasoning", "planning", "strawberry", "o1"], "reasoning"),
     (["ranking", "aggregator", "meta", "index", "compiled"], "meta"),
 ]
+
+
+# Blacklist of repos that should never be included
+BLOCKLIST = {
+    "cirosantilli/china-dictatorship",
+    "gege-circle/.github",
+}
+
+# Pattern for repos whose names are genuinely related to AI/agents.
+# Repos whose names DON'T match this pattern but whose topics/descriptions DO
+# are likely keyword-stuffed spam (e.g. cirosantilli/china-dictatorship).
+CORE_NAME_PATTERNS = re.compile(
+    r'(?:'
+    r'awesome[\s_-]?(?:agent|ai|llm|mcp|copilot|codex|claude|cursor|agentic|skill|code|dev|hack)'
+    r'|agent|agentic|mcp|copilot|codex|claude|cursor|harness'
+    r'|llm[\s_-]?agent|ai[\s_-]?agent|autonomous'
+    r'|open[\s_-]?claw|multi[\s_-]?agent|agent[\s_-]?skill'
+    r'|prompt|instruct|workflow|memory|security|safety|eval'
+    r'|paper|research|survey|benchmark|ranking'
+    r'|vibe[\s_-]?cod'
+    r')',
+    re.IGNORECASE
+)
+
+# Maximum description length to consider legitimate (chars).
+# Descriptions over 5000 chars are likely keyword-stuffed spam.
+MAX_DESC_LENGTH = 5000
 
 
 def classify_category(name, description):
@@ -144,17 +174,6 @@ def search_github_repos(query, max_pages=3):
     return results
 
 
-# Blacklist of repos that should never be included
-BLOCKLIST = {
-    "cirosantilli/china-dictatorship",
-    "gege-circle/.github",
-}
-
-# Maximum description length to consider legitimate (chars).
-# Descriptions over 5000 chars are likely keyword-stuffed spam.
-MAX_DESC_LENGTH = 5000
-
-
 def _word_match(keyword, text):
     """Match keyword as a whole word (case-insensitive) in text.
     
@@ -170,6 +189,10 @@ def is_awesome_agent_repo(repo_info):
     
     Uses whole-word matching to avoid false positives from keyword stuffing
     (e.g. 'ai' matching 'AiLearning').
+    
+    Also checks that the repo NAME contains a core agent/AI keyword —
+    repos whose names are unrelated to agents but whose topics/descriptions
+    stuff agent keywords (e.g. cirosantilli/china-dictatorship) are rejected.
     """
     name = repo_info["repo"].lower()
     desc = repo_info["description"].lower()
@@ -182,9 +205,6 @@ def is_awesome_agent_repo(repo_info):
     # Reject overly long descriptions (keyword stuffing)
     if len(desc) > MAX_DESC_LENGTH:
         return False
-    
-    # Must have a reasonable number of topics (real awesome lists typically have topics)
-    # but don't require them — just use as a signal
     
     combined = f"{name} {desc} {' '.join(topics)}"
     
@@ -201,8 +221,19 @@ def is_awesome_agent_repo(repo_info):
     if not any(_word_match(kw, combined) for kw in agent_keywords):
         return False
     
-    # Bonus: if repo name itself contains "agent" or "awesome-agent", it's very likely legit
-    # No extra check needed — the above filters are sufficient
+    # DEFENSE: Repo name must contain at least one core AI/agent keyword.
+    # This catches keyword-stuffed repos whose NAME is unrelated to agents
+    # (e.g. "china-dictatorship" has topics: chinese, coding, frameworks, security
+    # but the name itself has nothing to do with AI agents).
+    # We check the repo name (owner/repo format) against core patterns.
+    repo_short_name = name.split("/")[-1] if "/" in name else name
+    if not CORE_NAME_PATTERNS.search(repo_short_name):
+        # Name doesn't match core patterns — check if description is strongly related
+        # Allow through only if description explicitly mentions "agent" or "AI" AND "awesome"
+        # in a way that clearly indicates this is an agent-related list
+        if not (_word_match("agent", desc) or _word_match("agentic", desc) or _word_match("mcp", desc)):
+            print(f"  🚫 Rejected (name unrelated to agents): {repo_info['repo']}")
+            return False
     
     return True
 
@@ -298,7 +329,7 @@ def generate_readme(existing_repos):
         "meta": ("🗂️ Meta-Indexes & Aggregators / 元索引与聚合器", "meta"),
     }
     
-    # Group repos by category
+    # Group repos by category (skip BLOCKLIST)
     by_category = {}
     for repo_name, info in existing_repos.items():
         # Skip blacklisted repos
@@ -359,6 +390,114 @@ def generate_readme(existing_repos):
         f.write(readme)
     
     print(f"📝 README.md updated with {len(existing_repos)} repos across {len(by_category)} categories")
+
+
+def generate_json_files(existing_repos):
+    """Generate data/repos.json and data/repos.min.json from repos.yml data.
+    
+    Both files are regenerated from scratch each run to ensure consistency
+    and to apply BLOCKLIST filtering uniformly across all output formats.
+    """
+    import json
+    
+    # Filter out BLOCKLIST entries
+    filtered_repos = {
+        name: info for name, info in existing_repos.items()
+        if name not in BLOCKLIST
+    }
+    
+    # Group by category for repos.json
+    by_category = {}
+    for repo_name, info in filtered_repos.items():
+        cat = info.get("category", "tools")
+        if cat not in by_category:
+            by_category[cat] = []
+        by_category[cat].append({
+            "repo": repo_name,
+            "category": cat,
+            "tags": info.get("tags", []),
+            "stars": info.get("stars", 0),
+            "description": info.get("description", ""),
+        })
+    
+    # Sort each category by stars (desc)
+    for cat in by_category:
+        by_category[cat].sort(key=lambda x: x.get("stars", 0), reverse=True)
+    
+    # Write repos.json (full format, categorized)
+    with open("data/repos.json", "w", encoding="utf-8") as f:
+        json.dump(by_category, f, indent=2, ensure_ascii=False)
+    total_repos = sum(len(v) for v in by_category.values())
+    print(f"📦 repos.json generated: {total_repos} repos across {len(by_category)} categories")
+    
+    # Write repos.min.json (flat array, minified keys)
+    # Keys: r=repo, c=category, s=stars, d=description, t=tags
+    min_repos = []
+    for repo_name, info in filtered_repos.items():
+        min_repos.append({
+            "r": repo_name,
+            "c": info.get("category", "tools"),
+            "s": info.get("stars", 0),
+            "d": info.get("description", ""),
+            "t": info.get("tags", []),
+        })
+    # Sort by stars descending
+    min_repos.sort(key=lambda x: x.get("s", 0), reverse=True)
+    
+    with open("data/repos.min.json", "w", encoding="utf-8") as f:
+        json.dump(min_repos, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"📦 repos.min.json generated: {len(min_repos)} repos")
+
+
+def update_index_html(existing_repos):
+    """Update the inline REPOS data in index.html to match the current data.
+    
+    Reads index.html, finds the const REPOS = [...] assignment,
+    and replaces it with fresh data (BLOCKLIST-filtered).
+    """
+    if not os.path.exists(INDEX_FILE):
+        print("⏩ index.html not found, skipping")
+        return
+    
+    # Filter out BLOCKLIST entries
+    filtered_repos = {
+        name: info for name, info in existing_repos.items()
+        if name not in BLOCKLIST
+    }
+    
+    # Build minified repos array matching the index.html format
+    min_repos = []
+    for repo_name, info in filtered_repos.items():
+        min_repos.append({
+            "r": repo_name,
+            "c": info.get("category", "tools"),
+            "s": info.get("stars", 0),
+            "d": info.get("description", ""),
+            "t": info.get("tags", []),
+        })
+    # Sort by stars descending
+    min_repos.sort(key=lambda x: x.get("s", 0), reverse=True)
+    
+    repos_json = json.dumps(min_repos, ensure_ascii=False, separators=(",", ":"))
+    
+    with open(INDEX_FILE, "r", encoding="utf-8") as f:
+        html = f.read()
+    
+    # Replace the const REPOS = [...] assignment
+    new_html = re.sub(
+        r'const REPOS = \[.*?\];',
+        f'const REPOS = {repos_json};',
+        html,
+        count=1,
+        flags=re.DOTALL
+    )
+    
+    if new_html != html:
+        with open(INDEX_FILE, "w", encoding="utf-8") as f:
+            f.write(new_html)
+        print(f"🌐 index.html updated: {len(min_repos)} repos")
+    else:
+        print("🌐 index.html: no REPOS data found to update")
 
 
 def fetch_repo_details(repo_name):
@@ -456,6 +595,14 @@ def main():
     # Regenerate README
     print("\n📝 Regenerating README.md...")
     generate_readme(existing)
+    
+    # Regenerate JSON data files (with BLOCKLIST filtering)
+    print("\n📦 Regenerating JSON data files...")
+    generate_json_files(existing)
+    
+    # Update index.html inline data
+    print("\n🌐 Updating index.html...")
+    update_index_html(existing)
     
     # Update repos.yml with star counts
     if stars_updated > 0 or added > 0:
