@@ -147,6 +147,7 @@ def search_github_repos(query, max_pages=3):
 # Blacklist of repos that should never be included
 BLOCKLIST = {
     "cirosantilli/china-dictatorship",
+    "gege-circle/.github",
 }
 
 # Maximum description length to consider legitimate (chars).
@@ -300,6 +301,9 @@ def generate_readme(existing_repos):
     # Group repos by category
     by_category = {}
     for repo_name, info in existing_repos.items():
+        # Skip blacklisted repos
+        if repo_name in BLOCKLIST:
+            continue
         cat = info.get("category", "tools")
         if cat not in by_category:
             by_category[cat] = []
