@@ -5,14 +5,14 @@ repos:
   - autonomous-agents
   - open-source
   - closed-source
-  stars: 28181
+  stars: 28228
   description: A list of AI autonomous agents
 - repo: kyrolabs/awesome-agents
   category: frameworks
   tags:
   - agent-list
   - curated
-  stars: 2387
+  stars: 2404
   description: 🤖 Awesome list of AI Agents
 - repo: jim-schwoebel/awesome_ai_agents
   category: frameworks
@@ -20,7 +20,7 @@ repos:
   - comprehensive
   - tutorials
   - tools
-  stars: 1803
+  stars: 1810
   description: 🤖 A comprehensive list of 1,500+ resources and tools related to AI
     agents.
 - repo: kaushikb11/awesome-llm-agents
@@ -28,7 +28,7 @@ repos:
   tags:
   - llm-agents
   - frameworks
-  stars: 1504
+  stars: 1507
   description: A curated list of awesome LLM agents frameworks.
 - repo: AgentSpaceAI/Awesome-Agent-Framework
   category: frameworks
@@ -46,7 +46,7 @@ repos:
   - 2026
   - monthly-updated
   - 340-plus
-  stars: 1044
+  stars: 1060
   description: 🤖 The most comprehensive list of AI agents, frameworks & tools in 2026.
     300+ resources · 20+ categories · Updated monthly.
 - repo: korchasa/awesome-ai-agents
@@ -64,7 +64,7 @@ repos:
   - construction
   - collaboration
   - evaluation
-  stars: 2733
+  stars: 2740
   description: '[Up-to-date] Large Language Model Agent: A Survey on Methodology,
     Applications and Challenges'
 - repo: hyp1231/awesome-llm-powered-agent
@@ -80,7 +80,7 @@ repos:
   - reasoning
   - o1
   - strawberry
-  stars: 6896
+  stars: 6897
   description: A collection of LLM papers, blogs, and projects, with a focus on OpenAI
     o1 🍓 and reasoning techniques.
 - repo: VoltAgent/awesome-agent-skills
@@ -91,7 +91,7 @@ repos:
   - codex
   - gemini-cli
   - cursor
-  stars: 24457
+  stars: 24829
   description: A curated collection of 1000+ agent skills from official dev teams
     and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and
     more.
@@ -103,7 +103,7 @@ repos:
   - claude-code
   - cursor
   - codex
-  stars: 39924
+  stars: 40194
   description: Installable GitHub library of 1,400+ agentic skills for Claude Code,
     Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI,
     bundles, workflows, and official/community skill collections.
@@ -114,7 +114,7 @@ repos:
   - tutorials
   - directories
   - 23k-skills
-  stars: 5383
+  stars: 5452
   description: Tutorials, Guides and Agent Skills Directories
 - repo: libukai/awesome-agent-skills
   category: skills
@@ -123,7 +123,7 @@ repos:
   - chinese
   - quickstart
   - toolkit
-  stars: 4612
+  stars: 4651
   description: 'Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent
     Skills: QuickStart, Resources, Features&Toolkit'
 - repo: Prat011/awesome-llm-skills
@@ -132,7 +132,7 @@ repos:
   - skills
   - llm
   - cross-platform
-  stars: 1300
+  stars: 1307
   description: A curated list of awesome LLM and AI Agent Skills, resources and tools
     for customising AI Agent workflows - that works with Claude Code, Codex, Gemini
     CLI and your custom AI Agents
@@ -142,7 +142,7 @@ repos:
   - skills
   - persona
   - methodology
-  stars: 4379
+  stars: 4397
   description: Curated list of Agent Skills centered on people, relationships, commemorative
     scenes, and methodological perspectives
 - repo: dontriskit/awesome-ai-system-prompts
@@ -152,7 +152,7 @@ repos:
   - chatgpt
   - claude
   - perplexity
-  stars: 5949
+  stars: 5957
   description: '🧠 Curated collection of system prompts for top AI tools. Perfect for
     AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity,
     Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI. '
@@ -163,7 +163,7 @@ repos:
   - hooks
   - slash-commands
   - orchestrators
-  stars: 45861
+  stars: 46080
   description: A curated list of awesome skills, hooks, slash-commands, agent orchestrators,
     applications, and plugins for Claude Code by Anthropic
 - repo: github/awesome-copilot
@@ -173,7 +173,7 @@ repos:
   - instructions
   - agents
   - configs
-  stars: 34564
+  stars: 34729
   description: Community-contributed instructions, agents, skills, and configurations
     to help you make the most of GitHub Copilot.
 - repo: Shubhamsaboo/awesome-llm-apps
@@ -182,7 +182,7 @@ repos:
   - apps
   - rag
   - runnable
-  stars: 113568
+  stars: 114089
   description: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
 - repo: Arindam200/awesome-ai-apps
   category: tools
@@ -190,7 +190,7 @@ repos:
   - apps
   - rag
   - workflows
-  stars: 12612
+  stars: 12749
   description: A collection of projects showcasing RAG, agents, workflows, and other
     AI use cases
 - repo: MemoriLabs/Memori
@@ -199,7 +199,7 @@ repos:
   - memory
   - infrastructure
   - llm-agnostic
-  stars: 15201
+  stars: 15235
   description: Memori is agent-native memory infrastructure. A LLM-agnostic layer
     that turns agent execution and conversation into structured, persistent state
     for production systems.
@@ -209,7 +209,7 @@ repos:
   - patterns
   - agentic
   - design
-  stars: 4637
+  stars: 4656
   description: A curated catalogue of awesome agentic AI patterns
 - repo: punkpeye/awesome-mcp-servers
   category: mcp
@@ -218,7 +218,7 @@ repos:
   - servers
   - tools
   - databases
-  stars: 88630
+  stars: 88782
   description: A collection of MCP servers.
 - repo: walkinglabs/awesome-harness-engineering
   category: harness
@@ -227,7 +227,7 @@ repos:
   - context-engineering
   - eval
   - observability
-  stars: 2989
+  stars: 3047
   description: 🛠️ Awesome tools & guides for harness engineering.
 - repo: WangRongsheng/awesome-LLM-resources
   category: harness
@@ -236,7 +236,7 @@ repos:
   - resources
   - chinese
   - comprehensive
-  stars: 8492
+  stars: 8510
   description: '🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型）
     | Summary of the world''s best LLM resources. '
 - repo: sorrycc/awesome-code-agents
@@ -244,14 +244,14 @@ repos:
   tags:
   - code-agents
   - development
-  stars: 163
+  stars: 164
 - repo: deepseek-ai/awesome-deepseek-agent
   category: coding
   tags:
   - deepseek
   - integration
   - coding-assistants
-  stars: 3256
+  stars: 3420
 - repo: hao-ji-xing/awesome-cursor
   category: coding
   tags:
@@ -267,7 +267,7 @@ repos:
   - plugins
   - themes
   - agents
-  stars: 7674
+  stars: 7783
   description: A curated list of awesome plugins, themes, agents, projects, and resources
     for https://opencode.ai
 - repo: vijaythecoder/awesome-claude-agents
@@ -276,7 +276,7 @@ repos:
   - claude
   - sub-agent
   - dev-team
-  stars: 4300
+  stars: 4302
   description: An orchestrated sub agent dev team powered by claude code
 - repo: ucsb-mlsec/Awesome-Agent-Security
   category: safety
@@ -290,7 +290,7 @@ repos:
   tags:
   - cybersecurity
   - gpt-agents
-  stars: 6526
+  stars: 6528
   description: A curated list of GPT agents for cybersecurity
 - repo: enescingoz/awesome-n8n-templates
   category: domain
@@ -299,7 +299,7 @@ repos:
   - automation
   - templates
   - workflows
-  stars: 22749
+  stars: 22865
   description: 280+ free n8n automation templates — ready-to-use workflows for Gmail,
     Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI
     agents, RAG   chatbots, email automation, social media, DevOps, and document processing.
@@ -310,7 +310,7 @@ repos:
   - design-md
   - ui-generation
   - coding-agents
-  stars: 88044
+  stars: 88862
   description: A collection of DESIGN.md files analysis by popular brand design systems.
     Drop one into your project and let coding agents generate a matching UI.
 - repo: yuxiaopeng/Github-Ranking-AI
@@ -319,14 +319,14 @@ repos:
   - ranking
   - ai
   - daily-updated
-  stars: 426
+  stars: 427
   description: A list of the most popular AI Topic repositories on GitHub based on
     the number of stars they have received.| AI相关主题Github仓库排名，每日自动更新。
 - repo: liyupi/free-programming-resources
   category: tools
   tags:
   - auto-discovered
-  stars: 3547
+  stars: 3550
   description: 2026 年最新的免费编程资源大全，持续更新！🔥 覆盖各种语言和方向（Java / Python / C++ / JavaScript
     / TypeScript / Golang / 前端 / 后端 / AI大模型应用开发 / AI Agent开发等）的学习路线、零基础入门教程、项目实战教程、经典编程书籍、面试题合集、求职经验分享、简历模板、开源项目推荐、开发工具推荐、实用技术资源等，对程序员和计算机专业学生非常有帮助！⭐️
     学编程，先收藏这个仓库！
@@ -335,7 +335,7 @@ repos:
   tags:
   - mcp
   - multi-agent
-  stars: 3557
+  stars: 3623
   description: 162 production-ready AI agent templates for OpenClaw. SOUL.md configs
     across 19 categories. Submit yours!
 - repo: 0xNyk/awesome-hermes-agent
@@ -343,7 +343,7 @@ repos:
   tags:
   - research
   - skills
-  stars: 3773
+  stars: 3848
   description: A curated list of awesome skills, tools, integrations, and resources
     for Hermes Agent by Nous Research
 - repo: Meirtz/Awesome-Context-Engineering
@@ -351,7 +351,7 @@ repos:
   tags:
   - frameworks
   - research
-  stars: 3171
+  stars: 3173
   description: ' 🔥 Comprehensive survey on Context Engineering: from prompt engineering
     to production-grade AI systems. hundreds of papers, frameworks, and  implementation
     guides for LLMs and AI agents.'
@@ -365,14 +365,14 @@ repos:
   category: skills
   tags:
   - skills
-  stars: 3072
+  stars: 3077
   description: A curated list of resources dedicated to open source GitHub repositories
     related to ChatGPT, OpenAI API, and Codex. Searchable via Claude Code skills.
 - repo: RKiding/Awesome-finance-skills
   category: skills
   tags:
   - skills
-  stars: 2431
+  stars: 2464
   description: A collection of Awesome Finance Agent Skills for free and easy to start
     | 一系列开源免费的金融分析Agent Skills
 - repo: agentuniverse-ai/agentUniverse
@@ -380,43 +380,42 @@ repos:
   tags:
   - frameworks
   - multi-agent
-  stars: 2265
+  stars: 2269
   description: 'agentUniverse is a LLM multi-agent framework that allows developers
     to easily build multi-agent applications. '
 - repo: EvoAgentX/Awesome-Self-Evolving-Agents
   category: papers
   tags:
   - multi-agent
-  stars: 2206
+  stars: 2220
   description: '[Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New
     Paradigm Bridging Foundation Models and Lifelong Agentic Systems'
 - repo: FoundationAgents/awesome-foundation-agents
   category: papers
   tags:
   - research
-  stars: 2173
+  stars: 2174
   description: About Awesome things towards foundation agents. Papers / Repos / Blogs
     / ...
 - repo: Xnhyacinth/Awesome-LLM-Long-Context-Modeling
   category: papers
   tags:
   - research
-  stars: 2112
+  stars: 2118
   description: 📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥
 - repo: alvinreal/awesome-autoresearch
   category: papers
   tags:
   - research
-  stars: 2160
+  stars: 2179
   description: A curated list of autonomous improvement loops, research agents, and
     autoresearch-style systems inspired by Karpathy's autoresearch.
-
 - repo: rohitg00/awesome-claude-code-toolkit
   category: skills
   tags:
   - mcp
   - skills
-  stars: 1978
+  stars: 2005
   description: The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated
     skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs,
     26 companion apps, 52 ecosystem entries, and more.
@@ -424,21 +423,21 @@ repos:
   category: tools
   tags:
   - multi-agent
-  stars: 1834
+  stars: 1842
   description: 'An index of the LangChain + LangGraph ecosystem: concepts, projects,
     tools, templates, and guides for LLM & multi-agent apps.'
 - repo: zchoi/Awesome-Embodied-Robotics-and-Agent
   category: papers
   tags:
   - research
-  stars: 1812
+  stars: 1814
   description: This is a curated list of "Embodied AI or robot with Large Language
     Models" research. Watch this repository for the latest updates! 🔥
 - repo: xhyumiracle/Awesome-AgenticLLM-RL-Papers
   category: papers
   tags:
   - research
-  stars: 1795
+  stars: 1805
 - repo: WenyuChiou/awesome-agentic-ai-zh
   category: multi-agent
   tags:
@@ -446,7 +445,7 @@ repos:
   - mcp
   - multi-agent
   - skills
-  stars: 1900
+  stars: 2332
   description: A structured, trilingual (繁中 / 简中 / English) learning roadmap for agentic
     AI — from LLM basics to multi-agent systems. 8 stages · 145+ curated projects
     · hands-on exercises. 中文 AI agent 學習地圖。
@@ -455,14 +454,14 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 1716
+  stars: 1723
   description: A curated list of Plugins that let you extend Claude Code with custom
     commands, agents, hooks, and MCP servers through the plugin system.
 - repo: XiaomingX/indie-hacker-tools-plus
   category: tools
   tags:
   - auto-discovered
-  stars: 1700
+  stars: 1706
   description: 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A
     curated collection of tech stacks and tools tailored for independent developers
     is here! these are proven, popular tools widely used in the industry. 🚀
@@ -471,7 +470,7 @@ repos:
   tags:
   - frameworks
   - research
-  stars: 1683
+  stars: 1686
   description: A curated list of resources about AI agents for Computer Use, including
     research papers, projects, frameworks, and tools.
 - repo: kyegomez/awesome-multi-agent-papers
@@ -479,19 +478,19 @@ repos:
   tags:
   - multi-agent
   - research
-  stars: 1529
+  stars: 1540
   description: A compilation of the best multi-agent papers
 - repo: steel-dev/awesome-web-agents
   category: frameworks
   tags:
   - frameworks
-  stars: 1461
+  stars: 1462
   description: 🔥 A list of tools, frameworks, and resources for building AI web agents
 - repo: thinkwee/AgentsMeetRL
   category: tools
   tags:
   - coding
-  stars: 1510
+  stars: 1532
   description: Awesome List for Agentic RL
 - repo: slavakurilyak/awesome-ai-agents
   category: tools
@@ -503,7 +502,7 @@ repos:
   category: papers
   tags:
   - research
-  stars: 1266
+  stars: 1270
   description: A curated list of papers and resources based on the survey "Agentic
     Reasoning for Large Language Models"
 - repo: brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research
@@ -511,7 +510,7 @@ repos:
   tags:
   - research
   - skills
-  stars: 1717
+  stars: 1788
   description: 🔬 A curated collection of 23,000+ agent skills for empirical research
     across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI
     20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.
@@ -519,7 +518,7 @@ repos:
   category: papers
   tags:
   - research
-  stars: 1227
+  stars: 1228
   description: List of language agents based on paper "Cognitive Architectures for
     Language Agents"
 - repo: showlab/Awesome-GUI-Agent
@@ -533,28 +532,28 @@ repos:
   category: frameworks
   tags:
   - frameworks
-  stars: 1185
+  stars: 1188
   description: A database of SDKs, frameworks, libraries, and tools for creating,
     monitoring, debugging and deploying autonomous AI agents
 - repo: Jenqyang/Awesome-AI-Agents
   category: tools
   tags:
   - multi-agent
-  stars: 1145
+  stars: 1152
   description: A collection of autonomous agents 🤖️ powered by LLM.
 - repo: ai-boost/awesome-harness-engineering
   category: tools
   tags:
   - harness
   - mcp
-  stars: 1680
+  stars: 1752
   description: 'Awesome list for AI agent harness engineering: tools, patterns, evals,
     memory, MCP, permissions, observability, and orchestration.'
 - repo: lobehub/lobe-chat-agents
   category: meta
   tags:
   - auto-discovered
-  stars: 1117
+  stars: 1124
   description: 🤖 / 🏪 Agent Index - This is the agent index for LobeChat. It accesses
     index.json from this repository to display a list of available agents for LobeChat
     to the agent market.
@@ -562,27 +561,27 @@ repos:
   category: tools
   tags:
   - coding
-  stars: 5407
+  stars: 5424
   description: A curated list of Artificial Intelligence Top Tools
 - repo: filipecalegario/awesome-vibe-coding
   category: coding
   tags:
   - coding
-  stars: 4669
+  stars: 4685
   description: A curated list of vibe coding references, collaborating with AI to
     write code.
 - repo: AlexAnys/awesome-openclaw-usecases-zh
   category: tools
   tags:
   - chinese
-  stars: 4292
+  stars: 4305
   description: '🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理
     | 新手友好 '
 - repo: EgoAlpha/prompt-in-context-learning
   category: skills
   tags:
   - auto-discovered
-  stars: 2240
+  stars: 2242
   description: 'Awesome resources for in-context learning and prompt engineering:
     Mastery of the LLMs such as ChatGPT, GPT-3, and FlanT5, with up-to-date and cutting-edge
     updates. '
@@ -590,14 +589,14 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 1039
+  stars: 1046
   description: Latest Advances on Agentic AI & AI Agents for Healthcare
 - repo: SamurAIGPT/awesome-openclaw
   category: skills
   tags:
   - mcp
   - skills
-  stars: 953
+  stars: 956
   description: A curated list of OpenClaw resources, tools, skills, tutorials & articles.
     OpenClaw (formerly Moltbot / Clawdbot) — open-source self-hosted AI agent for
     WhatsApp, Telegram, Discord & 50+ integrations.
@@ -605,20 +604,20 @@ repos:
   category: papers
   tags:
   - research
-  stars: 1293
+  stars: 1342
   description: A curated collection of AI agent research papers released in 2026,
     covering agent engineering, memory, evaluation, workflows, and autonomous systems.
 - repo: yaklang/hack-skills
   category: skills
   tags:
   - skills
-  stars: 953
+  stars: 1014
   description: Helping AI Agent become an awesome practical hacker!
 - repo: rohitg00/awesome-ai-apps
   category: frameworks
   tags:
   - frameworks
-  stars: 779
+  stars: 781
   description: A curated collection of awesome AI Agents and LLM Apps built with multiple
     tech stacks, showcasing real-world implementations using OpenAI, Gemini, local
     models, and various AI frameworks.
@@ -626,14 +625,14 @@ repos:
   category: ui
   tags:
   - auto-discovered
-  stars: 725
+  stars: 733
   description: 日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection
     for AI agents — extending Google Stitch format with CJK typography.
 - repo: loppety/Awesome-Vibecoding-Guide
   category: tools
   tags:
   - coding
-  stars: 654
+  stars: 655
   description: A compendium drawn from real commercial projects and hundreds of thousands
     of lines of AI‑assisted code. Read it end‑to‑end or feed this repo to your AI
     agent for summaries and Q&A. Stars and watches appreciated! ⭐
@@ -641,20 +640,20 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 619
+  stars: 622
   description: A curated list of best ai tools
 - repo: skillmatic-ai/awesome-agent-skills
   category: skills
   tags:
   - skills
-  stars: 589
+  stars: 592
   description: The definitive resource for Agent Skills - modular capabilities revolutionizing
     AI agent architecture
 - repo: JackyST0/awesome-agent-skills
   category: skills
   tags:
   - skills
-  stars: 557
+  stars: 558
   description: 🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI
     编程工具
 - repo: crewAIInc/awesome-crewai
@@ -674,14 +673,14 @@ repos:
   category: papers
   tags:
   - research
-  stars: 456
+  stars: 462
   description: Curated systems, benchmarks, and papers etc. on memory for LLMs/MLLMs
     --- long-term context, retrieval, and reasoning.
 - repo: aarora4/Awesome-Prediction-Market-Tools
   category: tools
   tags:
   - auto-discovered
-  stars: 456
+  stars: 469
   description: A curated list of Prediction Market Tools - AI Agents, Analytics, APIs,
     Dashboards, Copy Trading, Alerting, Tracking and More!!
 - repo: Alchemyst-ai/awesome-saas
@@ -695,7 +694,7 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 446
+  stars: 456
   description: 🚀 The definitive roadmap to becoming a Forward Deployment Engineer
     (FDE). Master AI Agents, Enterprise Data Architecture, and Strategic Consulting.
     Bridging the gap between HQ and the field. Inspired by the "Delta" role at Palantir,
@@ -704,13 +703,13 @@ repos:
   category: papers
   tags:
   - research
-  stars: 361
+  stars: 362
   description: A curated list of awesome leaderboard-oriented resources for AI domain
 - repo: leoncuhk/awesome-quant-ai
   category: tools
   tags:
   - auto-discovered
-  stars: 359
+  stars: 363
   description: A curated list of awesome resources for quantitative investment and
     trading strategies focusing on artificial intelligence and machine learning applications
     in finance.
@@ -718,7 +717,7 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 348
+  stars: 350
   description: A curated list of top best AI Related Newsletters and ai agents newsletters
 - repo: haoruilee/awesome-agent-native-services
   category: ui
@@ -731,7 +730,7 @@ repos:
   tags:
   - multi-agent
   - research
-  stars: 312
+  stars: 314
   description: 'Curated collection of AI agents built with Google’s Agent Development
     Kit (ADK): templates, best practices, and production-ready examples for research,
     business, automation, education, and more.'
@@ -746,13 +745,13 @@ repos:
   category: ui
   tags:
   - auto-discovered
-  stars: 277
+  stars: 276
   description: Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖
 - repo: e2b-dev/awesome-devins
   category: coding
   tags:
   - coding
-  stars: 250
+  stars: 252
   description: Awesome Devin-inspired AI agents
 - repo: cogine-ai/awesome-openclaw-zh
   category: tools
@@ -765,7 +764,7 @@ repos:
   category: frameworks
   tags:
   - mcp
-  stars: 228
+  stars: 230
   description: '🚀 Curated list of x402 resources: HTTP 402 Payment Required protocol
     for blockchain payments, crypto micropayments, AI agents, API monetization. Includes
     SDKs (TypeScript, Python, Rust), examples, facilitators (Coinbase, Cloudflare),
@@ -775,7 +774,7 @@ repos:
   category: ui
   tags:
   - auto-discovered
-  stars: 242
+  stars: 248
   description: 55个精选网站设计系统 DESIGN.md，可给AI Agent使用生成匹配UI
 - repo: NeuZhou/awesome-ai-anatomy
   category: coding
@@ -784,7 +783,7 @@ repos:
   - frameworks
   - mcp
   - security
-  stars: 205
+  stars: 207
   description: Source code teardowns of 15 AI coding agents. What is actually inside
     Claude Code, Dify, OpenHands, Cline, MemPalace, oh-my-codex, Goose, Codex CLI,
     and 7 more. Architecture diagrams, design patterns. Every claim fact-checked.
@@ -792,7 +791,7 @@ repos:
   category: frameworks
   tags:
   - auto-discovered
-  stars: 198
+  stars: 203
   description: AI Agent 资源汇总，不限于基础概念、Harness 实践、RAG、测评基准、感知记忆、开源项目推荐、核心论文、开源项目等
 - repo: littleben/awesomeAgentskills
   category: skills
@@ -805,20 +804,20 @@ repos:
   category: coding
   tags:
   - coding
-  stars: 219
+  stars: 221
   description: A curated list of awesome resources for vibe coding
 - repo: toolsdk-ai/toolsdk-mcp-registry
   category: frameworks
   tags:
   - mcp
-  stars: 175
+  stars: 177
   description: MCPSDK.dev(ToolSDK.ai)'s Awesome MCP Servers and Packages Registry
     and Database with Structured JSON configurations. Supports OAuth2.1, DCR...
 - repo: vectara/awesome-agent-failures
   category: tools
   tags:
   - auto-discovered
-  stars: 177
+  stars: 179
   description: A community curated collection of AI agent failure modes and battle-tested
     solutions.
 - repo: Calix-L/awesome-latex-skills
@@ -826,14 +825,14 @@ repos:
   tags:
   - research
   - skills
-  stars: 170
+  stars: 172
   description: Prompt packs that make any AI agent a LaTeX expert — fix errors, polish
     writing, format for venues, read papers, recover source
 - repo: DirectorySurf/awesome-ai-agents-directories
   category: tools
   tags:
   - auto-discovered
-  stars: 148
+  stars: 151
   description: A comprehensive list of top best AI agents directories available online
 - repo: irahardianto/awesome-agv
   category: coding
@@ -847,39 +846,39 @@ repos:
   category: tools
   tags:
   - frameworks
-  stars: 134
+  stars: 135
   description: A curated list of awesome top best AI Agents
 - repo: filipecalegario/awesome-generative-ai
   category: tools
   tags:
   - auto-discovered
-  stars: 3465
+  stars: 3467
   description: A curated list of Generative AI tools, works, models, and references
 - repo: ValueByte-AI/Awesome-LLM-in-Social-Science
   category: papers
   tags:
   - research
-  stars: 625
+  stars: 628
   description: Awesome papers involving LLMs in Social Science.
 - repo: qianlima-lab/awesome-lifelong-llm-agent
   category: papers
   tags:
   - research
-  stars: 307
+  stars: 308
   description: TPAMI 2026 | This repository collects awesome survey, resource, and
     paper for lifelong learning LLM agents
 - repo: LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy
   category: reasoning
   tags:
   - research
-  stars: 303
+  stars: 305
   description: ✨✨Latest Advances on Neuro-Symbolic Learning in the era of Large Language
     Models
 - repo: yxf203/Awesome-Efficient-Agents
   category: papers
   tags:
   - research
-  stars: 257
+  stars: 260
   description: Survey and paper list on efficiency-guided LLM agents (memory, tool
     learning, planning).
 - repo: YoungDubbyDu/Awesome-LLM-Agent-Optimization-Papers
@@ -919,7 +918,7 @@ repos:
   - mcp
   - multi-agent
   - skills
-  stars: 132
+  stars: 136
   description: A curated list of AI Agent evolution, memory systems, multi-agent architectures,
     and self-improvement projects. | evomap.ai
 - repo: AmanPriyanshu/Awesome-AI-For-Security
@@ -927,7 +926,11 @@ repos:
   tags:
   - research
   - security
-  stars: 126
+  stars: 127
+  description: A curated list of tools, papers, and datasets for applying AI to cybersecurity
+    tasks. This list primarily focuses on modern AI technologies like Large Language
+    Models (LLMs), Agents, and Multi-Modal systems and their applications in security
+    operations.
 - repo: mengysun/DataParasite
   category: tools
   tags:
@@ -954,7 +957,7 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 72
+  stars: 73
 - repo: azminewasi/Awesome-LLMs-ICLR-24
   category: papers
   tags:
@@ -985,7 +988,7 @@ repos:
   category: papers
   tags:
   - research
-  stars: 61
+  stars: 62
   description: 'Survey paper: From Static Templates to Dynamic Runtime Graphs: A Survey
     of Workflow Optimization for LLM Agents.'
 - repo: wearetyomsmnv/Awesome-LLM-agent-Security
@@ -1026,7 +1029,8 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 23
+  stars: 24
+  description: A curated list of code-execution sandboxing solutions for AI/LLM agents
 - repo: IcyFeather233/Awesome-LLM-Agent-Trajectory-Analysis
   category: tools
   tags:
@@ -1083,7 +1087,7 @@ repos:
   category: frameworks
   tags:
   - auto-discovered
-  stars: 9
+  stars: 10
   description: 'A curated map of modern X-Ops: AI Ops, LLM/Agent Observability, Platform
     Engineering, GitOps, DataOps, FinOps, DevSecOps, and production-grade open-source
     operations tooling.'
@@ -1117,7 +1121,7 @@ repos:
   tags:
   - research
   - skills
-  stars: 8
+  stars: 9
   description: 'The repo of survey paper "A Survey of Agent Skills: Toward Procedural
     Infrastructure for LLM Agents"'
 - repo: agentcasa/awesome-llm-agent
@@ -1146,7 +1150,9 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 5
+  stars: 6
+  description: A curated list of recent progress and resources on Reinforcement Learning
+    for AI Agents.
 - repo: scnu-kevinkong/awesome-formal-llm-agents
   category: tools
   tags:
@@ -1357,7 +1363,7 @@ repos:
   - frameworks
   - harness
   - research
-  stars: 263
+  stars: 269
   description: 'Agent Harness for Large Language Model Agents: A Survey. Survey on
     LLM agentharnessengineering with a taxonomy. 110+papers, 23 systems analyzed.'
 - repo: webmaxru/awesome-microsoft-agent-framework
@@ -1371,7 +1377,7 @@ repos:
   tags:
   - frameworks
   - mcp
-  stars: 119
+  stars: 120
   description: A curated collection of cutting-edge AI agent frameworks, developer
     tools, and automation resources — by AI Pulse Georgia
 - repo: mahonzhan/awesome-agent-harness
@@ -1379,14 +1385,14 @@ repos:
   tags:
   - frameworks
   - harness
-  stars: 128
+  stars: 134
   description: A curated awesome list of agent harnesses, agent frameworks, workflow
     frameworks, and emerging agent protocols.
 - repo: Zijian-Ni/awesome-ai-agents-2026
   category: frameworks
   tags:
   - frameworks
-  stars: 127
+  stars: 136
   description: 🤖 A curated list of AI Agent frameworks, tools, platforms, and resources
     for 2026 — the year agents went mainstream
 - repo: Scottcjn/awesome-agents
@@ -1394,7 +1400,7 @@ repos:
   tags:
   - frameworks
   - multi-agent
-  stars: 88
+  stars: 89
   description: A curated list of AI agent platforms, frameworks, protocols, tools,
     and resources
 - repo: ARUNAGIRINATHAN-K/awesome-ai-agents-2026
@@ -1403,7 +1409,7 @@ repos:
   - coding
   - frameworks
   - research
-  stars: 110
+  stars: 119
   description: Awesome AI Agents for 2026 - 300+ AI Agents, Frameworks & Coding •
     Creative • Voice • Research • Enterprise. Comparison guides, benchmarks & deep
     dives
@@ -1413,7 +1419,7 @@ repos:
   - coding
   - frameworks
   - skills
-  stars: 76
+  stars: 81
   description: Curated list of Agent Skills for AI coding agents like Claude Code,
     Codex and Cursor.
 - repo: ababdotai/awesome-agent-quickstart
@@ -1428,13 +1434,16 @@ repos:
   category: frameworks
   tags:
   - frameworks
-  stars: 56
+  stars: 57
 - repo: chaosync-org/awesome-ai-agent-testing
   category: frameworks
   tags:
   - frameworks
   - security
-  stars: 37
+  stars: 38
+  description: 🤖 A curated list of resources for testing AI agents - frameworks, methodologies,
+    benchmarks, tools, and best practices for ensuring reliable, safe, and effective
+    autonomous AI systems
 - repo: subinium/awesome-agent-frameworks
   category: frameworks
   tags:
@@ -1660,21 +1669,21 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 63509
+  stars: 63934
   description: A curated list of awesome Claude Skills, resources, and tools for customizing
     Claude AI workflows
 - repo: VoltAgent/awesome-openclaw-skills
   category: skills
   tags:
   - skills
-  stars: 49934
+  stars: 50062
   description: The awesome collection of OpenClaw skills. 5,400+ skills filtered and
     categorized from the official OpenClaw Skills Registry.🦞
 - repo: ikaijua/Awesome-AITools
   category: tools
   tags:
   - skills
-  stars: 6001
+  stars: 6005
   description: Collection of AI-related utilities. Welcome to submit pull requests
     /收藏AI相关的实用工具，欢迎提交pull requests
 - repo: taishi-i/awesome-japanese-nlp-resources
@@ -1689,14 +1698,14 @@ repos:
   category: skills
   tags:
   - skills
-  stars: 1154
+  stars: 1192
   description: List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic
     tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools
 - repo: new-silvermoon/awesome-android-agent-skills
   category: skills
   tags:
   - skills
-  stars: 833
+  stars: 838
   description: A collection of standardized Agent Skills to teach GitHub Copilot,
     Claude, Gemini and Cursor about modern Android development (Kotlin, Jetpack Compose,
     etc.).
@@ -1704,14 +1713,14 @@ repos:
   category: skills
   tags:
   - skills
-  stars: 601
+  stars: 605
   description: A curated catalog of human distillliation agent skills
 - repo: Code-and-Sorts/awesome-copilot-agents
   category: skills
   tags:
   - mcp
   - skills
-  stars: 535
+  stars: 534
   description: ✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs
     and agent markdown files for enhancing your GitHub Copilot AI experience.
 - repo: InternScience/Awesome-Scientific-Skills
@@ -1719,20 +1728,20 @@ repos:
   tags:
   - research
   - skills
-  stars: 420
+  stars: 422
   description: An open, curated collection of Agent Skills for scientific research
     — clone it, use it, extend it!
 - repo: lawve-ai/awesome-legal-skills
   category: skills
   tags:
   - skills
-  stars: 410
+  stars: 412
   description: A curated list of awesome Agent Skills for automating legal work
 - repo: karanb192/awesome-claude-skills
   category: skills
   tags:
   - skills
-  stars: 370
+  stars: 372
   description: 🎯 The definitive collection of 50+ verified Awesome Claude Skills for
     Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows,
     document processing, and more. Community-driven, actively maintained.
@@ -1741,7 +1750,7 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 261
+  stars: 262
   description: 'HeyClaude is a curated registry and distribution surface for Claude
     and AI-workflow assets: agents, MCP servers, skills, commands, hooks, rules, guides,
     tools, jobs, Raycast feeds, static data exports, and an npm MCP package.'
@@ -1750,28 +1759,28 @@ repos:
   tags:
   - research
   - skills
-  stars: 247
+  stars: 248
   description: contains the list of papers of agent skills
 - repo: XMUDeepLIT/Awesome-Self-Evolving-Agents
   category: papers
   tags:
   - research
   - skills
-  stars: 229
+  stars: 238
   description: A Survey of Self-Evolving Agents | A curated list of resources (surveys,
     papers, benchmarks, and opensource projects) on Self-Evolving Agents.
 - repo: futantan/agent-skills.md
   category: skills
   tags:
   - skills
-  stars: 198
+  stars: 202
   description: Find awesome Agent Skills
 - repo: apify/awesome-skills
   category: skills
   tags:
   - coding
   - skills
-  stars: 196
+  stars: 197
   description: Community collection of Apify agent skills for AI coding assistants
 - repo: LLMQuant/awesome-trading-agents
   category: papers
@@ -1779,7 +1788,7 @@ repos:
   - mcp
   - research
   - skills
-  stars: 198
+  stars: 207
   description: Curated list of LLM-driven trading agents, MCP servers, and agent skills
     for market research, strategy, and execution.
 - repo: momozi1996/awesome-ai-persona-skills
@@ -1787,34 +1796,34 @@ repos:
   tags:
   - multi-agent
   - skills
-  stars: 222
+  stars: 235
   description: 全网最全的、持续更新的、最火爆的 100+ 人格 蒸馏skills 合集｜ 多agent系统 ｜名人/导演/天涯大神/古籍/二次元/职场/情感全品类
 - repo: itgoyo/awesome-agent-skills
   category: skills
   tags:
   - skills
-  stars: 119
+  stars: 122
   description: 收集全网最热门的Agent-Skills项目
 - repo: Panmax/awesome-nuwa
   category: frameworks
   tags:
   - frameworks
   - skills
-  stars: 148
+  stars: 154
   description: Awesome list of 女娲.skill — 用女娲蒸馏的人物思维框架合集 | Distilled human thinking
     frameworks for Claude Code
 - repo: finfin/awesome-frontend-skills
   category: skills
   tags:
   - skills
-  stars: 110
+  stars: 113
   description: A curated list of frontend Agent Skills installable via npx skills
     add
 - repo: seb1n/awesome-ai-agent-skills
   category: skills
   tags:
   - skills
-  stars: 97
+  stars: 99
   description: 90+ universal, self-contained skills that make any AI agent better
     at real-world tasks. Not a link directory — every skill is a complete, ready-to-use
     instruction set.
@@ -1823,7 +1832,7 @@ repos:
   tags:
   - coding
   - skills
-  stars: 91
+  stars: 93
   description: A comprehensive knowledge base for Huawei Ascend NPU development, structured
     as distributed Agent Skills. https://ascend-ai-coding.github.io/awesome-ascend-skills/
 - repo: Techopolis/awesome-ios-ai
@@ -1832,7 +1841,7 @@ repos:
   - coding
   - mcp
   - skills
-  stars: 87
+  stars: 89
   description: AI agent skills, agent teams, MCP servers, and tools that make AI coding
     assistants better at Swift and iOS development.
 - repo: jaccen/Awesome-Gaussian-Skills
@@ -1840,20 +1849,20 @@ repos:
   tags:
   - research
   - skills
-  stars: 91
+  stars: 96
   description: AI Agent Skills for 3D Gaussian Splatting, NeRF & Computer Graphics
     Research. 531+ methods, 23 categories, 10 skills. OpenClaw / Claude Code compatible.
 - repo: JayLZhou/Awesome-Agent-Skills
   category: skills
   tags:
   - skills
-  stars: 90
+  stars: 95
 - repo: CommandCodeAI/agent-skills
   category: skills
   tags:
   - coding
   - skills
-  stars: 71
+  stars: 72
   description: A curated list of awesome Skills, resources, and tools for customizing
     coding agent workflows.
 - repo: scienceaix/agentskills
@@ -1875,7 +1884,7 @@ repos:
   category: skills
   tags:
   - skills
-  stars: 66
+  stars: 67
   description: A curated collection of production-ready Hermes Agent skills — brainstorming,
     PRD workflows, debugging, Apple integrations, MLOps, document processing, and
     more.
@@ -1884,7 +1893,7 @@ repos:
   tags:
   - coding
   - skills
-  stars: 61
+  stars: 62
   description: 'My ongoing WIP 🏗️ AI prompts, custom agents, skills & instructions
     - curated by me (and Copilot + ChatGPT). '
 - repo: Holddrespell/r16-voltagent-awesome-agent-skills-datascience
@@ -1913,7 +1922,7 @@ repos:
   tags:
   - research
   - skills
-  stars: 75
+  stars: 81
   description: 来自顶尖研究机构的 AI 论文写作 Prompt 模板库与 Agent Skills 集合 ✨
 - repo: BanSailmakerDitch/r16-voltagent-awesome-agent-skills-ecommerce
   category: skills
@@ -1924,7 +1933,7 @@ repos:
   category: skills
   tags:
   - skills
-  stars: 48
+  stars: 49
   description: Agent-agnostic PPT design skills for creating high-end, editable presentation
     styles.
 - repo: gmh5225/awesome-skills
@@ -1932,7 +1941,7 @@ repos:
   tags:
   - coding
   - skills
-  stars: 36
+  stars: 37
   description: A curated list of Agent Skills, resources, and tools for AI coding
     agents like Claude Code, Codex, Gemini CLI, GitHub Copilot, and more.
 - repo: codeaashu/awesome-openclaw-Skills
@@ -1947,7 +1956,7 @@ repos:
   tags:
   - research
   - skills
-  stars: 25
+  stars: 26
   description: An awesome Claude skill for structured marketing research system. Covers
     competitor analysis, avatar profiling, positioning, value propositions, and mental
     models.
@@ -1985,7 +1994,7 @@ repos:
   category: tools
   tags:
   - mcp
-  stars: 611
+  stars: 614
   description: Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all
     in one place.
 - repo: pab1it0/awesome-a2a
@@ -1999,14 +2008,14 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 66
+  stars: 67
   description: A curated list of AI-powered DevOps & SRE (Site Reliability Engineering)
     agents, tools, and resources for automating and enhancing reliability practices
 - repo: looptech-ai/understand-quickly
   category: ui
   tags:
   - mcp
-  stars: 32
+  stars: 34
   description: 'Public registry of code-knowledge graphs for AI agents. Awesome-list
     2.0: pointers to schema-validated content, not just links.'
 - repo: questflowai/awesome-a2a-hub
@@ -2063,7 +2072,7 @@ repos:
   - mcp
   - security
   - skills
-  stars: 11
+  stars: 15
   description: '🛡️ A curated list of resources on agent skills security: attacks,
     defenses, frameworks, and benchmarks for securing AI agent tool use and skill
     ecosystems'
@@ -2274,18 +2283,18 @@ repos:
   category: papers
   tags:
   - research
-  stars: 905
+  stars: 907
   description: A Survey on Large Language Model-Based Game Agents (ACM CSUR)
 - repo: HuggingAGI/AwesomeAgentPapers
   category: papers
   tags:
   - research
-  stars: 224
+  stars: 223
 - repo: YunjiaXi/Awesome-Search-Agent-Papers
   category: papers
   tags:
   - research
-  stars: 143
+  stars: 145
 - repo: aristoteleo/awesome-bioagent-papers
   category: papers
   tags:
@@ -2304,7 +2313,7 @@ repos:
   category: papers
   tags:
   - research
-  stars: 44
+  stars: 45
   description: A curated list of awesome RL in GUI Agent papers
 - repo: Eileen19200930/Awesome-Agent-Papers
   category: papers
@@ -2322,7 +2331,9 @@ repos:
   tags:
   - research
   - security
-  stars: 3
+  stars: 4
+  description: ':sparkles: Awesome things about AI security agents. Papers / Repos
+    / Blogs / ...'
 - repo: vchaitanyachowdari/awesome-multi-agent-papers
   category: papers
   tags:
@@ -2397,31 +2408,31 @@ repos:
   category: mcp
   tags:
   - mcp
-  stars: 7235
+  stars: 7255
   description: MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients
 - repo: punkpeye/awesome-mcp-clients
   category: mcp
   tags:
   - mcp
-  stars: 6465
+  stars: 6469
   description: A collection of MCP clients.
 - repo: appcypher/awesome-mcp-servers
   category: tools
   tags:
   - mcp
-  stars: 5585
+  stars: 5590
   description: Awesome MCP Servers - A curated list of Model Context Protocol servers
 - repo: wong2/awesome-mcp-servers
   category: mcp
   tags:
   - mcp
-  stars: 4140
+  stars: 4145
   description: A curated list of Model Context Protocol (MCP) servers
 - repo: homeassistant-ai/ha-mcp
   category: mcp
   tags:
   - mcp
-  stars: 3265
+  stars: 3312
   description: The Unofficial and Awesome Home Assistant MCP Server
 - repo: AmoyLab/Unla
   category: tools
@@ -2435,13 +2446,13 @@ repos:
   category: mcp
   tags:
   - mcp
-  stars: 2014
+  stars: 2016
   description: directory for Awesome MCP Servers
 - repo: taielab/awesome-hacking-lists
   category: tools
   tags:
   - mcp
-  stars: 1345
+  stars: 1347
   description: A curated collection of top-tier penetration testing tools and productivity
     utilities across multiple domains. Join us to explore, contribute, and enhance
     your hacking toolkit!
@@ -2449,7 +2460,7 @@ repos:
   category: mcp
   tags:
   - mcp
-  stars: 1069
+  stars: 1071
   description: Remote MCP Servers
 - repo: YuzeHao2023/Awesome-MCP-Servers
   category: mcp
@@ -2461,40 +2472,40 @@ repos:
   category: tools
   tags:
   - mcp
-  stars: 995
+  stars: 997
   description: A curated list of awesome MCP servers focused on DevOps tools and capabilities.
 - repo: MobinX/awesome-mcp-list
   category: mcp
   tags:
   - mcp
-  stars: 878
+  stars: 879
   description: A concise list for mcp servers
 - repo: ccplugins/awesome-claude-code-plugins
   category: skills
   tags:
   - mcp
-  stars: 823
+  stars: 825
   description: Awesome Claude Code plugins — a curated list of slash commands, subagents,
     MCP servers, and hooks for Claude Code
 - repo: TensorBlock/awesome-mcp-servers
   category: mcp
   tags:
   - mcp
-  stars: 728
+  stars: 735
   description: A comprehensive collection of Model Context Protocol (MCP) servers
 - repo: Puliczek/awesome-mcp-security
   category: mcp
   tags:
   - mcp
   - security
-  stars: 700
+  stars: 701
   description: 🔥🔒 Awesome MCP (Model Context Protocol) Security 🖥️
 - repo: milisp/codexia
   category: skills
   tags:
   - mcp
   - skills
-  stars: 717
+  stars: 721
   description: Agent Workstation for Codex CLI + Claude Code — with task scheduler,
     git worktree & remote control, skills management
 - repo: demcp/awesome-web3-mcp-servers
@@ -2509,7 +2520,7 @@ repos:
   - coding
   - mcp
   - skills
-  stars: 547
+  stars: 548
   description: Curated list of awesome AI tools to build beautiful UI/UX.
 - repo: punkpeye/awesome-mcp-devtools
   category: frameworks
@@ -2529,7 +2540,7 @@ repos:
   category: skills
   tags:
   - mcp
-  stars: 355
+  stars: 31
   description: Curated Google Gemini Omni prompts & API examples — text-to-video,
     image-to-video, video edit via the Gemini Omni API on muapi.ai. Python wrapper,
     MCP server, REST examples.
@@ -2544,14 +2555,14 @@ repos:
   category: tools
   tags:
   - mcp
-  stars: 314
+  stars: 318
   description: A curated collection of open source fintech libraries and resources.
 - repo: hanlulong/awesome-ai-for-economists
   category: papers
   tags:
   - mcp
   - research
-  stars: 336
+  stars: 343
   description: A curated list of AI tools, libraries, and resources for economics
     research, teaching, and policy analysis. Maintained by the OpenEcon team.
 - repo: ThibautMelen/agentic-ai-systems
@@ -2566,20 +2577,20 @@ repos:
   category: mcp
   tags:
   - mcp
-  stars: 279
+  stars: 280
   description: A collection of MCP servers
 - repo: soxoj/awesome-osint-mcp-servers
   category: mcp
   tags:
   - mcp
-  stars: 251
+  stars: 252
   description: 🔌 A curated list of OSINT MCP servers. Pull requests are welcomed!
 - repo: Mizoreww/awesome-claude-code-config
   category: skills
   tags:
   - mcp
   - skills
-  stars: 237
+  stars: 236
   description: Production-ready Claude Code configuration with self-improvement loop,
     multi-language rules, MCP integrations, and custom skills
 - repo: RoggeOhta/awesome-codex-cli
@@ -2588,20 +2599,20 @@ repos:
   - coding
   - mcp
   - skills
-  stars: 263
+  stars: 266
   description: Curated list of 150+ tools, skills, subagents & plugins for OpenAI
     Codex CLI
 - repo: milisp/awesome-claude-dxt
   category: mcp
   tags:
   - mcp
-  stars: 174
+  stars: 175
   description: Awesome Claude Desktop Extensions (dxt) (not only Claude) mcpb
 - repo: darjeeling/awesome-mcp-korea
   category: mcp
   tags:
   - mcp
-  stars: 187
+  stars: 189
   description: A curated list of MCP servers for the Korean market, including legal,
     commerce, public data, and local services integrations.
 - repo: EthanYolo01/Awesome-OpenClaw
@@ -2625,7 +2636,7 @@ repos:
   category: mcp
   tags:
   - mcp
-  stars: 143
+  stars: 145
   description: Awesome ModelContextProtocol resources - A curated list of MCP DotNET
     resources
 - repo: badkk/awesome-crypto-mcp-servers
@@ -2639,7 +2650,7 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 131
+  stars: 132
   description: 'Curated awesome list for OpenClaw (formerly Moltbot/Clawdbot): skills,
     plugins, memory systems, MCP tools, deployment stacks, ecosystem platforms, and
     developer tooling.'
@@ -2653,13 +2664,13 @@ repos:
   category: mcp
   tags:
   - mcp
-  stars: 133
+  stars: 134
   description: A list of MCP gateways
 - repo: Picrew/awesome-agent-harness
   category: tools
   tags:
   - harness
-  stars: 1097
+  stars: 1154
   description: An awesome list of Agent Harness engineering resources, including GitHub
     projects, tools, benchmarks, and practical guides.
 - repo: bradAGI/awesome-cli-coding-agents
@@ -2667,7 +2678,7 @@ repos:
   tags:
   - coding
   - harness
-  stars: 515
+  stars: 536
   description: 'Curated directory of terminal-native AI coding agents and the harnesses
     that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose),
     platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous
@@ -2678,13 +2689,13 @@ repos:
   - coding
   - harness
   - multi-agent
-  stars: 439
+  stars: 445
 - repo: YennNing/Awesome-Code-as-Agent-Harness-Papers
   category: papers
   tags:
   - harness
   - research
-  stars: 347
+  stars: 378
 - repo: kennethlaw325/awesome-llm-knowledge-systems
   category: skills
   tags:
@@ -2696,7 +2707,7 @@ repos:
   category: harness
   tags:
   - harness
-  stars: 54
+  stars: 114
 - repo: WanLanglin/-awesome-cc-harness
   category: tools
   tags:
@@ -2711,7 +2722,7 @@ repos:
   tags:
   - harness
   - research
-  stars: 75
+  stars: 80
   description: The official GitHub page for the paper "Agent Systems with Harness
     Engineering"
 - repo: Jiaaqiliu/Awesome-Harness-Engineering
@@ -2887,14 +2898,14 @@ repos:
   category: coding
   tags:
   - coding
-  stars: 897
+  stars: 896
   description: A curated list of resources about Ralph, the AI coding technique that
     runs AI coding agents in automated loops until specifications are fulfilled.
 - repo: ZeroLu/awesome-gemini-ai
   category: skills
   tags:
   - coding
-  stars: 688
+  stars: 689
   description: The ultimate collection of Awesome Gemini Prompts, use cases, and examples.
     Curated from X (Twitter), Reddit, and top prompt engineers. Includes prompts for
     coding, agents, design, and productivity using Google Gemini 1.5 Pro and Ultra.
@@ -2902,7 +2913,7 @@ repos:
   category: skills
   tags:
   - coding
-  stars: 210
+  stars: 212
   description: 'A collection of system prompts and tool definitions from various AI
     coding agents: Augment Code, Claude Code, Cluely, Cursor, Devin AI, Kiro, Perplexity,
     VSCode Agent, Gemini, Codex, OpenAI'
@@ -2916,20 +2927,20 @@ repos:
   tags:
   - coding
   - research
-  stars: 103
+  stars: 105
   description: A curated list of products, benchmarks, and research papers on autonomous
     code agents. Beyond coding — they're redefining how software changes the world.
 - repo: lfglabs-dev/awesome-amp-code
   category: coding
   tags:
   - coding
-  stars: 76
+  stars: 75
   description: An unofficial curated list of resources for Amp, an AI coding agent.
 - repo: shaftoe/awesome-pi-coding-agent
   category: coding
   tags:
   - coding
-  stars: 34
+  stars: 36
   description: An auto-discovered, LLM curated directory of resources for the Pi Coding
     Agent ecosystem. Updated daily.
 - repo: iwillig/awesome-clojure-llm
@@ -2951,7 +2962,7 @@ repos:
   tags:
   - coding
   - skills
-  stars: 29
+  stars: 33
   description: 114 source-backed /goal contracts for coding agents, plus 200 separated
     seed patterns.
 - repo: cola-runner/awesome-tui-design
@@ -3017,7 +3028,9 @@ repos:
   - coding
   - mcp
   - skills
-  stars: 4
+  stars: 5
+  description: A curated directory of skills, tools, and plugins for AI coding agents
+    — across every platform. MCP servers, Agent Skills, Cursor rules, and more.
 - repo: iamontheinet/awesome-pipeline-auditor-with-cortex-agents-sdk
   category: frameworks
   tags:
@@ -3051,7 +3064,7 @@ repos:
   tags:
   - coding
   - skills
-  stars: 4
+  stars: 3
   description: A curated list of SKILL.md skills, tools, and resources for AI coding
     agents
 - repo: SIRFU3G0/awesome-agent-skills
@@ -3087,7 +3100,9 @@ repos:
   tags:
   - coding
   - research
-  stars: 2
+  stars: 3
+  description: This repository curates resources on Code Agent technology, including
+    blogs, research papers, interviews, and related materials.
 - repo: Ak-cybe/awesome-offensive-security-skills
   category: skills
   tags:
@@ -3197,7 +3212,7 @@ repos:
   category: multi-agent
   tags:
   - multi-agent
-  stars: 966
+  stars: 968
   description: Awesome Game AI materials of Multi-Agent Reinforcement Learning
 - repo: AIPMAndy/awesome-openclaw-skills-CN
   category: skills
@@ -3268,7 +3283,7 @@ repos:
   category: safety
   tags:
   - security
-  stars: 41
+  stars: 43
   description: A living map of the AI agent security ecosystem.
 - repo: webpro255/awesome-ai-agent-attacks
   category: coding
@@ -3276,7 +3291,7 @@ repos:
   - mcp
   - research
   - security
-  stars: 23
+  stars: 25
   description: A curated timeline of real AI agent security incidents, breaches, and
     vulnerabilities (2024-2026). Every entry sourced and dated.
 - repo: Xinhao-Deng/awesome-self-evolving-agent-security
@@ -3362,7 +3377,7 @@ repos:
   category: papers
   tags:
   - security
-  stars: 265
+  stars: 267
   description: 'Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety'
 - repo: Autonomous-Agent-Team/Awesome-GUI-Agent-Safety
   category: frameworks
@@ -3419,7 +3434,7 @@ repos:
   category: tools
   tags:
   - multi-agent
-  stars: 204
+  stars: 207
   description: Practical OpenClaw tips for memory, reliability, cost, automation,
     and multi-agent workflows.
 - repo: jihoo-kim/awesome-context-engineering
@@ -3442,7 +3457,7 @@ repos:
   - multi-agent
   - research
   - skills
-  stars: 77
+  stars: 78
   description: '🦞 A curated list of OpenClaw-related products, skills, communities,
     and ecosystem resources.  OpenClaw 入门教程及项目集锦：按使用场景整理的产品、技能、社区与生态资源。 '
 - repo: ZeroLu/awesome-openclaw
@@ -3470,14 +3485,14 @@ repos:
   category: tools
   tags:
   - multi-agent
-  stars: 62
+  stars: 65
   description: 🤖 AI 工程师的成长手册：从基础知识到 RAG、Agent 实战，涵盖学习路径与高频面试题。
 - repo: Kkkirito-123/mutil-rag-agent
   category: frameworks
   tags:
   - mcp
   - multi-agent
-  stars: 59
+  stars: 62
   description: An improved multi-agent AIOps and RAG platform for OnCall troubleshooting,
     featuring LangGraph-based diagnosis workflows, Milvus vector search, MCP tool
     integration, Prometheus alert knowledge from awesome-prometheus-alerts, and sanitized
@@ -3486,7 +3501,7 @@ repos:
   category: papers
   tags:
   - multi-agent
-  stars: 56
+  stars: 57
   description: A Survey of Multi-agent Collaboration, Attribution and Evolution
 - repo: AIRicky/Awesome-Reinforcement-Learning
   category: tools
@@ -3497,7 +3512,7 @@ repos:
   category: tools
   tags:
   - multi-agent
-  stars: 39
+  stars: 40
   description: Runnable LangGraph examples for multi-agent handoff, memory, and async
     execution patterns.
 - repo: richardblythman/awesome-multi-agent-systems
@@ -3521,13 +3536,15 @@ repos:
   - multi-agent
   - research
   - skills
-  stars: 31
+  stars: 30
+  description: 🥋 Multi-agent research skill for Claude Code | 10 個 AI Agent 協作研究 |
+    10 AIエージェント協調リサーチ — AI Dojo series
 - repo: Agent-Analytics/awesome-multi-agent-orchestrators
   category: multi-agent
   tags:
   - coding
   - multi-agent
-  stars: 39
+  stars: 41
   description: Awesome-style curated list and directory for multi-agent orchestration.
 - repo: Andrewzh112/Awesome-LLM-based-MultiAgents
   category: tools
@@ -3581,7 +3598,7 @@ repos:
   - mcp
   - multi-agent
   - skills
-  stars: 22
+  stars: 23
   description: Hermes Agent中文站- 中文实战入口：上手路径、国内落地、OpenClaw 共存迁移、排障参考与可下载方案包。
 - repo: l-aime/awesome-agents
   category: frameworks
@@ -3594,7 +3611,8 @@ repos:
   category: skills
   tags:
   - multi-agent
-  stars: 7
+  stars: 8
+  description: Collection of Awesome Prompts for Multi-Agent System
 - repo: Yaozuwu/Awesome-Guardrail-Methods
   category: frameworks
   tags:
@@ -3775,7 +3793,9 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 1
+  stars: 2
+  description: A curated registry of Web3 and AI-native skills, covering exchanges,
+    DeFi, analytics, wallets, MCP tooling, and agent workflows in one repository.
 - repo: abhayjnayakk/awesome-design-md
   category: ui
   tags:
@@ -3882,7 +3902,7 @@ repos:
   category: tools
   tags:
   - auto-discovered
-  stars: 958
+  stars: 969
   description: Awesome AI Memory | LLM Memory | A curated knowledge base on AI memory
     for LLMs and agents, covering long-term memory, reasoning, retrieval, and memory-native
     system design.  Awesome-AI-Memory 是一个 集中式、持续更新的 AI 记忆知识库，系统性整理了与 大模型记忆（LLM Memory）与智能体记忆（Agent
@@ -3891,14 +3911,14 @@ repos:
   category: papers
   tags:
   - research
-  stars: 284
+  stars: 287
   description: A survey of Graph-based Agent Memory | A curated list of resources
     (surveys, papers, benchmarks, and opensource projects) on graph-based agent memory.
 - repo: yyyujintang/Awesome-Agent-Memory-Papers
   category: papers
   tags:
   - research
-  stars: 197
+  stars: 201
   description: 'Awesome Papers related to Agent Memory: methods, benchmarks and surveys.
     Website: https://yyyujintang.github.io/Awesome-Agent-Memory-Papers/'
 - repo: AgentMemoryWorld/Awesome-Agent-Memory
@@ -4077,14 +4097,14 @@ repos:
   category: tools
   tags:
   - coding
-  stars: 9
+  stars: 10
   description: A curated list of tools, kits, templates, integrations, and resources
     for Docker Sandboxes (sbx)  running AI coding agents in isolated microVMs.
 - repo: brycewang-stanford/Awesome-Journal-Skills
   category: skills
   tags:
   - skills
-  stars: 17
+  stars: 35
   description: A curated index of journal-specific Claude Code agent skill packs for
     social-science manuscripts. AER, 管理世界, 经济研究, and more. zh-CN/en docs.
 - repo: x-zheng16/Awesome-Embodied-AI-Safety
@@ -4100,7 +4120,7 @@ repos:
   tags:
   - multi-agent
   - research
-  stars: 16
+  stars: 17
   description: 'A curated reading list of large-language-model RL papers, organized
     by four research directions: Reasoning RL, Agentic RL, OPD (Off-Policy / On-Policy
     Distillation / Drift), and Multi-Agent*'
@@ -4108,13 +4128,13 @@ repos:
   category: skills
   tags:
   - skills
-  stars: 175
+  stars: 202
   description: 让 AI agent成为你的小说创作搭档。从世界观搭建到角色塑造，从章节规划到正文写作，一步步陪你完成整部小说。
 - repo: wearetyomsmnv/Awesome-LLMSecOps
   category: safety
   tags:
   - security
-  stars: 136
+  stars: 137
   description: LLM | Agentic | Security | Operations in one github repo with good
     links and pictures.
 - repo: asdfgh12345123/awesome-ai-agents
@@ -4129,7 +4149,7 @@ repos:
   tags:
   - research
   - skills
-  stars: 34
+  stars: 35
   description: A curated collection of AI agent skills for biomedical research, covering
     genomics, proteomics, single-cell analysis, clinical AI, and protein design.
 - repo: cooler333/cool-claude-code
@@ -4144,7 +4164,7 @@ repos:
   - multi-agent
   - research
   - security
-  stars: 4
+  stars: 5
   description: Curated AI-agent papers for building autonomous security bots — offensive
     AI, multi-agent architecture, memory, and tool use.
 - repo: qy0720/awesome-yearly-gui-agents
@@ -4175,14 +4195,14 @@ repos:
   - coding
   - mcp
   - skills
-  stars: 7
+  stars: 8
   description: Grok Build resources, reusable .grok/skills, AGENTS.md templates, hooks,
     prompts, and starter workflows.
 - repo: lxcong/awesome-claude-workflows
   category: multi-agent
   tags:
   - multi-agent
-  stars: 15
+  stars: 16
   description: A community-curated collection of real-world Claude Code workflows
     — multi-agent slash commands, battle-tested in production.
 - repo: jassics/awesome-claude-security
@@ -4221,7 +4241,7 @@ repos:
   category: ui
   tags:
   - chinese
-  stars: 1212
+  stars: 1237
   description: 🗺️ Think like a software architect, not just a coder — 21 architecture
     maps (incl. AI gateway, RAG, agents, inference serving, vector DB) + a language-agnostic
     system-design tutorial. Every template links to real open-source prototypes. 中英文双语。
@@ -4232,14 +4252,14 @@ repos:
   - multi-agent
   - research
   - skills
-  stars: 1672
+  stars: 1685
   description: A curated list of skills, plugins, tools, integrations, and resources
     for Hermes Agent by Nous Research
 - repo: aristoapp/awesome-second-brain
   category: tools
   tags:
   - mcp
-  stars: 308
+  stars: 380
   description: A curated solutions to building a self-evolving second brain that helps
     AI agents understand your personal and team context.
 - repo: smpn1kara4850/RL-AI-Latest
@@ -4254,7 +4274,7 @@ repos:
   tags:
   - coding
   - frameworks
-  stars: 3
+  stars: 4
   description: A curated list of state-of-the-art AI Agents, frameworks, and autonomous
     workflows in 2026. Focuses on production-ready tools, OSINT, and coding assistants.
 - repo: Supersynergy/awesome-ai-agents-2025
@@ -4274,7 +4294,7 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 33
+  stars: 40
   description: A curated list of awesome genomics and bioinformatics agentic skills,
     MCPs and benchmarks for Claude Code, Copilot, Codex, Cursor, Gemini CLI, etc
 - repo: AaronCIH/Awesome-AutoSkill-AutoRubric
@@ -4283,7 +4303,7 @@ repos:
   - harness
   - research
   - skills
-  stars: 2
+  stars: 4
   description: 'A curated collection of papers & repos on Auto-Skill (self-evolving
     agents) and Auto-Rubric (rubric learning from preferences) for LLM alignment &
     customization. '
@@ -4317,7 +4337,7 @@ repos:
   category: multi-agent
   tags:
   - multi-agent
-  stars: 15
+  stars: 16
   description: A community-curated collection of real-world Claude Code Dynamic Workflows
     — multi-agent orchestration scripts that install as slash commands, shared by
     the people running them in production.
@@ -4342,7 +4362,7 @@ repos:
   - chinese
   - mcp
   - research
-  stars: 211
+  stars: 214
   description: OpenClaw 深度研究 Obsidian 知识库 | 351 篇笔记 · 3250+ 双链 · 100 张配图 · 9 大主题 |
     AI Agent 最全中文知识图谱
 - repo: Shiyao-Huang/awesome-agent-evolution
@@ -4353,7 +4373,7 @@ repos:
   - multi-agent
   - research
   - skills
-  stars: 137
+  stars: 178
   description: Open survey and evidence map for AI agent evolution, self-evolving
     agents, memory, skills, harnesses, benchmarks, and agent-swarm systems.
 - repo: senseibreathhovel/awesome-agent-evolution-293
@@ -4441,7 +4461,7 @@ repos:
   tags:
   - frameworks
   - skills
-  stars: 8
+  stars: 9
   description: Curated Orkas agents and skills for education, product development,
     content creation, data analysis, office automation, and e-commerce workflows.
 - repo: BENZEMA216/awesome-weread
@@ -4449,7 +4469,7 @@ repos:
   tags:
   - mcp
   - skills
-  stars: 27
+  stars: 30
   description: 基于微信读书官方 Agent Skill 的二创项目精选 · Curated projects built on WeRead's official
     Agent Skill (released 2026-05-17)
 - repo: TsinghuaC3I/Awesome-Self-Improving-Agents
@@ -4457,7 +4477,7 @@ repos:
   tags:
   - harness
   - skills
-  stars: 3
+  stars: 4
   description: Awesome list and survey resources for self-improving harness agents,
     skills, memory, agent RL, and meta-evolution.
 - repo: ishandutta2007/Awesome-Multi-Agent-AI-Harnesses
@@ -4496,6 +4516,74 @@ repos:
   stars: 0
   description: 'Curated papers on memory mechanisms for large language models: agent
     memory, RAG, KV cache, long-context, and more.'
+- repo: Eyadkelleh/awesome-skills-security
+  category: safety
+  tags:
+  - security
+  - skills
+  stars: 296
+  description: 'Security testing toolkit for AI Agent: curated SecLists wordlists,
+    injection payloads, and expert agents for authorized pentesting, CTFs, and bug
+    bounties'
+- repo: BurrowHammerStove/awesome-agent-evolution-pro
+  category: papers
+  tags:
+  - frameworks
+  - harness
+  - research
+  - skills
+  stars: 0
+  description: Open survey and evidence map for AI agent evolution, self-evolving
+    agents, memory, skills, harnesses, benchmarks, and agent-swarm systems.
+- repo: Coasttruvitalize/awesome-agent-evolution-setup
+  category: papers
+  tags:
+  - frameworks
+  - harness
+  - research
+  - skills
+  stars: 0
+  description: Open survey and evidence map for AI agent evolution, self-evolving
+    agents, memory, skills, harnesses, benchmarks, and agent-swarm systems.
+- repo: wundercorp/awesome-mcp
+  category: mcp
+  tags:
+  - mcp
+  stars: 6
+  description: Curated directory of Model Context Protocol servers, tools, transports,
+    categories, and contribution-ready MCP metadata.
+- repo: pokelabshq/awesome-ai-agents
+  category: tools
+  tags:
+  - auto-discovered
+  stars: 0
+  description: Curated list of AI agent tools, frameworks, and resources
+- repo: ttxs69/awesome-coding-agent-eval
+  category: coding
+  tags:
+  - coding
+  stars: 0
+  description: A curated list of benchmarks, harnesses, leaderboards, and tools for
+    evaluating AI coding agents.
+- repo: ietigerjue/awesome-agent-memorybase
+  category: tools
+  tags:
+  - harness
+  stars: 0
+  description: 'AI Harness: ClaudeCode + Codex dual-agent execution control system.
+    Memory Base, project state machine, handoff, archive. 双Agent协作执行控制系统。'
+- repo: zhangxin-xd/awesome-agentic-security
+  category: safety
+  tags:
+  - security
+  stars: 1
+  description: ''
+- repo: jagadeshanh/awesome-agent-sdk
+  category: frameworks
+  tags:
+  - auto-discovered
+  stars: 0
+  description: Links to awesome SDK to build agentic workflows
 search_keywords:
 - awesome agent
 - awesome ai-agent
