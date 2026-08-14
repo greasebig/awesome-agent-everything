@@ -162,6 +162,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [Vincentwei1021/awesome-ai-agent-frameworks](https://github.com/Vincentwei1021/awesome-ai-agent-frameworks) | 6 | 🤖 AI Agent Framework Guide (中文) | Scion · AutoGen · CrewAI · LangGraph · MetaGPT · Dify · Coze — 深度对比 + 选型决策树 | Chine... |
 | [brandonhimpfen/awesome-ai-coding-agents](https://github.com/brandonhimpfen/awesome-ai-coding-agents) | 6 | A curated list of frameworks, tools, platforms, and resources for AI coding agents. |
 | [AgentSpaceAI/Awesome-Agent-Framework](https://github.com/AgentSpaceAI/Awesome-Agent-Framework) | 5 | 🌟 持续更新的精选热门Agent开发框架集合 | A continuously updated, curated collection of popular Agent frameworks. |
+| [ysy0915/chat-system](https://github.com/ysy0915/chat-system) | 1 | 博思AI智能体：多模型辩论+Multi-Agent并行+RAG+LLM网关 | Multi-model debate + parallel agent workflow + RAG (Milvus) + standalone LLM gateway (Spring Boot) |
 | [yenanjing/awesome-harness-engineering](https://github.com/yenanjing/awesome-harness-engineering) | 5 | A curated list of awesome harness engineering frameworks, libraries, tools and resources. 🛠️ 80+ repos covering agent... |
 | [MyNameIsEdi/open-qa](https://github.com/MyNameIsEdi/open-qa) | 5 | — |
 | [edwardtay/awesome-web3-ai](https://github.com/edwardtay/awesome-web3-ai) | 4 | — |
