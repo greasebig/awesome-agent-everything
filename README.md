@@ -947,6 +947,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [dxhou/awesome-llm-powered-multi-agents](https://github.com/dxhou/awesome-llm-powered-multi-agents) | 5 | — |
 | [minfenli/Awesome-Multi-Agent-Path-Finding](https://github.com/minfenli/Awesome-Multi-Agent-Path-Finding) | 5 | — |
 | [KORAYTEACHER/awesome-multi-agent-papers](https://github.com/KORAYTEACHER/awesome-multi-agent-papers) | 0 | — |
+| [ysy0915/chat-system](https://github.com/ysy0915/chat-system) | 1 | 多模型协作与智能辩论平台 — Multi-Agent 并行工作流（≤9 子任务并行 + 收敛）、意图三层漏斗、RAG、知识图谱、多模态生成 |
 
 
 ## 📊 Agent Evaluation & Benchmarking / Agent 评估与基准
