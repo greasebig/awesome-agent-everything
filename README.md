@@ -242,6 +242,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [ishandutta2007/Awesome-Long-Term-Memory-Platform](https://github.com/ishandutta2007/Awesome-Long-Term-Memory-Platform) | 0 | Top Long Term Memory Platform (Opensource) 🌟 Star if you like it! 🌟 |
 | [ishandutta2007/Awesome-Agent-Workflow-Platform](https://github.com/ishandutta2007/Awesome-Agent-Workflow-Platform) | 0 | Top Agent Workflow Platform (Opensource) 🌟 Star if you like it! 🌟 |
 | [ishandutta2007/Awesome-AI-Agent-Memory-Platform](https://github.com/ishandutta2007/Awesome-AI-Agent-Memory-Platform) | 0 | Top AI Agent Memory Platform (Opensource) 🌟 Star if you like it! 🌟 |
+| [aai-labs/agent-barn](https://github.com/aai-labs/agent-barn) | 109 | Open-source (Apache-2.0) control plane for AI agent teams: chat front ends in Slack, Teams, Telegram, Discord and email; full audit logging of conversations, tool calls and costs; runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster via Helm. |
 
 
 ## 🧠 Agent Research & Papers / Agent 论文与研究
