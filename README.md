@@ -23,7 +23,7 @@
 
 ---
 
-> **Auto-updated every 3 days** via GitHub Actions. Last updated: <!-- LAST_UPDATED -->2026-10-10<!-- /LAST_UPDATED -->
+> **Auto-updated every 3 days** via GitHub Actions. Last updated: <!-- LAST_UPDATED -->2026-10-13<!-- /LAST_UPDATED -->
 >
 > 每 3 天通过 GitHub Actions 自动更新。
 
@@ -106,34 +106,35 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 
 
+
 ## 🌟 Agent Frameworks & Platforms / Agent 框架与平台
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 30323 | A list of AI autonomous agents |
-| [Meirtz/Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | 3322 |  🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems. hundreds of p... |
-| [kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents) | 2904 | 🤖 Awesome list of AI Agents |
-| [agentuniverse-ai/agentUniverse](https://github.com/agentuniverse-ai/agentUniverse) | 2377 | agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications.  |
-| [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) | 2007 | 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents. |
-| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | 1928 | 🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated mon... |
-| [trycua/acu](https://github.com/trycua/acu) | 1784 | A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and to... |
-| [kaushikb11/awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 1604 | A curated list of awesome LLM agents frameworks. |
-| [steel-dev/awesome-web-agents](https://github.com/steel-dev/awesome-web-agents) | 1587 | 🔥 A list of tools, frameworks, and resources for building AI web agents |
-| [bradAGI/awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) | 1334 | Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source too... |
-| [e2b-dev/awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks) | 1230 | A database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging and deploying autonomous AI ... |
-| [rohitg00/awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) | 836 | A curated collection of awesome AI Agents and LLM Apps built with multiple tech stacks, showcasing real-world impleme... |
-| [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md) | 578 | 200 production-grade DESIGN.md design systems for the world's best apps. Framework-neutral plus SwiftUI, Jetpack Comp... |
-| [punkpeye/awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools) | 486 | A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server dev... |
-| [Alchemyst-ai/awesome-saas](https://github.com/Alchemyst-ai/awesome-saas) | 421 | Collection of templates using the Alchemyst AI Platform for your next big AI app. |
-| [Panmax/awesome-nuwa](https://github.com/Panmax/awesome-nuwa) | 403 | Awesome list of 女娲.skill — 用女娲蒸馏的人物思维框架合集 | Distilled human thinking frameworks for Claude Code |
+| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 30410 | A list of AI autonomous agents |
+| [Meirtz/Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | 3325 |  🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems. hundreds of p... |
+| [kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents) | 2914 | 🤖 Awesome list of AI Agents |
+| [agentuniverse-ai/agentUniverse](https://github.com/agentuniverse-ai/agentUniverse) | 2379 | agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications.  |
+| [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) | 2009 | 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents. |
+| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | 1937 | 🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated mon... |
+| [trycua/acu](https://github.com/trycua/acu) | 1787 | A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and to... |
+| [kaushikb11/awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) | 1606 | A curated list of awesome LLM agents frameworks. |
+| [steel-dev/awesome-web-agents](https://github.com/steel-dev/awesome-web-agents) | 1590 | 🔥 A list of tools, frameworks, and resources for building AI web agents |
+| [bradAGI/awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) | 1344 | Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source too... |
+| [e2b-dev/awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks) | 1231 | A database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging and deploying autonomous AI ... |
+| [rohitg00/awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) | 838 | A curated collection of awesome AI Agents and LLM Apps built with multiple tech stacks, showcasing real-world impleme... |
+| [Meliwat/awesome-ios-design-md](https://github.com/Meliwat/awesome-ios-design-md) | 590 | 200 production-grade DESIGN.md design systems for the world's best apps. Framework-neutral plus SwiftUI, Jetpack Comp... |
+| [punkpeye/awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools) | 487 | A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server dev... |
+| [Alchemyst-ai/awesome-saas](https://github.com/Alchemyst-ai/awesome-saas) | 420 | Collection of templates using the Alchemyst AI Platform for your next big AI app. |
+| [Panmax/awesome-nuwa](https://github.com/Panmax/awesome-nuwa) | 404 | Awesome list of 女娲.skill — 用女娲蒸馏的人物思维框架合集 | Distilled human thinking frameworks for Claude Code |
 | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | 342 | Awesome AI Agents for 2026 - 300+ AI Agents, Frameworks & Coding • Creative • Voice • Research • Enterprise. Comparis... |
-| [skyming/awesome-ai-agent](https://github.com/skyming/awesome-ai-agent) | 300 | AI Agent 资源汇总，不限于基础概念、Harness 实践、RAG、测评基准、感知记忆、开源项目推荐、核心论文、开源项目等 |
+| [skyming/awesome-ai-agent](https://github.com/skyming/awesome-ai-agent) | 302 | AI Agent 资源汇总，不限于基础概念、Harness 实践、RAG、测评基准、感知记忆、开源项目推荐、核心论文、开源项目等 |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402) | 290 | 🚀 Curated list of x402 resources: HTTP 402 Payment Required protocol for blockchain payments, crypto micropayments, A... |
 | [mahonzhan/awesome-agent-harness](https://github.com/mahonzhan/awesome-agent-harness) | 287 | A curated awesome list of agent harnesses, agent frameworks, workflow frameworks, and emerging agent protocols. |
-| [LLMSecurity/awesome-agent-skills-security](https://github.com/LLMSecurity/awesome-agent-skills-security) | 245 | 🛡️ A curated list of resources on agent skills security: attacks, defenses, frameworks, and benchmarks for securing A... |
-| [Zijian-Ni/awesome-ai-agents-2026](https://github.com/Zijian-Ni/awesome-ai-agents-2026) | 244 | 🤖 A curated list of AI Agent frameworks, tools, platforms, and resources for 2026 — the year agents went mainstream |
-| [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry) | 192 | MCPSDK.dev(ToolSDK.ai)'s Awesome MCP Servers and Packages Registry and Database with Structured JSON configurations. ... |
-| [webmaxru/awesome-microsoft-agent-framework](https://github.com/webmaxru/awesome-microsoft-agent-framework) | 167 | 😎 Awesome list of Microsoft Agent Framework resources |
+| [LLMSecurity/awesome-agent-skills-security](https://github.com/LLMSecurity/awesome-agent-skills-security) | 251 | 🛡️ A curated list of resources on agent skills security: attacks, defenses, frameworks, and benchmarks for securing A... |
+| [Zijian-Ni/awesome-ai-agents-2026](https://github.com/Zijian-Ni/awesome-ai-agents-2026) | 246 | 🤖 A curated list of AI Agent frameworks, tools, platforms, and resources for 2026 — the year agents went mainstream |
+| [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry) | 196 | MCPSDK.dev(ToolSDK.ai)'s Awesome MCP Servers and Packages Registry and Database with Structured JSON configurations. ... |
+| [webmaxru/awesome-microsoft-agent-framework](https://github.com/webmaxru/awesome-microsoft-agent-framework) | 168 | 😎 Awesome list of Microsoft Agent Framework resources |
 | [vincentkoc/awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) | 146 | Curated awesome list for OpenClaw (formerly Moltbot/Clawdbot): skills, plugins, memory systems, MCP tools, deployment... |
 | [tornikebolokadze1-cyber/awesome-ai-pulse-georgia](https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia) | 143 | A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Geo... |
 | [Kkkirito-123/mutil-rag-agent](https://github.com/Kkkirito-123/mutil-rag-agent) | 133 | An improved multi-agent AIOps and RAG platform for OnCall troubleshooting, featuring LangGraph-based diagnosis workfl... |
@@ -141,14 +142,14 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [vstorm-co/awesome-pydantic-ai](https://github.com/vstorm-co/awesome-pydantic-ai) | 107 |  An opinionated list of awesome Pydantic-AI frameworks, libraries, software and resources.  |
 | [open-data-agent-platform/awesome-odap](https://github.com/open-data-agent-platform/awesome-odap) | 107 | Awesome Open Data Agent Platform resources: open data access, semantic layers, multi-agent SQL, memory, governance, a... |
 | [Scottcjn/awesome-agents](https://github.com/Scottcjn/awesome-agents) | 105 | A curated list of AI agent platforms, frameworks, protocols, tools, and resources |
-| [vivy-yi/awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration) | 84 | ⭐ Curated list of AI Agent frameworks: AutoGen, CrewAI, MetaGPT, LangGraph, Swarms. Multi-Agent Systems, Swarm Intell... |
+| [vivy-yi/awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration) | 88 | ⭐ Curated list of AI Agent frameworks: AutoGen, CrewAI, MetaGPT, LangGraph, Swarms. Multi-Agent Systems, Swarm Intell... |
 | [DevOpsAIguru123/awesome-agentic-devops](https://github.com/DevOpsAIguru123/awesome-agentic-devops) | 82 | Curated + scored map of official MCP servers and agents for DevOps, Cloud, SRE, and Platform Engineering — every entr... |
 | [mb-mal/awesome-ai-agents-frameworks](https://github.com/mb-mal/awesome-ai-agents-frameworks) | 75 | — |
+| [aloth/awesome-ai-agents](https://github.com/aloth/awesome-ai-agents) | 65 | A curated list of AI agent frameworks, tools, platforms, research papers, and resources |
 | [ababdotai/awesome-agent-quickstart](https://github.com/ababdotai/awesome-agent-quickstart) | 64 | Helloworld for agentic frameworks, minimial but runnable! LangGraph, Agno, AutoGen, Smolagents, OpenAI Agents, etc. |
-| [aloth/awesome-ai-agents](https://github.com/aloth/awesome-ai-agents) | 62 | A curated list of AI agent frameworks, tools, platforms, research papers, and resources |
+| [yzfly/awesome-voice-agents](https://github.com/yzfly/awesome-voice-agents) | 59 | A curated list of voice AI agent frameworks, tools, resources, and best practices |
+| [imran-siddique/awesome-ai-governance](https://github.com/imran-siddique/awesome-ai-governance) | 59 | 🛡️ A curated list of tools, frameworks, standards, and resources for AI agent governance, safety, and compliance |
 | [NipunaRanasinghe/awesome-ai-agents](https://github.com/NipunaRanasinghe/awesome-ai-agents) | 58 | A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to ... |
-| [yzfly/awesome-voice-agents](https://github.com/yzfly/awesome-voice-agents) | 57 | A curated list of voice AI agent frameworks, tools, resources, and best practices |
-| [imran-siddique/awesome-ai-governance](https://github.com/imran-siddique/awesome-ai-governance) | 56 | 🛡️ A curated list of tools, frameworks, standards, and resources for AI agent governance, safety, and compliance |
 | [EvoMap/awesome-agent-swarm](https://github.com/EvoMap/awesome-agent-swarm) | 54 | A curated list of AI Agent Swarm frameworks, multi-agent orchestration, swarm intelligence, and collaborative agent s... |
 | [chaosync-org/awesome-ai-agent-testing](https://github.com/chaosync-org/awesome-ai-agent-testing) | 50 | 🤖 A curated list of resources for testing AI agents - frameworks, methodologies, benchmarks, tools, and best practice... |
 | [korchasa/awesome-ai-agents](https://github.com/korchasa/awesome-ai-agents) | 45 | This curated list focuses on tools and frameworks for building AI agents |
@@ -156,11 +157,11 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [TapnTell-AI/awesome-legal-aiagent-skills](https://github.com/TapnTell-AI/awesome-legal-aiagent-skills) | 41 | Per-task rubric-blind skills for the Parthenon self-evolving legal-agent framework (Harvey LAB). |
 | [jbesomi/awesome-autonomous-agents](https://github.com/jbesomi/awesome-autonomous-agents) | 40 | Curated list of tools, frameworks and resources to work with autonomous agents (autoGPT) |
 | [axioma-ai-labs/awesome-ai-agent-frameworks](https://github.com/axioma-ai-labs/awesome-ai-agent-frameworks) | 37 | Curated most up-to-date list of AI Agent Frameworks |
-| [subinium/awesome-agent-frameworks](https://github.com/subinium/awesome-agent-frameworks) | 33 | Architecture-focused guide to open-source personal AI agent frameworks (the Claw ecosystem) |
+| [subinium/awesome-agent-frameworks](https://github.com/subinium/awesome-agent-frameworks) | 34 | Architecture-focused guide to open-source personal AI agent frameworks (the Claw ecosystem) |
 | [richardblythman/awesome-multi-agent-systems](https://github.com/richardblythman/awesome-multi-agent-systems) | 32 | A curated list of awesome resources, libraries, frameworks, and tools for multi-agent systems (MAS) research and deve... |
 | [buntys2010/awesome-ai-agents](https://github.com/buntys2010/awesome-ai-agents) | 27 | 🤖 A curated list of top open-source AI agent frameworks — from AutoGPT to LangChain, featuring 60+ production-ready f... |
 | [QAInsights/awesome-ai-tools](https://github.com/QAInsights/awesome-ai-tools) | 26 | A curated, categorized reference of AI-powered coding tools. Covers full IDEs, editor extensions, terminal agents, au... |
-| [The-Swarm-Corporation/Awesome-Swarms-List](https://github.com/The-Swarm-Corporation/Awesome-Swarms-List) | 24 | A curated list of awesome applications, tools, and resources for the Swarms framework by swarms.ai. Swarms is a power... |
+| [The-Swarm-Corporation/Awesome-Swarms-List](https://github.com/The-Swarm-Corporation/Awesome-Swarms-List) | 25 | A curated list of awesome applications, tools, and resources for the Swarms framework by swarms.ai. Swarms is a power... |
 | [ai-agents-simplified/Awesome-AI-Agents](https://github.com/ai-agents-simplified/Awesome-AI-Agents) | 22 | A curated list of AI agents, frameworks, and tools that automate tasks, enhance workflows, and push the boundaries of... |
 | [Autonomous-Agent-Team/Awesome-GUI-Agent-Safety](https://github.com/Autonomous-Agent-Team/Awesome-GUI-Agent-Safety) | 22 | A curated collection of research works on GUI Agent Safety, covering benchmarks, attacks, defenses, and evaluation fr... |
 | [oskar-j/awesome-sim-software](https://github.com/oskar-j/awesome-sim-software) | 22 | An awesome list of multi-agent simulation frameworks, tools & other repositories |
@@ -171,11 +172,11 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [wfnuser/Awesome-Agent-Memory](https://github.com/wfnuser/Awesome-Agent-Memory) | 17 | A curated collection of papers, projects, frameworks, and benchmarks on memory systems for AI agents. |
 | [groovy-web/awesome-ai-agents](https://github.com/groovy-web/awesome-ai-agents) | 15 | — |
 | [l-aime/awesome-agents](https://github.com/l-aime/awesome-agents) | 15 | A curated collection of cutting-edge AI agent projects, frameworks, and research papers. This repository aims to cata... |
-| [PhiloLabs/awesome-video-agents](https://github.com/PhiloLabs/awesome-video-agents) | 14 | A curated list of AI agents and agentic frameworks for video editing, video production, and video understanding-for-p... |
+| [PhiloLabs/awesome-video-agents](https://github.com/PhiloLabs/awesome-video-agents) | 15 | A curated list of AI agents and agentic frameworks for video editing, video production, and video understanding-for-p... |
 | [sumsun-dev/awesome-web3-claude](https://github.com/sumsun-dev/awesome-web3-claude) | 13 | — |
 | [wendashi/awesome-Agentic-3D-Modeling](https://github.com/wendashi/awesome-Agentic-3D-Modeling) | 13 | Let's build agentic framework to create 3D models! 👀🤖🔧 |
+| [yenanjing/awesome-harness-engineering](https://github.com/yenanjing/awesome-harness-engineering) | 13 | A curated list of awesome harness engineering frameworks, libraries, tools and resources. 🛠️ 80+ repos covering agent... |
 | [irfanfadhullah/Awesome-Agentic-Workflow](https://github.com/irfanfadhullah/Awesome-Agentic-Workflow) | 12 | A curated collection of GitHub repositories focused on agentic workflows, autonomous agents, multi-agent systems, and... |
-| [yenanjing/awesome-harness-engineering](https://github.com/yenanjing/awesome-harness-engineering) | 12 | A curated list of awesome harness engineering frameworks, libraries, tools and resources. 🛠️ 80+ repos covering agent... |
 | [LijunRio/Awesome-Agents-for-Medicine](https://github.com/LijunRio/Awesome-Agents-for-Medicine) | 11 | A curated list of autonomous agents, frameworks, and applications for AI in medicine. Covering diagnosis, treatment p... |
 | [namphuongtran/awesome-ai-coding-agent-tools](https://github.com/namphuongtran/awesome-ai-coding-agent-tools) | 11 | A curated list of tools, libraries, MCP servers, and frameworks that power AI coding agents. |
 | [ashp15205/vibe-coding-essentials](https://github.com/ashp15205/vibe-coding-essentials) | 11 | The workflow framework for AI-assisted development. Four operating modes, 25 golden rules, and anti-hallucination gua... |
@@ -205,6 +206,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [ChinmayMurugkar/awesome-ai-agents-list](https://github.com/ChinmayMurugkar/awesome-ai-agents-list) | 2 | — |
 | [Guan-JW/awesome-db-for-ai-systems](https://github.com/Guan-JW/awesome-db-for-ai-systems) | 2 | — |
 | [CloudAxisAi/awesome-ai-agents](https://github.com/CloudAxisAi/awesome-ai-agents) | 2 | Curated list of AI agents, frameworks, and autonomous tools - 2026 |
+| [Parvez2017/awesome-agentic-engineering](https://github.com/Parvez2017/awesome-agentic-engineering) | 2 | Curated list of agent harnesses, frameworks, and case studies from companies shipping agentic coding systems at scale |
 | [agentablesh/awesome-agent-cli](https://github.com/agentablesh/awesome-agent-cli) | 2 | A curated list of cross-platform CLI tools that are especially suitable for AI agent workflows. |
 | [febrits/awesome-ai-agents](https://github.com/febrits/awesome-ai-agents) | 2 | Curated list of open-source AI agent frameworks, tools, and resources |
 | [anjijava16/Awesome_Agents](https://github.com/anjijava16/Awesome_Agents) | 1 | — |
@@ -212,11 +214,11 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [vishwasvijayabaskar-code/awesome-ai-agents](https://github.com/vishwasvijayabaskar-code/awesome-ai-agents) | 1 | — |
 | [artinnok/awesome-ai-assistants](https://github.com/artinnok/awesome-ai-assistants) | 1 | — |
 | [Git-Deoloper/Awesome-AI-Agents](https://github.com/Git-Deoloper/Awesome-AI-Agents) | 1 | — |
-| [Parvez2017/awesome-agentic-engineering](https://github.com/Parvez2017/awesome-agentic-engineering) | 1 | Curated list of agent harnesses, frameworks, and case studies from companies shipping agentic coding systems at scale |
 | [Masum-MSNR/awesome-kotlin-multiplatform-agent-skills](https://github.com/Masum-MSNR/awesome-kotlin-multiplatform-agent-skills) | 1 | — |
 | [DevGreick/awesome-llm-security](https://github.com/DevGreick/awesome-llm-security) | 1 | A curated list of tools, frameworks, and resources for securing LLM applications, agents, and AI infrastructure. |
 | [genai-io/awesome-agent-evals](https://github.com/genai-io/awesome-agent-evals) | 1 | A curated list of evaluation resources for AI agents: platforms, open-source frameworks, benchmarks, and methodology. |
 | [asdfgh12345123/awesome-ai-agents](https://github.com/asdfgh12345123/awesome-ai-agents) | 1 | A curated list of autonomous AI agents, frameworks, and tools. | Sponsors welcome! |
+| [kqcoxn/Awesome-GUI-Agent-Memory](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory) | 1 | Fixed-cutoff evidence artifact for a framework survey of GUI-agent memory: claims, source registry, literal searches,... |
 | [Reflection0427/Awesome-Multimodal-Agents](https://github.com/Reflection0427/Awesome-Multimodal-Agents) | 1 | Multimodal and visual Agent papers with author-original framework figures, verified PDF provenance, and reproducible ... |
 | [alleneee/awesome-agent-framework](https://github.com/alleneee/awesome-agent-framework) | 0 | — |
 | [ManjunathHosamani/ai_agent_framework_crash_course](https://github.com/ManjunathHosamani/ai_agent_framework_crash_course) | 0 | — |
@@ -237,7 +239,6 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [smpn1kara4850/RL-AI-Latest](https://github.com/smpn1kara4850/RL-AI-Latest) | 0 | Build autonomous agents for Rocket League using this modular framework for physics, state management, and high-fideli... |
 | [jagadeshanh/awesome-agent-sdk](https://github.com/jagadeshanh/awesome-agent-sdk) | 0 | Links to awesome SDK to build agentic workflows |
 | [conor-ops/awesome-cli-coding-agents](https://github.com/conor-ops/awesome-cli-coding-agents) | 0 | Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source too... |
-| [kqcoxn/Awesome-GUI-Agent-Memory](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory) | 0 | Fixed-cutoff evidence artifact for a framework survey of GUI-agent memory: claims, source registry, literal searches,... |
 | [ishandutta2007/Awesome-Long-Term-Memory-Platform](https://github.com/ishandutta2007/Awesome-Long-Term-Memory-Platform) | 0 | Top Long Term Memory Platform (Opensource) 🌟 Star if you like it! 🌟 |
 | [ishandutta2007/Awesome-Agent-Workflow-Platform](https://github.com/ishandutta2007/Awesome-Agent-Workflow-Platform) | 0 | Top Agent Workflow Platform (Opensource) 🌟 Star if you like it! 🌟 |
 | [ishandutta2007/Awesome-AI-Agent-Memory-Platform](https://github.com/ishandutta2007/Awesome-AI-Agent-Memory-Platform) | 0 | Top AI Agent Memory Platform (Opensource) 🌟 Star if you like it! 🌟 |
@@ -248,125 +249,126 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | Repository | ⭐ Stars | Description |
 |---|---|---|
 | [hijkzzz/Awesome-LLM-Strawberry](https://github.com/hijkzzz/Awesome-LLM-Strawberry) | 6907 | A collection of LLM papers, blogs, and projects, with a focus on OpenAI o1 🍓 and reasoning techniques. |
-| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 5818 | A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research |
-| [brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) | 4555 | 🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,00... |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 5841 | A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research |
+| [brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research](https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research) | 4595 | 🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,00... |
 | [luo-junyu/Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers) | 2867 | [Up-to-date] Large Language Model Agent: A Survey on Methodology, Applications and Challenges |
-| [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) | 2562 | A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy'... |
-| [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) | 2562 | A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy'... |
-| [EvoAgentX/Awesome-Self-Evolving-Agents](https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents) | 2498 | [Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Ag... |
-| [ANative-Lab/Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents) | 2498 | [Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Ag... |
+| [webfuse-com/awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch) | 2565 | A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy'... |
+| [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) | 2564 | A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy'... |
+| [EvoAgentX/Awesome-Self-Evolving-Agents](https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents) | 2502 | [Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Ag... |
+| [ANative-Lab/Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents) | 2502 | [Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Ag... |
 | [hyp1231/awesome-llm-powered-agent](https://github.com/hyp1231/awesome-llm-powered-agent) | 2255 | Awesome things about LLM-powered agents. Papers / Repos / Blogs / ... |
-| [FoundationAgents/awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents) | 2228 | About Awesome things towards foundation agents. Papers / Repos / Blogs / ... |
-| [Xnhyacinth/Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) | 2179 | 📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥 |
-| [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) | 2077 | A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research |
-| [xhyumiracle/Awesome-AgenticLLM-RL-Papers](https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers) | 1908 | — |
-| [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) | 1899 | This is a curated list of "Embodied AI or robot with Large Language Models" research. Watch this repository for the l... |
-| [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | 1833 | A curated collection of AI agent research papers released in 2026, covering agent engineering, memory, evaluation, wo... |
-| [kyegomez/awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) | 1697 | A compilation of the best multi-agent papers |
-| [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) | 1598 | A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autot... |
-| [huhusmang/Awesome-LLMs-for-Vulnerability-Detection](https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection) | 1480 | The community's most comprehensive, continuously-updated index of research on Large Language Models for software vuln... |
-| [weitianxin/Awesome-Agentic-Reasoning](https://github.com/weitianxin/Awesome-Agentic-Reasoning) | 1401 | A curated list of papers and resources based on the survey "Agentic Reasoning for Large Language Models" |
-| [ysymyth/awesome-language-agents](https://github.com/ysymyth/awesome-language-agents) | 1259 | List of language agents based on paper "Cognitive Architectures for Language Agents" |
-| [showlab/Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent) | 1217 | 💻 A curated list of papers and resources for multi-modal Graphical User Interface (GUI) agents. |
-| [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers) | 967 | A Survey on Large Language Model-Based Game Agents (ACM CSUR) |
-| [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | 880 | Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution. |
+| [FoundationAgents/awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents) | 2227 | About Awesome things towards foundation agents. Papers / Repos / Blogs / ... |
+| [Xnhyacinth/Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) | 2182 | 📰 Must-read papers and blogs on LLM based Long Context Modeling 🔥 |
+| [SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) | 2085 | A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research |
+| [xhyumiracle/Awesome-AgenticLLM-RL-Papers](https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers) | 1913 | — |
+| [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) | 1901 | This is a curated list of "Embodied AI or robot with Large Language Models" research. Watch this repository for the l... |
+| [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | 1840 | A curated collection of AI agent research papers released in 2026, covering agent engineering, memory, evaluation, wo... |
+| [kyegomez/awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers) | 1700 | A compilation of the best multi-agent papers |
+| [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) | 1645 | A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autot... |
+| [huhusmang/Awesome-LLMs-for-Vulnerability-Detection](https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection) | 1486 | The community's most comprehensive, continuously-updated index of research on Large Language Models for software vuln... |
+| [weitianxin/Awesome-Agentic-Reasoning](https://github.com/weitianxin/Awesome-Agentic-Reasoning) | 1402 | A curated list of papers and resources based on the survey "Agentic Reasoning for Large Language Models" |
+| [ysymyth/awesome-language-agents](https://github.com/ysymyth/awesome-language-agents) | 1260 | List of language agents based on paper "Cognitive Architectures for Language Agents" |
+| [showlab/Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent) | 1218 | 💻 A curated list of papers and resources for multi-modal Graphical User Interface (GUI) agents. |
+| [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers) | 969 | A Survey on Large Language Model-Based Game Agents (ACM CSUR) |
+| [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | 888 | Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution. |
 | [lafmdp/Awesome-Papers-Autonomous-Agent](https://github.com/lafmdp/Awesome-Papers-Autonomous-Agent) | 758 | A collection of recent papers on building autonomous agent. Two topics included: RL-based / LLM-based agents. |
 | [YennNing/Awesome-Code-as-Agent-Harness-Papers](https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers) | 714 | A curated list of papers and resources based on the survey "Code as Agent Harness" |
 | [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory) | 670 | Curated systems, benchmarks, and papers etc. on memory for LLMs/MLLMs --- long-term context, retrieval, and reasoning. |
-| [hanlulong/awesome-ai-for-economists](https://github.com/hanlulong/awesome-ai-for-economists) | 663 | A curated list of AI tools, libraries, and resources for economics research, teaching, and policy analysis. Maintaine... |
-| [ValueByte-AI/Awesome-LLM-in-Social-Science](https://github.com/ValueByte-AI/Awesome-LLM-in-Social-Science) | 650 | Awesome papers involving LLMs in Social Science. |
-| [ZeroPointRepo/awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills) | 604 | Curated, install-ready skills for Hermes Agent. 85 built-in + 78 community skills, plugins, and tools for the self-im... |
+| [hanlulong/awesome-ai-for-economists](https://github.com/hanlulong/awesome-ai-for-economists) | 667 | A curated list of AI tools, libraries, and resources for economics research, teaching, and policy analysis. Maintaine... |
+| [ValueByte-AI/Awesome-LLM-in-Social-Science](https://github.com/ValueByte-AI/Awesome-LLM-in-Social-Science) | 651 | Awesome papers involving LLMs in Social Science. |
+| [ZeroPointRepo/awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills) | 614 | Curated, install-ready skills for Hermes Agent. 85 built-in + 78 community skills, plugins, and tools for the self-im... |
 | [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | 565 | An open, curated collection of Agent Skills for scientific research — clone it, use it, extend it! |
-| [XMUDeepLIT/Awesome-Self-Evolving-Agents](https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents) | 469 | A Survey of Self-Evolving Agents | A curated list of resources (surveys, papers, benchmarks, and opensource projects)... |
+| [XMUDeepLIT/Awesome-Self-Evolving-Agents](https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents) | 472 | A Survey of Self-Evolving Agents | A curated list of resources (surveys, papers, benchmarks, and opensource projects)... |
 | [modelscope/Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | 452 | An open, collaboratively-built repository for AI-assisted scientific research — collecting and curating agents, skill... |
-| [SAILResearch/awesome-foundation-model-leaderboards](https://github.com/SAILResearch/awesome-foundation-model-leaderboards) | 382 | A curated list of awesome leaderboard-oriented resources for AI domain |
-| [Dominic789654/awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | 372 | A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH).... |
-| [Gloriaameng/Awesome-Agent-Harness](https://github.com/Gloriaameng/Awesome-Agent-Harness) | 367 | Agent Harness for Large Language Model Agents: A Survey. Survey on LLM agentharnessengineering with a taxonomy. 110+p... |
+| [SAILResearch/awesome-foundation-model-leaderboards](https://github.com/SAILResearch/awesome-foundation-model-leaderboards) | 383 | A curated list of awesome leaderboard-oriented resources for AI domain |
+| [Dominic789654/awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) | 377 | A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH).... |
+| [Gloriaameng/Awesome-Agent-Harness](https://github.com/Gloriaameng/Awesome-Agent-Harness) | 369 | Agent Harness for Large Language Model Agents: A Survey. Survey on LLM agentharnessengineering with a taxonomy. 110+p... |
 | [DEEP-PolyU/Awesome-GraphMemory](https://github.com/DEEP-PolyU/Awesome-GraphMemory) | 357 | A survey of Graph-based Agent Memory | A curated list of resources (surveys, papers, benchmarks, and opensource proje... |
 | [Sri-Krishna-V/awesome-adk-agents](https://github.com/Sri-Krishna-V/awesome-adk-agents) | 348 | Curated collection of AI agents built with Google’s Agent Development Kit (ADK): templates, best practices, and produ... |
-| [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent) | 336 | TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents |
-| [yxf203/Awesome-Efficient-Agents](https://github.com/yxf203/Awesome-Efficient-Agents) | 310 | Survey and paper list on efficiency-guided LLM agents (memory, tool learning, planning). |
-| [xingjunm/Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) | 294 | Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety |
+| [qianlima-lab/awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent) | 337 | TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents |
+| [yxf203/Awesome-Efficient-Agents](https://github.com/yxf203/Awesome-Efficient-Agents) | 311 | Survey and paper list on efficiency-guided LLM agents (memory, tool learning, planning). |
+| [xingjunm/Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) | 295 | Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety |
+| [aliaihub/awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases) | 262 | Curated real-world use cases for Hermes Agent — the self-improving AI agent from Nous Research. Backed by primary sou... |
 | [baibizhe/Awesome-Skills-Paper](https://github.com/baibizhe/Awesome-Skills-Paper) | 259 | contains the list of papers of agent skills |
 | [junchenzhi/Awesome-LLM-Ensemble](https://github.com/junchenzhi/Awesome-LLM-Ensemble) | 256 |  A curated list of Awesome-LLM-Ensemble papers for the survey "Harnessing Multiple Large Language Models: A Survey on... |
-| [aliaihub/awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases) | 256 | Curated real-world use cases for Hermes Agent — the self-improving AI agent from Nous Research. Backed by primary sou... |
 | [YoungDubbyDu/Awesome-LLM-Agent-Optimization-Papers](https://github.com/YoungDubbyDu/Awesome-LLM-Agent-Optimization-Papers) | 247 | This is the reading list for the survey "A Survey on the Optimization of LLM-based Agents ". We will keep adding pape... |
-| [yyyujintang/Awesome-Agent-Memory-Papers](https://github.com/yyyujintang/Awesome-Agent-Memory-Papers) | 242 | Awesome Papers related to Agent Memory: methods, benchmarks and surveys. Website: https://yyyujintang.github.io/Aweso... |
+| [yyyujintang/Awesome-Agent-Memory-Papers](https://github.com/yyyujintang/Awesome-Agent-Memory-Papers) | 243 | Awesome Papers related to Agent Memory: methods, benchmarks and surveys. Website: https://yyyujintang.github.io/Aweso... |
 | [AgentMemoryWorld/Awesome-Agent-Memory](https://github.com/AgentMemoryWorld/Awesome-Agent-Memory) | 240 | [Up-To-Date] Awesome Agent Memory Paper Resource |
 | [HuggingAGI/AwesomeAgentPapers](https://github.com/HuggingAGI/AwesomeAgentPapers) | 237 | — |
 | [shure-dev/Awesome-LLM-Papers-Comprehensive-Topics](https://github.com/shure-dev/Awesome-LLM-Papers-Comprehensive-Topics) | 223 | Awesome LLM Papers and repos on very comprehensive topics. |
-| [RUCAIBox/awesome-agent-harness](https://github.com/RUCAIBox/awesome-agent-harness) | 212 | The official GitHub page for the paper "Agent Systems with Harness Engineering" |
-| [YunjiaXi/Awesome-Search-Agent-Papers](https://github.com/YunjiaXi/Awesome-Search-Agent-Papers) | 200 | — |
-| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 200 | A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis,... |
+| [RUCAIBox/awesome-agent-harness](https://github.com/RUCAIBox/awesome-agent-harness) | 214 | The official GitHub page for the paper "Agent Systems with Harness Engineering" |
+| [YunjiaXi/Awesome-Search-Agent-Papers](https://github.com/YunjiaXi/Awesome-Search-Agent-Papers) | 201 | — |
+| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 201 | A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis,... |
+| [STRYXTN/awesome-ai-research-writing](https://github.com/STRYXTN/awesome-ai-research-writing) | 188 | 来自顶尖研究机构的 AI 论文写作 Prompt 模板库与 Agent Skills 集合 ✨ |
 | [Shiyao-Huang/awesome-agent-evolution](https://github.com/Shiyao-Huang/awesome-agent-evolution) | 188 | Open survey and evidence map for AI agent evolution, self-evolving agents, memory, skills, harnesses, benchmarks, and... |
-| [STRYXTN/awesome-ai-research-writing](https://github.com/STRYXTN/awesome-ai-research-writing) | 185 | 来自顶尖研究机构的 AI 论文写作 Prompt 模板库与 Agent Skills 集合 ✨ |
-| [Calix-L/awesome-latex-skills](https://github.com/Calix-L/awesome-latex-skills) | 181 | Prompt packs that make any AI agent a LaTeX expert — fix errors, polish writing, format for venues, read papers, reco... |
+| [Calix-L/awesome-latex-skills](https://github.com/Calix-L/awesome-latex-skills) | 182 | Prompt packs that make any AI agent a LaTeX expert — fix errors, polish writing, format for venues, read papers, reco... |
 | [KaiWU5/Awesome-AI4AI](https://github.com/KaiWU5/Awesome-AI4AI) | 179 | AI4AI Survey: can AI reliably improve AI? 223 papers on long-horizon agents, benchmarks, harness design, and recursiv... |
-| [EuniAI/awesome-code-agents](https://github.com/EuniAI/awesome-code-agents) | 162 | A curated list of products, benchmarks, and research papers on autonomous code agents. Beyond coding — they're redefi... |
+| [EuniAI/awesome-code-agents](https://github.com/EuniAI/awesome-code-agents) | 164 | A curated list of products, benchmarks, and research papers on autonomous code agents. Beyond coding — they're redefi... |
 | [jaccen/Awesome-Gaussian-Skills](https://github.com/jaccen/Awesome-Gaussian-Skills) | 161 | AI Agent Skills for 3D Gaussian Splatting, NeRF & Computer Graphics Research. 531+ methods, 23 categories, 10 skills.... |
 | [EthanYolo01/Awesome-OpenClaw](https://github.com/EthanYolo01/Awesome-OpenClaw) | 156 | A carefully curated list of awesome OpenClaw resources — not everything, just the best.  Skills · Plugins · MCP · Too... |
-| [x-zheng16/Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) | 151 | Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses | 500+ Papers | Perception, Cognition, Planning, Inte... |
-| [AmanPriyanshu/Awesome-AI-For-Security](https://github.com/AmanPriyanshu/Awesome-AI-For-Security) | 149 | A curated list of tools, papers, and datasets for applying AI to cybersecurity tasks. This list primarily focuses on ... |
-| [kael-odin/awesome-academic-research-skills](https://github.com/kael-odin/awesome-academic-research-skills) | 141 | 面向中文用户的学术论文与科研 Agent Skill 每日排行榜 · 自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库 |
-| [Yila-AI/awesome-research-skills](https://github.com/Yila-AI/awesome-research-skills) | 133 | Open-source Agent Skills for planning, drafting, revising, and polishing SCI/SSCI papers—while preserving evidence, c... |
-| [aristoteleo/awesome-bioagent-papers](https://github.com/aristoteleo/awesome-bioagent-papers) | 110 | Agent self-driven repository on bio-agent papers, i.e. papers on LLM-based agents in biology and medicine. |
-| [harooos/awesome-coding-agents-for-robot-learning](https://github.com/harooos/awesome-coding-agents-for-robot-learning) | 101 | A curated research map of coding agents for robot learning |
+| [x-zheng16/Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) | 152 | Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses | 500+ Papers | Perception, Cognition, Planning, Inte... |
+| [AmanPriyanshu/Awesome-AI-For-Security](https://github.com/AmanPriyanshu/Awesome-AI-For-Security) | 150 | A curated list of tools, papers, and datasets for applying AI to cybersecurity tasks. This list primarily focuses on ... |
+| [kael-odin/awesome-academic-research-skills](https://github.com/kael-odin/awesome-academic-research-skills) | 148 | 面向中文用户的学术论文与科研 Agent Skill 每日排行榜 · 自动搜索、过滤并排名 GitHub 上的 Claude Code / Codex / OpenCode 科研 Skill 仓库 |
+| [Yila-AI/awesome-research-skills](https://github.com/Yila-AI/awesome-research-skills) | 136 | Open-source Agent Skills for planning, drafting, revising, and polishing SCI/SSCI papers—while preserving evidence, c... |
+| [aristoteleo/awesome-bioagent-papers](https://github.com/aristoteleo/awesome-bioagent-papers) | 109 | Agent self-driven repository on bio-agent papers, i.e. papers on LLM-based agents in biology and medicine. |
+| [harooos/awesome-coding-agents-for-robot-learning](https://github.com/harooos/awesome-coding-agents-for-robot-learning) | 102 | A curated research map of coding agents for robot learning |
 | [junhua/awesome-llm-agents](https://github.com/junhua/awesome-llm-agents) | 91 | A Collection of High Quality research papers and open-source projects about LLM-agents |
-| [scienceaix/agentskills](https://github.com/scienceaix/agentskills) | 89 | Awesome Agent Skills collection list, papers, tools, projects, and resources |
-| [js-lee-AI/awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers) | 88 | A curated, continuously updated reading list of 200+ papers on LLM agents: planning, memory, tool use, multi-agent, e... |
-| [IBM/awesome-agentic-workflow-optimization](https://github.com/IBM/awesome-agentic-workflow-optimization) | 86 | Survey paper: From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents. |
-| [mira-ai-lab/awesome-mas-life](https://github.com/mira-ai-lab/awesome-mas-life) | 83 | A Survey of Multi-agent Collaboration, Attribution and Evolution |
+| [scienceaix/agentskills](https://github.com/scienceaix/agentskills) | 90 | Awesome Agent Skills collection list, papers, tools, projects, and resources |
+| [js-lee-AI/awesome-llm-agent-papers](https://github.com/js-lee-AI/awesome-llm-agent-papers) | 89 | A curated, continuously updated reading list of 200+ papers on LLM agents: planning, memory, tool use, multi-agent, e... |
+| [IBM/awesome-agentic-workflow-optimization](https://github.com/IBM/awesome-agentic-workflow-optimization) | 87 | Survey paper: From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents. |
+| [mira-ai-lab/awesome-mas-life](https://github.com/mira-ai-lab/awesome-mas-life) | 85 | A Survey of Multi-agent Collaboration, Attribution and Evolution |
 | [zjlrock777/Awesome-LLM-Agents-Scientific-Discovery](https://github.com/zjlrock777/Awesome-LLM-Agents-Scientific-Discovery) | 82 | A curated list of LLM powered AI Agents in Biomedical Research. Medical Image Analysis, Multi-omics Genomics Analysis... |
 | [moonlarry/awesome-llm-paper-wiki](https://github.com/moonlarry/awesome-llm-paper-wiki) | 78 | 由 LLM Agent 驱动的本地 Markdown 文献库管理与学术综述自动化系统 |
 | [azminewasi/Awesome-LLMs-ICLR-24](https://github.com/azminewasi/Awesome-LLMs-ICLR-24) | 73 | It is a comprehensive resource hub compiling all LLM papers accepted at the International Conference on Learning Repr... |
 | [shizhl/Multi-Agent-Papers](https://github.com/shizhl/Multi-Agent-Papers) | 72 | The awesome agents in the era of large language models |
 | [qhjqhj00/awesome-agentic-search](https://github.com/qhjqhj00/awesome-agentic-search) | 64 | 🔍 Awesome Agentic Search is a curated list of papers, tools, and resources on agentic search—where AI agents plan, se... |
 | [WeiChengTseng/awesome-multi-agent](https://github.com/WeiChengTseng/awesome-multi-agent) | 61 | A curated list of awesome multi-agent learning papers |
+| [kagnlp/Awesome-Agentic-Security](https://github.com/kagnlp/Awesome-Agentic-Security) | 59 | A curated list of 150+ papers and resources on Agentic Security. Based on the survey covering the transition from pas... |
 | [Steve2457/Awesome-RL-GUI-Agents](https://github.com/Steve2457/Awesome-RL-GUI-Agents) | 59 | A curated list of awesome RL in GUI Agent papers |
 | [Quester-one/Awesome-LLM-Planning](https://github.com/Quester-one/Awesome-LLM-Planning) | 59 | This repository contains a collection of the most influential papers, and benchmarks related to Large Language Models... |
-| [kagnlp/Awesome-Agentic-Security](https://github.com/kagnlp/Awesome-Agentic-Security) | 58 | A curated list of 150+ papers and resources on Agentic Security. Based on the survey covering the transition from pas... |
+| [OpenDataBox/awesome-agent-memory](https://github.com/OpenDataBox/awesome-agent-memory) | 59 | Paper List of Agent Memory Systems along Four Axes |
 | [instadeepai/awesome-marl](https://github.com/instadeepai/awesome-marl) | 58 | A categorised list of Multi-Agent Reinforcemnt Learning (MARL) papers |
-| [OpenDataBox/awesome-agent-memory](https://github.com/OpenDataBox/awesome-agent-memory) | 58 | Paper List of Agent Memory Systems along Four Axes |
-| [ishwarjha/claude-marketing-research-skill](https://github.com/ishwarjha/claude-marketing-research-skill) | 56 | An awesome Claude skill for structured marketing research system. Covers competitor analysis, avatar profiling, posit... |
-| [cola-runner/awesome-tui-design](https://github.com/cola-runner/awesome-tui-design) | 41 | DESIGN.md for Terminal UI — curated TUI design systems for AI coding agents. Source-code-level research from Claude C... |
+| [ishwarjha/claude-marketing-research-skill](https://github.com/ishwarjha/claude-marketing-research-skill) | 57 | An awesome Claude skill for structured marketing research system. Covers competitor analysis, avatar profiling, posit... |
+| [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) | 46 | A curated list of memory systems, frameworks, benchmarks, and research for AI agents. |
+| [cola-runner/awesome-tui-design](https://github.com/cola-runner/awesome-tui-design) | 42 | DESIGN.md for Terminal UI — curated TUI design systems for AI coding agents. Source-code-level research from Claude C... |
 | [bigai-nlco/Awesome-AI-Memory](https://github.com/bigai-nlco/Awesome-AI-Memory) | 41 | TMLR | This survey presents a comprehensive and structured synthesis of memory in LLMs and MLLMs, organizing the lite... |
-| [mnemoverse/awesome-agent-memory](https://github.com/mnemoverse/awesome-agent-memory) | 41 | A curated list of memory systems, frameworks, benchmarks, and research for AI agents. |
-| [frangelbarrera/Awesome-Hacking-with-AI](https://github.com/frangelbarrera/Awesome-Hacking-with-AI) | 34 | A curated guide to AI-powered offensive security — autonomous pentesting agents, LLM agents, red team ops, prompt inj... |
+| [frangelbarrera/Awesome-Hacking-with-AI](https://github.com/frangelbarrera/Awesome-Hacking-with-AI) | 38 | A curated guide to AI-powered offensive security — autonomous pentesting agents, LLM agents, red team ops, prompt inj... |
 | [brycewang-stanford/lit-review-agent-tools](https://github.com/brycewang-stanford/lit-review-agent-tools) | 34 | 🤖 The strongest curated list of open-source AI-agent tools for literature review — 70+ tools across 11 categories (Cl... |
 | [sstklen/infinite-gratitude](https://github.com/sstklen/infinite-gratitude) | 31 | 🥋 Multi-agent research skill for Claude Code | 10 個 AI Agent 協作研究 | 10 AIエージェント協調リサーチ — AI Dojo series |
 | [yingyingxia666/awesome-agentic](https://github.com/yingyingxia666/awesome-agentic) | 28 | A curated reading list of large-language-model RL papers, organized by four research directions: Reasoning RL, Agenti... |
 | [icedpanda/awesome-personalized-graph-memory](https://github.com/icedpanda/awesome-personalized-graph-memory) | 26 | [ICKG] Survey resources for personalized graph memory for llm agents. |
+| [kissshhot/Awesome-OPD](https://github.com/kissshhot/Awesome-OPD) | 25 | A curated paper list on On-Policy Distillation (OPD) & On-Policy Self-Distillation (OPSD) for LLMs — student rollouts... |
 | [tfatykhov/awesome-agent-memory](https://github.com/tfatykhov/awesome-agent-memory) | 24 | Curated research on memory systems for LLM agents |
-| [kissshhot/Awesome-OPD](https://github.com/kissshhot/Awesome-OPD) | 24 | A curated paper list on On-Policy Distillation (OPD) & On-Policy Self-Distillation (OPSD) for LLMs — student rollouts... |
 | [DataArcTech/Awesome-Agent-Skill-Papers](https://github.com/DataArcTech/Awesome-Agent-Skill-Papers) | 23 | The repo of survey paper "A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents" |
 | [wannabeyourfriend/awesome-harness-evolution](https://github.com/wannabeyourfriend/awesome-harness-evolution) | 23 | Awesome Research Paper List for AI agent harness evolution: Foundation, Benchmark, Recipe, Position |
 | [johnsutor/awesome-multi-agent-optimization](https://github.com/johnsutor/awesome-multi-agent-optimization) | 21 | A collection of papers and libraries for performing multi-agent optimization |
 | [REAL-Lab-NU/Awesome-OpenClaw-Papers](https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers) | 20 | A curated collection of academic papers, security reports, datasets, and tools for the OpenClaw AI agent ecosystem. |
 | [natnew/Awesome-Agentic-AI-Security](https://github.com/natnew/Awesome-Agentic-AI-Security) | 20 | A curated, structured, and continuously updated map of security risks, controls, benchmarks, architectures, and resea... |
-| [Snseam/awesome-agent-memory](https://github.com/Snseam/awesome-agent-memory) | 19 | Curated reading list & living survey on long-term memory for LLM agents — 989 papers, 529 archived PDFs, deep notes m... |
+| [Snseam/awesome-agent-memory](https://github.com/Snseam/awesome-agent-memory) | 20 | Curated reading list & living survey on long-term memory for LLM agents — 989 papers, 529 archived PDFs, deep notes m... |
 | [PAMPAS-Lab/awesome-ai-short-drama](https://github.com/PAMPAS-Lab/awesome-ai-short-drama) | 18 | A curated list of open-source agents, tools, research, workflows, and resources for AI short-drama production. |
 | [lahavi/awesome-deerflow](https://github.com/lahavi/awesome-deerflow) | 14 | A curated list of resources, guides, and tools for building with DeerFlow – ByteDance’s open‑source SuperAgent harnes... |
-| [Xzcv-hub/awesome-llm-agent-harness](https://github.com/Xzcv-hub/awesome-llm-agent-harness) | 11 | A Survey of LLM Agent Harnesses: A Normative Perspective through the Human-Machine Task Contract |
-| [Xzcv-hub/Awesome-LLM-Agent-Harness](https://github.com/Xzcv-hub/Awesome-LLM-Agent-Harness) | 11 | A Survey of LLM Agent Harnesses: A Normative Perspective through the Human-Machine Task Contract |
+| [Xzcv-hub/awesome-llm-agent-harness](https://github.com/Xzcv-hub/awesome-llm-agent-harness) | 12 | A Survey of LLM Agent Harnesses: A Normative Perspective through the Human-Machine Task Contract |
+| [Xzcv-hub/Awesome-LLM-Agent-Harness](https://github.com/Xzcv-hub/Awesome-LLM-Agent-Harness) | 12 | A Survey of LLM Agent Harnesses: A Normative Perspective through the Human-Machine Task Contract |
 | [MurrayTom/Awesome-Agent-Security-Papers](https://github.com/MurrayTom/Awesome-Agent-Security-Papers) | 11 | Beyond Environment and User Inputs: A Comprehensive Survey of Skill-Oriented Security in Agentic AI |
+| [PhuTran1005/Awesome-Long-Video-Agent-Papers](https://github.com/PhuTran1005/Awesome-Long-Video-Agent-Papers) | 11 | This is the latest survey for the Agentic System for Long-Form Video Understanding |
+| [NeuraLiying/Awesome-Agent-Harnesses](https://github.com/NeuraLiying/Awesome-Agent-Harnesses) | 8 | Curated, verified survey of the agent harness — the layer around an LLM   (loop, tools, memory, context, runtime) tha... |
 | [wyattowalsh/awesome-deep-research](https://github.com/wyattowalsh/awesome-deep-research) | 7 | — |
 | [Eileen19200930/Awesome-Agent-Papers](https://github.com/Eileen19200930/Awesome-Agent-Papers) | 7 | — |
 | [sutaoyu/awesome-ai-security-agents](https://github.com/sutaoyu/awesome-ai-security-agents) | 7 | :sparkles: Awesome things about AI security agents. Papers / Repos / Blogs / ... |
 | [Xinhao-Deng/awesome-self-evolving-agent-security](https://github.com/Xinhao-Deng/awesome-self-evolving-agent-security) | 7 | A curated list of papers, benchmarks, attacks, defenses, and security analyses for self-evolving AI agents. |
 | [vitorfhc/awesome-autonomous-hacking-agents](https://github.com/vitorfhc/awesome-autonomous-hacking-agents) | 7 | Curated AI-agent papers for building autonomous security bots — offensive AI, multi-agent architecture, memory, and t... |
 | [AaronCIH/Awesome-AutoSkill-AutoRubric](https://github.com/AaronCIH/Awesome-AutoSkill-AutoRubric) | 7 | A curated collection of papers & repos on Auto-Skill (self-evolving agents) and Auto-Rubric (rubric learning from pre... |
-| [NeuraLiying/Awesome-Agent-Harnesses](https://github.com/NeuraLiying/Awesome-Agent-Harnesses) | 7 | Curated, verified survey of the agent harness — the layer around an LLM   (loop, tools, memory, context, runtime) tha... |
 | [xaddwell/Awesome-LLM-Agent-Memory-Safety](https://github.com/xaddwell/Awesome-LLM-Agent-Memory-Safety) | 6 | Safety of LLM/Agent Memory. Our paper is coming soon |
+| [jin-s13/awesome-gui-agent-hub](https://github.com/jin-s13/awesome-gui-agent-hub) | 6 | A curated hub for GUI agent papers, benchmarks, datasets, projects, and computer-use research. |
 | [js-lee-AI/awesome-agent-loop-papers](https://github.com/js-lee-AI/awesome-agent-loop-papers) | 6 | Companion reading list for the survey 'The Agent Loop: Control Strategies, Skills, and Harnesses for LLM Agents': 492... |
 | [Dxsssu/Awesome-LLM4SecOps](https://github.com/Dxsssu/Awesome-LLM4SecOps) | 5 | — |
 | [TsinghuaC3I/Awesome-Self-Improving-Agents](https://github.com/TsinghuaC3I/Awesome-Self-Improving-Agents) | 5 | Awesome list and survey resources for self-improving harness agents, skills, memory, agent RL, and meta-evolution. |
 | [neardws/awesome-embodied-ai-papers](https://github.com/neardws/awesome-embodied-ai-papers) | 5 | Frontier survey of embodied AI: VLN, VLA/WAM, agentic planning, lightweight deployment, and autonomous robot decision... |
-| [jin-s13/awesome-gui-agent-hub](https://github.com/jin-s13/awesome-gui-agent-hub) | 5 | A curated hub for GUI agent papers, benchmarks, datasets, projects, and computer-use research. |
 | [Anil-matcha/awesome-hermes-agent](https://github.com/Anil-matcha/awesome-hermes-agent) | 5 | A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research |
+| [aaronlyt/awesome-agent-trace-and-evidence-attribution](https://github.com/aaronlyt/awesome-agent-trace-and-evidence-attribution) | 5 | A curated list of research on LLM-agent traces: evidence tracing, execution provenance, failure attribution, observab... |
 | [yunfanye/awesome-environment-scaling](https://github.com/yunfanye/awesome-environment-scaling) | 5 | Awesome Environment Scaling for AI Agents — a periodically updated survey and curated list of papers, projects, RL en... |
 | [arvindcr4/awesome_agents_papers](https://github.com/arvindcr4/awesome_agents_papers) | 4 | Collection of papers and slide decks on LLM agents, reasoning, and AI systems |
 | [wmmthu/awesome-llm-agent-skills-papers](https://github.com/wmmthu/awesome-llm-agent-skills-papers) | 4 | A curated list of papers, blog posts, and systems on skills for LLM agents — reusable, named capability units that an... |
-| [aaronlyt/awesome-agent-trace-and-evidence-attribution](https://github.com/aaronlyt/awesome-agent-trace-and-evidence-attribution) | 4 | A curated list of research on LLM-agent traces: evidence tracing, execution provenance, failure attribution, observab... |
 | [dongqianyu99/Awesome-Agentic-Embodided-Systems](https://github.com/dongqianyu99/Awesome-Agentic-Embodided-Systems) | 4 | A curated research map of agentic embodied systems, covering foundation models, embodied harnesses, in-context adapta... |
 | [Sonicly8968/awesome-chinese-ai-agents](https://github.com/Sonicly8968/awesome-chinese-ai-agents) | 3 | Curate and explore a comprehensive list of Chinese AI agents, tools, and resources for development and research in ar... |
 | [PanosPeng/awesome-agent-harness](https://github.com/PanosPeng/awesome-agent-harness) | 3 | A list of awesome papers and resources of agent harness engineering. |
@@ -439,94 +441,95 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [vicfei/awesome-self-improving-coding-agents](https://github.com/vicfei/awesome-self-improving-coding-agents) | 0 | A curated, auto-refreshed map of Recursive Self-Improvement (RSI) for coding agents — papers, systems, benchmarks & s... |
 | [Awesome-llms-labs/awesome-multi-agents-workflow](https://github.com/Awesome-llms-labs/awesome-multi-agents-workflow) | 0 | Awesome list of multi-agent workflow tools, frameworks, platforms, protocols and research |
 | [ZHongli626/awesome-agentic-econ-workflows](https://github.com/ZHongli626/awesome-agentic-econ-workflows) | 0 | Agentic Workflow for Economic Research |
+| [vicfei/awesome-ai-native](https://github.com/vicfei/awesome-ai-native) | 0 | A thesis-driven map of the AI-native enterprise: org design, agent workforces, organizational memory, skill distillat... |
 
 
 ## ⚡ Agent Skills & Prompts / Agent 技能与提示词
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 76771 | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 55336 | A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Co... |
-| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 53029 | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills R... |
-| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 47405 | Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, An... |
-| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 47402 | Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and ... |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 39875 | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 35444 | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Co... |
-| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 6265 | Tutorials, Guides and Agent Skills Directories |
-| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | 6241 | 🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding... |
-| [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) | 5154 | Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit |
-| [xixu-me/awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | 4686 | Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives |
-| [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | 3287 | A curated list of resources dedicated to open source GitHub repositories related to ChatGPT, OpenAI API, and Codex. S... |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 76967 | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 55545 | A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Co... |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 53099 | The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills R... |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 47526 | Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, An... |
+| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 47525 | Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and ... |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | 39969 | Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 35605 | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Co... |
+| [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 6270 | Tutorials, Guides and Agent Skills Directories |
+| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | 6248 | 🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding... |
+| [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) | 5164 | Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit |
+| [xixu-me/awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | 4691 | Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives |
+| [wesammustafa/Claude-Code-Everything-You-Need-to-Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know) | 3344 | A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash com... |
+| [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | 3291 | A curated list of resources dedicated to open source GitHub repositories related to ChatGPT, OpenAI API, and Codex. S... |
 | [google-labs-code/jules-awesome-list](https://github.com/google-labs-code/jules-awesome-list) | 3187 | Some awesome prompts for Jules Agent |
-| [wesammustafa/Claude-Code-Everything-You-Need-to-Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know) | 3150 | A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash com... |
-| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | 3112 | List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Cod... |
-| [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | 3062 | A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills |
-| [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | 2686 | The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks,... |
-| [yaklang/hack-skills](https://github.com/yaklang/hack-skills) | 2417 | Helping AI Agent become an awesome practical hacker! |
+| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | 3144 | List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Cod... |
+| [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | 3067 | A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills |
+| [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | 2693 | The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks,... |
+| [yaklang/hack-skills](https://github.com/yaklang/hack-skills) | 2440 | Helping AI Agent become an awesome practical hacker! |
 | [EgoAlpha/prompt-in-context-learning](https://github.com/EgoAlpha/prompt-in-context-learning) | 2246 | Awesome resources for in-context learning and prompt engineering: Mastery of the LLMs such as ChatGPT, GPT-3, and Fla... |
-| [ComposioHQ/awesome-claude-plugins](https://github.com/ComposioHQ/awesome-claude-plugins) | 1936 | A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers throug... |
-| [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) | 1786 | A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that work... |
-| [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | 1388 | Game-development Agent Skills for AI coding agents: install once and a master router loads the right skill for your e... |
-| [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 1347 | A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — o... |
-| [brycewang-stanford/Awesome-Journal-Skills](https://github.com/brycewang-stanford/Awesome-Journal-Skills) | 1231 | A curated index of journal-specific Claude Code agent skill packs for social-science manuscripts. AER, 管理世界, 经济研究, an... |
+| [ComposioHQ/awesome-claude-plugins](https://github.com/ComposioHQ/awesome-claude-plugins) | 1941 | A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers throug... |
+| [Prat011/awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) | 1795 | A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that work... |
+| [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | 1464 | Game-development Agent Skills for AI coding agents: install once and a master router loads the right skill for your e... |
+| [SamurAIGPT/awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | 1356 | A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — o... |
+| [brycewang-stanford/Awesome-Journal-Skills](https://github.com/brycewang-stanford/Awesome-Journal-Skills) | 1248 | A curated index of journal-specific Claude Code agent skill packs for social-science manuscripts. AER, 管理世界, 经济研究, an... |
 | [qualisero/awesome-pi-agent](https://github.com/qualisero/awesome-pi-agent) | 1099 | Awesome list of add-ons, hooks, tools, skills, and resources for the pi coding agent (pi-mono). |
 | [taishi-i/awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources) | 1021 | A curated list of resources dedicated to Python libraries, LLMs, dictionaries, and corpora of NLP for Japanese. Inclu... |
-| [new-silvermoon/awesome-android-agent-skills](https://github.com/new-silvermoon/awesome-android-agent-skills) | 972 | A collection of standardized Agent Skills to teach GitHub Copilot, Claude, Gemini and Cursor about modern Android dev... |
+| [new-silvermoon/awesome-android-agent-skills](https://github.com/new-silvermoon/awesome-android-agent-skills) | 974 | A collection of standardized Agent Skills to teach GitHub Copilot, Claude, Gemini and Cursor about modern Android dev... |
 | [ccplugins/awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins) | 970 | Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code |
-| [milisp/codexia](https://github.com/milisp/codexia) | 928 | Agent Workstation for Codex CLI + Claude Code — with task scheduler, git worktree & remote control, skills management |
-| [momozi1996/awesome-ai-persona-skills](https://github.com/momozi1996/awesome-ai-persona-skills) | 919 | 全网最全的、持续更新的、最火爆的 100+ 人格 蒸馏skills 合集｜ 多agent系统 ｜名人/导演/天涯大神/古籍/二次元/职场/情感全品类 |
-| [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills) | 847 | A curated list of awesome Agent Skills for automating legal work |
-| [modoojunko/awesome-novel-skill](https://github.com/modoojunko/awesome-novel-skill) | 795 | 让 AI agent成为你的小说创作搭档。从世界观搭建到角色塑造，从章节规划到正文写作，一步步陪你完成整部小说。 |
+| [momozi1996/awesome-ai-persona-skills](https://github.com/momozi1996/awesome-ai-persona-skills) | 946 | 全网最全的、持续更新的、最火爆的 100+ 人格 蒸馏skills 合集｜ 多agent系统 ｜名人/导演/天涯大神/古籍/二次元/职场/情感全品类 |
+| [milisp/codexia](https://github.com/milisp/codexia) | 931 | Agent Workstation for Codex CLI + Claude Code — with task scheduler, git worktree & remote control, skills management |
+| [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills) | 863 | A curated list of awesome Agent Skills for automating legal work |
+| [modoojunko/awesome-novel-skill](https://github.com/modoojunko/awesome-novel-skill) | 806 | 让 AI agent成为你的小说创作搭档。从世界观搭建到角色塑造，从章节规划到正文写作，一步步陪你完成整部小说。 |
 | [ZeroLu/awesome-gemini-ai](https://github.com/ZeroLu/awesome-gemini-ai) | 786 | The ultimate collection of Awesome Gemini Prompts, use cases, and examples. Curated from X (Twitter), Reddit, and top... |
-| [mliu98/awesome-human-distillation](https://github.com/mliu98/awesome-human-distillation) | 750 | A curated catalog of human distillliation agent skills |
-| [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) | 682 | The definitive resource for Agent Skills - modular capabilities revolutionizing AI agent architecture |
-| [JackyST0/awesome-agent-skills](https://github.com/JackyST0/awesome-agent-skills) | 648 | 🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具 |
-| [wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill) | 593 | An awesome collection of Jev use cases, workflows, and agent skills. |
-| [Code-and-Sorts/awesome-copilot-agents](https://github.com/Code-and-Sorts/awesome-copilot-agents) | 580 | ✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your Git... |
-| [RoggeOhta/awesome-codex-cli](https://github.com/RoggeOhta/awesome-codex-cli) | 545 | Curated list of 150+ tools, skills, subagents & plugins for OpenAI Codex CLI |
-| [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) | 543 | 🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost producti... |
-| [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | 300 | HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skil... |
-| [futantan/agent-skills.md](https://github.com/futantan/agent-skills.md) | 279 | Find awesome Agent Skills |
-| [EliFuzz/awesome-system-prompts](https://github.com/EliFuzz/awesome-system-prompts) | 277 | A collection of system prompts and tool definitions from various AI coding agents: Augment Code, Claude Code, Cluely,... |
-| [apify/awesome-skills](https://github.com/apify/awesome-skills) | 266 | Community collection of Apify agent skills for AI coding assistants |
+| [mliu98/awesome-human-distillation](https://github.com/mliu98/awesome-human-distillation) | 751 | A curated catalog of human distillliation agent skills |
+| [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) | 683 | The definitive resource for Agent Skills - modular capabilities revolutionizing AI agent architecture |
+| [JackyST0/awesome-agent-skills](https://github.com/JackyST0/awesome-agent-skills) | 652 | 🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具 |
+| [wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill) | 610 | An awesome collection of Jev use cases, workflows, and agent skills. |
+| [Code-and-Sorts/awesome-copilot-agents](https://github.com/Code-and-Sorts/awesome-copilot-agents) | 582 | ✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your Git... |
+| [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) | 547 | 🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost producti... |
+| [RoggeOhta/awesome-codex-cli](https://github.com/RoggeOhta/awesome-codex-cli) | 547 | Curated list of 150+ tools, skills, subagents & plugins for OpenAI Codex CLI |
+| [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | 301 | HeyClaude is a curated registry and distribution surface for Claude and AI-workflow assets: agents, MCP servers, skil... |
+| [futantan/agent-skills.md](https://github.com/futantan/agent-skills.md) | 281 | Find awesome Agent Skills |
+| [EliFuzz/awesome-system-prompts](https://github.com/EliFuzz/awesome-system-prompts) | 278 | A collection of system prompts and tool definitions from various AI coding agents: Augment Code, Claude Code, Cluely,... |
+| [apify/awesome-skills](https://github.com/apify/awesome-skills) | 272 | Community collection of Apify agent skills for AI coding assistants |
 | [Mizoreww/awesome-claude-code-config](https://github.com/Mizoreww/awesome-claude-code-config) | 261 | Production-ready Claude Code configuration with self-improvement loop, multi-language rules, MCP integrations, and cu... |
-| [yigitkonur/awesome-herdr](https://github.com/yigitkonur/awesome-herdr) | 257 | A curated guide to the Herdr ecosystem: tools, workflows, configs, clients, skills, and integrations. |
-| [naodeng/awesome-qa-skills](https://github.com/naodeng/awesome-qa-skills) | 248 | Awesome QA Skills — a bilingual (zh/en) AI testing Agent Skills library for Codex, Cursor, Claude Code, Kiro, OpenCod... |
-| [AtlasCloudAI/awesome-seedance-2.5-prompts-skills](https://github.com/AtlasCloudAI/awesome-seedance-2.5-prompts-skills) | 232 | 100+ curated Seedance 2.5 prompts with real video previews, plus an installable Agent Skill that optimizes prompts, c... |
-| [finfin/awesome-frontend-skills](https://github.com/finfin/awesome-frontend-skills) | 227 | A curated list of frontend Agent Skills installable via npx skills add |
+| [yigitkonur/awesome-herdr](https://github.com/yigitkonur/awesome-herdr) | 260 | A curated guide to the Herdr ecosystem: tools, workflows, configs, clients, skills, and integrations. |
+| [naodeng/awesome-qa-skills](https://github.com/naodeng/awesome-qa-skills) | 253 | Awesome QA Skills — a bilingual (zh/en) AI testing Agent Skills library for Codex, Cursor, Claude Code, Kiro, OpenCod... |
+| [AtlasCloudAI/awesome-seedance-2.5-prompts-skills](https://github.com/AtlasCloudAI/awesome-seedance-2.5-prompts-skills) | 235 | 100+ curated Seedance 2.5 prompts with real video previews, plus an installable Agent Skill that optimizes prompts, c... |
+| [finfin/awesome-frontend-skills](https://github.com/finfin/awesome-frontend-skills) | 229 | A curated list of frontend Agent Skills installable via npx skills add |
+| [seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills) | 211 | 90+ universal, self-contained skills that make any AI agent better at real-world tasks. Not a link directory — every ... |
 | [itgoyo/awesome-agent-skills](https://github.com/itgoyo/awesome-agent-skills) | 206 | 收集全网最热门的Agent-Skills项目 |
-| [seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills) | 206 | 90+ universal, self-contained skills that make any AI agent better at real-world tasks. Not a link directory — every ... |
 | [littleben/awesomeAgentskills](https://github.com/littleben/awesomeAgentskills) | 189 | A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合 |
-| [ascend-ai-coding/awesome-ascend-skills](https://github.com/ascend-ai-coding/awesome-ascend-skills) | 174 | A comprehensive knowledge base for Huawei Ascend NPU development, structured as distributed Agent Skills. https://asc... |
+| [ascend-ai-coding/awesome-ascend-skills](https://github.com/ascend-ai-coding/awesome-ascend-skills) | 173 | A comprehensive knowledge base for Huawei Ascend NPU development, structured as distributed Agent Skills. https://asc... |
 | [JayLZhou/Awesome-Agent-Skills](https://github.com/JayLZhou/Awesome-Agent-Skills) | 153 | — |
-| [CommandCodeAI/agent-skills](https://github.com/CommandCodeAI/agent-skills) | 133 | A curated list of awesome Skills, resources, and tools for customizing coding agent workflows. |
-| [BubblePtr/awesome-pi](https://github.com/BubblePtr/awesome-pi) | 133 | 😎 Awesome Pi - A curated list of Pi Coding Agent extensions, themes, skills, prompt templates, and community resources. |
-| [bubbleptr/awesome-pi](https://github.com/bubbleptr/awesome-pi) | 133 | 😎 Awesome Pi - A curated list of Pi Coding Agent extensions, themes, skills, prompt templates, and community resources. |
+| [BubblePtr/awesome-pi](https://github.com/BubblePtr/awesome-pi) | 135 | 😎 Awesome Pi - A curated list of Pi Coding Agent extensions, themes, skills, prompt templates, and community resources. |
+| [bubbleptr/awesome-pi](https://github.com/bubbleptr/awesome-pi) | 135 | 😎 Awesome Pi - A curated list of Pi Coding Agent extensions, themes, skills, prompt templates, and community resources. |
+| [CommandCodeAI/agent-skills](https://github.com/CommandCodeAI/agent-skills) | 134 | A curated list of awesome Skills, resources, and tools for customizing coding agent workflows. |
 | [AIPMAndy/awesome-openclaw-skills-CN](https://github.com/AIPMAndy/awesome-openclaw-skills-CN) | 125 | 🇨🇳 中文开发者友好的 OpenClaw Skills 精选 | 含国产模型接入指南（DeepSeek/Qwen/GLM/Moonshot）| 2868+ Skills 分类整理 |
+| [icesixgod/awesome-astra-blender-characters](https://github.com/icesixgod/awesome-astra-blender-characters) | 122 | An agent skill for Blender character creation and repair, with nine-view references, face and hair workflows, and vis... |
 | [software-ai-life/Awesome-PPT-Design-Skills](https://github.com/software-ai-life/Awesome-PPT-Design-Skills) | 120 | Agent-agnostic PPT design skills for creating high-end, editable presentation styles. |
-| [GoekeLab/awesome-genomic-skills](https://github.com/GoekeLab/awesome-genomic-skills) | 118 | A curated list of awesome genomics and bioinformatics agentic skills, MCPs and benchmarks for Claude Code, Copilot, C... |
-| [icesixgod/awesome-astra-blender-characters](https://github.com/icesixgod/awesome-astra-blender-characters) | 117 | An agent skill for Blender character creation and repair, with nine-view references, face and hair workflows, and vis... |
+| [GoekeLab/awesome-genomic-skills](https://github.com/GoekeLab/awesome-genomic-skills) | 119 | A curated list of awesome genomics and bioinformatics agentic skills, MCPs and benchmarks for Claude Code, Copilot, C... |
 | [jihoo-kim/awesome-context-engineering](https://github.com/jihoo-kim/awesome-context-engineering) | 113 | A curated list of awesome open-source libraries for context engineering (Long-term memory, MCP: Model Context Protoco... |
 | [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills) | 107 | Curated list of Agent Skills for AI coding agents like Claude Code, Codex and Cursor. |
 | [CALLE-AI/awesome-phone-call-agents](https://github.com/CALLE-AI/awesome-phone-call-agents) | 107 | Portable phone-call Agent Skills, apps, examples, adapters, and scheduler recipes for AI agents. |
-| [Techopolis/awesome-ios-ai](https://github.com/Techopolis/awesome-ios-ai) | 103 | AI agent skills, agent teams, MCP servers, and tools that make AI coding assistants better at Swift and iOS development. |
-| [LHL3341/awesome-claws](https://github.com/LHL3341/awesome-claws) | 98 | 🦞 A curated list of OpenClaw-related products, skills, communities, and ecosystem resources.  OpenClaw 入门教程及项目集锦：按使用场... |
+| [Techopolis/awesome-ios-ai](https://github.com/Techopolis/awesome-ios-ai) | 104 | AI agent skills, agent teams, MCP servers, and tools that make AI coding assistants better at Swift and iOS development. |
+| [LHL3341/awesome-claws](https://github.com/LHL3341/awesome-claws) | 99 | 🦞 A curated list of OpenClaw-related products, skills, communities, and ecosystem resources.  OpenClaw 入门教程及项目集锦：按使用场... |
+| [gmh5225/awesome-skills](https://github.com/gmh5225/awesome-skills) | 93 | A curated list of Agent Skills, resources, and tools for AI coding agents like Claude Code, Codex, Gemini CLI, GitHub... |
 | [kennethlaw325/awesome-llm-knowledge-systems](https://github.com/kennethlaw325/awesome-llm-knowledge-systems) | 93 | The Map Everyone's Missing: LLM Knowledge Engineering in 2026 — First unified guide connecting RAG, Context Engineeri... |
-| [gmh5225/awesome-skills](https://github.com/gmh5225/awesome-skills) | 90 | A curated list of Agent Skills, resources, and tools for AI coding agents like Claude Code, Codex, Gemini CLI, GitHub... |
-| [ChuckSRQ/awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) | 79 | A curated collection of production-ready Hermes Agent skills — brainstorming, PRD workflows, debugging, Apple integra... |
+| [ChuckSRQ/awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) | 80 | A curated collection of production-ready Hermes Agent skills — brainstorming, PRD workflows, debugging, Apple integra... |
 | [ZeroLu/awesome-openclaw](https://github.com/ZeroLu/awesome-openclaw) | 76 | A curated collection of OpenClaw tutorials, skills, and use cases. Learn how to build your personal AI assistant with... |
 | [thienanblog/awesome-ai-agent-skills](https://github.com/thienanblog/awesome-ai-agent-skills) | 69 | A curated list of essential skills, tools, and resources for building and enhancing advanced AI agents. |
+| [aiagentslibrary/awesome-gemini-spark-skills](https://github.com/aiagentslibrary/awesome-gemini-spark-skills) | 69 | Free Gemini Spark skills library with reusable Google Workspace AI agent workflows for Gmail, Calendar, Drive, Docs, ... |
 | [anchildress1/awesome-github-copilot](https://github.com/anchildress1/awesome-github-copilot) | 67 | My ongoing WIP 🏗️ AI prompts, custom agents, skills & instructions - curated by me (and Copilot + ChatGPT).  |
-| [aiagentslibrary/awesome-gemini-spark-skills](https://github.com/aiagentslibrary/awesome-gemini-spark-skills) | 67 | Free Gemini Spark skills library with reusable Google Workspace AI agent workflows for Gmail, Calendar, Drive, Docs, ... |
 | [BENZEMA216/awesome-weread](https://github.com/BENZEMA216/awesome-weread) | 66 | 基于微信读书官方 Agent Skill 的二创项目精选 · Curated projects built on WeRead's official Agent Skill (released 2026-05-17) |
-| [DominikTobureto/awesome-grok-build](https://github.com/DominikTobureto/awesome-grok-build) | 64 | Grok Build resources, reusable .grok/skills, AGENTS.md templates, hooks, prompts, and starter workflows. |
+| [DominikTobureto/awesome-grok-build](https://github.com/DominikTobureto/awesome-grok-build) | 65 | Grok Build resources, reusable .grok/skills, AGENTS.md templates, hooks, prompts, and starter workflows. |
 | [ChaoYue0307/awesome-loop-engineering](https://github.com/ChaoYue0307/awesome-loop-engineering) | 60 | Loop Engineering: a curated field guide to designing recurring AI agent and coding-agent loops — patterns, loop contr... |
 | [Gravityaespot/r16-voltagent-awesome-agent-skills-seo](https://github.com/Gravityaespot/r16-voltagent-awesome-agent-skills-seo) | 57 | 📈 SEO & Content Marketing skill suite derived from VoltAgent/awesome-agent-skills. |
 | [timenavigatorrage/r16-voltagent-awesome-agent-skills-security](https://github.com/timenavigatorrage/r16-voltagent-awesome-agent-skills-security) | 57 | 🔒 Security & Compliance skill suite derived from VoltAgent/awesome-agent-skills. |
 | [Holddrespell/r16-voltagent-awesome-agent-skills-datascience](https://github.com/Holddrespell/r16-voltagent-awesome-agent-skills-datascience) | 56 | 🤖 Data Science & AI/ML skill suite derived from VoltAgent/awesome-agent-skills. |
+| [kejixiaoliang/awesome-dsh-plugins](https://github.com/kejixiaoliang/awesome-dsh-plugins) | 52 | DeepSeek Harness (DSH) 插件精选目录 — 14 类 280+ 个社区插件，覆盖 MCP / Skill / TUI / 多 Agent / 上下文记忆 / UI 皮肤，点链接直达仓库。Curated direct... |
 | [majiayu000/awesome-goal-prompts](https://github.com/majiayu000/awesome-goal-prompts) | 51 | 114 source-backed /goal contracts for coding agents, plus 200 separated seed patterns. |
 | [J-nowcow/awesome-korean-agent-skills](https://github.com/J-nowcow/awesome-korean-agent-skills) | 49 | 🇰🇷 400+ Korean AI Coding Agent Skills — Claude Code, Gemini CLI, Codex, Cursor 스킬을 기능별로 모은 큐레이션 |
-| [kejixiaoliang/awesome-dsh-plugins](https://github.com/kejixiaoliang/awesome-dsh-plugins) | 48 | DeepSeek Harness (DSH) 插件精选目录 — 14 类 280+ 个社区插件，覆盖 MCP / Skill / TUI / 多 Agent / 上下文记忆 / UI 皮肤，点链接直达仓库。Curated direct... |
 | [mythicnoteshed/r16-voltagent-awesome-agent-skills-devops](https://github.com/mythicnoteshed/r16-voltagent-awesome-agent-skills-devops) | 47 | ☁️ DevOps & Cloud Infrastructure skill suite derived from VoltAgent/awesome-agent-skills. |
 | [BanSailmakerDitch/r16-voltagent-awesome-agent-skills-ecommerce](https://github.com/BanSailmakerDitch/r16-voltagent-awesome-agent-skills-ecommerce) | 45 | 🛒 E-commerce & Retail skill suite derived from VoltAgent/awesome-agent-skills. |
 | [xu-xiang/awesome-top-skills](https://github.com/xu-xiang/awesome-top-skills) | 38 | 🚀 5,000+ Precision-Tagged AI Skills. Auto-updating & Agent-ready. / 5000+ 精准标注 AI 技能，自动更新，智能体必备。 |
@@ -534,13 +537,13 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [Cognitive-Stack/awesome-one-hit-vibe-code](https://github.com/Cognitive-Stack/awesome-one-hit-vibe-code) | 34 | Build powerful applications/modules with just one prompt using LLM agent tools like Cursor, Windsuft, GitHub Copilot,... |
 | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | 面向 AI 编程 Agent 的开源形式验证技能库，聚焦 FPV、SVA、证明优化、TCL 脚本与可扩展的形式验证工作流。Open-source formal verification skills for AI coding age... |
 | [codeaashu/awesome-openclaw-Skills](https://github.com/codeaashu/awesome-openclaw-Skills) | 31 | The awesome collection of OpenClaw Skills. Formerly known as Moltbot, originally Clawdbot. |
-| [fanqingxuan/awesome-skills](https://github.com/fanqingxuan/awesome-skills) | 29 | 热门skills推荐,包括编程以及非编程等各种热门实用的skill |
+| [fanqingxuan/awesome-skills](https://github.com/fanqingxuan/awesome-skills) | 30 | 热门skills推荐,包括编程以及非编程等各种热门实用的skill |
 | [charlieviettq/awesome-agent-skill](https://github.com/charlieviettq/awesome-agent-skill) | 26 | Curated skill pack for LLM agents in engineer and science workflow (Cursor & Claude ready). |
 | [shadowrootdev/awesome-agent-skills-mcp](https://github.com/shadowrootdev/awesome-agent-skills-mcp) | 26 | MCP server providing 100+ AI agent skills from Anthropic, Vercel, Trail of Bits, Hugging Face & more. Works with Clau... |
 | [shajith003/awesome-claude-skills](https://github.com/shajith003/awesome-claude-skills) | 25 | 🚀 Enhance Claude's capabilities with example skills that streamline tasks and improve performance in specialized areas. |
-| [AIPMAndy/awesome-openclaw-use-cases-cn](https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn) | 22 | Chinese OpenClaw use cases: real-world workflows, prompts, configs, automation examples, and a structured Markdown + ... |
-| [DonkeyKing01/tasteful-ui-skill](https://github.com/DonkeyKing01/tasteful-ui-skill) | 21 | A taste-first UI design skill for coding agents: explore visual direction through references, translate taste into ex... |
-| [Unknown-333/awesome-data-engineering-skills](https://github.com/Unknown-333/awesome-data-engineering-skills) | 21 | 36 data-engineering skills for AI coding agents — dbt, Airflow, Dagster, Prefect, Spark, Snowflake, BigQuery, Databri... |
+| [AIPMAndy/awesome-openclaw-use-cases-cn](https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn) | 23 | Chinese OpenClaw use cases: real-world workflows, prompts, configs, automation examples, and a structured Markdown + ... |
+| [DonkeyKing01/tasteful-ui-skill](https://github.com/DonkeyKing01/tasteful-ui-skill) | 22 | A taste-first UI design skill for coding agents: explore visual direction through references, translate taste into ex... |
+| [Unknown-333/awesome-data-engineering-skills](https://github.com/Unknown-333/awesome-data-engineering-skills) | 22 | 36 data-engineering skills for AI coding agents — dbt, Airflow, Dagster, Prefect, Spark, Snowflake, BigQuery, Databri... |
 | [rentprompts/awesome-agent-md](https://github.com/rentprompts/awesome-agent-md) | 15 | An Awesome list, of open AGENTS.md (prompt) for guiding coding agents, Already used by over 20k open-source projects.... |
 | [Horatio-Li/awesome-cowork](https://github.com/Horatio-Li/awesome-cowork) | 13 | The ultimate list of Claude Cowork prompts, agents, tools, and tutorials. Master the new "Computer Use" capabilities. |
 | [Samarth0211/awesome-claude-skills-2026](https://github.com/Samarth0211/awesome-claude-skills-2026) | 10 | Curated list of 2,300+ Claude Code skills, 10 autonomous agents, and 100 prompt shortcuts for 2026. clskills.in |
@@ -599,94 +602,94 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 141002 | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. |
-| [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | 17149 | Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into s... |
-| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | 16096 | A collection of projects showcasing RAG, agents, workflows, and other AI use cases |
-| [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) | 6379 | A curated list of Artificial Intelligence Top Tools |
-| [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | 6217 | Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests |
-| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | 5794 | Awesome MCP Servers - A curated list of Model Context Protocol servers |
-| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | 5029 | A curated catalogue of awesome agentic AI patterns |
-| [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | 4773 | Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and o... |
-| [aieln/awesome-persona-distill-skills](https://github.com/aieln/awesome-persona-distill-skills) | 4688 | Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives |
-| [AlexAnys/awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) | 4439 | 🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好  |
-| [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | 4000 | 162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours! |
-| [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) | 3756 | 2026 年最新的免费编程资源大全，持续更新！🔥 覆盖各种语言和方向（Java / Python / C++ / JavaScript / TypeScript / Golang / 前端 / 后端 / AI大模型应用开发 / AI ... |
-| [filipecalegario/awesome-generative-ai](https://github.com/filipecalegario/awesome-generative-ai) | 3553 | A curated list of Generative AI tools, works, models, and references |
-| [slavakurilyak/awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents) | 2417 | Awesome list of 300+ agentic AI resources |
-| [AmoyLab/Unla](https://github.com/AmoyLab/Unla) | 2240 | 🧩 MCP Gateway - A lightweight gateway service that instantly transforms existing MCP Servers and APIs into MCP server... |
-| [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) | 2145 | List of agent orchestrators |
-| [vonzosten/awesome-LangGraph](https://github.com/vonzosten/awesome-LangGraph) | 2020 | An index of the LangChain + LangGraph ecosystem: concepts, projects, tools, templates, and guides for LLM & multi-age... |
-| [XiaomingX/indie-hacker-tools-plus](https://github.com/XiaomingX/indie-hacker-tools-plus) | 1879 | 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and too... |
-| [thinkwee/AgentsMeetRL](https://github.com/thinkwee/AgentsMeetRL) | 1861 | Awesome List for Agentic RL |
-| [Picrew/awesome-agent-harness](https://github.com/Picrew/awesome-agent-harness) | 1839 | An awesome list of Agent Harness engineering resources, including GitHub projects, tools, benchmarks, and practical g... |
-| [taielab/awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists) | 1391 | A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join u... |
-| [pierpaolo28/Awesome-FDE-Roadmap](https://github.com/pierpaolo28/Awesome-FDE-Roadmap) | 1349 | 🚀 The definitive roadmap to becoming a Forward Deployment Engineer (FDE). Master AI Agents, Enterprise Data Architect... |
-| [AgenticHealthAI/Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) | 1267 | Latest Advances on Agentic AI & AI Agents for Healthcare |
-| [IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) | 1267 | Awesome AI Memory | LLM Memory | A curated knowledge base on AI memory for LLMs and agents, covering long-term memory... |
-| [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents) | 1256 | A collection of autonomous agents 🤖️ powered by LLM. |
-| [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | 1159 | DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh... |
-| [hardness1020/awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) | 1078 | Curated architecture notes and system reviews of modern AI agents. |
-| [rohitg00/awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) | 1024 | A curated list of awesome MCP servers focused on DevOps tools and capabilities. |
-| [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) | 967 | A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, ... |
-| [maxbogo/awesome-ai-tools-for-ui](https://github.com/maxbogo/awesome-ai-tools-for-ui) | 942 | Curated list of awesome AI tools to build beautiful UI/UX. |
-| [scottstts/Threejs-Awesome-Graphics-Agent-Skills](https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills) | 889 | A three.js agent skills for producing awesome graphics for scenes and games |
-| [modoojunko/awesome-novel-agent](https://github.com/modoojunko/awesome-novel-agent) | 795 | 让 AI agent成为你的小说创作搭档。从世界观搭建到角色塑造，从章节规划到正文写作，一步步陪你完成整部小说。 |
-| [loppety/Awesome-Vibecoding-Guide](https://github.com/loppety/Awesome-Vibecoding-Guide) | 786 | A compendium drawn from real commercial projects and hundreds of thousands of lines of AI‑assisted code. Read it end‑... |
-| [bobvibes/Awesome-Vibecoding-Guide](https://github.com/bobvibes/Awesome-Vibecoding-Guide) | 786 | A compendium drawn from real commercial projects and hundreds of thousands of lines of AI‑assisted code. Read it end‑... |
-| [aarora4/Awesome-Prediction-Market-Tools](https://github.com/aarora4/Awesome-Prediction-Market-Tools) | 769 | A curated list of Prediction Market Tools - AI Agents, Analytics, APIs, Dashboards, Copy Trading, Alerting, Tracking ... |
-| [best-of-ai/best-of-ai](https://github.com/best-of-ai/best-of-ai) | 735 | A curated list of best ai tools |
-| [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | 697 | Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place. |
-| [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) | 632 | A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelli... |
-| [AbdelStark/awesome-typesafe-jev](https://github.com/AbdelStark/awesome-typesafe-jev) | 579 | Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and inde... |
-| [aristoapp/awesome-second-brain](https://github.com/aristoapp/awesome-second-brain) | 552 | A curated solutions to building a self-evolving second brain that helps AI agents understand your personal and team c... |
+| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 141452 | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. |
+| [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | 17145 | Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into s... |
+| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | 16133 | A collection of projects showcasing RAG, agents, workflows, and other AI use cases |
+| [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) | 6403 | A curated list of Artificial Intelligence Top Tools |
+| [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | 6224 | Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests |
+| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | 5795 | Awesome MCP Servers - A curated list of Model Context Protocol servers |
+| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | 5031 | A curated catalogue of awesome agentic AI patterns |
+| [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | 4802 | Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and o... |
+| [aieln/awesome-persona-distill-skills](https://github.com/aieln/awesome-persona-distill-skills) | 4692 | Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives |
+| [AlexAnys/awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) | 4440 | 🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好  |
+| [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | 4001 | 162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours! |
+| [liyupi/free-programming-resources](https://github.com/liyupi/free-programming-resources) | 3760 | 2026 年最新的免费编程资源大全，持续更新！🔥 覆盖各种语言和方向（Java / Python / C++ / JavaScript / TypeScript / Golang / 前端 / 后端 / AI大模型应用开发 / AI ... |
+| [filipecalegario/awesome-generative-ai](https://github.com/filipecalegario/awesome-generative-ai) | 3554 | A curated list of Generative AI tools, works, models, and references |
+| [slavakurilyak/awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents) | 2436 | Awesome list of 300+ agentic AI resources |
+| [AmoyLab/Unla](https://github.com/AmoyLab/Unla) | 2239 | 🧩 MCP Gateway - A lightweight gateway service that instantly transforms existing MCP Servers and APIs into MCP server... |
+| [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) | 2173 | List of agent orchestrators |
+| [vonzosten/awesome-LangGraph](https://github.com/vonzosten/awesome-LangGraph) | 2019 | An index of the LangChain + LangGraph ecosystem: concepts, projects, tools, templates, and guides for LLM & multi-age... |
+| [XiaomingX/indie-hacker-tools-plus](https://github.com/XiaomingX/indie-hacker-tools-plus) | 1884 | 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and too... |
+| [thinkwee/AgentsMeetRL](https://github.com/thinkwee/AgentsMeetRL) | 1864 | Awesome List for Agentic RL |
+| [Picrew/awesome-agent-harness](https://github.com/Picrew/awesome-agent-harness) | 1852 | An awesome list of Agent Harness engineering resources, including GitHub projects, tools, benchmarks, and practical g... |
+| [taielab/awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists) | 1395 | A curated collection of top-tier penetration testing tools and productivity utilities across multiple domains. Join u... |
+| [pierpaolo28/Awesome-FDE-Roadmap](https://github.com/pierpaolo28/Awesome-FDE-Roadmap) | 1362 | 🚀 The definitive roadmap to becoming a Forward Deployment Engineer (FDE). Master AI Agents, Enterprise Data Architect... |
+| [AgenticHealthAI/Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) | 1271 | Latest Advances on Agentic AI & AI Agents for Healthcare |
+| [IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) | 1271 | Awesome AI Memory | LLM Memory | A curated knowledge base on AI memory for LLMs and agents, covering long-term memory... |
+| [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents) | 1258 | A collection of autonomous agents 🤖️ powered by LLM. |
+| [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | 1174 | DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh... |
+| [hardness1020/awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) | 1111 | Curated architecture notes and system reviews of modern AI agents. |
+| [rohitg00/awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) | 1025 | A curated list of awesome MCP servers focused on DevOps tools and capabilities. |
+| [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) | 972 | A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, ... |
+| [maxbogo/awesome-ai-tools-for-ui](https://github.com/maxbogo/awesome-ai-tools-for-ui) | 956 | Curated list of awesome AI tools to build beautiful UI/UX. |
+| [scottstts/Threejs-Awesome-Graphics-Agent-Skills](https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills) | 898 | A three.js agent skills for producing awesome graphics for scenes and games |
+| [modoojunko/awesome-novel-agent](https://github.com/modoojunko/awesome-novel-agent) | 806 | 让 AI agent成为你的小说创作搭档。从世界观搭建到角色塑造，从章节规划到正文写作，一步步陪你完成整部小说。 |
+| [loppety/Awesome-Vibecoding-Guide](https://github.com/loppety/Awesome-Vibecoding-Guide) | 790 | A compendium drawn from real commercial projects and hundreds of thousands of lines of AI‑assisted code. Read it end‑... |
+| [bobvibes/Awesome-Vibecoding-Guide](https://github.com/bobvibes/Awesome-Vibecoding-Guide) | 790 | A compendium drawn from real commercial projects and hundreds of thousands of lines of AI‑assisted code. Read it end‑... |
+| [aarora4/Awesome-Prediction-Market-Tools](https://github.com/aarora4/Awesome-Prediction-Market-Tools) | 770 | A curated list of Prediction Market Tools - AI Agents, Analytics, APIs, Dashboards, Copy Trading, Alerting, Tracking ... |
+| [best-of-ai/best-of-ai](https://github.com/best-of-ai/best-of-ai) | 742 | A curated list of best ai tools |
+| [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | 699 | Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place. |
+| [leoncuhk/awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai) | 635 | A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelli... |
+| [AbdelStark/awesome-typesafe-jev](https://github.com/AbdelStark/awesome-typesafe-jev) | 586 | Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and inde... |
+| [aristoapp/awesome-second-brain](https://github.com/aristoapp/awesome-second-brain) | 562 | A curated solutions to building a self-evolving second brain that helps AI agents understand your personal and team c... |
 | [machinae/awesome-claws](https://github.com/machinae/awesome-claws) | 506 | A curated list of awesome AI agents inspired by OpenClaw |
 | [jun0wanan/awesome-large-multimodal-agents](https://github.com/jun0wanan/awesome-large-multimodal-agents) | 498 | — |
 | [kimtth/awesome-azure-openai-llm](https://github.com/kimtth/awesome-azure-openai-llm) | 410 | A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (+RAG, Agents). Monthly Updates. |
 | [alternbits/awesome-ai-newsletters](https://github.com/alternbits/awesome-ai-newsletters) | 400 | A curated list of top best AI Related Newsletters and ai agents newsletters |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | 389 | A curated collection of open source fintech libraries and resources. |
-| [BlockRunAI/awesome-OpenClaw-Money-Maker](https://github.com/BlockRunAI/awesome-OpenClaw-Money-Maker) | 363 | 🦞💰 Curated list of ways to make money with OpenClaw - automations, skills, services, and strategies |
+| [BlockRunAI/awesome-OpenClaw-Money-Maker](https://github.com/BlockRunAI/awesome-OpenClaw-Money-Maker) | 365 | 🦞💰 Curated list of ways to make money with OpenClaw - automations, skills, services, and strategies |
 | [kleneway/awesome-cursor-mpc-server](https://github.com/kleneway/awesome-cursor-mpc-server) | 339 | Example of an MCP server with custom tools that can be called directly from cursor |
 | [ScarletPan/awesome-autonomous-gpt](https://github.com/ScarletPan/awesome-autonomous-gpt) | 282 | A curated list of awesome projects and resources related to autonomous AI agents. |
 | [cogine-ai/awesome-openclaw-zh](https://github.com/cogine-ai/awesome-openclaw-zh) | 240 | OpenClaw 中文实战库：192 个可复制使用场景，从部署到5分钟上手到完全精通。案例覆盖自动化、内容创作、运营增长与安全使用。 |
 | [EvoMap/awesome-agent-evolution](https://github.com/EvoMap/awesome-agent-evolution) | 234 | A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evo... |
-| [alvinreal/awesome-openclaw-tips](https://github.com/alvinreal/awesome-openclaw-tips) | 229 | Practical OpenClaw tips for memory, reliability, cost, automation, and multi-agent workflows. |
+| [alvinreal/awesome-openclaw-tips](https://github.com/alvinreal/awesome-openclaw-tips) | 231 | Practical OpenClaw tips for memory, reliability, cost, automation, and multi-agent workflows. |
 | [0xNyk/awesome-agent-cortex](https://github.com/0xNyk/awesome-agent-cortex) | 224 | The sovereign agent stack — practical scripts, on-chain identity, and knowledge graphs for AI agents that think, reme... |
 | [HisMax/awesome-openclaw-ob](https://github.com/HisMax/awesome-openclaw-ob) | 223 | OpenClaw 深度研究 Obsidian 知识库 | 351 篇笔记 · 3250+ 双链 · 100 张配图 · 9 大主题 | AI Agent 最全中文知识图谱 |
 | [vectara/awesome-agent-failures](https://github.com/vectara/awesome-agent-failures) | 216 | A community curated collection of AI agent failure modes and battle-tested solutions. |
 | [Vendredi218/awesome-ai-harness](https://github.com/Vendredi218/awesome-ai-harness) | 216 | The model is the engine; the harness is the car. Curated knowledge on harness engineering — context management, tool ... |
 | [weiwei966/awesome-ai-harness](https://github.com/weiwei966/awesome-ai-harness) | 216 | The model is the engine; the harness is the car. Curated knowledge on harness engineering — context management, tool ... |
 | [YuanchenBei/Awesome-Graphs-Meet-Agents](https://github.com/YuanchenBei/Awesome-Graphs-Meet-Agents) | 212 | [Up-to-date] A curated list of resources on graph-empowered agents and agent-facilitated graph learning (Graphs Meet ... |
-| [hikari0511/awesome-amazon-ec-skills](https://github.com/hikari0511/awesome-amazon-ec-skills) | 195 | 亚马逊跨境电商场景下的 Claude / AI Agent Skills 合集（中文优先，聚焦 Amazon 出海 + 1688 供货上游） |
+| [hikari0511/awesome-amazon-ec-skills](https://github.com/hikari0511/awesome-amazon-ec-skills) | 201 | 亚马逊跨境电商场景下的 Claude / AI Agent Skills 合集（中文优先，聚焦 Amazon 出海 + 1688 供货上游） |
 | [pab1it0/awesome-a2a](https://github.com/pab1it0/awesome-a2a) | 189 | Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.  |
-| [supatest-ai/awesome-claude-code-sub-agents](https://github.com/supatest-ai/awesome-claude-code-sub-agents) | 175 | Collection of specialised Claude Code agents |
-| [tryalan-ai/awesome-claude-code-sub-agents](https://github.com/tryalan-ai/awesome-claude-code-sub-agents) | 175 | Collection of specialised Claude Code agents |
-| [nageoffer/awesome-ai-handbook](https://github.com/nageoffer/awesome-ai-handbook) | 162 | 🤖 AI 工程师的成长手册：从基础知识到 RAG、Agent 实战，涵盖学习路径与高频面试题。 |
-| [DirectorySurf/awesome-ai-agents-directories](https://github.com/DirectorySurf/awesome-ai-agents-directories) | 160 | A comprehensive list of top best AI agents directories available online |
-| [joeynyc/awesome-microduck](https://github.com/joeynyc/awesome-microduck) | 153 | A curated list of software, simulators, policies, agent tools and coverage for the Pollen Robotics / Hugging Face Mic... |
-| [alternbits/awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) | 151 | A curated list of awesome top best AI Agents |
+| [supatest-ai/awesome-claude-code-sub-agents](https://github.com/supatest-ai/awesome-claude-code-sub-agents) | 176 | Collection of specialised Claude Code agents |
+| [tryalan-ai/awesome-claude-code-sub-agents](https://github.com/tryalan-ai/awesome-claude-code-sub-agents) | 176 | Collection of specialised Claude Code agents |
+| [nageoffer/awesome-ai-handbook](https://github.com/nageoffer/awesome-ai-handbook) | 164 | 🤖 AI 工程师的成长手册：从基础知识到 RAG、Agent 实战，涵盖学习路径与高频面试题。 |
+| [DirectorySurf/awesome-ai-agents-directories](https://github.com/DirectorySurf/awesome-ai-agents-directories) | 161 | A comprehensive list of top best AI agents directories available online |
+| [joeynyc/awesome-microduck](https://github.com/joeynyc/awesome-microduck) | 155 | A curated list of software, simulators, policies, agent tools and coverage for the Pollen Robotics / Hugging Face Mic... |
+| [alternbits/awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) | 152 | A curated list of awesome top best AI Agents |
 | [altengineer/awesome-ai-repositories](https://github.com/altengineer/awesome-ai-repositories) | 139 | A curated list of open source repositories for AI Engineers |
 | [GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent](https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent) | 136 | Meet MultiPDF 📚 Chat AI App! 🚀 Chat seamlessly with Multiple PDFs using Langchain, Google Gemini Pro & FAISS Vector D... |
-| [linny006/trending-claude-skills](https://github.com/linny006/trending-claude-skills) | 124 | Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes |
+| [linny006/trending-claude-skills](https://github.com/linny006/trending-claude-skills) | 126 | Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes |
 | [usail-hkust/Awesome-Urban-LLM-Agents](https://github.com/usail-hkust/Awesome-Urban-LLM-Agents) | 114 | — |
 | [OpenEnvision/Awesome-Multimodal-Agent](https://github.com/OpenEnvision/Awesome-Multimodal-Agent) | 112 | Awesome Visual Agent |
 | [WanLanglin/-awesome-cc-harness](https://github.com/WanLanglin/-awesome-cc-harness) | 104 | Reverse-engineering Claude Code's 512K LOC TypeScript source: agent loop, tool system, permission model, Grove traini... |
 | [Ezeafk/awesome-agent-skills](https://github.com/Ezeafk/awesome-agent-skills) | 104 | Curated reusable skills, workflows, and tool-backed capabilities for AI agents. |
 | [mengysun/DataParasite](https://github.com/mengysun/DataParasite) | 102 | A simple yet versatile context engineered for scalable online data collection |
-| [last9/awesome-sre-agents](https://github.com/last9/awesome-sre-agents) | 97 | A curated list of AI-powered DevOps & SRE (Site Reliability Engineering) agents, tools, and resources for automating ... |
+| [last9/awesome-sre-agents](https://github.com/last9/awesome-sre-agents) | 98 | A curated list of AI-powered DevOps & SRE (Site Reliability Engineering) agents, tools, and resources for automating ... |
 | [OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI](https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI) | 94 | In this repository I will showcase my cool multi agent system projects with Crew AI, and will reference other cool pr... |
-| [2182977liu-bit/awesome-ai-agent-learning](https://github.com/2182977liu-bit/awesome-ai-agent-learning) | 89 | AI Agent 从入门到实战 - 原创保姆级中文教学，不依赖框架从零构建Agent | 作者：青松与桑叶 |
+| [2182977liu-bit/awesome-ai-agent-learning](https://github.com/2182977liu-bit/awesome-ai-agent-learning) | 90 | AI Agent 从入门到实战 - 原创保姆级中文教学，不依赖框架从零构建Agent | 作者：青松与桑叶 |
+| [GalaxyXieyu/Awesome-Langgraph-Learn](https://github.com/GalaxyXieyu/Awesome-Langgraph-Learn) | 78 | Runnable LangGraph examples for multi-agent handoff, memory, and async execution patterns. |
+| [visitworld123/Awesome-Robot-Use-Agent](https://github.com/visitworld123/Awesome-Robot-Use-Agent) | 78 | A curated collection of papers and resources on robot-use agents, tool-based robot control, embodied agent runtimes, ... |
 | [Shiy-Li/Awesome-Graph-augmented-LLM-Agent](https://github.com/Shiy-Li/Awesome-Graph-augmented-LLM-Agent) | 77 | [IEEE Intelligent Systems] Awesome-Graph-augmented-LLM-Agent (GLA) |
-| [GalaxyXieyu/Awesome-Langgraph-Learn](https://github.com/GalaxyXieyu/Awesome-Langgraph-Learn) | 77 | Runnable LangGraph examples for multi-agent handoff, memory, and async execution patterns. |
-| [visitworld123/Awesome-Robot-Use-Agent](https://github.com/visitworld123/Awesome-Robot-Use-Agent) | 67 | A curated collection of papers and resources on robot-use agents, tool-based robot control, embodied agent runtimes, ... |
 | [everclear077/awesome-ai-x-accounts](https://github.com/everclear077/awesome-ai-x-accounts) | 63 | A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follo... |
 | [SJTU-DMTai/Data-Agent-Reading-List](https://github.com/SJTU-DMTai/Data-Agent-Reading-List) | 61 | 📚 A curated & auto-maintained reading list on LLM-based Data Agents — data preparation, NL2SQL, table reasoning, data... |
 | [SJTU-DMTai/Awesome-Data-Agent-Papers](https://github.com/SJTU-DMTai/Awesome-Data-Agent-Papers) | 61 | 📚 A curated & auto-maintained reading list on LLM-based Data Agents — data preparation, NL2SQL, table reasoning, data... |
 | [no-fluff/awesome-vibe-coding](https://github.com/no-fluff/awesome-vibe-coding) | 59 | Awesome tools to help you level up—or get started—with vibe coding |
-| [zcweah1981/awesome-hermes-agent-zh](https://github.com/zcweah1981/awesome-hermes-agent-zh) | 54 | Hermes Agent中文站- 中文实战入口：上手路径、国内落地、OpenClaw 共存迁移、排障参考与可下载方案包。 |
-| [ajeetraina/awesome-docker-sbx](https://github.com/ajeetraina/awesome-docker-sbx) | 53 | A curated list of tools, kits, templates, integrations, and resources for Docker Sandboxes (sbx)  running AI coding a... |
-| [arjan/awesome-agent-sandboxes](https://github.com/arjan/awesome-agent-sandboxes) | 50 | A curated list of code-execution sandboxing solutions for AI/LLM agents |
+| [ajeetraina/awesome-docker-sbx](https://github.com/ajeetraina/awesome-docker-sbx) | 57 | A curated list of tools, kits, templates, integrations, and resources for Docker Sandboxes (sbx)  running AI coding a... |
+| [zcweah1981/awesome-hermes-agent-zh](https://github.com/zcweah1981/awesome-hermes-agent-zh) | 55 | Hermes Agent中文站- 中文实战入口：上手路径、国内落地、OpenClaw 共存迁移、排障参考与可下载方案包。 |
+| [JosephHampton/awesome-gemini-cli-subagents](https://github.com/JosephHampton/awesome-gemini-cli-subagents) | 52 | A curated collection of 51 production-ready subagents for Gemini CLI. Drop them into .gemini/agents/ and let Gemini d... |
+| [arjan/awesome-agent-sandboxes](https://github.com/arjan/awesome-agent-sandboxes) | 51 | A curated list of code-execution sandboxing solutions for AI/LLM agents |
 | [IcyFeather233/Awesome-LLM-Agent-Trajectory-Analysis](https://github.com/IcyFeather233/Awesome-LLM-Agent-Trajectory-Analysis) | 50 | Comprehensive survery on LLM Agent Trajectory Analysis: From failure attribution to enhancement |
-| [JosephHampton/awesome-gemini-cli-subagents](https://github.com/JosephHampton/awesome-gemini-cli-subagents) | 48 | A curated collection of 51 production-ready subagents for Gemini CLI. Drop them into .gemini/agents/ and let Gemini d... |
 | [Salesably/awesome-ai-agents-for-sales](https://github.com/Salesably/awesome-ai-agents-for-sales) | 46 | A curated list of AI agents, tools, and resources transforming B2B sales |
 | [AIRicky/Awesome-Reinforcement-Learning](https://github.com/AIRicky/Awesome-Reinforcement-Learning) | 39 | — |
 | [ankitmundada/awesome-gemini-cli-subagents](https://github.com/ankitmundada/awesome-gemini-cli-subagents) | 38 | 100+ subagents for gemini-cli |
@@ -699,11 +702,14 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [bupt-ai-club/awesomeProject](https://github.com/bupt-ai-club/awesomeProject) | 27 | 分享高质量的AI项目 |
 | [vince-lam/awesome-agents](https://github.com/vince-lam/awesome-agents) | 26 | — |
 | [chengjl19/awesome-agent-harness-notes](https://github.com/chengjl19/awesome-agent-harness-notes) | 26 | Deep-dive notes and source code analysis of Claude Code and AI agent harnesses. Exploring memory mechanics and intern... |
+| [tayyabimam1/awesome-ai-agent-stack](https://github.com/tayyabimam1/awesome-ai-agent-stack) | 25 | Curated map of 3,000+ open-source AI agent tools: coding agents, agent frameworks, MCP servers, RAG, memory and local... |
+| [gonzaroman/IHMT-MEMORY](https://github.com/gonzaroman/IHMT-MEMORY) | 24 | Long-term memory for AI coding agents (Claude Code, Codex, opencode) as a tree of plain files |
 | [dyronrh/awesome-agentops-landscape](https://github.com/dyronrh/awesome-agentops-landscape) | 22 | A curated list of the best AgentOps tools for 2026 — observability, tracing, evaluation, cost monitoring, and guardra... |
-| [Protocol-Lattice/harness-router](https://github.com/Protocol-Lattice/harness-router) | 21 | Fast decision routing for agent harnesses — native MCP with Jev for tool selection and MCTS for multi-step decisions. |
+| [heaven-hm/awesome-reverse-engineered-games](https://github.com/heaven-hm/awesome-reverse-engineered-games) | 22 | A curated list and comprehensive guide of awesome reverse-engineered, decompiled, and rebuilt games powered by AI mod... |
+| [Protocol-Lattice/harness-router](https://github.com/Protocol-Lattice/harness-router) | 22 | Fast decision routing for agent harnesses — native MCP with Jev for tool selection and MCTS for multi-step decisions. |
+| [cdavid817/awesome-agent-tutorial](https://github.com/cdavid817/awesome-agent-tutorial) | 21 | 《企业级 Agent 从入门到专家（2026版）》——从单 Agent 核心机制到多 Agent 与企业落地的工程化实战教程，配套可运行贯穿项目与 CI 验证门禁。 |
 | [qhy991/Awesome-LLM-Kernel-Agent](https://github.com/qhy991/Awesome-LLM-Kernel-Agent) | 20 | A repository with academic works about Kernel generation with LLM Agent |
 | [kyrolabs/awesome-ade](https://github.com/kyrolabs/awesome-ade) | 19 | 🛠️ Awesome ADE — a curated list of open-source Agentic Development Environments: orchestrators, TUIs, tmux harnesses,... |
-| [cdavid817/awesome-agent-tutorial](https://github.com/cdavid817/awesome-agent-tutorial) | 19 | 《企业级 Agent 从入门到专家（2026版）》——从单 Agent 核心机制到多 Agent 与企业落地的工程化实战教程，配套可运行贯穿项目与 CI 验证门禁。 |
 | [parkerluxu/Awesome-agent-cases](https://github.com/parkerluxu/Awesome-agent-cases) | 17 | A bilingual, continuously updated directory of AI agent cases, news, open-source projects, papers, and reusable resou... |
 | [Eric-LLMs/Awesome-AI-Engineering](https://github.com/Eric-LLMs/Awesome-AI-Engineering) | 17 | A curated full-stack LLM engineering playbook — from AI infrastructure and model lifecycle to agents, MCP, memory, an... |
 | [Eric-LLMs/awesome-ai-engineering](https://github.com/Eric-LLMs/awesome-ai-engineering) | 17 | A full-stack AI engineering playbook — infrastructure, model lifecycle, agents, MCP, memory, evaluation, and producti... |
@@ -713,17 +719,16 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [cooler333/cool-claude-code](https://github.com/cooler333/cool-claude-code) | 14 | Awesome Claude Code And Agent Tools |
 | [cooler333/awesome-claude-code](https://github.com/cooler333/awesome-claude-code) | 14 | Awesome Claude Code And Agent Tools |
 | [d4ncboz/awesome-technocore](https://github.com/d4ncboz/awesome-technocore) | 13 | A curated list of awesome tools, autonomous agents, guides, and resources for the Technocore decentralized AI agent n... |
+| [gotonote/awesome-agent-boom](https://github.com/gotonote/awesome-agent-boom) | 13 | AI Agent 开源书单/教程合集 | Awesome list of LLM Agent books & courses |
 | [cxxz/awesome-agent-memory](https://github.com/cxxz/awesome-agent-memory) | 12 | — |
-| [heaven-hm/awesome-reverse-engineered-games](https://github.com/heaven-hm/awesome-reverse-engineered-games) | 12 | A curated list and comprehensive guide of awesome reverse-engineered, decompiled, and rebuilt games powered by AI mod... |
-| [gotonote/awesome-agent-boom](https://github.com/gotonote/awesome-agent-boom) | 12 | AI Agent 开源书单/教程合集 | Awesome list of LLM Agent books & courses |
+| [monid-ai/awesome-monid](https://github.com/monid-ai/awesome-monid) | 12 | Curated list of real services, agents and tools that outside developers built on Monid, the OpenRouter for agent tools. |
 | [taiyangc/awesome-web3-ai-agents](https://github.com/taiyangc/awesome-web3-ai-agents) | 11 | — |
 | [kailiu42/awesome-coding-agents](https://github.com/kailiu42/awesome-coding-agents) | 11 | Collection of awesome coding agents and supplementary tools |
 | [HA2345567/awesome-autonomus-ai-agents](https://github.com/HA2345567/awesome-autonomus-ai-agents) | 11 | Awesome list of AI agents 2026 — LangChain, CrewAI, AutoGPT, Claude, Cursor, Devin & 100+ more tools with stats, lice... |
 | [V01dMur10c/awesome-agent-rl-environments](https://github.com/V01dMur10c/awesome-agent-rl-environments) | 10 | A curated list of training & evaluation environments for LLM/VLM agents (SWE-Gym, GEM, RAGEN, AgentGym, WebArena, OSW... |
 | [gudo7208/awesome-coding-agent-eval](https://github.com/gudo7208/awesome-coding-agent-eval) | 10 | A curated collection of 900+ resources for evaluating AI coding agents — benchmarks, scoring methods, toolchain, lead... |
-| [launchapp-dev/awesome-ai-coding-tools](https://github.com/launchapp-dev/awesome-ai-coding-tools) | 9 | A curated list of AI-powered coding tools — editors, agents, code review, testing, CLI tools, and more. |
+| [launchapp-dev/awesome-ai-coding-tools](https://github.com/launchapp-dev/awesome-ai-coding-tools) | 10 | A curated list of AI-powered coding tools — editors, agents, code review, testing, CLI tools, and more. |
 | [huangguang1999/awesome-ai-knowledge](https://github.com/huangguang1999/awesome-ai-knowledge) | 9 | AI 面试八股「讲成人话」📖 真实大模型/LLM/Agent/RAG 面试题 + 零基础也能看懂的大白话讲解 | Plain-language explanations of real LLM/AI interview questions. |
-| [monid-ai/awesome-monid](https://github.com/monid-ai/awesome-monid) | 9 | Curated list of real services, agents and tools that outside developers built on Monid, the OpenRouter for agent tools. |
 | [ishandutta2007/Awesome-AI-Agent-Marketplace](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace) | 9 | 🤝🤝🤝Dedicated AI Agent Marketplaces 🌟 Star if you like it! 🌟 |
 | [backblaze-labs/awesome-agent-infrastructure](https://github.com/backblaze-labs/awesome-agent-infrastructure) | 8 | A curated list of AI agent infrastructure: memory stores, vector databases, execution sandboxes, MCP servers, tool re... |
 | [ZFancy/awesome-agent-memory](https://github.com/ZFancy/awesome-agent-memory) | 8 | — |
@@ -744,22 +749,22 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [yadavanujkumar/awesome-agentic-ai](https://github.com/yadavanujkumar/awesome-agentic-ai) | 5 | curated list of agentic tools to explore |
 | [e2llm/awesome-e2llm-prompts](https://github.com/e2llm/awesome-e2llm-prompts) | 5 | Recipes for Element to LLM (E2LLM): capture any page as SiFR - a compact, LLM-readable snapshot - for debugging, QA, ... |
 | [CuiZHIQ/Awesome-LLM-Agent-Orchestration](https://github.com/CuiZHIQ/Awesome-LLM-Agent-Orchestration) | 5 | A curated collection of papers and resources on LLM agent orchestration, routing, scheduling, tool use, and multi-age... |
-| [anirudhakulkarni/awesome-ai-cpp](https://github.com/anirudhakulkarni/awesome-ai-cpp) | 5 | A curated list of AI, LLM, and agent tools for writing, securing, and maintaining C and C++ code. |
 | [freellms/awesome-free-ai-agents](https://github.com/freellms/awesome-free-ai-agents) | 5 | Awesome free AI agents — open-source autonomous agents, coding agents & LLM agent frameworks on free APIs. Configs fo... |
 | [sandbaseai/awesome-agent-runtime](https://github.com/sandbaseai/awesome-agent-runtime) | 5 | Curated landscape of 500 agent runtimes, sandboxes, browser agents, tool protocols, memory, observability, and comput... |
 | [scnu-kevinkong/awesome-formal-llm-agents](https://github.com/scnu-kevinkong/awesome-formal-llm-agents) | 4 | — |
+| [AstreoX/awesome-agent-tools](https://github.com/AstreoX/awesome-agent-tools) | 4 | — |
 | [LUCKYZUNI/agent-memory-guide](https://github.com/LUCKYZUNI/agent-memory-guide) | 4 | Build and manage persistent memory for AI agents by enhancing workspace indexing to ensure directive compliance and a... |
 | [frankxai/awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems) | 4 | Curated index of agent operating systems, coding agents, MCP, orchestration, memory, and deployment tools |
 | [frankxai/awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) | 4 | Curated Hermes Agent resources, deployment notes, and operator patterns for profile-based agent workflows. |
+| [anirudhakulkarni/awesome-ai-cpp](https://github.com/anirudhakulkarni/awesome-ai-cpp) | 4 | A curated list of AI, LLM, and agent tools for writing, securing, and maintaining C and C++ code. |
+| [Ar9av/awesome-agent-control-plane](https://github.com/Ar9av/awesome-agent-control-plane) | 4 | A curated list of tools, frameworks, and resources for building and securing the AI agent control plane: identity, po... |
 | [nirholas/awesome-3d-agents](https://github.com/nirholas/awesome-3d-agents) | 4 | A curated list of 3D agent tooling, engines and embeds. |
 | [jaehongpark-agent/awesome-claws](https://github.com/jaehongpark-agent/awesome-claws) | 3 | — |
 | [mikehubers/Awesome-AI-For-Security](https://github.com/mikehubers/Awesome-AI-For-Security) | 3 | — |
-| [AstreoX/awesome-agent-tools](https://github.com/AstreoX/awesome-agent-tools) | 3 | — |
 | [jonradoff/awesome-agent-almanac](https://github.com/jonradoff/awesome-agent-almanac) | 3 | The definitive awesome-list of AI agents, agent tools, MCP servers, and agentic technology — auto-generated by the Ag... |
 | [freeforall06/awesome-claude-code](https://github.com/freeforall06/awesome-claude-code) | 3 | 🛠️ Curate top-rated tools, plugins, and servers for enhancing agentic coding with Claude Code, Codex, Gemini CLI, and... |
 | [sam-blackfly/awesome-llm-tools](https://github.com/sam-blackfly/awesome-llm-tools) | 3 | A curated directory of essential LLM tools: Local inference engines, agent frameworks, RAG pipelines, vector database... |
 | [Evolink-AI/awesome-glm-5.2-usecases](https://github.com/Evolink-AI/awesome-glm-5.2-usecases) | 3 | Curated GLM-5.2 use cases, agent workflows, and multilingual implementation patterns for EvoLink. |
-| [Ar9av/awesome-agent-control-plane](https://github.com/Ar9av/awesome-agent-control-plane) | 3 | A curated list of tools, frameworks, and resources for building and securing the AI agent control plane: identity, po... |
 | [gray311/awesome-agentic-benchmarks](https://github.com/gray311/awesome-agentic-benchmarks) | 3 | A curated, evidence-backed map of benchmarks for autonomous agents, AI R&D, and recursive self-improvement. |
 | [jimy-r/awesome-agent-workspaces](https://github.com/jimy-r/awesome-agent-workspaces) | 3 | A curated list of tools, patterns and resources for durable agent workspaces - memory, context, evaluation, verificat... |
 | [beeegee/awesome-ai-agent-papers--](https://github.com/beeegee/awesome-ai-agent-papers--) | 3 | A curated list of autonomous AI agent frameworks, tools, benchmarks, and papers |
@@ -768,11 +773,11 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [AmmarFahmy/awesome-chainlit-apps](https://github.com/AmmarFahmy/awesome-chainlit-apps) | 2 | — |
 | [chefallan/awesome-context-engine](https://github.com/chefallan/awesome-context-engine) | 2 | — |
 | [ietigerjue/awesome-agent-memorybase](https://github.com/ietigerjue/awesome-agent-memorybase) | 2 | AI Harness: ClaudeCode + Codex dual-agent execution control system. Memory Base, project state machine, handoff, arch... |
+| [alexbevi/awesome-agent-frameworks](https://github.com/alexbevi/awesome-agent-frameworks) | 2 | Curated awesome list of open source agent frameworks and tools for building, running, connecting, and observing AI ag... |
 | [openslow/awesome-agent-frameworks](https://github.com/openslow/awesome-agent-frameworks) | 2 | The Collection of fancy AI Agent Frameworks |
 | [00make/Awesome-MicroDuck](https://github.com/00make/Awesome-MicroDuck) | 2 | A curated list of software, simulators, policies, agent tools and coverage for the Pollen Robotics / Hugging Face Mic... |
 | [uhub/awesome-agent](https://github.com/uhub/awesome-agent) | 2 | A curated list of awesome AI Agent frameworks, libraries and software. |
 | [Mattbusel/awesome-llm-infra](https://github.com/Mattbusel/awesome-llm-infra) | 2 | Curated list of tools for running LLMs in production: orchestration, clients, inference, resilience, observability, g... |
-| [tayyabimam1/awesome-ai-agent-stack](https://github.com/tayyabimam1/awesome-ai-agent-stack) | 2 | Curated map of 3,000+ open-source AI agent tools: coding agents, agent frameworks, MCP servers, RAG, memory and local... |
 | [xufei547/awesome-ai-assistants](https://github.com/xufei547/awesome-ai-assistants) | 1 | — |
 | [justindobbs/awesome-certified-agents](https://github.com/justindobbs/awesome-certified-agents) | 1 | — |
 | [study8677/Awesome-Self-Evolving-Agents](https://github.com/study8677/Awesome-Self-Evolving-Agents) | 1 | — |
@@ -793,7 +798,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [Eliott0557/openclaw](https://github.com/Eliott0557/openclaw) | 1 | 🛠️ Automate processes with Openclaw, a containerized solution for seamless AI integration using Docker for easy setup... |
 | [lxl141421/ai-agent-essentials](https://github.com/lxl141421/ai-agent-essentials) | 1 | Not another Awesome List. A curated, security-audited decision guide for AI Agent infrastructure. 别挑了，照着装就行。 |
 | [YangYuChen-Work/awesome-ai-skills](https://github.com/YangYuChen-Work/awesome-ai-skills) | 1 | 🦾184 curated AI agent workflows — copy, paste, automate. |
-| [alexbevi/awesome-agent-frameworks](https://github.com/alexbevi/awesome-agent-frameworks) | 1 | Curated awesome list of open source agent frameworks and tools for building, running, connecting, and observing AI ag... |
+| [aleksUIX/awesome-opensource-ai](https://github.com/aleksUIX/awesome-opensource-ai) | 1 | A curated list of the best open source AI: LLMs (DeepSeek, Llama, Qwen, GLM, Gemma), agent frameworks, agent memory, ... |
 | [Mdhu8768/awesome-ai-agents](https://github.com/Mdhu8768/awesome-ai-agents) | 1 | Explore a curated list of AI agent frameworks, tools, and resources for building autonomous and semi-autonomous systems |
 | [catwhisperingninja/awesome-ai-agents](https://github.com/catwhisperingninja/awesome-ai-agents) | 1 | A list of AI autonomous agents |
 | [frankxai/awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills) | 1 | Web-first catalog of music generation, audio analysis, composition, and rights-aware agent workflows. |
@@ -809,6 +814,8 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [ianwieds/awesome-agentic-workflows](https://github.com/ianwieds/awesome-agentic-workflows) | 1 | Curated list of AI agents that run inside GitHub: Agentic Workflows (gh-aw), agent Actions and issue-to-PR pipelines. |
 | [lodar/awesome-self-hosted-agents](https://github.com/lodar/awesome-self-hosted-agents) | 1 | AI agents and services for agents that run on your own box: a Linux server, a Raspberry Pi or a Mac mini. |
 | [ahmadyan/awesome-personal-agents](https://github.com/ahmadyan/awesome-personal-agents) | 1 | Always-on personal AI agents (OpenClaw, Hermes Agent, Letta, and more), memory layers, runtimes, and messaging bridges. |
+| [unsigned-gg/awesome](https://github.com/unsigned-gg/awesome) | 1 | Curated list of agent orchestrators, autonomous agent swarms, pooled runtimes, bare-metal infrastructure, and determi... |
+| [henryli777/awesome-agent-stack](https://github.com/henryli777/awesome-agent-stack) | 1 | Curated open-source AI agent tools with bilingual search, verified sources, and license scope notes. |
 | [languagezoneenterprise545/awesome-ai-agent-incidents](https://github.com/languagezoneenterprise545/awesome-ai-agent-incidents) | 0 | — |
 | [Tubbster-Claw/awesome-agent-substrate](https://github.com/Tubbster-Claw/awesome-agent-substrate) | 0 | — |
 | [strondata/awesome-data](https://github.com/strondata/awesome-data) | 0 | — |
@@ -835,7 +842,6 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [EvoLinkAI/awesome-openclaw-skills-for-real-work](https://github.com/EvoLinkAI/awesome-openclaw-skills-for-real-work) | 0 | Curated OpenClaw skills for real-world agent workflows. |
 | [ishandutta2007/Awesome-Agentic-Workflows](https://github.com/ishandutta2007/Awesome-Agentic-Workflows) | 0 | Agentic-Workflows🌟 Star if you like it! 🌟 |
 | [ivanalfwnft/awesome-autonomous-agents](https://github.com/ivanalfwnft/awesome-autonomous-agents) | 0 | Autonomous Economic Agent Playground - Unicity Builder Program Submission |
-| [aleksUIX/awesome-opensource-ai](https://github.com/aleksUIX/awesome-opensource-ai) | 0 | A curated list of the best open source AI: LLMs (DeepSeek, Llama, Qwen, GLM, Gemma), agent frameworks, agent memory, ... |
 | [kax168/awesome-ai-agent-frameworks](https://github.com/kax168/awesome-ai-agent-frameworks) | 0 | — |
 | [AlexisBalayre/awesome-agents](https://github.com/AlexisBalayre/awesome-agents) | 0 | Curated knowledge hub of open-source AI agent tooling — frameworks, protocols, memory, evals, safety |
 | [chengjunjang/awesome-ai-apps](https://github.com/chengjunjang/awesome-ai-apps) | 0 | A collection of projects showcasing RAG, agents, workflows, and other AI use cases |
@@ -870,46 +876,47 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 96011 | A collection of MCP servers. |
-| [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) | 22349 | 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP,... |
-| [yzfly/Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) | 7717 | MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients |
-| [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | 6601 | A collection of MCP clients. |
-| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 5002 | The Unofficial and Awesome Home Assistant MCP Server |
-| [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) | 4350 | A curated list of Model Context Protocol (MCP) servers |
-| [chatmcp/mcpso](https://github.com/chatmcp/mcpso) | 2109 | directory for Awesome MCP Servers |
-| [composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) | 1936 | A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers throug... |
-| [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | 1138 | Remote MCP Servers |
-| [YuzeHao2023/Awesome-MCP-Servers](https://github.com/YuzeHao2023/Awesome-MCP-Servers) | 1071 | A curated list of Model Context Protocol (MCP) servers  |
-| [punkpeye/awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | 1002 | A collection of remote MCP servers. |
-| [MobinX/awesome-mcp-list](https://github.com/MobinX/awesome-mcp-list) | 889 | A concise list for mcp servers |
-| [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) | 889 | A comprehensive collection of Model Context Protocol (MCP) servers |
-| [Puliczek/awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) | 742 | 🔥🔒 Awesome MCP (Model Context Protocol) Security 🖥️ |
-| [demcp/awesome-web3-mcp-servers](https://github.com/demcp/awesome-web3-mcp-servers) | 611 | DeMCP is the first Decentralized MCP network, offering SSE proxies for MCP services and mainstream LLMs, tackling tru... |
-| [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | 506 | 🔌 A curated list of OSINT MCP servers. Pull requests are welcomed! |
-| [Awesome-AI-Pedia/Awesome-AI-Pedia](https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia) | 449 | AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH插件 收录大模型、智能 Agent、RAG 检索增强、多模态、MLOps、AI 应用工具、AI面试集、Vibe coding 大全、零基础学习路线，... |
-| [Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases](https://github.com/Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases) | 342 | Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and age... |
-| [milisp/mcp-linker](https://github.com/milisp/mcp-linker) | 338 | mcp store manager, add & syncs MCP server configurations across clients like Claude code, Cursor💡mcphub |
-| [PipedreamHQ/awesome-mcp-servers](https://github.com/PipedreamHQ/awesome-mcp-servers) | 284 | A collection of MCP servers |
-| [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live) | 269 | Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languag... |
-| [Hyraze/collective-ai-tools](https://github.com/Hyraze/collective-ai-tools) | 248 | Search across curated tools, MCP servers, prompts, skills, and trending repos, one query, every corner of the ecosystem. |
-| [hanishrao/collective-ai-tools](https://github.com/hanishrao/collective-ai-tools) | 248 | Search across curated tools, MCP servers, prompts, skills, and trending repos, one query, every corner of the ecosystem. |
-| [darjeeling/awesome-mcp-korea](https://github.com/darjeeling/awesome-mcp-korea) | 246 | A curated list of MCP servers for the Korean market, including legal, commerce, public data, and local services integ... |
-| [Vaquill-AI/awesome-legaltech](https://github.com/Vaquill-AI/awesome-legaltech) | 242 | A curated list of awesome LegalTech resources - open source platforms, AI models, MCP servers, companies, datasets, a... |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 96252 | A collection of MCP servers. |
+| [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) | 22377 | 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP,... |
+| [yzfly/Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) | 7723 | MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients |
+| [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients) | 6608 | A collection of MCP clients. |
+| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 5047 | The Unofficial and Awesome Home Assistant MCP Server |
+| [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) | 4358 | A curated list of Model Context Protocol (MCP) servers |
+| [chatmcp/mcpso](https://github.com/chatmcp/mcpso) | 2111 | directory for Awesome MCP Servers |
+| [composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) | 1941 | A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers throug... |
+| [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | 1142 | Remote MCP Servers |
+| [punkpeye/awesome-remote-mcp-servers](https://github.com/punkpeye/awesome-remote-mcp-servers) | 1135 | A collection of remote MCP servers. |
+| [YuzeHao2023/Awesome-MCP-Servers](https://github.com/YuzeHao2023/Awesome-MCP-Servers) | 1072 | A curated list of Model Context Protocol (MCP) servers  |
+| [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) | 895 | A comprehensive collection of Model Context Protocol (MCP) servers |
+| [MobinX/awesome-mcp-list](https://github.com/MobinX/awesome-mcp-list) | 890 | A concise list for mcp servers |
+| [Puliczek/awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) | 743 | 🔥🔒 Awesome MCP (Model Context Protocol) Security 🖥️ |
+| [demcp/awesome-web3-mcp-servers](https://github.com/demcp/awesome-web3-mcp-servers) | 613 | DeMCP is the first Decentralized MCP network, offering SSE proxies for MCP services and mainstream LLMs, tackling tru... |
+| [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | 509 | 🔌 A curated list of OSINT MCP servers. Pull requests are welcomed! |
+| [Awesome-AI-Pedia/Awesome-AI-Pedia](https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia) | 459 | AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH插件 收录大模型、智能 Agent、RAG 检索增强、多模态、MLOps、AI 应用工具、AI面试集、Vibe coding 大全、零基础学习路线，... |
+| [Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases](https://github.com/Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases) | 343 | Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and age... |
+| [milisp/mcp-linker](https://github.com/milisp/mcp-linker) | 340 | mcp store manager, add & syncs MCP server configurations across clients like Claude code, Cursor💡mcphub |
+| [wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live) | 297 | Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languag... |
+| [PipedreamHQ/awesome-mcp-servers](https://github.com/PipedreamHQ/awesome-mcp-servers) | 286 | A collection of MCP servers |
+| [Hyraze/collective-ai-tools](https://github.com/Hyraze/collective-ai-tools) | 249 | Search across curated tools, MCP servers, prompts, skills, and trending repos, one query, every corner of the ecosystem. |
+| [hanishrao/collective-ai-tools](https://github.com/hanishrao/collective-ai-tools) | 249 | Search across curated tools, MCP servers, prompts, skills, and trending repos, one query, every corner of the ecosystem. |
+| [darjeeling/awesome-mcp-korea](https://github.com/darjeeling/awesome-mcp-korea) | 247 | A curated list of MCP servers for the Korean market, including legal, commerce, public data, and local services integ... |
+| [Vaquill-AI/awesome-legaltech](https://github.com/Vaquill-AI/awesome-legaltech) | 244 | A curated list of awesome LegalTech resources - open source platforms, AI models, MCP servers, companies, datasets, a... |
 | [sandbaseai/deepseek-harness-handbook](https://github.com/sandbaseai/deepseek-harness-handbook) | 235 | Agent-first DeepSeek Harness handbook: 173 source-backed runtime, plugin, MCP, sandbox, evaluation, troubleshooting, ... |
-| [BlockRunAI/awesome-finance-mcp](https://github.com/BlockRunAI/awesome-finance-mcp) | 223 | A curated list of MCP servers for AI finance agents |
-| [e2b-dev/awesome-mcp-gateways](https://github.com/e2b-dev/awesome-mcp-gateways) | 184 | A list of MCP gateways |
+| [BlockRunAI/awesome-finance-mcp](https://github.com/BlockRunAI/awesome-finance-mcp) | 224 | A curated list of MCP servers for AI finance agents |
+| [e2b-dev/awesome-mcp-gateways](https://github.com/e2b-dev/awesome-mcp-gateways) | 185 | A list of MCP gateways |
 | [milisp/awesome-claude-dxt](https://github.com/milisp/awesome-claude-dxt) | 180 | Awesome Claude Desktop Extensions (dxt) (not only Claude) mcpb |
 | [SciSharp/Awesome-DotNET-MCP](https://github.com/SciSharp/Awesome-DotNET-MCP) | 155 | Awesome ModelContextProtocol resources - A curated list of MCP DotNET resources |
 | [AlexMili/Awesome-MCP](https://github.com/AlexMili/Awesome-MCP) | 149 | Awesome ModelContextProtocol resources - A curated list of MCP resources |
-| [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers) | 146 | A collection of crypto MCP servers. |
-| [Albertchamberlain/Awesome-OKF](https://github.com/Albertchamberlain/Awesome-OKF) | 100 | OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs for agent-friendly knowl... |
-| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | 91 | Zero-dependency CLI to install AI agent skills directly from any source. Skills + MCP servers. No marketplace, no reg... |
-| [michielhdoteth/awesome-ai-agent-tools](https://github.com/michielhdoteth/awesome-ai-agent-tools) | 39 | The most comprehensive open-source library for AI agent skills, MCP servers, and agent workflows. Install via npx ski... |
+| [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers) | 145 | A collection of crypto MCP servers. |
+| [Albertchamberlain/Awesome-OKF](https://github.com/Albertchamberlain/Awesome-OKF) | 106 | OKF (Open Knowledge Format) — curated catalog of tools, plugins, skills, proposals, and docs for agent-friendly knowl... |
+| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | 92 | Zero-dependency CLI to install AI agent skills directly from any source. Skills + MCP servers. No marketplace, no reg... |
+| [xianyu-sheng/Xenon](https://github.com/xianyu-sheng/Xenon) | 53 | Verifiable AI coding agent harness / 可验证的 AI 编码代理：evidence hash-chain · hollow-answer gate · manual verification chec... |
+| [michielhdoteth/awesome-ai-agent-tools](https://github.com/michielhdoteth/awesome-ai-agent-tools) | 41 | The most comprehensive open-source library for AI agent skills, MCP servers, and agent workflows. Install via npx ski... |
 | [Lancetnik/awesome-engineering-ai](https://github.com/Lancetnik/awesome-engineering-ai) | 32 | Tools you can actually install and use with your coding agent — skills, MCP servers, harnesses, CLIs. Curated from a ... |
 | [gregoire-costory/awesome-agentic-finops](https://github.com/gregoire-costory/awesome-agentic-finops) | 30 | A curated list of open-source and AI-native (MCP servers, assistant skills, AI cost agents) tooling for cloud cost ma... |
-| [Ed-Marcavage/awesome-security-agent-harnesses](https://github.com/Ed-Marcavage/awesome-security-agent-harnesses) | 27 | AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxe... |
-| [geekjourneyx/awesome-codex-guide](https://github.com/geekjourneyx/awesome-codex-guide) | 24 | OpenAI Codex 中文使用手册：CLI、AGENTS.md、权限安全、MCP、Skills、Subagents、工作流与排障。 |
-| [wundercorp/awesome-mcp](https://github.com/wundercorp/awesome-mcp) | 21 | Curated directory of Model Context Protocol servers, tools, transports, categories, and contribution-ready MCP metadata. |
+| [Ed-Marcavage/awesome-security-agent-harnesses](https://github.com/Ed-Marcavage/awesome-security-agent-harnesses) | 28 | AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engineering — harnesses, sandboxe... |
+| [geekjourneyx/awesome-codex-guide](https://github.com/geekjourneyx/awesome-codex-guide) | 25 | OpenAI Codex 中文使用手册：CLI、AGENTS.md、权限安全、MCP、Skills、Subagents、工作流与排障。 |
+| [wundercorp/awesome-mcp](https://github.com/wundercorp/awesome-mcp) | 22 | Curated directory of Model Context Protocol servers, tools, transports, categories, and contribution-ready MCP metadata. |
 | [paulasilvatech/awesome-harness-primitives](https://github.com/paulasilvatech/awesome-harness-primitives) | 20 | Curated, validated harness primitives for GitHub Copilot and Claude Code: agents, skills, prompts, hooks, plugins, MC... |
 | [gbb-acelerators/awesome-harness-primitives](https://github.com/gbb-acelerators/awesome-harness-primitives) | 20 | Curated, validated harness primitives for GitHub Copilot and Claude Code: agents, skills, prompts, hooks, plugins, MC... |
 | [Laprovittera/Awesome-AI-for-Hacking-Cybersecurity](https://github.com/Laprovittera/Awesome-AI-for-Hacking-Cybersecurity) | 12 | Lista curada y fusionada de agentes, herramientas, frameworks, modelos y papers de IA aplicada al hacking, pentesting... |
@@ -938,12 +945,12 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | Repository | ⭐ Stars | Description |
 |---|---|---|
 | [WangRongsheng/awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | 9012 | 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM reso... |
-| [walkinglabs/awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering) | 4368 | 🛠️ Awesome tools & guides for harness engineering. |
-| [AutoJunjie/awesome-agent-harness](https://github.com/AutoJunjie/awesome-agent-harness) | 527 | — |
-| [libukai/awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) | 287 | DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plugins&Too... |
+| [walkinglabs/awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering) | 4388 | 🛠️ Awesome tools & guides for harness engineering. |
+| [AutoJunjie/awesome-agent-harness](https://github.com/AutoJunjie/awesome-agent-harness) | 529 | — |
+| [libukai/awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) | 293 | DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plugins&Too... |
 | [loulanyue/awesome-claude-notes](https://github.com/loulanyue/awesome-claude-notes) | 272 | Community-maintained distribution of reusable AI coding agents, commands, skills, hooks, and cross-harness workflows. |
-| [leezythu/Awesome-Harness-Self-Improvement](https://github.com/leezythu/Awesome-Harness-Self-Improvement) | 109 | A curated reading list on harness engineering for recursive self-improvement of LLM agents (EN/ZH). |
-| [HKUST-KnowComp/Awesome-Agent-Harness](https://github.com/HKUST-KnowComp/Awesome-Agent-Harness) | 71 | — |
+| [leezythu/Awesome-Harness-Self-Improvement](https://github.com/leezythu/Awesome-Harness-Self-Improvement) | 112 | A curated reading list on harness engineering for recursive self-improvement of LLM agents (EN/ZH). |
+| [HKUST-KnowComp/Awesome-Agent-Harness](https://github.com/HKUST-KnowComp/Awesome-Agent-Harness) | 72 | — |
 | [Jiaaqiliu/Awesome-Harness-Engineering](https://github.com/Jiaaqiliu/Awesome-Harness-Engineering) | 43 | 🏗️ A collection of resources for harness engineering — shaping the environment around AI agents for reliability in pr... |
 | [ChaoYue0307/awesome-graph-engineering](https://github.com/ChaoYue0307/awesome-graph-engineering) | 42 | 🕸️ Field guide, open dataset & interactive atlas for graph-structured multi-agent systems and programmable AI-agent o... |
 | [yubohann/Awesome-World-Model-Flow-RL-Multi-Agent-Robotic-Object-Centric](https://github.com/yubohann/Awesome-World-Model-Flow-RL-Multi-Agent-Robotic-Object-Centric) | 23 | Object-centric world-model and flow-policy reinforcement learning for multi-agent robotics in IsaacLab and ROS2. This... |
@@ -956,16 +963,16 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [Turi-Labs/awesome-harness](https://github.com/Turi-Labs/awesome-harness) | 7 | A curated list of resources for building reliable AI agent harnesses |
 | [rudy2steiner/awesome-agent-loops](https://github.com/rudy2steiner/awesome-agent-loops) | 6 | Loops, not prompts. A curated list of loop engineering patterns, tools and templates for AI coding agents. |
 | [SihanTeng/awesome-deepseek-harness-plugins](https://github.com/SihanTeng/awesome-deepseek-harness-plugins) | 5 | A curated collection of plugins, tools, and integrations for the DeepSeek Harness agent runtime |
+| [opensiro/awesome-vsm-harness](https://github.com/opensiro/awesome-vsm-harness) | 5 | Curated list of agent harnesses mapped through the Viable System Model (VSM) |
 | [ishandutta2007/Awesome-Multi-Agent-AI-Harnesses](https://github.com/ishandutta2007/Awesome-Multi-Agent-AI-Harnesses) | 4 | 👾👾👾 Top Multi-Agent AI Harness Systems🌟 Star if you like it! 🌟 |
 | [to-real/awesome-agent-harness](https://github.com/to-real/awesome-agent-harness) | 4 | Curated bilingual resources on agent harness engineering, context engineering, tools, evals, and coding-agent runtime... |
-| [opensiro/awesome-vsm-harness](https://github.com/opensiro/awesome-vsm-harness) | 4 | Curated list of agent harnesses mapped through the Viable System Model (VSM) |
 | [the-beating-light-of-the-nail/awesome-dsh-tavern](https://github.com/the-beating-light-of-the-nail/awesome-dsh-tavern) | 4 | 🍺 DeepSeek Harness (dsh) 酒馆与角色扮演插件精选 — 把酒馆搬进 agent | Curated tavern & roleplay plugins for dsh |
+| [chrismo/agent-rig](https://github.com/chrismo/agent-rig) | 4 | ¡harness the meh-to-awesome agent randomness found within! |
 | [SaltAdamW/Awesome-Harness-Engineering](https://github.com/SaltAdamW/Awesome-Harness-Engineering) | 3 | — |
 | [cor3bit/awesome-marl-engineering](https://github.com/cor3bit/awesome-marl-engineering) | 3 | — |
 | [Vendredi218/awesome-agent-eval](https://github.com/Vendredi218/awesome-agent-eval) | 3 | An unmeasured agent is an unfinished agent. Curated knowledge on evaluating AI agents — benchmarks & their pathologie... |
 | [weiwei966/awesome-agent-eval](https://github.com/weiwei966/awesome-agent-eval) | 3 | An unmeasured agent is an unfinished agent. Curated knowledge on evaluating AI agents — benchmarks & their pathologie... |
 | [glowElephant/context-forge](https://github.com/glowElephant/context-forge) | 2 | Auto harness engineering meta-repo: discuss → curate → bootstrap a context-engineered project for Claude Code, Cursor... |
-| [Tomry1114/Awesome-Agent-Harness-for-Healthcare](https://github.com/Tomry1114/Awesome-Agent-Harness-for-Healthcare) | 2 | — |
 | [BorisZhangYYY/awesome-AGENT-configure](https://github.com/BorisZhangYYY/awesome-AGENT-configure) | 2 | 基于 Harness 和 Loop，使你的 AGENT 做事严谨、准确、可溯源。 |
 | [zients/awesome-agent-harness](https://github.com/zients/awesome-agent-harness) | 2 | A curated list of useful Agent Skills for Claude Code, Codex, Gemini CLI, OpenClaw, Hermes, and other AI coding agents. |
 | [dorisaimpatient855/awesome-dsh-plugin](https://github.com/dorisaimpatient855/awesome-dsh-plugin) | 2 | Curated plugins for DeepSeek Harness (dsh) — install, extend, and customize models, tools, sandboxes, UI, and agent l... |
@@ -976,6 +983,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [open-kairox/awesome-agent-harnesses](https://github.com/open-kairox/awesome-agent-harnesses) | 1 | — |
 | [wdzhwsh4067/awesome-coding-agents](https://github.com/wdzhwsh4067/awesome-coding-agents) | 1 | — |
 | [Yugoge/awesome-claude-harness](https://github.com/Yugoge/awesome-claude-harness) | 1 | Professional Claude Code global configuration with hooks, commands, and sub-agents. 专业的 Claude Code 全局配置，包含 hooks、命令和... |
+| [Tomry1114/Awesome-Agent-Harness-for-Healthcare](https://github.com/Tomry1114/Awesome-Agent-Harness-for-Healthcare) | 1 | — |
 | [imshunsuke/awesome-self-evolve-agent](https://github.com/imshunsuke/awesome-self-evolve-agent) | 1 | Curated 2026 papers and technical reports on agent skills, harness engineering, and experience-driven agent improvement. |
 | [tsonglew/awesome-harness](https://github.com/tsonglew/awesome-harness) | 1 | Agent Harness 全景功能与实现方式研究 |
 | [ianwieds/awesome-agent-evals](https://github.com/ianwieds/awesome-agent-evals) | 1 | Evaluation, tracing and observability for AI agents: benchmarks, eval frameworks, tracing SDKs and monitoring platforms. |
@@ -996,55 +1004,56 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | 10530 | A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai |
-| [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | 6187 | — |
-| [filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5315 | A curated list of vibe coding references, collaborating with AI to write code. |
+| [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) | 10565 | A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai |
+| [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | 6200 | — |
+| [filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | 5323 | A curated list of vibe coding references, collaborating with AI to write code. |
 | [xianyu110/awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) | 4564 | OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、Skills、飞书接入与避坑｜作者的 GPT-6 / Codex / Claude Code 新项目见 README 顶部 |
-| [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) | 4390 | An orchestrated sub agent dev team powered by claude code |
+| [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) | 4393 | An orchestrated sub agent dev team powered by claude code |
 | [snwfdhmp/awesome-ralph](https://github.com/snwfdhmp/awesome-ralph) | 927 | A curated list of resources about Ralph, the AI coding technique that runs AI coding agents in automated loops until ... |
-| [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | 516 | A curated list of awesome plugins for AI assistants including Claude Code, OpenAI Codex / ChatGPT, Gemini, Antigravit... |
-| [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) | 515 | Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, ea... |
-| [Agenta-AI/awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms) | 364 | A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and frameworks, workflow... |
-| [acvnace/awesome-vibe-coding-resources](https://github.com/acvnace/awesome-vibe-coding-resources) | 307 | A curated list of awesome resources for vibe coding |
+| [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) | 582 | Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, ea... |
+| [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | 544 | A curated list of awesome plugins for AI assistants including Claude Code, OpenAI Codex / ChatGPT, Gemini, Antigravit... |
+| [Agenta-AI/awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms) | 420 | A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and frameworks, workflow... |
+| [acvnace/awesome-vibe-coding-resources](https://github.com/acvnace/awesome-vibe-coding-resources) | 309 | A curated list of awesome resources for vibe coding |
 | [e2b-dev/awesome-devins](https://github.com/e2b-dev/awesome-devins) | 259 | Awesome Devin-inspired AI agents |
 | [NeuZhou/awesome-ai-anatomy](https://github.com/NeuZhou/awesome-ai-anatomy) | 251 | Source code teardowns of 15 AI coding agents. What is actually inside Claude Code, Dify, OpenHands, Cline, MemPalace,... |
-| [QuesmaOrg/awesome-ai-tokenomics](https://github.com/QuesmaOrg/awesome-ai-tokenomics) | 199 | A curated list on AI token economics: what tokens cost, where they get wasted, and how to cut the bill. Tools, benchm... |
+| [QuesmaOrg/awesome-ai-tokenomics](https://github.com/QuesmaOrg/awesome-ai-tokenomics) | 201 | A curated list on AI token economics: what tokens cost, where they get wasted, and how to cut the bill. Tools, benchm... |
 | [sorrycc/awesome-code-agents](https://github.com/sorrycc/awesome-code-agents) | 178 | — |
-| [makoMakoGo/fish-claude](https://github.com/makoMakoGo/fish-claude) | 171 | Fish's custom settings and tools about claude code, codex, oh-my-pi etc  |
-| [artnitolog/awesome-agent-learning](https://github.com/artnitolog/awesome-agent-learning) | 160 | Guides, courses & reading lists for learning to build autonomous LLM agents |
+| [makoMakoGo/fish-claude](https://github.com/makoMakoGo/fish-claude) | 172 | Fish's custom settings and tools about claude code, codex, oh-my-pi etc  |
+| [artnitolog/awesome-agent-learning](https://github.com/artnitolog/awesome-agent-learning) | 161 | Guides, courses & reading lists for learning to build autonomous LLM agents |
 | [irahardianto/awesome-agv](https://github.com/irahardianto/awesome-agv) | 156 | Comprehensive sets of standards and practices designed to elevate the capabilities of AI coding agents. |
 | [shaftoe/awesome-pi-coding-agent](https://github.com/shaftoe/awesome-pi-coding-agent) | 149 | An auto-discovered, LLM curated directory of resources for the Pi Coding Agent ecosystem. Updated daily. |
-| [zhouhao1024/Awesome-Self-Evolving-Coding-Agents](https://github.com/zhouhao1024/Awesome-Self-Evolving-Coding-Agents) | 143 | Repository for Self-Evolving Coding Agents |
-| [iSEngLab/Awesome-Self-Evolving-Coding-Agents](https://github.com/iSEngLab/Awesome-Self-Evolving-Coding-Agents) | 143 | Repository for Self-Evolving Coding Agents |
-| [kkakkkka/awesome-code-as-x](https://github.com/kkakkkka/awesome-code-as-x) | 103 | A Curated List of Coding-agent that treat a program as the intermediate representation for Policy/World/Editor and be... |
+| [zhouhao1024/Awesome-Self-Evolving-Coding-Agents](https://github.com/zhouhao1024/Awesome-Self-Evolving-Coding-Agents) | 144 | Repository for Self-Evolving Coding Agents |
+| [iSEngLab/Awesome-Self-Evolving-Coding-Agents](https://github.com/iSEngLab/Awesome-Self-Evolving-Coding-Agents) | 144 | Repository for Self-Evolving Coding Agents |
+| [kkakkkka/awesome-code-as-x](https://github.com/kkakkkka/awesome-code-as-x) | 112 | A Curated List of Coding-agent that treat a program as the intermediate representation for Policy/World/Editor and be... |
 | [hao-ji-xing/awesome-cursor](https://github.com/hao-ji-xing/awesome-cursor) | 91 | A curated collection of tools and resources for Cursor. |
+| [webpro255/awesome-ai-agent-attacks](https://github.com/webpro255/awesome-ai-agent-attacks) | 81 | A curated timeline of real AI agent security incidents, breaches, and vulnerabilities (2024-2026). Every entry source... |
+| [lappemic/awesome-ai-built-games](https://github.com/lappemic/awesome-ai-built-games) | 80 | A curated list of vibe-coded games: playable games built with AI coding agents like Claude Code, Cursor, Codex, Gemin... |
 | [lfglabs-dev/awesome-amp-code](https://github.com/lfglabs-dev/awesome-amp-code) | 79 | An unofficial curated list of resources for Amp, an AI coding agent. |
-| [webpro255/awesome-ai-agent-attacks](https://github.com/webpro255/awesome-ai-agent-attacks) | 78 | A curated timeline of real AI agent security incidents, breaches, and vulnerabilities (2024-2026). Every entry source... |
-| [StudentSuite/awesome-ai-prompts](https://github.com/StudentSuite/awesome-ai-prompts) | 71 | Curated copy-paste AI prompts for student developers - disciplined workflows for coding agents that verify, don't guess |
-| [shauryagangrade/awesome-ai-prompts](https://github.com/shauryagangrade/awesome-ai-prompts) | 71 | Curated copy-paste AI prompts for student developers - disciplined workflows for coding agents that verify, don't guess |
-| [lappemic/awesome-ai-built-games](https://github.com/lappemic/awesome-ai-built-games) | 69 | A curated list of vibe-coded games: playable games built with AI coding agents like Claude Code, Cursor, Codex, Gemin... |
-| [khasky/awesome-agents-md](https://github.com/khasky/awesome-agents-md) | 44 | One self-contained AGENTS.md with shared rules for AI coding agents: Claude Code, OpenAI Codex, Gemini, Cursor Agent,... |
+| [StudentSuite/awesome-ai-prompts](https://github.com/StudentSuite/awesome-ai-prompts) | 73 | Curated copy-paste AI prompts for student developers - disciplined workflows for coding agents that verify, don't guess |
+| [shauryagangrade/awesome-ai-prompts](https://github.com/shauryagangrade/awesome-ai-prompts) | 73 | Curated copy-paste AI prompts for student developers - disciplined workflows for coding agents that verify, don't guess |
+| [khasky/awesome-agents-md](https://github.com/khasky/awesome-agents-md) | 45 | One self-contained AGENTS.md with shared rules for AI coding agents: Claude Code, OpenAI Codex, Gemini, Cursor Agent,... |
 | [iwillig/awesome-clojure-llm](https://github.com/iwillig/awesome-clojure-llm) | 26 | Concise, curated resources for working with the Clojure Programming and LLM base coding agents |
 | [fhiltscher/awesome-ai-coding-sandboxes](https://github.com/fhiltscher/awesome-ai-coding-sandboxes) | 26 | Security-posture-first list of sandboxes for running AI coding agents' code, ranked by isolation, egress control and ... |
-| [MichaelZelbel/awesome-antigravity](https://github.com/MichaelZelbel/awesome-antigravity) | 24 | The ultimate collection of Antigravity IDE extensions, agent workflows, and community hacks. |
-| [vincentsch/awesome-ai-cli](https://github.com/vincentsch/awesome-ai-cli) | 23 | A curated list of CLI tools that supercharge AI coding agents like Claude Code and Codex CLI |
+| [MichaelZelbel/awesome-antigravity](https://github.com/MichaelZelbel/awesome-antigravity) | 25 | The ultimate collection of Antigravity IDE extensions, agent workflows, and community hacks. |
+| [vincentsch/awesome-ai-cli](https://github.com/vincentsch/awesome-ai-cli) | 25 | A curated list of CLI tools that supercharge AI coding agents like Claude Code and Codex CLI |
+| [zhuyansen/awesome-codex-ppt-skills](https://github.com/zhuyansen/awesome-codex-ppt-skills) | 24 | Open-source skills and tools that let Codex, Claude Code and other coding agents make slides. Sorted by type, each se... |
+| [superdesigndev/superdesign-prompts](https://github.com/superdesigndev/superdesign-prompts) | 23 | 128 usage-ranked, vision-curated UI design prompts (full design specs + live previews) that stop your AI coding agent... |
 | [StudentSuite/awesome-skills-plugins-for-students](https://github.com/StudentSuite/awesome-skills-plugins-for-students) | 22 | A curated list of Claude Code, Cursor, and Copilot skills and plugins built for students: IB, IGCSE, college-bound, a... |
 | [ohong/awesome-coding-ai](https://github.com/ohong/awesome-coding-ai) | 21 | Curated list of AI coding agents, IDEs, CLIs, GUIs, etc. Most offer free tokens. |
 | [ishandutta2007/Awesome-Agent-Skills](https://github.com/ishandutta2007/Awesome-Agent-Skills) | 21 | Skills for coding agents |
 | [fishman/awesome-agent-sandbox](https://github.com/fishman/awesome-agent-sandbox) | 21 | Portable, self-contained sandboxes for AI coding agents - microVMs, containers, isolation harnesses. |
-| [superdesigndev/superdesign-prompts](https://github.com/superdesigndev/superdesign-prompts) | 21 | 128 usage-ranked, vision-curated UI design prompts (full design specs + live previews) that stop your AI coding agent... |
 | [shinpr/awesome-codex-workflows](https://github.com/shinpr/awesome-codex-workflows) | 20 | Curated repositories for building and running development workflows with OpenAI Codex. |
+| [varun1505/awesome-software-factories](https://github.com/varun1505/awesome-software-factories) | 19 | A curated list of software factories, agent factories, and dark factories: systems that run AI coding agents autonomo... |
 | [xjli360/awesome-design-md-ecommerce](https://github.com/xjli360/awesome-design-md-ecommerce) | 17 | The largest DESIGN.md collection on GitHub — 1,632 real e-commerce brand design systems your AI coding agent can read... |
-| [varun1505/awesome-software-factories](https://github.com/varun1505/awesome-software-factories) | 17 | A curated list of software factories, agent factories, and dark factories: systems that run AI coding agents autonomo... |
 | [superuser-pal/awesome-second-brain](https://github.com/superuser-pal/awesome-second-brain) | 14 | The AI-assisted second brain that connects your notes, ideas, and tasks into persistent context for agentic workflows... |
+| [1shiharat/awesome-agent-clients](https://github.com/1shiharat/awesome-agent-clients) | 14 | A curated list of AI coding-agent clients & orchestrators — desktop, terminal, IDE, web, mobile & cloud apps that run... |
 | [LuxRealGrowth/awesome-astra-video-prompts](https://github.com/LuxRealGrowth/awesome-astra-video-prompts) | 14 | 24 real prompts for making video with GPT-6 Astra and coding agents — Remotion, HyperFrames, Blender, Seedance, HeyGe... |
-| [1shiharat/awesome-agent-clients](https://github.com/1shiharat/awesome-agent-clients) | 13 | A curated list of AI coding-agent clients & orchestrators — desktop, terminal, IDE, web, mobile & cloud apps that run... |
 | [khasky/awesome-agent-skills](https://github.com/khasky/awesome-agent-skills) | 12 |  Skills for AI coding agents: code review, debugging, security audits, refactoring, cleaning up AI-written code and t... |
-| [akashrpatil/awesome-offensive-security-skills](https://github.com/akashrpatil/awesome-offensive-security-skills) | 10 | 🔥 191+ battle-tested cybersecurity skills for AI coding agents | Bug Bounty • Pentesting • Red Team • AI Red Teaming ... |
+| [akashrpatil/awesome-offensive-security-skills](https://github.com/akashrpatil/awesome-offensive-security-skills) | 11 | 🔥 191+ battle-tested cybersecurity skills for AI coding agents | Bug Bounty • Pentesting • Red Team • AI Red Teaming ... |
 | [jiangjin1999/awesome-multimodal-agentic-coding](https://github.com/jiangjin1999/awesome-multimodal-agentic-coding) | 10 | Papers, benchmarks, demos, and tools for multimodal coding agents: visual feedback for UI, CAD, 3D, games, charts, an... |
 | [quome-cloud/awesome-coding-agents](https://github.com/quome-cloud/awesome-coding-agents) | 8 | A list of AI agents related to coding and AI-generated code. Check out Quome's AI agent as well. |
+| [TheArchitectit/awesome-cline-skills](https://github.com/TheArchitectit/awesome-cline-skills) | 8 | A curated list of practical Cline Skills for enhancing productivity across the Cline AI coding agent ecosystem. |
 | [raymyers/awesome-verified-coding-agents](https://github.com/raymyers/awesome-verified-coding-agents) | 7 | — |
-| [TheArchitectit/awesome-cline-skills](https://github.com/TheArchitectit/awesome-cline-skills) | 7 | A curated list of practical Cline Skills for enhancing productivity across the Cline AI coding agent ecosystem. |
 | [plastic-labs/Awesome-Identic-Agents](https://github.com/plastic-labs/Awesome-Identic-Agents) | 5 | — |
 | [pemdes174/cursor-rules](https://github.com/pemdes174/cursor-rules) | 5 | — |
 | [kzhou003/awesome-coding-agent-systems](https://github.com/kzhou003/awesome-coding-agent-systems) | 4 | — |
@@ -1053,6 +1062,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [closedloop-technologies/awesome-coding-agents](https://github.com/closedloop-technologies/awesome-coding-agents) | 3 | — |
 | [pinion05/awesome-agent-ide](https://github.com/pinion05/awesome-agent-ide) | 3 | 🚀 A curated, ranked comparison of IDEs and orchestrators built for the AI coding agent era — Orca, Emdash, Superset, ... |
 | [assawalhy/awesome-agent](https://github.com/assawalhy/awesome-agent) | 3 | Drop-in plugin that brings plan-first, human-supervisable, traceable, and parallel agentic coding to many AI harnesses. |
+| [MaxonT/awesome-agent-workflows](https://github.com/MaxonT/awesome-agent-workflows) | 3 | Curated, star-ranked catalog of AI agent frameworks, coding-agent harnesses and workflow platforms (EN/中文), auto-refr... |
 | [bradleybeatz1313/awesome-agents-md](https://github.com/bradleybeatz1313/awesome-agents-md) | 2 | The Rosetta Stone for AI coding agents — production configs for every popular stack |
 | [Ltelitas/awesome-agentic-workflows](https://github.com/Ltelitas/awesome-agentic-workflows) | 2 | Provide ready-to-use GitHub Agentic Workflow templates to automate issue triage, PR review, and release note generati... |
 | [erson/awesome-coding-agent-orchestration](https://github.com/erson/awesome-coding-agent-orchestration) | 2 | A curated list of tools that orchestrate fleets of parallel AI coding agents (Claude Code, Codex, opencode, Cursor): ... |
@@ -1068,7 +1078,6 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [ttxs69/awesome-coding-agent-eval](https://github.com/ttxs69/awesome-coding-agent-eval) | 1 | A curated list of benchmarks, harnesses, leaderboards, and tools for evaluating AI coding agents. |
 | [CodexForWork/awesome-codex-work](https://github.com/CodexForWork/awesome-codex-work) | 1 | Codex for work: copy-ready workflows, curated tools, and review checklists. |
 | [tesesonfire/awesome-ai-agents-tools](https://github.com/tesesonfire/awesome-ai-agents-tools) | 1 | Curated index of AI Agent tools — coding agents, IDE extensions, frameworks, orchestration platforms, and utilities. |
-| [MaxonT/awesome-agent-workflows](https://github.com/MaxonT/awesome-agent-workflows) | 1 | Curated, star-ranked catalog of AI agent frameworks, coding-agent harnesses and workflow platforms (EN/中文), auto-refr... |
 | [ulican/devops-agentic-workflows](https://github.com/ulican/devops-agentic-workflows) | 0 | — |
 | [dvogeldev/awesome-icm](https://github.com/dvogeldev/awesome-icm) | 0 | — |
 | [Richicinschi/awesome-agent-workflows](https://github.com/Richicinschi/awesome-agent-workflows) | 0 | Copy-pasteable workflows for shipping real work with AI coding agents safely |
@@ -1087,15 +1096,15 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [fr0gger/Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) | 6600 | A curated list of GPT agents for cybersecurity |
-| [Eyadkelleh/awesome-skills-security](https://github.com/Eyadkelleh/awesome-skills-security) | 389 | Security testing toolkit for AI Agent: curated SecLists wordlists, injection payloads, and expert agents for authoriz... |
-| [Yeti-791/Awesome-Offensive-AI-Agentic-Landscape](https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape) | 352 | This document curates open-source projects, academic papers, capability benchmarks, and commercial solutions (interna... |
-| [wearetyomsmnv/Awesome-LLMSecOps](https://github.com/wearetyomsmnv/Awesome-LLMSecOps) | 163 | LLM | Agentic | Security | Operations in one github repo with good links and pictures. |
+| [fr0gger/Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents) | 6605 | A curated list of GPT agents for cybersecurity |
+| [Eyadkelleh/awesome-skills-security](https://github.com/Eyadkelleh/awesome-skills-security) | 388 | Security testing toolkit for AI Agent: curated SecLists wordlists, injection payloads, and expert agents for authoriz... |
+| [Yeti-791/Awesome-Offensive-AI-Agentic-Landscape](https://github.com/Yeti-791/Awesome-Offensive-AI-Agentic-Landscape) | 359 | This document curates open-source projects, academic papers, capability benchmarks, and commercial solutions (interna... |
+| [wearetyomsmnv/Awesome-LLMSecOps](https://github.com/wearetyomsmnv/Awesome-LLMSecOps) | 164 | LLM | Agentic | Security | Operations in one github repo with good links and pictures. |
+| [Yuxuan2003/Awesome-GUI-Agent-Security](https://github.com/Yuxuan2003/Awesome-GUI-Agent-Security) | 77 | GUI / Computer-Use / Browser Agent 安全论文清单 —— 按攻防轴组织，每篇附中文简介 |
 | [ProjectRecon/awesome-ai-agents-security](https://github.com/ProjectRecon/awesome-ai-agents-security) | 75 | A living map of the AI agent security ecosystem. |
-| [Yuxuan2003/Awesome-GUI-Agent-Security](https://github.com/Yuxuan2003/Awesome-GUI-Agent-Security) | 73 | GUI / Computer-Use / Browser Agent 安全论文清单 —— 按攻防轴组织，每篇附中文简介 |
 | [ucsb-mlsec/Awesome-Agent-Security](https://github.com/ucsb-mlsec/Awesome-Agent-Security) | 69 | — |
-| [wearetyomsmnv/Awesome-LLM-agent-Security](https://github.com/wearetyomsmnv/Awesome-LLM-agent-Security) | 58 | All about llm-agents security,attack,vulnerabilities and how to do them for cybersecurity. |
-| [agentrust-io/awesome-ai-governance](https://github.com/agentrust-io/awesome-ai-governance) | 56 | 🛡️ A curated list of tools, frameworks, standards, and resources for AI agent governance, safety, and compliance |
+| [wearetyomsmnv/Awesome-LLM-agent-Security](https://github.com/wearetyomsmnv/Awesome-LLM-agent-Security) | 59 | All about llm-agents security,attack,vulnerabilities and how to do them for cybersecurity. |
+| [agentrust-io/awesome-ai-governance](https://github.com/agentrust-io/awesome-ai-governance) | 59 | 🛡️ A curated list of tools, frameworks, standards, and resources for AI agent governance, safety, and compliance |
 | [xaddwell/awesome-self-evolving-agent-safety](https://github.com/xaddwell/awesome-self-evolving-agent-safety) | 7 | — |
 | [sukoji/awesome-self-evolving-agents](https://github.com/sukoji/awesome-self-evolving-agents) | 7 | Curated map of self-evolving LLM agents — 90+ papers, taxonomy, misevolution safety, 2 runnable demos. |
 | [agentoverlay/awesome-multi-agent-security](https://github.com/agentoverlay/awesome-multi-agent-security) | 5 | awesome list of multi-agent security resources |
@@ -1104,6 +1113,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | [CodeSigils/awesome-agent-trust](https://github.com/CodeSigils/awesome-agent-trust) | 1 | Awesome list of open-source AI agent identity, trust, governance, security, and naming projects. Protocols, standards... |
 | [NahomMA/Awesome-LLM-Agent-Security](https://github.com/NahomMA/Awesome-LLM-Agent-Security) | 1 | — |
 | [ianwieds/awesome-ai-code-review](https://github.com/ianwieds/awesome-ai-code-review) | 1 | AI code review bots, review agents, security reviewers and the tooling that puts them in a pull request. |
+| [SecurityStandards/awesome-security](https://github.com/SecurityStandards/awesome-security) | 1 | A curated list of awesome security standards, policies, checklists, AI agents, tools, and benchmarks |
 | [jo114ge/awesome-genai-agents-security](https://github.com/jo114ge/awesome-genai-agents-security) | 0 | — |
 | [maximehu97/Awesome-GUI-Agent-Safety](https://github.com/maximehu97/Awesome-GUI-Agent-Safety) | 0 | — |
 | [AdamIsNotAlex/awesome-agent-security](https://github.com/AdamIsNotAlex/awesome-agent-security) | 0 | — |
@@ -1119,13 +1129,13 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 7446 | A structured, trilingual (繁中 / 简中 / English) learning roadmap for agentic AI — from LLM basics to multi-agent systems... |
+| [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 7554 | A structured, trilingual (繁中 / 简中 / English) learning roadmap for agentic AI — from LLM basics to multi-agent systems... |
 | [datamllab/awesome-game-ai](https://github.com/datamllab/awesome-game-ai) | 982 | Awesome Game AI materials of Multi-Agent Reinforcement Learning |
 | [ThibautMelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | 317 | 🐔 Agentic systems explained with chickens. Workflows, agents & orchestration made simple. Mermaid diagrams included |
 | [Agent-Analytics/awesome-multi-agent-orchestrators](https://github.com/Agent-Analytics/awesome-multi-agent-orchestrators) | 153 | Awesome-style curated list and directory for multi-agent orchestration. |
+| [lxcong/awesome-claude-workflows](https://github.com/lxcong/awesome-claude-workflows) | 30 | A community-curated collection of real-world Claude Code workflows — multi-agent slash commands, battle-tested in pro... |
+| [lxcong/awesome-claude-dynamic-workflows](https://github.com/lxcong/awesome-claude-dynamic-workflows) | 30 | A community-curated collection of real-world Claude Code Dynamic Workflows — multi-agent orchestration scripts that i... |
 | [leiwanrobotics/awesome-collaborative-perception](https://github.com/leiwanrobotics/awesome-collaborative-perception) | 29 | [IEEE T-ITS] A curated list of awesome resources on collaborative (cooperative) perception: papers, datasets, code, a... |
-| [lxcong/awesome-claude-workflows](https://github.com/lxcong/awesome-claude-workflows) | 28 | A community-curated collection of real-world Claude Code workflows — multi-agent slash commands, battle-tested in pro... |
-| [lxcong/awesome-claude-dynamic-workflows](https://github.com/lxcong/awesome-claude-dynamic-workflows) | 28 | A community-curated collection of real-world Claude Code Dynamic Workflows — multi-agent orchestration scripts that i... |
 | [JuneYaooo/awesome-medical-ai](https://github.com/JuneYaooo/awesome-medical-ai) | 23 | A curated list of open-source medical and healthcare AI projects - LLMs, imaging, multi-agent systems, clinical software |
 | [weleen/awesome-agent](https://github.com/weleen/awesome-agent) | 20 | Repository about single/multi-agent, robotics, llm/vlm/vla, scientific discovery, etc. |
 | [agi-os/Agent.js](https://github.com/agi-os/Agent.js) | 7 | — |
@@ -1149,22 +1159,22 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 25846 | 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Dri... |
-| [SAILResearch/awesome-ai-leaderboard](https://github.com/SAILResearch/awesome-ai-leaderboard) | 382 | A curated list of awesome leaderboard-oriented resources for AI domain |
-| [yczhou001/Awesome-Medical-LLM-Agent](https://github.com/yczhou001/Awesome-Medical-LLM-Agent) | 43 | Reasoning as the Engine: The Evolution from Medical LLMs to Versatile Medical Agents |
+| [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 25899 | 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Dri... |
+| [SAILResearch/awesome-ai-leaderboard](https://github.com/SAILResearch/awesome-ai-leaderboard) | 383 | A curated list of awesome leaderboard-oriented resources for AI domain |
+| [yczhou001/Awesome-Medical-LLM-Agent](https://github.com/yczhou001/Awesome-Medical-LLM-Agent) | 45 | Reasoning as the Engine: The Evolution from Medical LLMs to Versatile Medical Agents |
 
 
 ## 📱 Agent UI & Interaction / Agent 界面与交互
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 120073 | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding a... |
-| [study8677/awesome-architecture](https://github.com/study8677/awesome-architecture) | 2421 | 🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference... |
-| [kzhrknt/awesome-design-md-jp](https://github.com/kzhrknt/awesome-design-md-jp) | 986 | 日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format wit... |
-| [crewAIInc/awesome-crewai](https://github.com/crewAIInc/awesome-crewai) | 518 | A curated list of open-source projects built by the CrewAI community. Discover, contribute, and extend the possibilit... |
-| [haoruilee/awesome-agent-native-services](https://github.com/haoruilee/awesome-agent-native-services) | 477 | If you are an AI agent and want to discover services designed for you. |
-| [HU-UH/awesome-design-md](https://github.com/HU-UH/awesome-design-md) | 443 | 55个精选网站设计系统 DESIGN.md，可给AI Agent使用生成匹配UI |
-| [mahimairaja/voiceai](https://github.com/mahimairaja/voiceai) | 333 | Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖 |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 120672 | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding a... |
+| [study8677/awesome-architecture](https://github.com/study8677/awesome-architecture) | 2430 | 🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference... |
+| [kzhrknt/awesome-design-md-jp](https://github.com/kzhrknt/awesome-design-md-jp) | 990 | 日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format wit... |
+| [crewAIInc/awesome-crewai](https://github.com/crewAIInc/awesome-crewai) | 519 | A curated list of open-source projects built by the CrewAI community. Discover, contribute, and extend the possibilit... |
+| [haoruilee/awesome-agent-native-services](https://github.com/haoruilee/awesome-agent-native-services) | 478 | If you are an AI agent and want to discover services designed for you. |
+| [HU-UH/awesome-design-md](https://github.com/HU-UH/awesome-design-md) | 445 | 55个精选网站设计系统 DESIGN.md，可给AI Agent使用生成匹配UI |
+| [mahimairaja/voiceai](https://github.com/mahimairaja/voiceai) | 335 | Set of 📝 with 🔗 to help those building Voice AI agents 🎙️🤖 |
 | [microxxx/awesome-langchain-zh](https://github.com/microxxx/awesome-langchain-zh) | 139 | — |
 | [pengshuang/Awesome-Agent-Projects](https://github.com/pengshuang/Awesome-Agent-Projects) | 62 | Fun LLM Agent Projects I Designed & Built |
 | [looptech-ai/understand-quickly](https://github.com/looptech-ai/understand-quickly) | 48 | Public registry of code-knowledge graphs for AI agents. Awesome-list 2.0: pointers to schema-validated content, not j... |
@@ -1203,7 +1213,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 
 | Repository | ⭐ Stars | Description |
 |---|---|---|
-| [LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy](https://github.com/LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy) | 329 | ✨✨Latest Advances on Neuro-Symbolic Learning in the era of Large Language Models |
+| [LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy](https://github.com/LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy) | 331 | ✨✨Latest Advances on Neuro-Symbolic Learning in the era of Large Language Models |
 | [songw-zju/awesome-multimodal-agentic-reasoning](https://github.com/songw-zju/awesome-multimodal-agentic-reasoning) | 6 | — |
 | [aks-builds/awesome-procedural-reasoning](https://github.com/aks-builds/awesome-procedural-reasoning) | 1 | A curated list of classical BDI and procedural-reasoning agent architectures, distinct from modern LLM agent frameworks. |
 
@@ -1213,7 +1223,7 @@ GitHub 上散布着 100+ 个 awesome-agent 仓库，各自覆盖生态的一角�
 | Repository | ⭐ Stars | Description |
 |---|---|---|
 | [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | 1235 | 🤖 / 🏪 Agent Index - This is the agent index for LobeChat. It accesses index.json from this repository to display a li... |
-| [yuxiaopeng/Github-Ranking-AI](https://github.com/yuxiaopeng/Github-Ranking-AI) | 561 | A list of the most popular AI Topic repositories on GitHub based on the number of stars they have received.| AI相关主题Gi... |
+| [yuxiaopeng/Github-Ranking-AI](https://github.com/yuxiaopeng/Github-Ranking-AI) | 567 | A list of the most popular AI Topic repositories on GitHub based on the number of stars they have received.| AI相关主题Gi... |
 | [satohubai/onchain-agents](https://github.com/satohubai/onchain-agents) | 6 | ⬡ The scored, daily-updated index of the onchain agent stack — frameworks, MCPs, wallets, payment rails, live agents |
 
 
